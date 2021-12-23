@@ -1,8 +1,10 @@
-/** @type {import('next').NextConfig} */
+/** @type {import("next").NextConfig} */
 module.exports = {
     reactStrictMode: true,
     swcMinify: true,
-    images: {
-        disableStaticImages: true
+    i18n: {
+        locales: ["en-US", "zh-CN"],
+        defaultLocale: "en-US",
+        localeDetection: false
     }
 }

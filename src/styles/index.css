@@ -1,10 +1,20 @@
-@import "tailwind.css";
+@import "base.css";
 @import "docsearch.css";
+@import "prism.css";
+@import "progress.css";
 @import "fonts.css";
+@import "utilties.css";
+
+@tailwind components;
 
 body {
     overflow-x: hidden;
     overflow-y: overlay;
+}
+
+.gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -19,3 +29,4 @@ body {
     width: 9px;
     height: 8px;
 }
+

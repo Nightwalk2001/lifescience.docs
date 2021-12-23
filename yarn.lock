@@ -1173,6 +1173,76 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@formatjs/ecma402-abstract@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.npmmirror.com/@formatjs/ecma402-abstract/download/@formatjs/ecma402-abstract-1.11.0.tgz#7e91e6cc7cfebdc07171e00a3288719705e0108c"
+  integrity sha512-TOp5La9wmSh9G5bqFGN/ApmOXtJDzBGkYW+OTRd3ukY7J32RVGZPpN4O9BD651JUy66nj3g9CIENTNCgm4IRXQ==
+  dependencies:
+    "@formatjs/intl-localematcher" "0.2.21"
+    tslib "^2.1.0"
+
+"@formatjs/fast-memoize@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/@formatjs/fast-memoize/download/@formatjs/fast-memoize-1.2.1.tgz#e6f5aee2e4fd0ca5edba6eba7668e2d855e0fc21"
+  integrity sha512-Rg0e76nomkz3vF9IPlKeV+Qynok0r7YZjL6syLz4/urSg0IbjPZCB/iYUMNsYA643gh4mgrX3T7KEIFIxJBQeg==
+  dependencies:
+    tslib "^2.1.0"
+
+"@formatjs/icu-messageformat-parser@2.0.15":
+  version "2.0.15"
+  resolved "https://registry.npmmirror.com/@formatjs/icu-messageformat-parser/download/@formatjs/icu-messageformat-parser-2.0.15.tgz#9e3ccadc582dbf076481bb95f98a689cfb10e7d5"
+  integrity sha512-nnRbkK+nz4ZL1l1lUbztL8qrEUGQKF/NU38itLnzLm8QLEacFS5qGOxxp/0DSIehhX99tNroNtudtjdOvzruAQ==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/icu-skeleton-parser" "1.3.2"
+    tslib "^2.1.0"
+
+"@formatjs/icu-skeleton-parser@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.npmmirror.com/@formatjs/icu-skeleton-parser/download/@formatjs/icu-skeleton-parser-1.3.2.tgz#a8ab9c668ea7f044ceba2043ac1d872d71307e22"
+  integrity sha512-ChKmnVCE/LbJzedRgA/EeL5+tfjx/6ZWunqNiEC5BtqHnnwmLN/oPuCPb8b3NhuGiwTqp+LkaS70tga5kXRHxg==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    tslib "^2.1.0"
+
+"@formatjs/intl-displaynames@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.npmmirror.com/@formatjs/intl-displaynames/download/@formatjs/intl-displaynames-5.3.0.tgz#e042460af49d4b1444853aac482a8fda85bcafe3"
+  integrity sha512-QTwQitgjeExoKEl2TLWOsv3vxdd7tvugwVnT1Bh9RD+fjQXQbOts2crGI65fxlOruCgXVqRp99t5HxyzjX53kw==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/intl-localematcher" "0.2.21"
+    tslib "^2.1.0"
+
+"@formatjs/intl-listformat@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/@formatjs/intl-listformat/download/@formatjs/intl-listformat-6.4.0.tgz#0499f8262e7e83854481bdc319b5b2a1d2c64f7e"
+  integrity sha512-QUmvXaQFSiEIuU1i/Dk3MT23D+ClDrJFkqQVufjQqbSm/wZ+CPvG7/eua1eFfLkz0wMJS9yBxIXf7M/ynxtltw==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/intl-localematcher" "0.2.21"
+    tslib "^2.1.0"
+
+"@formatjs/intl-localematcher@0.2.21":
+  version "0.2.21"
+  resolved "https://registry.npmmirror.com/@formatjs/intl-localematcher/download/@formatjs/intl-localematcher-0.2.21.tgz?cache=0&sync_timestamp=1632716078063&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40formatjs%2Fintl-localematcher%2Fdownload%2F%40formatjs%2Fintl-localematcher-0.2.21.tgz#39ef33d701fe8084f3d693cd3ff7cbe03cdd3a49"
+  integrity sha1-Oe8z1wH+gITz1pPNP/fL4DzdOkk=
+  dependencies:
+    tslib "^2.1.0"
+
+"@formatjs/intl@1.18.0":
+  version "1.18.0"
+  resolved "https://registry.npmmirror.com/@formatjs/intl/download/@formatjs/intl-1.18.0.tgz#8171907009c6a289b454ab2376622b0de29c2372"
+  integrity sha512-qPdfj4sjzQiLyY154JM0ktQVYc7spksV3Ak8glgzAz7IG/xC3JOBKYrQzV3cGrUeN1+cG/dEzxLMYkvjqoNNUA==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/fast-memoize" "1.2.1"
+    "@formatjs/icu-messageformat-parser" "2.0.15"
+    "@formatjs/intl-displaynames" "5.3.0"
+    "@formatjs/intl-listformat" "6.4.0"
+    intl-messageformat "9.11.0"
+    tslib "^2.1.0"
+
 "@hapi/accept@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab7043b037e68b722f93f376afb05e85c0699523"
@@ -1681,6 +1751,14 @@
   resolved "https://registry.npmmirror.com/@types/geojson/download/@types/geojson-7946.0.8.tgz?cache=0&sync_timestamp=1637266007043&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fgeojson%2Fdownload%2F%40types%2Fgeojson-7946.0.8.tgz#30744afdb385e2945e22f3b033f897f76b1f12ca"
   integrity sha1-MHRK/bOF4pReIvOwM/iX92sfEso=
 
+"@types/hoist-non-react-statics@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.npmmirror.com/@types/hoist-non-react-statics/download/@types/hoist-non-react-statics-3.3.1.tgz?cache=0&sync_timestamp=1637266809459&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fhoist-non-react-statics%2Fdownload%2F%40types%2Fhoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha1-ESSq/lEYy1kZd66xzqrtEHDrA58=
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/json-schema@^7.0.8":
   version "7.0.9"
   resolved "https://registry.npmmirror.com/@types/json-schema/download/@types/json-schema-7.0.9.tgz?cache=0&sync_timestamp=1637265456183&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
@@ -1706,7 +1784,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@17.0.37":
+"@types/react@*", "@types/react@16 || 17", "@types/react@17.0.37":
   version "17.0.37"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.37.tgz#6884d0aa402605935c397ae689deed115caad959"
   integrity sha512-2FS1oTqBGcH/s0E+CjrCCR9+JMpsu9b69RTFO+40ua43ZqP5MmQ4iUde/dMjWR909KxZwmOQIFq6AV6NjEG5xg==
@@ -3541,6 +3619,13 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.nlark.com/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz?cache=0&sync_timestamp=1618847127168&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhoist-non-react-statics%2Fdownload%2Fhoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
+
 http-errors@1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.7.3.tgz#6c619e4f9c60308c38519498c14fbb10aacebb06"
@@ -3646,6 +3731,16 @@ internal-slot@^1.0.3:
   version "2.0.3"
   resolved "https://registry.nlark.com/internmap/download/internmap-2.0.3.tgz?cache=0&sync_timestamp=1632107515842&other_urls=https%3A%2F%2Fregistry.nlark.com%2Finternmap%2Fdownload%2Finternmap-2.0.3.tgz#6685f23755e43c524e251d29cbc97248e3061009"
   integrity sha1-ZoXyN1XkPFJOJR0py8lySOMGEAk=
+
+intl-messageformat@9.11.0:
+  version "9.11.0"
+  resolved "https://registry.npmmirror.com/intl-messageformat/download/intl-messageformat-9.11.0.tgz#7b454f8385df6ffbb7ae054fc22cfee67e6f4572"
+  integrity sha512-LqV23YGQ5FvKiHmqDtVbx88jNZbJ25d/LE4jRX92TTshBDAofKwBjCi3WVb5pdWbLjDj+upeU+zbUJLlHfj/Wg==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/fast-memoize" "1.2.1"
+    "@formatjs/icu-messageformat-parser" "2.0.15"
+    tslib "^2.1.0"
 
 is-arguments@^1.0.4:
   version "1.1.1"
@@ -4587,12 +4682,28 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-intl@^5.24.0:
+  version "5.24.0"
+  resolved "https://registry.npmmirror.com/react-intl/download/react-intl-5.24.0.tgz#957d9becdaba9aac25a64055adbec517bcf80ba0"
+  integrity sha512-SKsVQuHspcXg/glA/bntX7F+PTaVj4ElimgBxGUx2B4CRQQh0asgg9KjE6+nfHIXaODz3S5K0IKlM/XcA6rZfA==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.11.0"
+    "@formatjs/icu-messageformat-parser" "2.0.15"
+    "@formatjs/intl" "1.18.0"
+    "@formatjs/intl-displaynames" "5.3.0"
+    "@formatjs/intl-listformat" "6.4.0"
+    "@types/hoist-non-react-statics" "^3.3.1"
+    "@types/react" "16 || 17"
+    hoist-non-react-statics "^3.3.2"
+    intl-messageformat "9.11.0"
+    tslib "^2.1.0"
+
 react-is@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-is@^16.13.1:
+react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
