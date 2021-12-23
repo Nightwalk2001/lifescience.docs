@@ -17,6 +17,10 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+div::selection, h1::selection, p::selection {
+    background: #79ffe1;
+}
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: #cfb5e8;
 }
