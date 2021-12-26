@@ -6,7 +6,7 @@ import styles from "./home.module.css"
 const Home = () => {
   return <>
     <Head>
-      <title>index page</title>
+      <title>王志威用于pre、课程论文、实验报告的官方网站</title>
     </Head>
 
     <div className={"mb-20 space-y-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40"}>
