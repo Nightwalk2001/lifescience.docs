@@ -1,12 +1,13 @@
 import Lottie from "lottie-web"
-import React, {memo, useEffect, useRef} from "react"
+import React, {memo, MouseEventHandler, useEffect, useRef} from "react"
 
 type LottieReactProps = {
   animation: any
   className?: string
+  onClick?: MouseEventHandler<HTMLDivElement>
 }
 
-export const LottieReact: React.FC<LottieReactProps> = memo(({animation, className, ...rest}) => {
+export const LottieReact: React.FC<LottieReactProps> = memo(({animation, className, onClick, ...rest}) => {
   const animationRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -18,5 +19,5 @@ export const LottieReact: React.FC<LottieReactProps> = memo(({animation, classNa
     })
   }, [animation])
 
-  return <div ref={animationRef} className={className} {...rest}/>
+  return <div ref={animationRef} className={className} onClick={onClick} {...rest}/>
 })

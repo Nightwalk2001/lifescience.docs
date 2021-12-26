@@ -1,4 +1,4 @@
-import {Anim, Navigation} from "@/features"
+import {Anim, Navigation} from "@/widgets"
 import clsx from "clsx"
 import Head from "next/head"
 import styles from "./home.module.css"

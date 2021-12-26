@@ -7,7 +7,7 @@ import {useRouter} from "next/router"
 const Biocontrol: NextPage = () => {
   const router = useRouter()
 
-  return <div className={"flex justify-between items-center w-3/4 mx-auto"}>
+  return <div className={"flex justify-between items-center w-3/4 container"}>
     <LottieReact animation={DataCenter} className={"w-96 mb-32"}/>
     <div className={" grow flex flex-col pl-12"}>
       <h1 className={"text-5xl text-cyan-300 font-semibold"}>卷积神经网络在生物防治中的应用前景</h1>
@@ -25,7 +25,8 @@ const Biocontrol: NextPage = () => {
         </div>
       </div>
     </div>
-    <LottieReact animation={NeuralNetwork} className={"w-96 mt-16"}/>
+    <LottieReact animation={NeuralNetwork} className={"w-96 mt-16"}
+                 onClick={() => router.push("/presentation/biocontrol/1")}/>
   </div>
 }
 

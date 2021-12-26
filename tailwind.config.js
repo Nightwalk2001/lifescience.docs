@@ -12,6 +12,9 @@ module.exports = {
     ],
     darkMode: "class",
     theme: {
+        container: {
+            center: true,
+        },
         screens: {
             sm: "640px",
             "demo-sm": "720px",
