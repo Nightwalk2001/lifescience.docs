@@ -1,17 +1,6 @@
-import {SurfaceChart} from "echarts-gl/charts"
-import {Grid3DComponent} from "echarts-gl/components"
-import {TooltipComponent, VisualMapComponent} from "echarts/components"
-import * as echarts from "echarts/core"
-import {CanvasRenderer} from "echarts/renderers"
+const echarts = require("echarts")
+require("echarts-gl")
 import {useEffect, useRef} from "react"
-
-echarts.use([
-  TooltipComponent,
-  VisualMapComponent,
-  Grid3DComponent,
-  SurfaceChart,
-  CanvasRenderer
-])
 
 export const Surface3D = () => {
   const ref = useRef<HTMLDivElement>(null)
