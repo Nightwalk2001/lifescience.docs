@@ -1,4 +1,3 @@
-import {Surface3D} from "@/charts"
 import {ChevronLeftIcon, ChevronRightIcon} from "@heroicons/react/outline"
 import Image from "next/image"
 import {useState} from "react"
@@ -13,7 +12,7 @@ const Biocontrol2 = () => {
     <div className={"container flex items-center w-[900px] h-max mx-auto my-10 text-gray-700"}>
       {
         index === 1
-          ? <div className={"container h-12 text-center text-5xl font-semibold"}>
+          ? <div className={"container h-12 mt-24 text-center text-5xl font-semibold"}>
             Part2——卷积神经网络及其原理简述
           </div>
           : index === 2
@@ -31,7 +30,7 @@ const Biocontrol2 = () => {
               : index === 4
                 ? <div className={"container flex justify-around items-center w-full"}>
                   <Image src={"/biocontrol/fn.png"} width={500} height={400} quality={100}/>
-                  <Surface3D/>
+                  <Image src={"/biocontrol/3d.png"} width={650} height={470} quality={100}/>
                 </div>
                 : <div className={"container flex flex-col items-center space-y-10 w-full"}>
                   <div className={"mb-10"}>

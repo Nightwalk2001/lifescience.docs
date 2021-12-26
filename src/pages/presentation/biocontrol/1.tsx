@@ -23,10 +23,6 @@ const Biocontrol1 = () => {
                 <h1>强化学习——根据之前行为得到的奖励，影响乃至决定下一步行动，善于作出决策</h1>
               </div>
             </div>
-            <div className={"flex justify-around w-full"}>
-              <Image src={"/biocontrol/911.png"} width={620} height={144} quality={100}/>
-              <Image src={"/biocontrol/pngsucai.png"} width={260} height={220} quality={100}/>
-            </div>
           </div>
       }
     </div>
