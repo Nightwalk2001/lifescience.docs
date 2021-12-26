@@ -35,7 +35,6 @@ module.exports = {
             gray: colors.slate,
             green: colors.green,
             indigo: colors.indigo,
-            "light-blue": colors.sky,
             sky: colors.sky,
             lime: colors.lime,
             orange: {
@@ -87,7 +86,7 @@ module.exports = {
             typography: (theme) => ({
                 DEFAULT: {
                     css: {
-                        maxWidth: "none",
+                        // maxWidth: "none",
                         color: theme("colors.gray.700"),
                         hr: {
                             borderColor: theme("colors.gray.100"),

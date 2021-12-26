@@ -1,14 +1,20 @@
-import {Copyright} from "@/features"
+import {Copyright, Navigation} from "@/features"
 import "@/styles/index.css"
 import type {AppProps} from "next/app"
+import {useRouter} from "next/router"
 
-const App = ({Component, pageProps}: AppProps) =>
-  <div className={"flex flex-col min-w-[100%] min-h-[100vh]"}>
-    {/*<Navigation/>*/}
-    <div className={"flex-1"}>
-      <Component {...pageProps} />
+const App = ({Component, pageProps}: AppProps) => {
+  const router = useRouter()
+  return <>
+    <div className={"flex flex-col min-w-[100%] min-h-[100vh]"}>
+      {router.pathname !== "/" && <Navigation/>}
+      {/*<Navigation/>*/}
+      <div className={"flex-1"}>
+        <Component {...pageProps} />
+      </div>
+      <Copyright/>
     </div>
-    <Copyright/>
-  </div>
+  </>
+}
 
 export default App
