@@ -37,8 +37,10 @@ const Home = () => {
             className={"bg-gradient-to-r from-sky-500 to-purple-700 gradient"}>Zhiwei Wang</text>.
           </h1>
           <p className="mt-6 text-lg text-gray-600 text-center max-w-2xl mx-auto dark:text-gray-400">
-            Using the digital version, you can get dynamic visualizations, freewheeling interactions, and beautiful
-            interfaces to let you know what I am good at.
+            Using the digital version, you can get dynamic visualizations, freewheeling <code
+            className="font-mono font-medium text-sky-500 dark:text-sky-400">interactions</code>, and beautiful <code
+            className="font-mono font-medium text-sky-500 dark:text-sky-400">interface</code> to let you know what I am
+            good at.
             {/*.{" "}*/}
             {/*<code className="font-mono font-medium text-sky-500 dark:text-sky-400">regulation</code>,{" "}*/}
             {/*<code className="font-mono font-medium text-sky-500 dark:text-sky-400">between</code>,{" "}*/}
