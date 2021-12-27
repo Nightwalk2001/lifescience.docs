@@ -12,7 +12,7 @@ const Biocontrol2 = () => {
     <div className={"container flex items-center w-[900px] h-max mx-auto my-10 text-gray-700"}>
       {
         index === 1
-          ? <div className={"container h-12 mt-24 text-center text-5xl font-semibold"}>
+          ? <div className={"container h-12 mt-64 text-center text-5xl font-semibold"}>
             Part2——卷积神经网络及其原理简述
           </div>
           : index === 2
