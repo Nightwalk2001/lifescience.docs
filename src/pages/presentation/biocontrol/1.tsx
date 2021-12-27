@@ -18,10 +18,7 @@ const Biocontrol1 = () => {
           : <div className={"container flex flex-col items-center"}>
             <div className={"flex justify-around items-center w-full"}>
               <Image src={"/biocontrol/ml.png"} width={400} height={240} quality={100}/>
-              <div className={"text-xl ml-24"}>
-                <h1>深度学习——根据现有数据，提取出特征，善于找到极复杂事务的内在规律</h1>
-                <h1>强化学习——根据之前行为得到的奖励，影响乃至决定下一步行动，善于作出决策</h1>
-              </div>
+              <Image src={"/biocontrol/bug.jpg"} width={400} height={280} quality={100}/>
             </div>
           </div>
       }
