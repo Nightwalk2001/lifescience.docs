@@ -89,7 +89,6 @@ module.exports = {
             typography: (theme) => ({
                 DEFAULT: {
                     css: {
-                        // maxWidth: "none",
                         color: theme("colors.gray.700"),
                         hr: {
                             borderColor: theme("colors.gray.100"),

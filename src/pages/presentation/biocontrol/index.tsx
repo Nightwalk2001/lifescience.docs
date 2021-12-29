@@ -1,5 +1,5 @@
-import DataCenter from "@/assets/animation/data-center.json"
-import NeuralNetwork from "@/assets/animation/neural-network.json"
+import DataCenter from "@/animation/data-center.json"
+import NeuralNetwork from "@/animation/neural-network.json"
 import {LottieReact} from "@/widgets"
 import type {NextPage} from "next"
 import {useRouter} from "next/router"

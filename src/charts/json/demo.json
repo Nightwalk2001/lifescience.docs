@@ -1,0 +1,142 @@
+{
+    "name": "World",
+    "children": [
+        {
+            "name": "South America",
+            "children": [
+                {
+                    "name": "Argentina",
+                    "confirmed": 3732263
+                },
+                {
+                    "name": "Brazil",
+                    "confirmed": 16471600
+                },
+                {
+                    "name": "Colombia",
+                    "confirmed": 3363061
+                },
+                {
+                    "name": "Peru",
+                    "confirmed": 1947555
+                },
+                {
+                    "name": "Chile",
+                    "confirmed": 1369597
+                }
+            ]
+        },
+        {
+            "name": "Europe",
+            "children": [
+                {
+                    "name": "Czech Republic",
+                    "confirmed": 1660935
+                },
+                {
+                    "name": "France",
+                    "confirmed": 5719877
+                },
+                {
+                    "name": "Poland",
+                    "confirmed": 2871371
+                },
+                {
+                    "name": "Romania",
+                    "confirmed": 1077426
+                },
+                {
+                    "name": "Italy",
+                    "confirmed": 4213055
+                },
+                {
+                    "name": "Russia",
+                    "confirmed": 4995613
+                },
+                {
+                    "name": "Spain",
+                    "confirmed": 3668658
+                },
+                {
+                    "name": "UK",
+                    "confirmed": 4496823
+                },
+                {
+                    "name": "Belgium",
+                    "confirmed": 1059763
+                },
+                {
+                    "name": "Netherlands",
+                    "confirmed": 1671967
+                },
+                {
+                    "name": "Germany",
+                    "confirmed": 3684672
+                },
+                {
+                    "name": "Sweden",
+                    "confirmed": 1068473
+                },
+                {
+                    "name": "Ukraine",
+                    "confirmed": 2257904
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "children": [
+                {
+                    "name": "Indonesia",
+                    "confirmed": 1809926
+                },
+                {
+                    "name": "Iran",
+                    "confirmed": 2893218
+                },
+                {
+                    "name": "Iraq",
+                    "confirmed": 1193608
+                },
+                {
+                    "name": "Philippines",
+                    "confirmed": 1216582
+                },
+                {
+                    "name": "Turkey",
+                    "confirmed": 5235978
+                },
+                {
+                    "name": "India",
+                    "confirmed": 27894800
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "children": [
+                {
+                    "name": "South Africa",
+                    "confirmed": 1659070
+                }
+            ]
+        },
+        {
+            "name": "North America",
+            "children": [
+                {
+                    "name": "Mexico",
+                    "confirmed": 2411503
+                },
+                {
+                    "name": "US",
+                    "confirmed": 33251939
+                },
+                {
+                    "name": "Canada",
+                    "confirmed": 1384373
+                }
+            ]
+        }
+    ]
+}

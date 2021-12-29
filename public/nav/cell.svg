@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <rect width="2" height="8" x="31" y="27" fill="#a3a3ff"/>
+    <rect width="2" height="8" x="21.657" y="9.657" fill="#a3a3ff" transform="rotate(-45 22.657 13.657)"/>
+    <rect width="8" height="2" x="36.828" y="12.657" fill="#a3a3ff" transform="rotate(-45 40.828 13.657)"/>
+    <rect width="2" height="6" x="18" y="49" fill="#a3a3ff"/>
+    <rect width="2" height="6" x="18" y="36" fill="#a3a3ff"/>
+    <rect width="7" height="2" x="8" y="44" fill="#a3a3ff"/>
+    <rect width="2" height="6" x="44" y="36" fill="#a3a3ff"/>
+    <rect width="2" height="6" x="44" y="49" fill="#a3a3ff"/>
+    <rect width="7" height="2" x="49" y="45" fill="#a3a3ff"/>
+    <path fill="#66f"
+          d="M32 28a8 8 0 1 1 8-8A8.009 8.009 0 0 1 32 28zM19 50a5 5 0 1 1 5-5A5.006 5.006 0 0 1 19 50zM19 62a4 4 0 1 1 4-4A4 4 0 0 1 19 62zM32 45a6 6 0 1 1 6-6A6.006 6.006 0 0 1 32 45zM17 14a6 6 0 1 1 4.243-1.757A5.963 5.963 0 0 1 17 14zM46.485 14a6 6 0 1 1 4.243-1.757A5.961 5.961 0 0 1 46.485 14zM19 37a4 4 0 1 1 4-4A4 4 0 0 1 19 37zM6 49a4 4 0 1 1 4-4A4 4 0 0 1 6 49zM45 51a5 5 0 1 1 5-5A5.006 5.006 0 0 1 45 51zM45 37a4 4 0 1 1 4-4A4 4 0 0 1 45 37zM45 62a4 4 0 1 1 4-4A4 4 0 0 1 45 62zM58 50a4 4 0 1 1 4-4A4 4 0 0 1 58 50z"/>
+</svg>

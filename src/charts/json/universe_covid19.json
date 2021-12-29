@@ -1,0 +1,5357 @@
+[
+    {
+        "country": "Afghanistan",
+        "confirmed": 70111,
+        "fatalities": 2899,
+        "recovered": 57281,
+        "continent": "Asia"
+    },
+    {
+        "country": "Albania",
+        "confirmed": 132297,
+        "fatalities": 2449,
+        "recovered": 129215,
+        "continent": "Europe"
+    },
+    {
+        "country": "Algeria",
+        "confirmed": 128456,
+        "fatalities": 3460,
+        "recovered": 89419,
+        "continent": "Africa"
+    },
+    {
+        "country": "Andorra",
+        "confirmed": 13693,
+        "fatalities": 127,
+        "recovered": 13416,
+        "continent": "Europe"
+    },
+    {
+        "country": "Angola",
+        "confirmed": 34180,
+        "fatalities": 757,
+        "recovered": 27646,
+        "continent": "Africa"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "confirmed": 1259,
+        "fatalities": 42,
+        "recovered": 1206,
+        "continent": "North America"
+    },
+    {
+        "country": "Argentina",
+        "confirmed": 3732263,
+        "fatalities": 77108,
+        "recovered": 3288467,
+        "continent": "South America"
+    },
+    {
+        "country": "Armenia",
+        "confirmed": 222555,
+        "fatalities": 4428,
+        "recovered": 212752,
+        "continent": "Asia"
+    },
+    {
+        "country": "Austria",
+        "confirmed": 644207,
+        "fatalities": 10592,
+        "recovered": 627672,
+        "continent": "Europe"
+    },
+    {
+        "country": "Azerbaijan",
+        "confirmed": 333723,
+        "fatalities": 4903,
+        "recovered": 323617,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bahamas",
+        "confirmed": 11745,
+        "fatalities": 229,
+        "recovered": 10642,
+        "continent": "North America"
+    },
+    {
+        "country": "Bahrain",
+        "confirmed": 235698,
+        "fatalities": 939,
+        "recovered": 205962,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bangladesh",
+        "confirmed": 797386,
+        "fatalities": 12549,
+        "recovered": 737408,
+        "continent": "Asia"
+    },
+    {
+        "country": "Barbados",
+        "confirmed": 4012,
+        "fatalities": 47,
+        "recovered": 3922,
+        "continent": "North America"
+    },
+    {
+        "country": "Belarus",
+        "confirmed": 392629,
+        "fatalities": 2831,
+        "recovered": 383380,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belize",
+        "confirmed": 12791,
+        "fatalities": 324,
+        "recovered": 12378,
+        "continent": "North America"
+    },
+    {
+        "country": "Benin",
+        "confirmed": 8058,
+        "fatalities": 101,
+        "recovered": 7893,
+        "continent": "Africa"
+    },
+    {
+        "country": "Bhutan",
+        "confirmed": 1603,
+        "fatalities": 1,
+        "recovered": 1241,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bolivia",
+        "confirmed": 366714,
+        "fatalities": 14435,
+        "recovered": 291325,
+        "continent": "South America"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "confirmed": 203839,
+        "fatalities": 9211,
+        "recovered": 174236,
+        "continent": "Europe"
+    },
+    {
+        "country": "Botswana",
+        "confirmed": 53771,
+        "fatalities": 831,
+        "recovered": 50494,
+        "continent": "Africa"
+    },
+    {
+        "country": "Brunei",
+        "confirmed": 241,
+        "fatalities": 3,
+        "recovered": 228,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bulgaria",
+        "confirmed": 418221,
+        "fatalities": 17657,
+        "recovered": 380359,
+        "continent": "Europe"
+    },
+    {
+        "country": "Burkina Faso",
+        "confirmed": 13430,
+        "fatalities": 166,
+        "recovered": 13248,
+        "continent": "Africa"
+    },
+    {
+        "country": "Burma",
+        "confirmed": 143526,
+        "fatalities": 3216,
+        "recovered": 132297,
+        "continent": "Asia"
+    },
+    {
+        "country": "Burundi",
+        "confirmed": 4715,
+        "fatalities": 6,
+        "recovered": 773,
+        "continent": "Africa"
+    },
+    {
+        "country": "Cabo Verde",
+        "confirmed": 30273,
+        "fatalities": 263,
+        "recovered": 28320,
+        "continent": "Africa"
+    },
+    {
+        "country": "Cambodia",
+        "confirmed": 28825,
+        "fatalities": 203,
+        "recovered": 21315,
+        "continent": "Asia"
+    },
+    {
+        "country": "Cameroon",
+        "confirmed": 78929,
+        "fatalities": 1275,
+        "recovered": 35261,
+        "continent": "Africa"
+    },
+    {
+        "country": "Central African Republic",
+        "confirmed": 7085,
+        "fatalities": 98,
+        "recovered": 6665,
+        "continent": "Africa"
+    },
+    {
+        "country": "Chad",
+        "confirmed": 4928,
+        "fatalities": 173,
+        "recovered": 4742,
+        "continent": "Africa"
+    },
+    {
+        "country": "Comoros",
+        "confirmed": 3881,
+        "fatalities": 146,
+        "recovered": 3719,
+        "continent": "Africa"
+    },
+    {
+        "country": "Congo (Brazzaville)",
+        "confirmed": 11658,
+        "fatalities": 153,
+        "recovered": 8208,
+        "continent": "Africa"
+    },
+    {
+        "country": "Congo (Kinshasa)",
+        "confirmed": 31416,
+        "fatalities": 782,
+        "recovered": 27665,
+        "continent": "Africa"
+    },
+    {
+        "country": "Costa Rica",
+        "confirmed": 314102,
+        "fatalities": 3962,
+        "recovered": 242019,
+        "continent": "North America"
+    },
+    {
+        "country": "Croatia",
+        "confirmed": 355955,
+        "fatalities": 8002,
+        "recovered": 345396,
+        "continent": "Europe"
+    },
+    {
+        "country": "Cuba",
+        "confirmed": 140087,
+        "fatalities": 943,
+        "recovered": 132910,
+        "continent": "North America"
+    },
+    {
+        "country": "Cyprus",
+        "confirmed": 72363,
+        "fatalities": 360,
+        "recovered": 39061,
+        "continent": "Asia"
+    },
+    {
+        "country": "Czech Republic",
+        "confirmed": 1660935,
+        "fatalities": 30101,
+        "recovered": 1617498,
+        "continent": "Europe"
+    },
+    {
+        "country": "Denmark",
+        "confirmed": 279434,
+        "fatalities": 2516,
+        "recovered": 263618,
+        "continent": "Europe"
+    },
+    {
+        "country": "Diamond Princess",
+        "confirmed": 712,
+        "fatalities": 13,
+        "recovered": 699,
+        "continent": "Diamond Princess"
+    },
+    {
+        "country": "Djibouti",
+        "confirmed": 11523,
+        "fatalities": 153,
+        "recovered": 11354,
+        "continent": "Africa"
+    },
+    {
+        "country": "Dominica",
+        "confirmed": 188,
+        "fatalities": 0,
+        "recovered": 182,
+        "continent": "North America"
+    },
+    {
+        "country": "Dominican Republic",
+        "confirmed": 290526,
+        "fatalities": 3628,
+        "recovered": 238810,
+        "continent": "North America"
+    },
+    {
+        "country": "Ecuador",
+        "confirmed": 424741,
+        "fatalities": 20485,
+        "recovered": 366425,
+        "continent": "South America"
+    },
+    {
+        "country": "Egypt",
+        "confirmed": 260659,
+        "fatalities": 15001,
+        "recovered": 191475,
+        "continent": "Africa"
+    },
+    {
+        "country": "El Salvador",
+        "confirmed": 73246,
+        "fatalities": 2241,
+        "recovered": 68408,
+        "continent": "North America"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "confirmed": 8529,
+        "fatalities": 118,
+        "recovered": 8146,
+        "continent": "Africa"
+    },
+    {
+        "country": "Eritrea",
+        "confirmed": 4061,
+        "fatalities": 14,
+        "recovered": 3812,
+        "continent": "Africa"
+    },
+    {
+        "country": "Estonia",
+        "confirmed": 129424,
+        "fatalities": 1250,
+        "recovered": 122918,
+        "continent": "Europe"
+    },
+    {
+        "country": "Eswatini",
+        "confirmed": 18589,
+        "fatalities": 672,
+        "recovered": 17861,
+        "continent": "Africa"
+    },
+    {
+        "country": "Ethiopia",
+        "confirmed": 271200,
+        "fatalities": 4143,
+        "recovered": 236774,
+        "continent": "Africa"
+    },
+    {
+        "country": "Fiji",
+        "confirmed": 360,
+        "fatalities": 4,
+        "recovered": 161,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Finland",
+        "confirmed": 92244,
+        "fatalities": 948,
+        "recovered": 46000,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 5600353,
+        "fatalities": 108532,
+        "recovered": 331686,
+        "continent": "Europe"
+    },
+    {
+        "country": "Gabon",
+        "confirmed": 24365,
+        "fatalities": 150,
+        "recovered": 21791,
+        "continent": "Africa"
+    },
+    {
+        "country": "Gambia",
+        "confirmed": 5990,
+        "fatalities": 178,
+        "recovered": 5767,
+        "continent": "Africa"
+    },
+    {
+        "country": "Georgia",
+        "confirmed": 342880,
+        "fatalities": 4739,
+        "recovered": 325016,
+        "continent": "Asia"
+    },
+    {
+        "country": "Ghana",
+        "confirmed": 93775,
+        "fatalities": 784,
+        "recovered": 91853,
+        "continent": "Africa"
+    },
+    {
+        "country": "Greece",
+        "confirmed": 400395,
+        "fatalities": 12024,
+        "recovered": 93764,
+        "continent": "Europe"
+    },
+    {
+        "country": "Grenada",
+        "confirmed": 161,
+        "fatalities": 1,
+        "recovered": 160,
+        "continent": "North America"
+    },
+    {
+        "country": "Guatemala",
+        "confirmed": 253837,
+        "fatalities": 8121,
+        "recovered": 232359,
+        "continent": "North America"
+    },
+    {
+        "country": "Guinea",
+        "confirmed": 23172,
+        "fatalities": 161,
+        "recovered": 20971,
+        "continent": "Africa"
+    },
+    {
+        "country": "Guinea-Bissau",
+        "confirmed": 3761,
+        "fatalities": 68,
+        "recovered": 3516,
+        "continent": "Africa"
+    },
+    {
+        "country": "Guyana",
+        "confirmed": 16822,
+        "fatalities": 382,
+        "recovered": 14468,
+        "continent": "South America"
+    },
+    {
+        "country": "Haiti",
+        "confirmed": 14128,
+        "fatalities": 302,
+        "recovered": 12528,
+        "continent": "North America"
+    },
+    {
+        "country": "Holy See",
+        "confirmed": 27,
+        "fatalities": 0,
+        "recovered": 27,
+        "continent": "Holy See"
+    },
+    {
+        "country": "Honduras",
+        "confirmed": 236952,
+        "fatalities": 6296,
+        "recovered": 84389,
+        "continent": "North America"
+    },
+    {
+        "country": "Hungary",
+        "confirmed": 804032,
+        "fatalities": 29709,
+        "recovered": 692248,
+        "continent": "Europe"
+    },
+    {
+        "country": "Iceland",
+        "confirmed": 6555,
+        "fatalities": 29,
+        "recovered": 6476,
+        "continent": "Europe"
+    },
+    {
+        "country": "Indonesia",
+        "confirmed": 1809926,
+        "fatalities": 50262,
+        "recovered": 1659974,
+        "continent": "Asia"
+    },
+    {
+        "country": "Iran",
+        "confirmed": 2893218,
+        "fatalities": 79741,
+        "recovered": 2425033,
+        "continent": "Asia"
+    },
+    {
+        "country": "Iraq",
+        "confirmed": 1193608,
+        "fatalities": 16334,
+        "recovered": 1107101,
+        "continent": "Asia"
+    },
+    {
+        "country": "Ireland",
+        "confirmed": 254870,
+        "fatalities": 4941,
+        "recovered": 23364,
+        "continent": "Europe"
+    },
+    {
+        "country": "Israel",
+        "confirmed": 839453,
+        "fatalities": 6407,
+        "recovered": 832539,
+        "continent": "Asia"
+    },
+    {
+        "country": "Ivory Coast",
+        "confirmed": 47233,
+        "fatalities": 303,
+        "recovered": 46642,
+        "continent": "Ivory Coast"
+    },
+    {
+        "country": "Jamaica",
+        "confirmed": 48374,
+        "fatalities": 942,
+        "recovered": 24866,
+        "continent": "North America"
+    },
+    {
+        "country": "Jordan",
+        "confirmed": 734659,
+        "fatalities": 9436,
+        "recovered": 713902,
+        "continent": "Asia"
+    },
+    {
+        "country": "Kazakhstan",
+        "confirmed": 438715,
+        "fatalities": 3442,
+        "recovered": 402272,
+        "continent": "Asia"
+    },
+    {
+        "country": "Kenya",
+        "confirmed": 170485,
+        "fatalities": 3141,
+        "recovered": 116133,
+        "continent": "Africa"
+    },
+    {
+        "country": "Kiribati",
+        "confirmed": 2,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Kosovo",
+        "confirmed": 106946,
+        "fatalities": 2247,
+        "recovered": 102303,
+        "continent": "Europe"
+    },
+    {
+        "country": "Kuwait",
+        "confirmed": 306717,
+        "fatalities": 1764,
+        "recovered": 291521,
+        "continent": "Asia"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "confirmed": 104222,
+        "fatalities": 1797,
+        "recovered": 98000,
+        "continent": "Asia"
+    },
+    {
+        "country": "Laos",
+        "confirmed": 1908,
+        "fatalities": 3,
+        "recovered": 1402,
+        "continent": "Laos"
+    },
+    {
+        "country": "Latvia",
+        "confirmed": 132918,
+        "fatalities": 2370,
+        "recovered": 125340,
+        "continent": "Europe"
+    },
+    {
+        "country": "Lebanon",
+        "confirmed": 540132,
+        "fatalities": 7718,
+        "recovered": 517859,
+        "continent": "Asia"
+    },
+    {
+        "country": "Lesotho",
+        "confirmed": 10825,
+        "fatalities": 326,
+        "recovered": 6434,
+        "continent": "Africa"
+    },
+    {
+        "country": "Liberia",
+        "confirmed": 2179,
+        "fatalities": 86,
+        "recovered": 2033,
+        "continent": "Africa"
+    },
+    {
+        "country": "Libya",
+        "confirmed": 184815,
+        "fatalities": 3116,
+        "recovered": 171279,
+        "continent": "Africa"
+    },
+    {
+        "country": "Liechtenstein",
+        "confirmed": 3008,
+        "fatalities": 58,
+        "recovered": 2929,
+        "continent": "Europe"
+    },
+    {
+        "country": "Lithuania",
+        "confirmed": 273866,
+        "fatalities": 4245,
+        "recovered": 254322,
+        "continent": "Europe"
+    },
+    {
+        "country": "Luxembourg",
+        "confirmed": 69830,
+        "fatalities": 814,
+        "recovered": 67993,
+        "continent": "Europe"
+    },
+    {
+        "country": "MS Zaandam",
+        "confirmed": 9,
+        "fatalities": 2,
+        "recovered": 7,
+        "continent": "MS Zaandam"
+    },
+    {
+        "country": "Madagascar",
+        "confirmed": 41234,
+        "fatalities": 829,
+        "recovered": 40176,
+        "continent": "Africa"
+    },
+    {
+        "country": "Malawi",
+        "confirmed": 34329,
+        "fatalities": 1154,
+        "recovered": 32603,
+        "continent": "Africa"
+    },
+    {
+        "country": "Malaysia",
+        "confirmed": 558534,
+        "fatalities": 2650,
+        "recovered": 479666,
+        "continent": "Asia"
+    },
+    {
+        "country": "Maldives",
+        "confirmed": 62906,
+        "fatalities": 157,
+        "recovered": 38233,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mali",
+        "confirmed": 14265,
+        "fatalities": 517,
+        "recovered": 9690,
+        "continent": "Africa"
+    },
+    {
+        "country": "Malta",
+        "confirmed": 30529,
+        "fatalities": 419,
+        "recovered": 30043,
+        "continent": "Europe"
+    },
+    {
+        "country": "Marshall Islands",
+        "confirmed": 4,
+        "fatalities": 0,
+        "recovered": 4,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Mauritania",
+        "confirmed": 19463,
+        "fatalities": 463,
+        "recovered": 18431,
+        "continent": "Africa"
+    },
+    {
+        "country": "Mauritius",
+        "confirmed": 1363,
+        "fatalities": 17,
+        "recovered": 1183,
+        "continent": "Africa"
+    },
+    {
+        "country": "Micronesia",
+        "confirmed": 1,
+        "fatalities": 0,
+        "recovered": 1,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Moldova",
+        "confirmed": 255105,
+        "fatalities": 6100,
+        "recovered": 247349,
+        "continent": "Europe"
+    },
+    {
+        "country": "Monaco",
+        "confirmed": 2503,
+        "fatalities": 32,
+        "recovered": 2463,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mongolia",
+        "confirmed": 56621,
+        "fatalities": 268,
+        "recovered": 49320,
+        "continent": "Asia"
+    },
+    {
+        "country": "Montenegro",
+        "confirmed": 99566,
+        "fatalities": 1583,
+        "recovered": 97090,
+        "continent": "Europe"
+    },
+    {
+        "country": "Morocco",
+        "confirmed": 518868,
+        "fatalities": 9138,
+        "recovered": 506740,
+        "continent": "Africa"
+    },
+    {
+        "country": "Mozambique",
+        "confirmed": 70724,
+        "fatalities": 836,
+        "recovered": 69499,
+        "continent": "Africa"
+    },
+    {
+        "country": "Namibia",
+        "confirmed": 54659,
+        "fatalities": 818,
+        "recovered": 50241,
+        "continent": "Africa"
+    },
+    {
+        "country": "Nepal",
+        "confirmed": 553422,
+        "fatalities": 7163,
+        "recovered": 434750,
+        "continent": "Asia"
+    },
+    {
+        "country": "New Zealand",
+        "confirmed": 2672,
+        "fatalities": 26,
+        "recovered": 2630,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Nicaragua",
+        "confirmed": 7324,
+        "fatalities": 186,
+        "recovered": 4225,
+        "continent": "North America"
+    },
+    {
+        "country": "Niger",
+        "confirmed": 5410,
+        "fatalities": 192,
+        "recovered": 5083,
+        "continent": "Africa"
+    },
+    {
+        "country": "Nigeria",
+        "confirmed": 166285,
+        "fatalities": 2071,
+        "recovered": 156557,
+        "continent": "Africa"
+    },
+    {
+        "country": "North Macedonia",
+        "confirmed": 155246,
+        "fatalities": 5398,
+        "recovered": 147473,
+        "continent": "Europe"
+    },
+    {
+        "country": "Norway",
+        "confirmed": 124655,
+        "fatalities": 783,
+        "recovered": 17998,
+        "continent": "Europe"
+    },
+    {
+        "country": "Oman",
+        "confirmed": 213784,
+        "fatalities": 2303,
+        "recovered": 197080,
+        "continent": "Asia"
+    },
+    {
+        "country": "Panama",
+        "confirmed": 377428,
+        "fatalities": 6369,
+        "recovered": 364783,
+        "continent": "North America"
+    },
+    {
+        "country": "Papua New Guinea",
+        "confirmed": 15772,
+        "fatalities": 162,
+        "recovered": 14857,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Paraguay",
+        "confirmed": 350613,
+        "fatalities": 8987,
+        "recovered": 288232,
+        "continent": "South America"
+    },
+    {
+        "country": "Philippines",
+        "confirmed": 1216582,
+        "fatalities": 20722,
+        "recovered": 1142246,
+        "continent": "Asia"
+    },
+    {
+        "country": "Poland",
+        "confirmed": 2871371,
+        "fatalities": 73682,
+        "recovered": 2636675,
+        "continent": "Europe"
+    },
+    {
+        "country": "Portugal",
+        "confirmed": 848213,
+        "fatalities": 17023,
+        "recovered": 808557,
+        "continent": "Europe"
+    },
+    {
+        "country": "Qatar",
+        "confirmed": 217041,
+        "fatalities": 554,
+        "recovered": 212716,
+        "continent": "Asia"
+    },
+    {
+        "country": "Romania",
+        "confirmed": 1077426,
+        "fatalities": 30247,
+        "recovered": 1038539,
+        "continent": "Europe"
+    },
+    {
+        "country": "Rwanda",
+        "confirmed": 26892,
+        "fatalities": 352,
+        "recovered": 25602,
+        "continent": "Africa"
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "confirmed": 68,
+        "fatalities": 0,
+        "recovered": 45,
+        "continent": "North America"
+    },
+    {
+        "country": "Saint Lucia",
+        "confirmed": 5035,
+        "fatalities": 77,
+        "recovered": 4772,
+        "continent": "North America"
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "confirmed": 2027,
+        "fatalities": 12,
+        "recovered": 1831,
+        "continent": "North America"
+    },
+    {
+        "country": "Samoa",
+        "confirmed": 3,
+        "fatalities": 0,
+        "recovered": 3,
+        "continent": "Oceania"
+    },
+    {
+        "country": "San Marino",
+        "confirmed": 5089,
+        "fatalities": 90,
+        "recovered": 4995,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "confirmed": 2345,
+        "fatalities": 37,
+        "recovered": 2291,
+        "continent": "Africa"
+    },
+    {
+        "country": "Saudi Arabia",
+        "confirmed": 448284,
+        "fatalities": 7334,
+        "recovered": 430937,
+        "continent": "Asia"
+    },
+    {
+        "country": "Senegal",
+        "confirmed": 41331,
+        "fatalities": 1138,
+        "recovered": 39972,
+        "continent": "Africa"
+    },
+    {
+        "country": "Serbia",
+        "confirmed": 712046,
+        "fatalities": 6844,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Seychelles",
+        "confirmed": 11145,
+        "fatalities": 40,
+        "recovered": 9936,
+        "continent": "Africa"
+    },
+    {
+        "country": "Sierra Leone",
+        "confirmed": 4141,
+        "fatalities": 79,
+        "recovered": 3131,
+        "continent": "Africa"
+    },
+    {
+        "country": "Singapore",
+        "confirmed": 62003,
+        "fatalities": 32,
+        "recovered": 61423,
+        "continent": "Asia"
+    },
+    {
+        "country": "Slovakia",
+        "confirmed": 389440,
+        "fatalities": 12333,
+        "recovered": 255300,
+        "continent": "Europe"
+    },
+    {
+        "country": "Slovenia",
+        "confirmed": 253493,
+        "fatalities": 4372,
+        "recovered": 244646,
+        "continent": "Europe"
+    },
+    {
+        "country": "Solomon Islands",
+        "confirmed": 20,
+        "fatalities": 0,
+        "recovered": 20,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Somalia",
+        "confirmed": 14653,
+        "fatalities": 768,
+        "recovered": 6726,
+        "continent": "Africa"
+    },
+    {
+        "country": "South Africa",
+        "confirmed": 1659070,
+        "fatalities": 56363,
+        "recovered": 1554184,
+        "continent": "Africa"
+    },
+    {
+        "country": "South Korea",
+        "confirmed": 139910,
+        "fatalities": 1957,
+        "recovered": 130381,
+        "continent": "Asia"
+    },
+    {
+        "country": "South Sudan",
+        "confirmed": 10688,
+        "fatalities": 115,
+        "recovered": 10514,
+        "continent": "Africa"
+    },
+    {
+        "country": "Sri Lanka",
+        "confirmed": 180593,
+        "fatalities": 1363,
+        "recovered": 148391,
+        "continent": "Asia"
+    },
+    {
+        "country": "Sudan",
+        "confirmed": 35289,
+        "fatalities": 2600,
+        "recovered": 27949,
+        "continent": "Africa"
+    },
+    {
+        "country": "Suriname",
+        "confirmed": 14515,
+        "fatalities": 288,
+        "recovered": 11459,
+        "continent": "South America"
+    },
+    {
+        "country": "Switzerland",
+        "confirmed": 693023,
+        "fatalities": 10805,
+        "recovered": 317600,
+        "continent": "Europe"
+    },
+    {
+        "country": "Syria",
+        "confirmed": 24440,
+        "fatalities": 1763,
+        "recovered": 21593,
+        "continent": "Asia"
+    },
+    {
+        "country": "Taiwan",
+        "confirmed": 7806,
+        "fatalities": 99,
+        "recovered": 1133,
+        "continent": "Asia"
+    },
+    {
+        "country": "Tajikistan",
+        "confirmed": 13308,
+        "fatalities": 90,
+        "recovered": 13218,
+        "continent": "Asia"
+    },
+    {
+        "country": "Tanzania",
+        "confirmed": 509,
+        "fatalities": 21,
+        "recovered": 183,
+        "continent": "Africa"
+    },
+    {
+        "country": "Thailand",
+        "confirmed": 151842,
+        "fatalities": 988,
+        "recovered": 26873,
+        "continent": "Asia"
+    },
+    {
+        "country": "Timor-Leste",
+        "confirmed": 6752,
+        "fatalities": 16,
+        "recovered": 3915,
+        "continent": "Timor-Leste"
+    },
+    {
+        "country": "Togo",
+        "confirmed": 13432,
+        "fatalities": 125,
+        "recovered": 12644,
+        "continent": "Africa"
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "confirmed": 23001,
+        "fatalities": 470,
+        "recovered": 13281,
+        "continent": "North America"
+    },
+    {
+        "country": "Tunisia",
+        "confirmed": 343374,
+        "fatalities": 12574,
+        "recovered": 301273,
+        "continent": "Africa"
+    },
+    {
+        "country": "Turkey",
+        "confirmed": 5235978,
+        "fatalities": 47271,
+        "recovered": 5094279,
+        "continent": "Asia"
+    },
+    {
+        "country": "Uganda",
+        "confirmed": 45931,
+        "fatalities": 362,
+        "recovered": 43401,
+        "continent": "Africa"
+    },
+    {
+        "country": "United Arab Emirates",
+        "confirmed": 567263,
+        "fatalities": 1673,
+        "recovered": 547008,
+        "continent": "Asia"
+    },
+    {
+        "country": "Uruguay",
+        "confirmed": 288172,
+        "fatalities": 4176,
+        "recovered": 246321,
+        "continent": "South America"
+    },
+    {
+        "country": "Uzbekistan",
+        "confirmed": 99844,
+        "fatalities": 688,
+        "recovered": 95529,
+        "continent": "Asia"
+    },
+    {
+        "country": "Vanuatu",
+        "confirmed": 4,
+        "fatalities": 1,
+        "recovered": 3,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Venezuela",
+        "confirmed": 231443,
+        "fatalities": 2615,
+        "recovered": 213365,
+        "continent": "South America"
+    },
+    {
+        "country": "Vietnam",
+        "confirmed": 6908,
+        "fatalities": 47,
+        "recovered": 2896,
+        "continent": "Asia"
+    },
+    {
+        "country": "West Bank and Gaza",
+        "confirmed": 307838,
+        "fatalities": 3492,
+        "recovered": 300524,
+        "continent": "Asia"
+    },
+    {
+        "country": "Yemen",
+        "confirmed": 6731,
+        "fatalities": 1319,
+        "recovered": 3399,
+        "continent": "Asia"
+    },
+    {
+        "country": "Zambia",
+        "confirmed": 94751,
+        "fatalities": 1276,
+        "recovered": 91594,
+        "continent": "Africa"
+    },
+    {
+        "country": "Zimbabwe",
+        "confirmed": 38933,
+        "fatalities": 1594,
+        "recovered": 36578,
+        "continent": "Africa"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 73972,
+        "fatalities": 2480,
+        "recovered": 65983,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 82207,
+        "fatalities": 1657,
+        "recovered": 73662,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 14661,
+        "fatalities": 202,
+        "recovered": 14126,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 26501,
+        "fatalities": 2418,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 46890,
+        "fatalities": 758,
+        "recovered": 39507,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 755,
+        "fatalities": 12,
+        "recovered": 678,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 543405,
+        "fatalities": 11146,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 192224,
+        "fatalities": 4715,
+        "recovered": 181513,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 70208,
+        "fatalities": 369,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 226855,
+        "fatalities": 2214,
+        "recovered": 216167,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 51521,
+        "fatalities": 2285,
+        "recovered": 46457,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 17025,
+        "fatalities": 245,
+        "recovered": 16636,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 111763,
+        "fatalities": 1688,
+        "recovered": 87050,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 385828,
+        "fatalities": 12972,
+        "recovered": 329224,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 6326,
+        "fatalities": 240,
+        "recovered": 6045,
+        "continent": "South America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 28519,
+        "fatalities": 523,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 22713,
+        "fatalities": 291,
+        "recovered": 22130,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 69291,
+        "fatalities": 3039,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 581880,
+        "fatalities": 9880,
+        "recovered": 10671,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 6964,
+        "fatalities": 113,
+        "recovered": 6660,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 1671742,
+        "fatalities": 10738,
+        "recovered": 1487382,
+        "continent": "Asia"
+    },
+    {
+        "country": "UK",
+        "confirmed": 109,
+        "fatalities": 0,
+        "recovered": 109,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 1004,
+        "fatalities": 6,
+        "recovered": 994,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 536911,
+        "fatalities": 11914,
+        "recovered": 503302,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 53081,
+        "fatalities": 1039,
+        "recovered": 50817,
+        "continent": "South America"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 137314,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2340,
+        "fatalities": 29,
+        "recovered": 1992,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 22855,
+        "fatalities": 618,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 123905,
+        "fatalities": 3504,
+        "recovered": 3772,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 7679,
+        "fatalities": 223,
+        "recovered": 7114,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 82262,
+        "fatalities": 1051,
+        "recovered": 78795,
+        "continent": "South America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 83145,
+        "fatalities": 2901,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 22635,
+        "fatalities": 439,
+        "recovered": 21519,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 880466,
+        "fatalities": 17628,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 341290,
+        "fatalities": 5830,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 63649,
+        "fatalities": 979,
+        "recovered": 60972,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 10974,
+        "fatalities": 107,
+        "recovered": 10803,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 26778,
+        "fatalities": 114,
+        "recovered": 22746,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 403623,
+        "fatalities": 3245,
+        "recovered": 344083,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 34173,
+        "fatalities": 776,
+        "recovered": 32659,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 52213,
+        "fatalities": 1965,
+        "recovered": 1063,
+        "continent": "Europe"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 21037,
+        "fatalities": 233,
+        "recovered": 19942,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 270962,
+        "fatalities": 8411,
+        "recovered": 257811,
+        "continent": "South America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 124,
+        "fatalities": 3,
+        "recovered": 121,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 28764,
+        "fatalities": 848,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 5774,
+        "fatalities": 35,
+        "recovered": 5262,
+        "continent": "South America"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 19170,
+        "fatalities": 540,
+        "recovered": 17294,
+        "continent": "Asia"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 492181,
+        "fatalities": 9940,
+        "recovered": 465300,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 1010166,
+        "fatalities": 21074,
+        "recovered": 965804,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 49091,
+        "fatalities": 8241,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 32041,
+        "fatalities": 1437,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 60364,
+        "fatalities": 839,
+        "recovered": 1533,
+        "continent": "Europe"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 25083,
+        "fatalities": 276,
+        "recovered": 23595,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 38021,
+        "fatalities": 519,
+        "recovered": 35964,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 26291,
+        "fatalities": 578,
+        "recovered": 21867,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 638818,
+        "fatalities": 14940,
+        "recovered": 607900,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 1059,
+        "fatalities": 9,
+        "recovered": 1046,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 38666,
+        "fatalities": 689,
+        "recovered": 36195,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 178317,
+        "fatalities": 3482,
+        "recovered": 171600,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 2491,
+        "fatalities": 32,
+        "recovered": 2423,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 704173,
+        "fatalities": 5052,
+        "recovered": 678036,
+        "continent": "Asia"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 129509,
+        "fatalities": 2069,
+        "recovered": 123656,
+        "continent": "South America"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 12519,
+        "fatalities": 128,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 100788,
+        "fatalities": 1981,
+        "recovered": 97093,
+        "continent": "South America"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 1612,
+        "fatalities": 17,
+        "recovered": 1579,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 66128,
+        "fatalities": 1556,
+        "recovered": 62052,
+        "continent": "South America"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 108201,
+        "fatalities": 3727,
+        "recovered": 102100,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 27072,
+        "fatalities": 473,
+        "recovered": 25900,
+        "continent": "Europe"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 143581,
+        "fatalities": 1692,
+        "recovered": 138360,
+        "continent": "North America"
+    },
+    {
+        "country": "UK",
+        "confirmed": 248,
+        "fatalities": 1,
+        "recovered": 209,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 130041,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 40137,
+        "fatalities": 354,
+        "recovered": 39267,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 38334,
+        "fatalities": 894,
+        "recovered": 36930,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 394360,
+        "fatalities": 7389,
+        "recovered": 9970,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 58177,
+        "fatalities": 1495,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 66736,
+        "fatalities": 1164,
+        "recovered": 55450,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 70734,
+        "fatalities": 1465,
+        "recovered": 66928,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 3788713,
+        "fatalities": 63236,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 95043,
+        "fatalities": 3449,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 418600,
+        "fatalities": 7190,
+        "recovered": 343566,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 10174,
+        "fatalities": 1227,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 56226,
+        "fatalities": 769,
+        "recovered": 1537,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 30178,
+        "fatalities": 564,
+        "recovered": 2287,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 951083,
+        "fatalities": 18683,
+        "recovered": 869117,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 18219,
+        "fatalities": 681,
+        "recovered": 17263,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 20248,
+        "fatalities": 461,
+        "recovered": 18982,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 192347,
+        "fatalities": 5912,
+        "recovered": 6392,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 230600,
+        "fatalities": 6882,
+        "recovered": 8716,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 611008,
+        "fatalities": 14531,
+        "recovered": 26203,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 33920,
+        "fatalities": 909,
+        "recovered": 32063,
+        "continent": "South America"
+    },
+    {
+        "country": "UK",
+        "confirmed": 581,
+        "fatalities": 2,
+        "recovered": 564,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 796885,
+        "fatalities": 20428,
+        "recovered": 550049,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 67073,
+        "fatalities": 1829,
+        "recovered": 63922,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 5829,
+        "fatalities": 114,
+        "recovered": 163,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 59740,
+        "fatalities": 740,
+        "recovered": 56534,
+        "continent": "Asia"
+    },
+    {
+        "country": "UK",
+        "confirmed": 4065,
+        "fatalities": 86,
+        "recovered": 3956,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 12272,
+        "fatalities": 134,
+        "recovered": 12011,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 61657,
+        "fatalities": 1621,
+        "recovered": 57328,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 80553,
+        "fatalities": 1233,
+        "recovered": 73863,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 56642,
+        "fatalities": 1304,
+        "recovered": 53383,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 79181,
+        "fatalities": 1762,
+        "recovered": 76172,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 967645,
+        "fatalities": 12979,
+        "recovered": 911752,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 11413,
+        "fatalities": 1573,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 36919,
+        "fatalities": 676,
+        "recovered": 35130,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 55547,
+        "fatalities": 6966,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 11361,
+        "fatalities": 290,
+        "recovered": 10541,
+        "continent": "South America"
+    },
+    {
+        "country": "China",
+        "confirmed": 598,
+        "fatalities": 6,
+        "recovered": 586,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 767,
+        "fatalities": 7,
+        "recovered": 733,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 25682,
+        "fatalities": 1424,
+        "recovered": 23458,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 657832,
+        "fatalities": 33198,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 68802,
+        "fatalities": 6262,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 11894,
+        "fatalities": 1196,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 542405,
+        "fatalities": 6576,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 347341,
+        "fatalities": 8238,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 37357,
+        "fatalities": 690,
+        "recovered": 35248,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 62703,
+        "fatalities": 2496,
+        "recovered": 58298,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 43287,
+        "fatalities": 1346,
+        "recovered": 40409,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 159489,
+        "fatalities": 4382,
+        "recovered": 149168,
+        "continent": "South America"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 12271,
+        "fatalities": 122,
+        "recovered": 12121,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 62115,
+        "fatalities": 1429,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "India",
+        "confirmed": 10214,
+        "fatalities": 4,
+        "recovered": 9877,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 33517,
+        "fatalities": 1489,
+        "recovered": 31105,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 26484,
+        "fatalities": 340,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 108770,
+        "fatalities": 1661,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 1424646,
+        "fatalities": 24073,
+        "recovered": 1387538,
+        "continent": "Asia"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 0,
+        "fatalities": 1,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 49,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 48898,
+        "fatalities": 1132,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 404190,
+        "fatalities": 8621,
+        "recovered": 385481,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 133123,
+        "fatalities": 4110,
+        "recovered": 120657,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 89146,
+        "fatalities": 2233,
+        "recovered": 82870,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 33459,
+        "fatalities": 353,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 34205,
+        "fatalities": 2460,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 121644,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2709,
+        "fatalities": 71,
+        "recovered": 2537,
+        "continent": "Asia"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 383503,
+        "fatalities": 13180,
+        "recovered": 354260,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 3910803,
+        "fatalities": 112385,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 479996,
+        "fatalities": 10713,
+        "recovered": 448481,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 75693,
+        "fatalities": 1801,
+        "recovered": 2652,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 63,
+        "fatalities": 0,
+        "recovered": 63,
+        "continent": "Europe"
+    },
+    {
+        "country": "Denmark",
+        "confirmed": 712,
+        "fatalities": 1,
+        "recovered": 669,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 80625,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 36282,
+        "fatalities": 243,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 2320818,
+        "fatalities": 36774,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "France",
+        "confirmed": 23763,
+        "fatalities": 116,
+        "recovered": 9995,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 18860,
+        "fatalities": 142,
+        "recovered": 18707,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 42939,
+        "fatalities": 475,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 106964,
+        "fatalities": 3787,
+        "recovered": 98244,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 620,
+        "fatalities": 1,
+        "recovered": 588,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1038,
+        "fatalities": 34,
+        "recovered": 962,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 33916,
+        "fatalities": 452,
+        "recovered": 28709,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 4570,
+        "fatalities": 138,
+        "recovered": 4104,
+        "continent": "Asia"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 126622,
+        "fatalities": 2402,
+        "recovered": 9204,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 194,
+        "fatalities": 2,
+        "recovered": 192,
+        "continent": "Asia"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 35512,
+        "fatalities": 556,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 183790,
+        "fatalities": 2017,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 1123343,
+        "fatalities": 20837,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "UK",
+        "confirmed": 4293,
+        "fatalities": 94,
+        "recovered": 4192,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 8518,
+        "fatalities": 156,
+        "recovered": 7692,
+        "continent": "Asia"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 5572,
+        "fatalities": 107,
+        "recovered": 5356,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 154419,
+        "fatalities": 2597,
+        "recovered": 136766,
+        "continent": "Asia"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 606874,
+        "fatalities": 16994,
+        "recovered": 577127,
+        "continent": "South America"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 3939,
+        "fatalities": 51,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 13,
+        "fatalities": 0,
+        "recovered": 13,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 103,
+        "fatalities": 3,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Denmark",
+        "confirmed": 37,
+        "fatalities": 0,
+        "recovered": 33,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 38476,
+        "fatalities": 262,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 16517,
+        "fatalities": 255,
+        "recovered": 2250,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 1753,
+        "fatalities": 22,
+        "recovered": 1655,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 8156,
+        "fatalities": 139,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 131934,
+        "fatalities": 10869,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "China",
+        "confirmed": 2432,
+        "fatalities": 8,
+        "recovered": 2381,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 275,
+        "fatalities": 2,
+        "recovered": 268,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 3010,
+        "fatalities": 44,
+        "recovered": 2837,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 41104,
+        "fatalities": 4464,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "China",
+        "confirmed": 147,
+        "fatalities": 2,
+        "recovered": 145,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 805617,
+        "fatalities": 9790,
+        "recovered": 757124,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 7797,
+        "fatalities": 138,
+        "recovered": 7179,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 188,
+        "fatalities": 6,
+        "recovered": 181,
+        "continent": "Asia"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 156458,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 40207,
+        "fatalities": 317,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 76167,
+        "fatalities": 1563,
+        "recovered": 72000,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 753937,
+        "fatalities": 8132,
+        "recovered": 722711,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 36124,
+        "fatalities": 499,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "China",
+        "confirmed": 1317,
+        "fatalities": 7,
+        "recovered": 1310,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 1612,
+        "fatalities": 13,
+        "recovered": 1597,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 1314,
+        "fatalities": 22,
+        "recovered": 1290,
+        "continent": "Asia"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 286463,
+        "fatalities": 7325,
+        "recovered": 268100,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 38950,
+        "fatalities": 6213,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 188604,
+        "fatalities": 3086,
+        "recovered": 168529,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 10545,
+        "fatalities": 126,
+        "recovered": 8140,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 37386,
+        "fatalities": 1078,
+        "recovered": 27376,
+        "continent": "Asia"
+    },
+    {
+        "country": "Hong Kong",
+        "confirmed": 11837,
+        "fatalities": 210,
+        "recovered": 11571,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 14557,
+        "fatalities": 439,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 32073,
+        "fatalities": 1080,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "China",
+        "confirmed": 68159,
+        "fatalities": 4512,
+        "recovered": 63645,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 58395,
+        "fatalities": 2031,
+        "recovered": 55199,
+        "continent": "South America"
+    },
+    {
+        "country": "China",
+        "confirmed": 1051,
+        "fatalities": 4,
+        "recovered": 1039,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 39715,
+        "fatalities": 1164,
+        "recovered": 35746,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 9700,
+        "fatalities": 147,
+        "recovered": 8999,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 52191,
+        "fatalities": 3064,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 192012,
+        "fatalities": 2090,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 1380978,
+        "fatalities": 25166,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 743338,
+        "fatalities": 13615,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 15754,
+        "fatalities": 189,
+        "recovered": 15332,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 387,
+        "fatalities": 1,
+        "recovered": 383,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 371331,
+        "fatalities": 6055,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 69651,
+        "fatalities": 2454,
+        "recovered": 66668,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 3717,
+        "fatalities": 103,
+        "recovered": 3106,
+        "continent": "Asia"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 81116,
+        "fatalities": 757,
+        "recovered": 74791,
+        "continent": "Asia"
+    },
+    {
+        "country": "UK",
+        "confirmed": 1592,
+        "fatalities": 29,
+        "recovered": 1561,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 86136,
+        "fatalities": 2057,
+        "recovered": 82639,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 36164,
+        "fatalities": 1209,
+        "recovered": 34097,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1427,
+        "fatalities": 43,
+        "recovered": 1234,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 87048,
+        "fatalities": 12375,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 286684,
+        "fatalities": 3841,
+        "recovered": 243588,
+        "continent": "Asia"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 12307,
+        "fatalities": 120,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 4494,
+        "fatalities": 142,
+        "recovered": 4317,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 336240,
+        "fatalities": 4958,
+        "recovered": 320336,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 726,
+        "fatalities": 0,
+        "recovered": 716,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 937,
+        "fatalities": 1,
+        "recovered": 936,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 573,
+        "fatalities": 3,
+        "recovered": 570,
+        "continent": "Asia"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 42452,
+        "fatalities": 553,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 71816,
+        "fatalities": 2574,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 24299,
+        "fatalities": 467,
+        "recovered": 23601,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1992,
+        "fatalities": 24,
+        "recovered": 1804,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 3285,
+        "fatalities": 32,
+        "recovered": 2916,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 33435,
+        "fatalities": 490,
+        "recovered": 32344,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 23757,
+        "fatalities": 243,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 20793,
+        "fatalities": 375,
+        "recovered": 20147,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 35576,
+        "fatalities": 337,
+        "recovered": 34028,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 14671,
+        "fatalities": 231,
+        "recovered": 14048,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 61207,
+        "fatalities": 879,
+        "recovered": 57915,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 315331,
+        "fatalities": 5077,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 20419,
+        "fatalities": 130,
+        "recovered": 20070,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 47142,
+        "fatalities": 543,
+        "recovered": 45400,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 2567449,
+        "fatalities": 28298,
+        "recovered": 2189064,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 36864,
+        "fatalities": 719,
+        "recovered": 35593,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 458275,
+        "fatalities": 6782,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 2494385,
+        "fatalities": 8455,
+        "recovered": 2252505,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 52485,
+        "fatalities": 411,
+        "recovered": 50439,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 23087,
+        "fatalities": 552,
+        "recovered": 22033,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 57404,
+        "fatalities": 798,
+        "recovered": 56124,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 146604,
+        "fatalities": 3262,
+        "recovered": 133660,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 34700,
+        "fatalities": 1069,
+        "recovered": 30962,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 87901,
+        "fatalities": 1797,
+        "recovered": 82954,
+        "continent": "Europe"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 132170,
+        "fatalities": 4060,
+        "recovered": 122795,
+        "continent": "Asia"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 206278,
+        "fatalities": 5076,
+        "recovered": 163588,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 124996,
+        "fatalities": 2682,
+        "recovered": 118690,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 43824,
+        "fatalities": 365,
+        "recovered": 41408,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 20266,
+        "fatalities": 793,
+        "recovered": 17046,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1426,
+        "fatalities": 20,
+        "recovered": 1179,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 44080,
+        "fatalities": 967,
+        "recovered": 42687,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 21461,
+        "fatalities": 475,
+        "recovered": 18762,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 48237,
+        "fatalities": 3003,
+        "recovered": 43275,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 73319,
+        "fatalities": 3732,
+        "recovered": 67504,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 21641,
+        "fatalities": 313,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 6224,
+        "fatalities": 98,
+        "recovered": 5368,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 21309,
+        "fatalities": 419,
+        "recovered": 20195,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 38321,
+        "fatalities": 809,
+        "recovered": 36736,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 15738,
+        "fatalities": 208,
+        "recovered": 14416,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 35886,
+        "fatalities": 1134,
+        "recovered": 34239,
+        "continent": "South America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 77218,
+        "fatalities": 4212,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 30749,
+        "fatalities": 771,
+        "recovered": 3107,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 18448,
+        "fatalities": 187,
+        "recovered": 16658,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 7631,
+        "fatalities": 31,
+        "recovered": 5622,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 55184,
+        "fatalities": 2767,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 341494,
+        "fatalities": 8165,
+        "recovered": 312533,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 45059,
+        "fatalities": 1421,
+        "recovered": 42218,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 425,
+        "fatalities": 2,
+        "recovered": 412,
+        "continent": "Asia"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 128103,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 102677,
+        "fatalities": 4318,
+        "recovered": 97145,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 878346,
+        "fatalities": 29722,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 59629,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 113085,
+        "fatalities": 1636,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 31557,
+        "fatalities": 750,
+        "recovered": 28677,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 834527,
+        "fatalities": 33593,
+        "recovered": 768559,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 39963,
+        "fatalities": 1416,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 76835,
+        "fatalities": 1040,
+        "recovered": 73600,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 38703,
+        "fatalities": 441,
+        "recovered": 36794,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 470685,
+        "fatalities": 10576,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 26060,
+        "fatalities": 884,
+        "recovered": 23766,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 30859,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 135811,
+        "fatalities": 3554,
+        "recovered": 129045,
+        "continent": "Europe"
+    },
+    {
+        "country": "Macau",
+        "confirmed": 51,
+        "fatalities": 0,
+        "recovered": 49,
+        "continent": "Macau"
+    },
+    {
+        "country": "India",
+        "confirmed": 777349,
+        "fatalities": 7959,
+        "recovered": 738491,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 13113,
+        "fatalities": 242,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 714616,
+        "fatalities": 15285,
+        "recovered": 40736,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 8454,
+        "fatalities": 109,
+        "recovered": 8250,
+        "continent": "Europe"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 27698,
+        "fatalities": 404,
+        "recovered": 26906,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 69705,
+        "fatalities": 2646,
+        "recovered": 65549,
+        "continent": "South America"
+    },
+    {
+        "country": "India",
+        "confirmed": 5713215,
+        "fatalities": 94030,
+        "recovered": 5339838,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 67658,
+        "fatalities": 825,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 48850,
+        "fatalities": 776,
+        "recovered": 40044,
+        "continent": "Asia"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 50499,
+        "fatalities": 1045,
+        "recovered": 44819,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 289670,
+        "fatalities": 8100,
+        "recovered": 253574,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 102551,
+        "fatalities": 3012,
+        "recovered": 95447,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 13496,
+        "fatalities": 245,
+        "recovered": 13113,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 11789,
+        "fatalities": 93,
+        "recovered": 98,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 459528,
+        "fatalities": 9599,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 706783,
+        "fatalities": 17868,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 402936,
+        "fatalities": 10695,
+        "recovered": 376166,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 287157,
+        "fatalities": 6741,
+        "recovered": 258228,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 83826,
+        "fatalities": 1363,
+        "recovered": 79118,
+        "continent": "South America"
+    },
+    {
+        "country": "France",
+        "confirmed": 20176,
+        "fatalities": 171,
+        "recovered": 2964,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 43829,
+        "fatalities": 1120,
+        "recovered": 41900,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 34448,
+        "fatalities": 551,
+        "recovered": 26156,
+        "continent": "Asia"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 9098,
+        "fatalities": 97,
+        "recovered": 125,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 52414,
+        "fatalities": 1229,
+        "recovered": 50291,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 569995,
+        "fatalities": 15354,
+        "recovered": 534926,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 250093,
+        "fatalities": 34955,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 991941,
+        "fatalities": 20376,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 48282,
+        "fatalities": 5808,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 4872,
+        "fatalities": 104,
+        "recovered": 4510,
+        "continent": "Asia"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 1564200,
+        "fatalities": 40262,
+        "recovered": 1428682,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 601105,
+        "fatalities": 7511,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 317407,
+        "fatalities": 7310,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 606075,
+        "fatalities": 9496,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 8885,
+        "fatalities": 83,
+        "recovered": 8494,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 3020,
+        "fatalities": 24,
+        "recovered": 2800,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 11988,
+        "fatalities": 36,
+        "recovered": 8863,
+        "continent": "Asia"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 13579,
+        "fatalities": 489,
+        "recovered": 12944,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 111785,
+        "fatalities": 1613,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "UK",
+        "confirmed": 20,
+        "fatalities": 1,
+        "recovered": 19,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 24553,
+        "fatalities": 602,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 20906,
+        "fatalities": 278,
+        "recovered": 18593,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 33549,
+        "fatalities": 3345,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 1173637,
+        "fatalities": 20001,
+        "recovered": 1058041,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 269709,
+        "fatalities": 6130,
+        "recovered": 221128,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 112926,
+        "fatalities": 1600,
+        "recovered": 2180,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 51265,
+        "fatalities": 1213,
+        "recovered": 48174,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 68370,
+        "fatalities": 1795,
+        "recovered": 64948,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 21371,
+        "fatalities": 350,
+        "recovered": 16039,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 4767,
+        "fatalities": 82,
+        "recovered": 4413,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2877,
+        "fatalities": 64,
+        "recovered": 2626,
+        "continent": "Asia"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 58543,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 7754,
+        "fatalities": 116,
+        "recovered": 7352,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 62822,
+        "fatalities": 2071,
+        "recovered": 58360,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 62232,
+        "fatalities": 1171,
+        "recovered": 3905,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 12170,
+        "fatalities": 1829,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 223304,
+        "fatalities": 2249,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 1106,
+        "fatalities": 4,
+        "recovered": 1088,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 323748,
+        "fatalities": 5586,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 2191,
+        "fatalities": 43,
+        "recovered": 2004,
+        "continent": "North America"
+    },
+    {
+        "country": "France",
+        "confirmed": 128,
+        "fatalities": 0,
+        "recovered": 58,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 98699,
+        "fatalities": 1352,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 1015889,
+        "fatalities": 26201,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 202821,
+        "fatalities": 4263,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 5585,
+        "fatalities": 54,
+        "recovered": 0,
+        "continent": "Oceania"
+    },
+    {
+        "country": "US",
+        "confirmed": 2101055,
+        "fatalities": 53269,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 1302,
+        "fatalities": 6,
+        "recovered": 1192,
+        "continent": "North America"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 257956,
+        "fatalities": 5609,
+        "recovered": 247200,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 3184,
+        "fatalities": 35,
+        "recovered": 2810,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 76,
+        "fatalities": 0,
+        "recovered": 75,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 117825,
+        "fatalities": 3598,
+        "recovered": 112454,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 266579,
+        "fatalities": 3125,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 272379,
+        "fatalities": 2590,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 804733,
+        "fatalities": 16717,
+        "recovered": 759500,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 24556,
+        "fatalities": 264,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 60886,
+        "fatalities": 3026,
+        "recovered": 56383,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 1001154,
+        "fatalities": 13078,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 109915,
+        "fatalities": 1543,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 16986,
+        "fatalities": 212,
+        "recovered": 16389,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 122575,
+        "fatalities": 2153,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 183,
+        "fatalities": 2,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 173,
+        "fatalities": 0,
+        "recovered": 169,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 127,
+        "fatalities": 0,
+        "recovered": 125,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 5530,
+        "fatalities": 84,
+        "recovered": 4880,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 30913,
+        "fatalities": 157,
+        "recovered": 30124,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 43190,
+        "fatalities": 1869,
+        "recovered": 39153,
+        "continent": "Europe"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 29947,
+        "fatalities": 502,
+        "recovered": 28355,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 124233,
+        "fatalities": 9531,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 648,
+        "fatalities": 4,
+        "recovered": 632,
+        "continent": "North America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 56389,
+        "fatalities": 1153,
+        "recovered": 53054,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 47205,
+        "fatalities": 3733,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 139409,
+        "fatalities": 2892,
+        "recovered": 128395,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 747143,
+        "fatalities": 2686,
+        "recovered": 658646,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 1101557,
+        "fatalities": 19861,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 3333,
+        "fatalities": 47,
+        "recovered": 2874,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 7292,
+        "fatalities": 103,
+        "recovered": 6022,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 16689,
+        "fatalities": 149,
+        "recovered": 13790,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 452777,
+        "fatalities": 7291,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 47378,
+        "fatalities": 1434,
+        "recovered": 45056,
+        "continent": "Europe"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 537138,
+        "fatalities": 8698,
+        "recovered": 515505,
+        "continent": "North America"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 31602,
+        "fatalities": 336,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 201005,
+        "fatalities": 2666,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 35566,
+        "fatalities": 657,
+        "recovered": 33800,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 44130,
+        "fatalities": 973,
+        "recovered": 40478,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 99416,
+        "fatalities": 2287,
+        "recovered": 86801,
+        "continent": "Asia"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 41618,
+        "fatalities": 629,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 107545,
+        "fatalities": 1129,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 72844,
+        "fatalities": 1175,
+        "recovered": 70968,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 45389,
+        "fatalities": 1354,
+        "recovered": 43506,
+        "continent": "Europe"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 197812,
+        "fatalities": 4429,
+        "recovered": 16160,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 516277,
+        "fatalities": 14478,
+        "recovered": 478999,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 328771,
+        "fatalities": 7617,
+        "recovered": 223537,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 1089777,
+        "fatalities": 26370,
+        "recovered": 753282,
+        "continent": "South America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 14096,
+        "fatalities": 440,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "US",
+        "confirmed": 1202912,
+        "fatalities": 27190,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 47128,
+        "fatalities": 798,
+        "recovered": 44444,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 57275,
+        "fatalities": 2414,
+        "recovered": 51525,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 478902,
+        "fatalities": 15742,
+        "recovered": 394630,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 271228,
+        "fatalities": 5888,
+        "recovered": 262859,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 359915,
+        "fatalities": 11623,
+        "recovered": 342707,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 77582,
+        "fatalities": 3336,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 76873,
+        "fatalities": 1783,
+        "recovered": 73368,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2956,
+        "fatalities": 3,
+        "recovered": 2865,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 44312,
+        "fatalities": 732,
+        "recovered": 41515,
+        "continent": "Europe"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 200,
+        "fatalities": 0,
+        "recovered": 187,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 37716,
+        "fatalities": 404,
+        "recovered": 32535,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 102896,
+        "fatalities": 1497,
+        "recovered": 88246,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 85136,
+        "fatalities": 11865,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 138579,
+        "fatalities": 2501,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 250187,
+        "fatalities": 6492,
+        "recovered": 217472,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 562831,
+        "fatalities": 14305,
+        "recovered": 506349,
+        "continent": "Asia"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 339073,
+        "fatalities": 9982,
+        "recovered": 308733,
+        "continent": "Asia"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 32245,
+        "fatalities": 1021,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 11822,
+        "fatalities": 478,
+        "recovered": 11022,
+        "continent": "South America"
+    },
+    {
+        "country": "China",
+        "confirmed": 18,
+        "fatalities": 0,
+        "recovered": 18,
+        "continent": "Asia"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 369728,
+        "fatalities": 11125,
+        "recovered": 354104,
+        "continent": "North America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 1618,
+        "fatalities": 7,
+        "recovered": 1591,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 69137,
+        "fatalities": 4376,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 43520,
+        "fatalities": 1310,
+        "recovered": 41630,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 26868,
+        "fatalities": 2774,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 936162,
+        "fatalities": 8251,
+        "recovered": 871283,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 13,
+        "fatalities": 0,
+        "recovered": 13,
+        "continent": "North America"
+    },
+    {
+        "country": "France",
+        "confirmed": 24901,
+        "fatalities": 189,
+        "recovered": 22796,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 152582,
+        "fatalities": 3724,
+        "recovered": 144500,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 151743,
+        "fatalities": 2708,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 267081,
+        "fatalities": 6089,
+        "recovered": 150649,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 1082746,
+        "fatalities": 28105,
+        "recovered": 1028424,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 858949,
+        "fatalities": 50550,
+        "recovered": 792370,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 62422,
+        "fatalities": 1573,
+        "recovered": 59580,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 78068,
+        "fatalities": 1168,
+        "recovered": 74807,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 228985,
+        "fatalities": 5720,
+        "recovered": 215600,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 103222,
+        "fatalities": 1635,
+        "recovered": 96188,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 93835,
+        "fatalities": 4422,
+        "recovered": 83939,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 29169,
+        "fatalities": 526,
+        "recovered": 27701,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 40711,
+        "fatalities": 1006,
+        "recovered": 38800,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 283612,
+        "fatalities": 9675,
+        "recovered": 262800,
+        "continent": "Europe"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 98406,
+        "fatalities": 3317,
+        "recovered": 92000,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2507,
+        "fatalities": 20,
+        "recovered": 2297,
+        "continent": "Asia"
+    },
+    {
+        "country": "France",
+        "confirmed": 1005,
+        "fatalities": 1,
+        "recovered": 462,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 4,
+        "fatalities": 0,
+        "recovered": 4,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 438038,
+        "fatalities": 14267,
+        "recovered": 403971,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 25,
+        "fatalities": 0,
+        "recovered": 25,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 43638,
+        "fatalities": 785,
+        "recovered": 40865,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 38256,
+        "fatalities": 673,
+        "recovered": 33801,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 22955,
+        "fatalities": 51,
+        "recovered": 22531,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 64617,
+        "fatalities": 1917,
+        "recovered": 61701,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 5436,
+        "fatalities": 91,
+        "recovered": 5166,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 64232,
+        "fatalities": 5352,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 43845,
+        "fatalities": 1328,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 965277,
+        "fatalities": 15174,
+        "recovered": 921496,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 131547,
+        "fatalities": 4492,
+        "recovered": 121460,
+        "continent": "South America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 3254893,
+        "fatalities": 111123,
+        "recovered": 2895697,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 62502,
+        "fatalities": 1072,
+        "recovered": 59167,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 56613,
+        "fatalities": 1460,
+        "recovered": 42350,
+        "continent": "Europe"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 46464,
+        "fatalities": 537,
+        "recovered": 44519,
+        "continent": "North America"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 63017,
+        "fatalities": 1593,
+        "recovered": 60000,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 234895,
+        "fatalities": 7668,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 233932,
+        "fatalities": 5054,
+        "recovered": 208146,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 14848,
+        "fatalities": 680,
+        "recovered": 13653,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 616,
+        "fatalities": 3,
+        "recovered": 592,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 883,
+        "fatalities": 7,
+        "recovered": 873,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 2093,
+        "fatalities": 7,
+        "recovered": 2019,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 253,
+        "fatalities": 0,
+        "recovered": 248,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 5041,
+        "fatalities": 79,
+        "recovered": 4463,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 552,
+        "fatalities": 0,
+        "recovered": 434,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 8326,
+        "fatalities": 135,
+        "recovered": 7371,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 1025,
+        "fatalities": 3,
+        "recovered": 990,
+        "continent": "Asia"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 225203,
+        "fatalities": 5814,
+        "recovered": 209401,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 14907,
+        "fatalities": 247,
+        "recovered": 10829,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 39158,
+        "fatalities": 6154,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Pakistan",
+        "confirmed": 316752,
+        "fatalities": 5014,
+        "recovered": 286758,
+        "continent": "Asia"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 2411,
+        "fatalities": 28,
+        "recovered": 2307,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 153662,
+        "fatalities": 1730,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 30960,
+        "fatalities": 1016,
+        "recovered": 29160,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 75182,
+        "fatalities": 6628,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 25397,
+        "fatalities": 461,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 752,
+        "fatalities": 4,
+        "recovered": 746,
+        "continent": "Oceania"
+    },
+    {
+        "country": "US",
+        "confirmed": 592912,
+        "fatalities": 9728,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 124162,
+        "fatalities": 2010,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "France",
+        "confirmed": 1915,
+        "fatalities": 12,
+        "recovered": 1399,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 54710,
+        "fatalities": 1500,
+        "recovered": 51822,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 251285,
+        "fatalities": 4320,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 34809,
+        "fatalities": 1147,
+        "recovered": 32259,
+        "continent": "South America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 76814,
+        "fatalities": 1289,
+        "recovered": 73417,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 89101,
+        "fatalities": 3403,
+        "recovered": 82994,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 68240,
+        "fatalities": 4153,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 25161,
+        "fatalities": 825,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 59573,
+        "fatalities": 5017,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 32741,
+        "fatalities": 532,
+        "recovered": 30719,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 2039716,
+        "fatalities": 23261,
+        "recovered": 1706298,
+        "continent": "Asia"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 36665,
+        "fatalities": 668,
+        "recovered": 35418,
+        "continent": "South America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 234,
+        "fatalities": 13,
+        "recovered": 221,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 21423,
+        "fatalities": 496,
+        "recovered": 18428,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 574026,
+        "fatalities": 3247,
+        "recovered": 533862,
+        "continent": "Asia"
+    },
+    {
+        "country": "US",
+        "confirmed": 862401,
+        "fatalities": 12441,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 69375,
+        "fatalities": 1177,
+        "recovered": 65524,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 2952861,
+        "fatalities": 51491,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 127481,
+        "fatalities": 4202,
+        "recovered": 120100,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 393,
+        "fatalities": 3,
+        "recovered": 380,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 1,
+        "fatalities": 0,
+        "recovered": 1,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 19921,
+        "fatalities": 2455,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Brazil",
+        "confirmed": 177464,
+        "fatalities": 2852,
+        "recovered": 159306,
+        "continent": "South America"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 6313,
+        "fatalities": 78,
+        "recovered": 5822,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1630,
+        "fatalities": 60,
+        "recovered": 1502,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 160315,
+        "fatalities": 2038,
+        "recovered": 152231,
+        "continent": "Asia"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 75296,
+        "fatalities": 2432,
+        "recovered": 71624,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 32808,
+        "fatalities": 431,
+        "recovered": 31752,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 241012,
+        "fatalities": 6698,
+        "recovered": 225696,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 466,
+        "fatalities": 2,
+        "recovered": 418,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1865,
+        "fatalities": 35,
+        "recovered": 1507,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 50739,
+        "fatalities": 507,
+        "recovered": 43190,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 40032,
+        "fatalities": 2025,
+        "recovered": 37543,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 16531,
+        "fatalities": 606,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "UK",
+        "confirmed": 2412,
+        "fatalities": 17,
+        "recovered": 2381,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 42010,
+        "fatalities": 1036,
+        "recovered": 39280,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 36673,
+        "fatalities": 570,
+        "recovered": 35123,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 15951,
+        "fatalities": 203,
+        "recovered": 15689,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 31172,
+        "fatalities": 1002,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 34026,
+        "fatalities": 951,
+        "recovered": 30886,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 55767,
+        "fatalities": 1382,
+        "recovered": 53203,
+        "continent": "Europe"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 56314,
+        "fatalities": 1400,
+        "recovered": 53323,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 20219,
+        "fatalities": 24921,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 54,
+        "fatalities": 0,
+        "recovered": 54,
+        "continent": "South America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "South America"
+    },
+    {
+        "country": "Germany",
+        "confirmed": 5126,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 8,
+        "fatalities": 0,
+        "recovered": 8,
+        "continent": "Asia"
+    },
+    {
+        "country": "China",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 10,
+        "continent": "Asia"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 1924865,
+        "continent": "North America"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 3882,
+        "fatalities": 14,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Peru",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 1897522,
+        "continent": "South America"
+    },
+    {
+        "country": "Spain",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "UK",
+        "confirmed": 0,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 39789,
+        "fatalities": 536,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 405851,
+        "fatalities": 2301,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 125577,
+        "fatalities": 1274,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "India",
+        "confirmed": 1688152,
+        "fatalities": 20208,
+        "recovered": 1621743,
+        "continent": "Asia"
+    },
+    {
+        "country": "India",
+        "confirmed": 327112,
+        "fatalities": 6360,
+        "recovered": 289642,
+        "continent": "Asia"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 11567,
+        "fatalities": 472,
+        "recovered": 10868,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 266414,
+        "fatalities": 8461,
+        "recovered": 251388,
+        "continent": "South America"
+    },
+    {
+        "country": "Chile",
+        "confirmed": 97830,
+        "fatalities": 2566,
+        "recovered": 92035,
+        "continent": "South America"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 18454,
+        "fatalities": 210,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 22909,
+        "fatalities": 181,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 26417,
+        "fatalities": 467,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 27122,
+        "fatalities": 347,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "confirmed": 186844,
+        "fatalities": 2349,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 1528,
+        "fatalities": 14,
+        "recovered": 1481,
+        "continent": "South America"
+    },
+    {
+        "country": "Italy",
+        "confirmed": 423117,
+        "fatalities": 11558,
+        "recovered": 402798,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 61482,
+        "fatalities": 9867,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 24200,
+        "fatalities": 255,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Colombia",
+        "confirmed": 1772,
+        "fatalities": 25,
+        "recovered": 1727,
+        "continent": "South America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 20593,
+        "fatalities": 820,
+        "recovered": 19725,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 70474,
+        "fatalities": 1661,
+        "recovered": 65696,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 3442,
+        "fatalities": 27,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 675165,
+        "fatalities": 11160,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 33442,
+        "fatalities": 1192,
+        "recovered": 31122,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 59618,
+        "fatalities": 1296,
+        "recovered": 56864,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 46023,
+        "fatalities": 1092,
+        "recovered": 42907,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 61187,
+        "fatalities": 1148,
+        "recovered": 57004,
+        "continent": "Europe"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 84672,
+        "fatalities": 2910,
+        "recovered": 80119,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2612,
+        "fatalities": 41,
+        "recovered": 2410,
+        "continent": "Asia"
+    },
+    {
+        "country": "UK",
+        "confirmed": 212672,
+        "fatalities": 5569,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "France",
+        "confirmed": 445,
+        "fatalities": 7,
+        "recovered": 438,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 40604,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 435849,
+        "fatalities": 5765,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "India",
+        "confirmed": 1354956,
+        "fatalities": 15268,
+        "recovered": 1237290,
+        "continent": "Asia"
+    },
+    {
+        "country": "Belgium",
+        "confirmed": 95724,
+        "fatalities": 0,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "US",
+        "confirmed": 161287,
+        "fatalities": 2792,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Australia",
+        "confirmed": 1017,
+        "fatalities": 9,
+        "recovered": 1006,
+        "continent": "Oceania"
+    },
+    {
+        "country": "US",
+        "confirmed": 674003,
+        "fatalities": 7830,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "US",
+        "confirmed": 60144,
+        "fatalities": 719,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "China",
+        "confirmed": 980,
+        "fatalities": 3,
+        "recovered": 977,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1963,
+        "fatalities": 42,
+        "recovered": 1692,
+        "continent": "Asia"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 2903,
+        "fatalities": 60,
+        "recovered": 2330,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 39063,
+        "fatalities": 419,
+        "recovered": 37848,
+        "continent": "Europe"
+    },
+    {
+        "country": "Japan",
+        "confirmed": 1541,
+        "fatalities": 19,
+        "recovered": 1390,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 40903,
+        "fatalities": 605,
+        "recovered": 38968,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 39748,
+        "fatalities": 3917,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Canada",
+        "confirmed": 84,
+        "fatalities": 2,
+        "recovered": 82,
+        "continent": "North America"
+    },
+    {
+        "country": "China",
+        "confirmed": 352,
+        "fatalities": 2,
+        "recovered": 331,
+        "continent": "Asia"
+    },
+    {
+        "country": "Russia",
+        "confirmed": 43126,
+        "fatalities": 669,
+        "recovered": 41650,
+        "continent": "Europe"
+    },
+    {
+        "country": "Mexico",
+        "confirmed": 30758,
+        "fatalities": 2797,
+        "recovered": 0,
+        "continent": "North America"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 61611,
+        "fatalities": 1586,
+        "recovered": 58882,
+        "continent": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 102641,
+        "fatalities": 2335,
+        "recovered": 95289,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 29147,
+        "fatalities": 245,
+        "recovered": 0,
+        "continent": "Europe"
+    },
+    {
+        "country": "China",
+        "confirmed": 1364,
+        "fatalities": 1,
+        "recovered": 1324,
+        "continent": "Asia"
+    },
+    {
+        "country": "Ukraine",
+        "confirmed": 87550,
+        "fatalities": 1738,
+        "recovered": 83790,
+        "continent": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "confirmed": 391559,
+        "fatalities": 4252,
+        "recovered": 0,
+        "continent": "Europe"
+    }
+]

@@ -21,10 +21,9 @@ const Layout: React.FC<LayoutProps> = ({left, right}) => <div
 export const Anim: React.FC = () => <Layout
   left={<div>
     <Image src={"/biocontrol/wordcloud.svg"} width={768} height={540}/>
-  </div>
-  }
+  </div>}
   right={
-    <div className={"px-3.5 py-3 text-xl rounded-md shadow-lg"}>
+    <div className={"px-3.5 py-3 text-xl bg-white rounded-lg shadow-xl"}>
       マスターチューリングの完全な言語には、JavaScript /
       TypeScript、Kotlin、Swift、Java、Python、Golang、Rust、Dart、Scala、Clojure、F＃、C＃が含まれます。オペレーティングシステム、コンピューター構成の原則、アルゴリズムとデータ構造、およびコンピューターネットワークの原則を研究しました。ウェブサイト、Android、iOS、Windows、macOS、React、Next、Remix、Gatsby、Vue、Hexo、Flutter、Reactに精通したソフトウェア開発が得意
       Native、Electron、KMP、JetpackCompose。サーバーサイドの開発に長けており、ほぼすべてのサーバーサイドフレームワーク、Django、Express、Springなどの従来のフレームワークをマスターできます。

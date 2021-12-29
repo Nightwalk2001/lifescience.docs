@@ -32,12 +32,14 @@ export const Navigation: React.FC = () => <div
             className={`absolute z-10 w-screen max-w-xs py-4 mt-1
                 transform -translate-x-1/2 left-1/2 bg-white rounded-lg shadow-sm sm:pl-2`}>
             <div className={"flex flex-col items-start space-y-3 px-5"}>
-              <SvgLink logo={"ai-network.svg"} to={"/presentation/biocontrol"} title={"遗传学实验3"}
+              <SvgLink logo={"face.svg"} to={"/paper/genetics"} title={"遗传学"}
+                       subtitle={"面容识别预测新生儿的遗传性疾病"}/>
+              <SvgLink logo={"bug.svg"} to={"/paper/genetics-experiment/bristles"} title={"遗传学实验"}
                        subtitle={"利用黑腹果蝇腹板刚毛数探究数量性状遗传规律"}/>
-              <SvgLink logo={"plant.svg"} to={"/presentation/biocontrol"} title={"遗传学实验4"}
-                       subtitle={"唾液腺染色体实验报告"}/>
-              <SvgLink logo={"data.svg"} to={"/presentation/biocontrol"} title={"生物统计学"}
-                       subtitle={"卷积神经网络与Transformer根据癌旁细胞预测癌症复发概率"}/>
+              <SvgLink logo={"cell.svg"} to={"/paper/genetics-experiment/sialaden"} title={"遗传学实验"}
+                       subtitle={"关于果蝇唾液腺染色体的实验报告"}/>
+              <SvgLink logo={"virus.svg"} to={"/paper/biostatistics"} title={"生物统计学"}
+                       subtitle={"Covid-19对全球情况和特定国家的数据分析和可视化"}/>
             </div>
           </Popover.Panel>
         }/>
