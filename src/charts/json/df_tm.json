@@ -1,0 +1,782 @@
+[
+    {
+        "id": "AFG",
+        "value": 70111
+    },
+    {
+        "id": "ALB",
+        "value": 132297
+    },
+    {
+        "id": "DZA",
+        "value": 128456
+    },
+    {
+        "id": "AND",
+        "value": 13693
+    },
+    {
+        "id": "AGO",
+        "value": 34180
+    },
+    {
+        "id": "ATG",
+        "value": 1259
+    },
+    {
+        "id": "ARG",
+        "value": 3732263
+    },
+    {
+        "id": "ARM",
+        "value": 222555
+    },
+    {
+        "id": "AUT",
+        "value": 644207
+    },
+    {
+        "id": "AZE",
+        "value": 333723
+    },
+    {
+        "id": "BHS",
+        "value": 11745
+    },
+    {
+        "id": "BHR",
+        "value": 235698
+    },
+    {
+        "id": "BGD",
+        "value": 797386
+    },
+    {
+        "id": "BRB",
+        "value": 4012
+    },
+    {
+        "id": "BLR",
+        "value": 392629
+    },
+    {
+        "id": "BLZ",
+        "value": 12791
+    },
+    {
+        "id": "BEN",
+        "value": 8058
+    },
+    {
+        "id": "BTN",
+        "value": 1603
+    },
+    {
+        "id": "BOL",
+        "value": 366714
+    },
+    {
+        "id": "BIH",
+        "value": 203839
+    },
+    {
+        "id": "BWA",
+        "value": 53771
+    },
+    {
+        "id": "Brunei",
+        "value": 241
+    },
+    {
+        "id": "BGR",
+        "value": 418221
+    },
+    {
+        "id": "BFA",
+        "value": 13430
+    },
+    {
+        "id": "MMR",
+        "value": 143526
+    },
+    {
+        "id": "BDI",
+        "value": 4715
+    },
+    {
+        "id": "Cabo Verde",
+        "value": 30273
+    },
+    {
+        "id": "KHM",
+        "value": 28825
+    },
+    {
+        "id": "CMR",
+        "value": 78929
+    },
+    {
+        "id": "CAF",
+        "value": 7085
+    },
+    {
+        "id": "TCD",
+        "value": 4928
+    },
+    {
+        "id": "COM",
+        "value": 3881
+    },
+    {
+        "id": "Congo (Brazzaville)",
+        "value": 11658
+    },
+    {
+        "id": "Congo (Kinshasa)",
+        "value": 31416
+    },
+    {
+        "id": "CRI",
+        "value": 314102
+    },
+    {
+        "id": "HRV",
+        "value": 355955
+    },
+    {
+        "id": "CUB",
+        "value": 140087
+    },
+    {
+        "id": "CYP",
+        "value": 72363
+    },
+    {
+        "id": "CZE",
+        "value": 1660935
+    },
+    {
+        "id": "DNK",
+        "value": 280183
+    },
+    {
+        "id": "Diamond Princess",
+        "value": 712
+    },
+    {
+        "id": "DJI",
+        "value": 11523
+    },
+    {
+        "id": "DMA",
+        "value": 188
+    },
+    {
+        "id": "DOM",
+        "value": 290526
+    },
+    {
+        "id": "ECU",
+        "value": 424741
+    },
+    {
+        "id": "EGY",
+        "value": 260659
+    },
+    {
+        "id": "SLV",
+        "value": 73246
+    },
+    {
+        "id": "GNQ",
+        "value": 8529
+    },
+    {
+        "id": "ERI",
+        "value": 4061
+    },
+    {
+        "id": "EST",
+        "value": 129424
+    },
+    {
+        "id": "Eswatini",
+        "value": 18589
+    },
+    {
+        "id": "ETH",
+        "value": 271200
+    },
+    {
+        "id": "FJI",
+        "value": 360
+    },
+    {
+        "id": "FIN",
+        "value": 92244
+    },
+    {
+        "id": "FRA",
+        "value": 5719877
+    },
+    {
+        "id": "GAB",
+        "value": 24365
+    },
+    {
+        "id": "GMB",
+        "value": 5990
+    },
+    {
+        "id": "GEO",
+        "value": 342880
+    },
+    {
+        "id": "GHA",
+        "value": 93775
+    },
+    {
+        "id": "GRC",
+        "value": 400395
+    },
+    {
+        "id": "GRD",
+        "value": 161
+    },
+    {
+        "id": "GTM",
+        "value": 253837
+    },
+    {
+        "id": "GIN",
+        "value": 23172
+    },
+    {
+        "id": "GNB",
+        "value": 3761
+    },
+    {
+        "id": "GUY",
+        "value": 16822
+    },
+    {
+        "id": "HTI",
+        "value": 14128
+    },
+    {
+        "id": "Holy See",
+        "value": 27
+    },
+    {
+        "id": "HND",
+        "value": 236952
+    },
+    {
+        "id": "HUN",
+        "value": 804032
+    },
+    {
+        "id": "ISL",
+        "value": 6555
+    },
+    {
+        "id": "IDN",
+        "value": 1809926
+    },
+    {
+        "id": "Iran",
+        "value": 2893218
+    },
+    {
+        "id": "IRQ",
+        "value": 1193608
+    },
+    {
+        "id": "IRL",
+        "value": 254870
+    },
+    {
+        "id": "ISR",
+        "value": 839453
+    },
+    {
+        "id": "Ivory Coast",
+        "value": 47233
+    },
+    {
+        "id": "JAM",
+        "value": 48374
+    },
+    {
+        "id": "JOR",
+        "value": 734659
+    },
+    {
+        "id": "KAZ",
+        "value": 438715
+    },
+    {
+        "id": "KEN",
+        "value": 170485
+    },
+    {
+        "id": "KIR",
+        "value": 2
+    },
+    {
+        "id": "Kosovo",
+        "value": 106946
+    },
+    {
+        "id": "KWT",
+        "value": 306717
+    },
+    {
+        "id": "KGZ",
+        "value": 104222
+    },
+    {
+        "id": "Laos",
+        "value": 1908
+    },
+    {
+        "id": "LVA",
+        "value": 132918
+    },
+    {
+        "id": "LBN",
+        "value": 540132
+    },
+    {
+        "id": "LSO",
+        "value": 10825
+    },
+    {
+        "id": "LBR",
+        "value": 2179
+    },
+    {
+        "id": "Libya",
+        "value": 184815
+    },
+    {
+        "id": "LIE",
+        "value": 3008
+    },
+    {
+        "id": "LTU",
+        "value": 273866
+    },
+    {
+        "id": "LUX",
+        "value": 69830
+    },
+    {
+        "id": "MS Zaandam",
+        "value": 9
+    },
+    {
+        "id": "MDG",
+        "value": 41234
+    },
+    {
+        "id": "MWI",
+        "value": 34329
+    },
+    {
+        "id": "MYS",
+        "value": 558534
+    },
+    {
+        "id": "MDV",
+        "value": 62906
+    },
+    {
+        "id": "MLI",
+        "value": 14265
+    },
+    {
+        "id": "MLT",
+        "value": 30529
+    },
+    {
+        "id": "MHL",
+        "value": 4
+    },
+    {
+        "id": "MRT",
+        "value": 19463
+    },
+    {
+        "id": "MUS",
+        "value": 1363
+    },
+    {
+        "id": "Micronesia",
+        "value": 1
+    },
+    {
+        "id": "Moldova",
+        "value": 255105
+    },
+    {
+        "id": "MCO",
+        "value": 2503
+    },
+    {
+        "id": "MNG",
+        "value": 56621
+    },
+    {
+        "id": "MNE",
+        "value": 99566
+    },
+    {
+        "id": "MAR",
+        "value": 518868
+    },
+    {
+        "id": "MOZ",
+        "value": 70724
+    },
+    {
+        "id": "NAM",
+        "value": 54659
+    },
+    {
+        "id": "NPL",
+        "value": 553422
+    },
+    {
+        "id": "NZL",
+        "value": 2672
+    },
+    {
+        "id": "NIC",
+        "value": 7324
+    },
+    {
+        "id": "NER",
+        "value": 5410
+    },
+    {
+        "id": "NGA",
+        "value": 166285
+    },
+    {
+        "id": "North Macedonia",
+        "value": 155246
+    },
+    {
+        "id": "NOR",
+        "value": 124655
+    },
+    {
+        "id": "OMN",
+        "value": 213784
+    },
+    {
+        "id": "PAN",
+        "value": 377428
+    },
+    {
+        "id": "PNG",
+        "value": 15772
+    },
+    {
+        "id": "PRY",
+        "value": 350613
+    },
+    {
+        "id": "PHL",
+        "value": 1216582
+    },
+    {
+        "id": "POL",
+        "value": 2871371
+    },
+    {
+        "id": "PRT",
+        "value": 848213
+    },
+    {
+        "id": "QAT",
+        "value": 217041
+    },
+    {
+        "id": "ROU",
+        "value": 1077426
+    },
+    {
+        "id": "RWA",
+        "value": 26892
+    },
+    {
+        "id": "KNA",
+        "value": 68
+    },
+    {
+        "id": "LCA",
+        "value": 5035
+    },
+    {
+        "id": "VCT",
+        "value": 2027
+    },
+    {
+        "id": "WSM",
+        "value": 3
+    },
+    {
+        "id": "SMR",
+        "value": 5089
+    },
+    {
+        "id": "STP",
+        "value": 2345
+    },
+    {
+        "id": "SAU",
+        "value": 448284
+    },
+    {
+        "id": "SEN",
+        "value": 41331
+    },
+    {
+        "id": "SRB",
+        "value": 712046
+    },
+    {
+        "id": "SYC",
+        "value": 11145
+    },
+    {
+        "id": "SLE",
+        "value": 4141
+    },
+    {
+        "id": "SGP",
+        "value": 62003
+    },
+    {
+        "id": "SVK",
+        "value": 389440
+    },
+    {
+        "id": "SVN",
+        "value": 253493
+    },
+    {
+        "id": "SLB",
+        "value": 20
+    },
+    {
+        "id": "SOM",
+        "value": 14653
+    },
+    {
+        "id": "ZAF",
+        "value": 1659070
+    },
+    {
+        "id": "South Korea",
+        "value": 139910
+    },
+    {
+        "id": "South Sudan",
+        "value": 10688
+    },
+    {
+        "id": "LKA",
+        "value": 180593
+    },
+    {
+        "id": "SDN",
+        "value": 35289
+    },
+    {
+        "id": "SUR",
+        "value": 14515
+    },
+    {
+        "id": "CHE",
+        "value": 693023
+    },
+    {
+        "id": "Syria",
+        "value": 24440
+    },
+    {
+        "id": "TWN",
+        "value": 7806
+    },
+    {
+        "id": "TJK",
+        "value": 13308
+    },
+    {
+        "id": "Tanzania",
+        "value": 509
+    },
+    {
+        "id": "THA",
+        "value": 151842
+    },
+    {
+        "id": "TLS",
+        "value": 6752
+    },
+    {
+        "id": "TGO",
+        "value": 13432
+    },
+    {
+        "id": "TTO",
+        "value": 23001
+    },
+    {
+        "id": "TUN",
+        "value": 343374
+    },
+    {
+        "id": "TUR",
+        "value": 5235978
+    },
+    {
+        "id": "UGA",
+        "value": 45931
+    },
+    {
+        "id": "ARE",
+        "value": 567263
+    },
+    {
+        "id": "URY",
+        "value": 288172
+    },
+    {
+        "id": "UZB",
+        "value": 99844
+    },
+    {
+        "id": "VUT",
+        "value": 4
+    },
+    {
+        "id": "VEN",
+        "value": 231443
+    },
+    {
+        "id": "Vietnam",
+        "value": 6908
+    },
+    {
+        "id": "West Bank and Gaza",
+        "value": 307838
+    },
+    {
+        "id": "YEM",
+        "value": 6731
+    },
+    {
+        "id": "ZMB",
+        "value": 94751
+    },
+    {
+        "id": "ZWE",
+        "value": 38933
+    },
+    {
+        "id": "ITA",
+        "value": 4213055
+    },
+    {
+        "id": "BRA",
+        "value": 16471600
+    },
+    {
+        "id": "RUS",
+        "value": 4995613
+    },
+    {
+        "id": "MEX",
+        "value": 2411503
+    },
+    {
+        "id": "JPN",
+        "value": 742539
+    },
+    {
+        "id": "IND",
+        "value": 27894800
+    },
+    {
+        "id": "USA",
+        "value": 33251939
+    },
+    {
+        "id": "CAN",
+        "value": 1384373
+    },
+    {
+        "id": "COL",
+        "value": 3363061
+    },
+    {
+        "id": "PER",
+        "value": 1947555
+    },
+    {
+        "id": "ESP",
+        "value": 3668658
+    },
+    {
+        "id": "UK",
+        "value": 4496823
+    },
+    {
+        "id": "CHN",
+        "value": 91072
+    },
+    {
+        "id": "CHL",
+        "value": 1369597
+    },
+    {
+        "id": "BEL",
+        "value": 1059763
+    },
+    {
+        "id": "NLD",
+        "value": 1671967
+    },
+    {
+        "id": "AUS",
+        "value": 30096
+    },
+    {
+        "id": "PAK",
+        "value": 918936
+    },
+    {
+        "id": "DEU",
+        "value": 3684672
+    },
+    {
+        "id": "SWE",
+        "value": 1068473
+    },
+    {
+        "id": "UKR",
+        "value": 2257904
+    },
+    {
+        "id": "HKG",
+        "value": 11837
+    },
+    {
+        "id": "MAC",
+        "value": 51
+    }
+]

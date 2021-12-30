@@ -2,27 +2,191 @@
     "name": "World",
     "children": [
         {
-            "name": "South America",
+            "name": "Asia",
             "children": [
                 {
-                    "name": "Argentina",
-                    "confirmed": 3732263
+                    "name": "Afghanistan",
+                    "confirmed": 70111
                 },
                 {
-                    "name": "Brazil",
-                    "confirmed": 16471600
+                    "name": "Armenia",
+                    "confirmed": 222555
                 },
                 {
-                    "name": "Colombia",
-                    "confirmed": 3363061
+                    "name": "Azerbaijan",
+                    "confirmed": 333723
                 },
                 {
-                    "name": "Peru",
-                    "confirmed": 1947555
+                    "name": "Bahrain",
+                    "confirmed": 235698
                 },
                 {
-                    "name": "Chile",
-                    "confirmed": 1369597
+                    "name": "Bangladesh",
+                    "confirmed": 797386
+                },
+                {
+                    "name": "Bhutan",
+                    "confirmed": 1603
+                },
+                {
+                    "name": "Brunei",
+                    "confirmed": 241
+                },
+                {
+                    "name": "Burma",
+                    "confirmed": 143526
+                },
+                {
+                    "name": "Cambodia",
+                    "confirmed": 28825
+                },
+                {
+                    "name": "Cyprus",
+                    "confirmed": 72363
+                },
+                {
+                    "name": "Georgia",
+                    "confirmed": 342880
+                },
+                {
+                    "name": "Indonesia",
+                    "confirmed": 1809926
+                },
+                {
+                    "name": "Iran",
+                    "confirmed": 2893218
+                },
+                {
+                    "name": "Iraq",
+                    "confirmed": 1193608
+                },
+                {
+                    "name": "Israel",
+                    "confirmed": 839453
+                },
+                {
+                    "name": "Jordan",
+                    "confirmed": 734659
+                },
+                {
+                    "name": "Kazakhstan",
+                    "confirmed": 438715
+                },
+                {
+                    "name": "Kuwait",
+                    "confirmed": 306717
+                },
+                {
+                    "name": "Kyrgyzstan",
+                    "confirmed": 104222
+                },
+                {
+                    "name": "Lebanon",
+                    "confirmed": 540132
+                },
+                {
+                    "name": "Malaysia",
+                    "confirmed": 558534
+                },
+                {
+                    "name": "Maldives",
+                    "confirmed": 62906
+                },
+                {
+                    "name": "Mongolia",
+                    "confirmed": 56621
+                },
+                {
+                    "name": "Nepal",
+                    "confirmed": 553422
+                },
+                {
+                    "name": "Oman",
+                    "confirmed": 213784
+                },
+                {
+                    "name": "Philippines",
+                    "confirmed": 1216582
+                },
+                {
+                    "name": "Qatar",
+                    "confirmed": 217041
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "confirmed": 448284
+                },
+                {
+                    "name": "Singapore",
+                    "confirmed": 62003
+                },
+                {
+                    "name": "South Korea",
+                    "confirmed": 139910
+                },
+                {
+                    "name": "Sri Lanka",
+                    "confirmed": 180593
+                },
+                {
+                    "name": "Syria",
+                    "confirmed": 24440
+                },
+                {
+                    "name": "Taiwan",
+                    "confirmed": 7806
+                },
+                {
+                    "name": "Tajikistan",
+                    "confirmed": 13308
+                },
+                {
+                    "name": "Thailand",
+                    "confirmed": 151842
+                },
+                {
+                    "name": "Turkey",
+                    "confirmed": 5235978
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "confirmed": 567263
+                },
+                {
+                    "name": "Uzbekistan",
+                    "confirmed": 99844
+                },
+                {
+                    "name": "Vietnam",
+                    "confirmed": 6908
+                },
+                {
+                    "name": "West Bank and Gaza",
+                    "confirmed": 307838
+                },
+                {
+                    "name": "Yemen",
+                    "confirmed": 6731
+                },
+                {
+                    "name": "Japan",
+                    "confirmed": 742539
+                },
+                {
+                    "name": "India",
+                    "confirmed": 27894800
+                },
+                {
+                    "name": "China",
+                    "confirmed": 91072
+                },
+                {
+                    "name": "Pakistan",
+                    "confirmed": 918936
+                },
+                {
+                    "name": "Hong Kong",
+                    "confirmed": 11837
                 }
             ]
         },
@@ -30,20 +194,144 @@
             "name": "Europe",
             "children": [
                 {
+                    "name": "Albania",
+                    "confirmed": 132297
+                },
+                {
+                    "name": "Andorra",
+                    "confirmed": 13693
+                },
+                {
+                    "name": "Austria",
+                    "confirmed": 644207
+                },
+                {
+                    "name": "Belarus",
+                    "confirmed": 392629
+                },
+                {
+                    "name": "Bosnia and Herzegovina",
+                    "confirmed": 203839
+                },
+                {
+                    "name": "Bulgaria",
+                    "confirmed": 418221
+                },
+                {
+                    "name": "Croatia",
+                    "confirmed": 355955
+                },
+                {
                     "name": "Czech Republic",
                     "confirmed": 1660935
+                },
+                {
+                    "name": "Denmark",
+                    "confirmed": 280183
+                },
+                {
+                    "name": "Estonia",
+                    "confirmed": 129424
+                },
+                {
+                    "name": "Finland",
+                    "confirmed": 92244
                 },
                 {
                     "name": "France",
                     "confirmed": 5719877
                 },
                 {
+                    "name": "Greece",
+                    "confirmed": 400395
+                },
+                {
+                    "name": "Hungary",
+                    "confirmed": 804032
+                },
+                {
+                    "name": "Iceland",
+                    "confirmed": 6555
+                },
+                {
+                    "name": "Ireland",
+                    "confirmed": 254870
+                },
+                {
+                    "name": "Kosovo",
+                    "confirmed": 106946
+                },
+                {
+                    "name": "Latvia",
+                    "confirmed": 132918
+                },
+                {
+                    "name": "Liechtenstein",
+                    "confirmed": 3008
+                },
+                {
+                    "name": "Lithuania",
+                    "confirmed": 273866
+                },
+                {
+                    "name": "Luxembourg",
+                    "confirmed": 69830
+                },
+                {
+                    "name": "Malta",
+                    "confirmed": 30529
+                },
+                {
+                    "name": "Moldova",
+                    "confirmed": 255105
+                },
+                {
+                    "name": "Monaco",
+                    "confirmed": 2503
+                },
+                {
+                    "name": "Montenegro",
+                    "confirmed": 99566
+                },
+                {
+                    "name": "North Macedonia",
+                    "confirmed": 155246
+                },
+                {
+                    "name": "Norway",
+                    "confirmed": 124655
+                },
+                {
                     "name": "Poland",
                     "confirmed": 2871371
                 },
                 {
+                    "name": "Portugal",
+                    "confirmed": 848213
+                },
+                {
                     "name": "Romania",
                     "confirmed": 1077426
+                },
+                {
+                    "name": "San Marino",
+                    "confirmed": 5089
+                },
+                {
+                    "name": "Serbia",
+                    "confirmed": 712046
+                },
+                {
+                    "name": "Slovakia",
+                    "confirmed": 389440
+                },
+                {
+                    "name": "Slovenia",
+                    "confirmed": 253493
+                },
+                {
+                    "name": "Switzerland",
+                    "confirmed": 693023
                 },
                 {
                     "name": "Italy",
@@ -84,46 +372,305 @@
             ]
         },
         {
-            "name": "Asia",
-            "children": [
-                {
-                    "name": "Indonesia",
-                    "confirmed": 1809926
-                },
-                {
-                    "name": "Iran",
-                    "confirmed": 2893218
-                },
-                {
-                    "name": "Iraq",
-                    "confirmed": 1193608
-                },
-                {
-                    "name": "Philippines",
-                    "confirmed": 1216582
-                },
-                {
-                    "name": "Turkey",
-                    "confirmed": 5235978
-                },
-                {
-                    "name": "India",
-                    "confirmed": 27894800
-                }
-            ]
-        },
-        {
             "name": "Africa",
             "children": [
                 {
+                    "name": "Algeria",
+                    "confirmed": 128456
+                },
+                {
+                    "name": "Angola",
+                    "confirmed": 34180
+                },
+                {
+                    "name": "Benin",
+                    "confirmed": 8058
+                },
+                {
+                    "name": "Botswana",
+                    "confirmed": 53771
+                },
+                {
+                    "name": "Burkina Faso",
+                    "confirmed": 13430
+                },
+                {
+                    "name": "Burundi",
+                    "confirmed": 4715
+                },
+                {
+                    "name": "Cabo Verde",
+                    "confirmed": 30273
+                },
+                {
+                    "name": "Cameroon",
+                    "confirmed": 78929
+                },
+                {
+                    "name": "Central African Republic",
+                    "confirmed": 7085
+                },
+                {
+                    "name": "Chad",
+                    "confirmed": 4928
+                },
+                {
+                    "name": "Comoros",
+                    "confirmed": 3881
+                },
+                {
+                    "name": "Congo (Brazzaville)",
+                    "confirmed": 11658
+                },
+                {
+                    "name": "Congo (Kinshasa)",
+                    "confirmed": 31416
+                },
+                {
+                    "name": "Djibouti",
+                    "confirmed": 11523
+                },
+                {
+                    "name": "Egypt",
+                    "confirmed": 260659
+                },
+                {
+                    "name": "Equatorial Guinea",
+                    "confirmed": 8529
+                },
+                {
+                    "name": "Eritrea",
+                    "confirmed": 4061
+                },
+                {
+                    "name": "Eswatini",
+                    "confirmed": 18589
+                },
+                {
+                    "name": "Ethiopia",
+                    "confirmed": 271200
+                },
+                {
+                    "name": "Gabon",
+                    "confirmed": 24365
+                },
+                {
+                    "name": "Gambia",
+                    "confirmed": 5990
+                },
+                {
+                    "name": "Ghana",
+                    "confirmed": 93775
+                },
+                {
+                    "name": "Guinea",
+                    "confirmed": 23172
+                },
+                {
+                    "name": "Guinea-Bissau",
+                    "confirmed": 3761
+                },
+                {
+                    "name": "Kenya",
+                    "confirmed": 170485
+                },
+                {
+                    "name": "Lesotho",
+                    "confirmed": 10825
+                },
+                {
+                    "name": "Liberia",
+                    "confirmed": 2179
+                },
+                {
+                    "name": "Libya",
+                    "confirmed": 184815
+                },
+                {
+                    "name": "Madagascar",
+                    "confirmed": 41234
+                },
+                {
+                    "name": "Malawi",
+                    "confirmed": 34329
+                },
+                {
+                    "name": "Mali",
+                    "confirmed": 14265
+                },
+                {
+                    "name": "Mauritania",
+                    "confirmed": 19463
+                },
+                {
+                    "name": "Mauritius",
+                    "confirmed": 1363
+                },
+                {
+                    "name": "Morocco",
+                    "confirmed": 518868
+                },
+                {
+                    "name": "Mozambique",
+                    "confirmed": 70724
+                },
+                {
+                    "name": "Namibia",
+                    "confirmed": 54659
+                },
+                {
+                    "name": "Niger",
+                    "confirmed": 5410
+                },
+                {
+                    "name": "Nigeria",
+                    "confirmed": 166285
+                },
+                {
+                    "name": "Rwanda",
+                    "confirmed": 26892
+                },
+                {
+                    "name": "Sao Tome and Principe",
+                    "confirmed": 2345
+                },
+                {
+                    "name": "Senegal",
+                    "confirmed": 41331
+                },
+                {
+                    "name": "Seychelles",
+                    "confirmed": 11145
+                },
+                {
+                    "name": "Sierra Leone",
+                    "confirmed": 4141
+                },
+                {
+                    "name": "Somalia",
+                    "confirmed": 14653
+                },
+                {
                     "name": "South Africa",
                     "confirmed": 1659070
+                },
+                {
+                    "name": "South Sudan",
+                    "confirmed": 10688
+                },
+                {
+                    "name": "Sudan",
+                    "confirmed": 35289
+                },
+                {
+                    "name": "Tanzania",
+                    "confirmed": 509
+                },
+                {
+                    "name": "Togo",
+                    "confirmed": 13432
+                },
+                {
+                    "name": "Tunisia",
+                    "confirmed": 343374
+                },
+                {
+                    "name": "Uganda",
+                    "confirmed": 45931
+                },
+                {
+                    "name": "Zambia",
+                    "confirmed": 94751
+                },
+                {
+                    "name": "Zimbabwe",
+                    "confirmed": 38933
                 }
             ]
         },
         {
             "name": "North America",
             "children": [
+                {
+                    "name": "Antigua and Barbuda",
+                    "confirmed": 1259
+                },
+                {
+                    "name": "Bahamas",
+                    "confirmed": 11745
+                },
+                {
+                    "name": "Barbados",
+                    "confirmed": 4012
+                },
+                {
+                    "name": "Belize",
+                    "confirmed": 12791
+                },
+                {
+                    "name": "Costa Rica",
+                    "confirmed": 314102
+                },
+                {
+                    "name": "Cuba",
+                    "confirmed": 140087
+                },
+                {
+                    "name": "Dominica",
+                    "confirmed": 188
+                },
+                {
+                    "name": "Dominican Republic",
+                    "confirmed": 290526
+                },
+                {
+                    "name": "El Salvador",
+                    "confirmed": 73246
+                },
+                {
+                    "name": "Grenada",
+                    "confirmed": 161
+                },
+                {
+                    "name": "Guatemala",
+                    "confirmed": 253837
+                },
+                {
+                    "name": "Haiti",
+                    "confirmed": 14128
+                },
+                {
+                    "name": "Honduras",
+                    "confirmed": 236952
+                },
+                {
+                    "name": "Jamaica",
+                    "confirmed": 48374
+                },
+                {
+                    "name": "Nicaragua",
+                    "confirmed": 7324
+                },
+                {
+                    "name": "Panama",
+                    "confirmed": 377428
+                },
+                {
+                    "name": "Saint Kitts and Nevis",
+                    "confirmed": 68
+                },
+                {
+                    "name": "Saint Lucia",
+                    "confirmed": 5035
+                },
+                {
+                    "name": "Saint Vincent and the Grenadines",
+                    "confirmed": 2027
+                },
+                {
+                    "name": "Trinidad and Tobago",
+                    "confirmed": 23001
+                },
                 {
                     "name": "Mexico",
                     "confirmed": 2411503
@@ -135,6 +682,168 @@
                 {
                     "name": "Canada",
                     "confirmed": 1384373
+                }
+            ]
+        },
+        {
+            "name": "South America",
+            "children": [
+                {
+                    "name": "Argentina",
+                    "confirmed": 3732263
+                },
+                {
+                    "name": "Bolivia",
+                    "confirmed": 366714
+                },
+                {
+                    "name": "Ecuador",
+                    "confirmed": 424741
+                },
+                {
+                    "name": "Guyana",
+                    "confirmed": 16822
+                },
+                {
+                    "name": "Paraguay",
+                    "confirmed": 350613
+                },
+                {
+                    "name": "Suriname",
+                    "confirmed": 14515
+                },
+                {
+                    "name": "Uruguay",
+                    "confirmed": 288172
+                },
+                {
+                    "name": "Venezuela",
+                    "confirmed": 231443
+                },
+                {
+                    "name": "Brazil",
+                    "confirmed": 16471600
+                },
+                {
+                    "name": "Colombia",
+                    "confirmed": 3363061
+                },
+                {
+                    "name": "Peru",
+                    "confirmed": 1947555
+                },
+                {
+                    "name": "Chile",
+                    "confirmed": 1369597
+                }
+            ]
+        },
+        {
+            "name": "Diamond Princess",
+            "children": [
+                {
+                    "name": "Diamond Princess",
+                    "confirmed": 712
+                }
+            ]
+        },
+        {
+            "name": "Oceania",
+            "children": [
+                {
+                    "name": "Fiji",
+                    "confirmed": 360
+                },
+                {
+                    "name": "Kiribati",
+                    "confirmed": 2
+                },
+                {
+                    "name": "Marshall Islands",
+                    "confirmed": 4
+                },
+                {
+                    "name": "Micronesia",
+                    "confirmed": 1
+                },
+                {
+                    "name": "New Zealand",
+                    "confirmed": 2672
+                },
+                {
+                    "name": "Papua New Guinea",
+                    "confirmed": 15772
+                },
+                {
+                    "name": "Samoa",
+                    "confirmed": 3
+                },
+                {
+                    "name": "Solomon Islands",
+                    "confirmed": 20
+                },
+                {
+                    "name": "Vanuatu",
+                    "confirmed": 4
+                },
+                {
+                    "name": "Australia",
+                    "confirmed": 30096
+                }
+            ]
+        },
+        {
+            "name": "Holy See",
+            "children": [
+                {
+                    "name": "Holy See",
+                    "confirmed": 27
+                }
+            ]
+        },
+        {
+            "name": "Ivory Coast",
+            "children": [
+                {
+                    "name": "Ivory Coast",
+                    "confirmed": 47233
+                }
+            ]
+        },
+        {
+            "name": "Laos",
+            "children": [
+                {
+                    "name": "Laos",
+                    "confirmed": 1908
+                }
+            ],
+            "confirmed": 1908
+        },
+        {
+            "name": "MS Zaandam",
+            "children": [
+                {
+                    "name": "MS Zaandam",
+                    "confirmed": 9
+                }
+            ]
+        },
+        {
+            "name": "Timor-Leste",
+            "children": [
+                {
+                    "name": "Timor-Leste",
+                    "confirmed": 6752
+                }
+            ]
+        },
+        {
+            "name": "Macau",
+            "children": [
+                {
+                    "name": "Macau",
+                    "confirmed": 51
                 }
             ]
         }

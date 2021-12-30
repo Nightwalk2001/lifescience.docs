@@ -17,7 +17,7 @@ const data = flatGroup((TreeData as TreemapData[]), i => i.country)
     confirmed: sum(i[1], i => i.confirmed),
     continent: i[1][0].continent
   }))
-  .filter(i => i.confirmed > 1000000)
+// .filter(i => i.confirmed > 1000000)
 
 const children = flatGroup(
   data.map(i => ({
@@ -78,8 +78,8 @@ export const CovidCountGeo = () => {
       .attr("width", d => d.x1 - d.x0)
       .attr("height", d => d.y1 - d.y0)
       .style("stroke", "#ec77c7")
-      // @ts-ignore
-      .style("fill", d => color((d?.parent?.name)) as string ? color((d.parent.name)) as string : "#123456")
+    // @ts-ignore
+    // .style("fill", d => color((d?.parent?.name)) as string ? color((d.parent.name)) as string : "#123456")
 
     svg.selectAll("text")
       .data(rootWithPosition.leaves().filter(i => i.depth !== 1))
