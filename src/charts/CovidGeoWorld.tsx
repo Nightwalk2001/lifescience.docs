@@ -1,9 +1,9 @@
 import {ResponsiveChoropleth} from "@nivo/geo"
 import {extent} from "d3"
-import df from "./json/df_tm.json"
-import Fea from "./json/features.json"
+import Fea from "./json/global.json"
+import df from "./json/global_confirmed.json"
 
-export const GeoTest = ({className}: { className: string }) => <div className={className}>
+export const CovidGeoWorld = ({className}: { className: string }) => <div className={className}>
   <ResponsiveChoropleth
     data={df}
     features={Fea.features}

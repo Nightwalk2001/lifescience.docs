@@ -1,4 +1,4 @@
-import {CovidTreemap, GeoTest} from "@/charts"
+import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidTreemap} from "@/charts"
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div
@@ -35,7 +35,9 @@ const biostatistics: NextPage = () => <div
   <p className={"self-start"}>
     下面是使用各国家感染者数量画出的地理图
   </p>
-  <GeoTest className={"w-[900px] h-[400px]"}/>
+  <CovidGeoWorld className={"w-[900px] h-[400px]"}/>
+  <CovidGeoUsa/>
+  <CovidGeoIndia/>
 </div>
 
 export default biostatistics

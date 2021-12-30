@@ -1,0 +1,234 @@
+[
+    {
+        "state": "Alabama",
+        "confirmed": "543405.0"
+    },
+    {
+        "state": "Alaska",
+        "confirmed": "70208.0"
+    },
+    {
+        "state": "Arizona",
+        "confirmed": "880466.0"
+    },
+    {
+        "state": "Arkansas",
+        "confirmed": "341290.0"
+    },
+    {
+        "state": "California",
+        "confirmed": "3788713.0"
+    },
+    {
+        "state": "Colorado",
+        "confirmed": "542405.0"
+    },
+    {
+        "state": "Connecticut",
+        "confirmed": "347341.0"
+    },
+    {
+        "state": "Delaware",
+        "confirmed": "108770.0"
+    },
+    {
+        "state": "Diamond Princess cruise ship",
+        "confirmed": "49.0"
+    },
+    {
+        "state": "District of Columbia",
+        "confirmed": "48898.0"
+    },
+    {
+        "state": "Florida",
+        "confirmed": "2320818.0"
+    },
+    {
+        "state": "Georgia",
+        "confirmed": "1123343.0"
+    },
+    {
+        "state": "Grand Princess",
+        "confirmed": "103.0"
+    },
+    {
+        "state": "Guam",
+        "confirmed": "8156.0"
+    },
+    {
+        "state": "Hawaii",
+        "confirmed": "36124.0"
+    },
+    {
+        "state": "Idaho",
+        "confirmed": "192012.0"
+    },
+    {
+        "state": "Illinois",
+        "confirmed": "1380978.0"
+    },
+    {
+        "state": "Indiana",
+        "confirmed": "743338.0"
+    },
+    {
+        "state": "Iowa",
+        "confirmed": "371331.0"
+    },
+    {
+        "state": "Kansas",
+        "confirmed": "315331.0"
+    },
+    {
+        "state": "Kentucky",
+        "confirmed": "458275.0"
+    },
+    {
+        "state": "Louisiana",
+        "confirmed": "470685.0"
+    },
+    {
+        "state": "Maine",
+        "confirmed": "67658.0"
+    },
+    {
+        "state": "Maryland",
+        "confirmed": "459528.0"
+    },
+    {
+        "state": "Massachusetts",
+        "confirmed": "706783.0"
+    },
+    {
+        "state": "Michigan",
+        "confirmed": "991941.0"
+    },
+    {
+        "state": "Minnesota",
+        "confirmed": "601105.0"
+    },
+    {
+        "state": "Mississippi",
+        "confirmed": "317407.0"
+    },
+    {
+        "state": "Missouri",
+        "confirmed": "606075.0"
+    },
+    {
+        "state": "Montana",
+        "confirmed": "111785.0"
+    },
+    {
+        "state": "Nebraska",
+        "confirmed": "223304.0"
+    },
+    {
+        "state": "Nevada",
+        "confirmed": "323748.0"
+    },
+    {
+        "state": "New Hampshire",
+        "confirmed": "98699.0"
+    },
+    {
+        "state": "New Jersey",
+        "confirmed": "1015889.0"
+    },
+    {
+        "state": "New Mexico",
+        "confirmed": "202821.0"
+    },
+    {
+        "state": "New York",
+        "confirmed": "2101055.0"
+    },
+    {
+        "state": "North Carolina",
+        "confirmed": "1001154.0"
+    },
+    {
+        "state": "North Dakota",
+        "confirmed": "109915.0"
+    },
+    {
+        "state": "Northern Mariana Islands",
+        "confirmed": "183.0"
+    },
+    {
+        "state": "Ohio",
+        "confirmed": "1101557.0"
+    },
+    {
+        "state": "Oklahoma",
+        "confirmed": "452777.0"
+    },
+    {
+        "state": "Oregon",
+        "confirmed": "201005.0"
+    },
+    {
+        "state": "Pennsylvania",
+        "confirmed": "1202912.0"
+    },
+    {
+        "state": "Puerto Rico",
+        "confirmed": "138579.0"
+    },
+    {
+        "state": "Recovered",
+        "confirmed": "0.0"
+    },
+    {
+        "state": "Rhode Island",
+        "confirmed": "151743.0"
+    },
+    {
+        "state": "South Carolina",
+        "confirmed": "592912.0"
+    },
+    {
+        "state": "South Dakota",
+        "confirmed": "124162.0"
+    },
+    {
+        "state": "Tennessee",
+        "confirmed": "862401.0"
+    },
+    {
+        "state": "Texas",
+        "confirmed": "2952861.0"
+    },
+    {
+        "state": "Utah",
+        "confirmed": "405851.0"
+    },
+    {
+        "state": "Vermont",
+        "confirmed": "24200.0"
+    },
+    {
+        "state": "Virgin Islands",
+        "confirmed": "3442.0"
+    },
+    {
+        "state": "Virginia",
+        "confirmed": "675165.0"
+    },
+    {
+        "state": "Washington",
+        "confirmed": "435849.0"
+    },
+    {
+        "state": "West Virginia",
+        "confirmed": "161287.0"
+    },
+    {
+        "state": "Wisconsin",
+        "confirmed": "674003.0"
+    },
+    {
+        "state": "Wyoming",
+        "confirmed": "60144.0"
+    }
+]

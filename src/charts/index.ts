@@ -1,3 +1,4 @@
-export * from "./CovidCountGeo"
 export * from "./CovidTreemap"
-export * from "./GeoTest"
+export * from "./CovidGeoWorld"
+export * from "./CovidGeoUsa"
+export * from "./CovidGeoIndia"

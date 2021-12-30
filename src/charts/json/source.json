@@ -1,0 +1,3827 @@
+[
+    {
+        "Province_State": null,
+        "Country_Region": "Afghanistan",
+        "ConfirmedCases": "70111.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Albania",
+        "ConfirmedCases": "132297.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Algeria",
+        "ConfirmedCases": "128456.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Andorra",
+        "ConfirmedCases": "13693.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Angola",
+        "ConfirmedCases": "34180.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Antigua and Barbuda",
+        "ConfirmedCases": "1259.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Argentina",
+        "ConfirmedCases": "3732263.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Armenia",
+        "ConfirmedCases": "222555.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Austria",
+        "ConfirmedCases": "644207.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Azerbaijan",
+        "ConfirmedCases": "333723.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bahamas",
+        "ConfirmedCases": "11745.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bahrain",
+        "ConfirmedCases": "235698.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bangladesh",
+        "ConfirmedCases": "797386.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Barbados",
+        "ConfirmedCases": "4012.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Belarus",
+        "ConfirmedCases": "392629.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Belize",
+        "ConfirmedCases": "12791.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Benin",
+        "ConfirmedCases": "8058.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bhutan",
+        "ConfirmedCases": "1603.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bolivia",
+        "ConfirmedCases": "366714.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bosnia and Herzegovina",
+        "ConfirmedCases": "203839.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Botswana",
+        "ConfirmedCases": "53771.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Brunei",
+        "ConfirmedCases": "241.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Bulgaria",
+        "ConfirmedCases": "418221.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Burkina Faso",
+        "ConfirmedCases": "13430.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Burma",
+        "ConfirmedCases": "143526.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Burundi",
+        "ConfirmedCases": "4715.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Cabo Verde",
+        "ConfirmedCases": "30273.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Cambodia",
+        "ConfirmedCases": "28825.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Cameroon",
+        "ConfirmedCases": "78929.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Central African Republic",
+        "ConfirmedCases": "7085.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Chad",
+        "ConfirmedCases": "4928.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Comoros",
+        "ConfirmedCases": "3881.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Congo (Brazzaville)",
+        "ConfirmedCases": "11658.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Congo (Kinshasa)",
+        "ConfirmedCases": "31416.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Costa Rica",
+        "ConfirmedCases": "314102.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Croatia",
+        "ConfirmedCases": "355955.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Cuba",
+        "ConfirmedCases": "140087.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Cyprus",
+        "ConfirmedCases": "72363.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Czech Republic",
+        "ConfirmedCases": "1660935.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Denmark",
+        "ConfirmedCases": "279434.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Diamond Princess",
+        "ConfirmedCases": "712.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Djibouti",
+        "ConfirmedCases": "11523.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Dominica",
+        "ConfirmedCases": "188.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Dominican Republic",
+        "ConfirmedCases": "290526.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Ecuador",
+        "ConfirmedCases": "424741.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Egypt",
+        "ConfirmedCases": "260659.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "El Salvador",
+        "ConfirmedCases": "73246.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Equatorial Guinea",
+        "ConfirmedCases": "8529.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Eritrea",
+        "ConfirmedCases": "4061.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Estonia",
+        "ConfirmedCases": "129424.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Eswatini",
+        "ConfirmedCases": "18589.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Ethiopia",
+        "ConfirmedCases": "271200.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Fiji",
+        "ConfirmedCases": "360.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Finland",
+        "ConfirmedCases": "92244.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "France",
+        "ConfirmedCases": "5600353.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Gabon",
+        "ConfirmedCases": "24365.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Gambia",
+        "ConfirmedCases": "5990.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Georgia",
+        "ConfirmedCases": "342880.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Ghana",
+        "ConfirmedCases": "93775.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Greece",
+        "ConfirmedCases": "400395.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Grenada",
+        "ConfirmedCases": "161.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Guatemala",
+        "ConfirmedCases": "253837.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Guinea",
+        "ConfirmedCases": "23172.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Guinea-Bissau",
+        "ConfirmedCases": "3761.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Guyana",
+        "ConfirmedCases": "16822.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Haiti",
+        "ConfirmedCases": "14128.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Holy See",
+        "ConfirmedCases": "27.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Honduras",
+        "ConfirmedCases": "236952.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Hungary",
+        "ConfirmedCases": "804032.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Iceland",
+        "ConfirmedCases": "6555.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Indonesia",
+        "ConfirmedCases": "1809926.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Iran",
+        "ConfirmedCases": "2893218.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Iraq",
+        "ConfirmedCases": "1193608.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Ireland",
+        "ConfirmedCases": "254870.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Israel",
+        "ConfirmedCases": "839453.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Ivory Coast",
+        "ConfirmedCases": "47233.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Jamaica",
+        "ConfirmedCases": "48374.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Jordan",
+        "ConfirmedCases": "734659.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kazakhstan",
+        "ConfirmedCases": "438715.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kenya",
+        "ConfirmedCases": "170485.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kiribati",
+        "ConfirmedCases": "2.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kosovo",
+        "ConfirmedCases": "106946.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kuwait",
+        "ConfirmedCases": "306717.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Kyrgyzstan",
+        "ConfirmedCases": "104222.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Laos",
+        "ConfirmedCases": "1908.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Latvia",
+        "ConfirmedCases": "132918.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Lebanon",
+        "ConfirmedCases": "540132.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Lesotho",
+        "ConfirmedCases": "10825.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Liberia",
+        "ConfirmedCases": "2179.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Libya",
+        "ConfirmedCases": "184815.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Liechtenstein",
+        "ConfirmedCases": "3008.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Lithuania",
+        "ConfirmedCases": "273866.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Luxembourg",
+        "ConfirmedCases": "69830.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "MS Zaandam",
+        "ConfirmedCases": "9.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Madagascar",
+        "ConfirmedCases": "41234.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Malawi",
+        "ConfirmedCases": "34329.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Malaysia",
+        "ConfirmedCases": "558534.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Maldives",
+        "ConfirmedCases": "62906.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Mali",
+        "ConfirmedCases": "14265.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Malta",
+        "ConfirmedCases": "30529.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Marshall Islands",
+        "ConfirmedCases": "4.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Mauritania",
+        "ConfirmedCases": "19463.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Mauritius",
+        "ConfirmedCases": "1363.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Micronesia",
+        "ConfirmedCases": "1.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Moldova",
+        "ConfirmedCases": "255105.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Monaco",
+        "ConfirmedCases": "2503.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Mongolia",
+        "ConfirmedCases": "56621.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Montenegro",
+        "ConfirmedCases": "99566.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Morocco",
+        "ConfirmedCases": "518868.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Mozambique",
+        "ConfirmedCases": "70724.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Namibia",
+        "ConfirmedCases": "54659.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Nepal",
+        "ConfirmedCases": "553422.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "New Zealand",
+        "ConfirmedCases": "2672.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Nicaragua",
+        "ConfirmedCases": "7324.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Niger",
+        "ConfirmedCases": "5410.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Nigeria",
+        "ConfirmedCases": "166285.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "North Macedonia",
+        "ConfirmedCases": "155246.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Norway",
+        "ConfirmedCases": "124655.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Oman",
+        "ConfirmedCases": "213784.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Panama",
+        "ConfirmedCases": "377428.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Papua New Guinea",
+        "ConfirmedCases": "15772.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Paraguay",
+        "ConfirmedCases": "350613.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Philippines",
+        "ConfirmedCases": "1216582.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Poland",
+        "ConfirmedCases": "2871371.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Portugal",
+        "ConfirmedCases": "848213.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Qatar",
+        "ConfirmedCases": "217041.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Romania",
+        "ConfirmedCases": "1077426.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Rwanda",
+        "ConfirmedCases": "26892.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Saint Kitts and Nevis",
+        "ConfirmedCases": "68.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Saint Lucia",
+        "ConfirmedCases": "5035.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Saint Vincent and the Grenadines",
+        "ConfirmedCases": "2027.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Samoa",
+        "ConfirmedCases": "3.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "San Marino",
+        "ConfirmedCases": "5089.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Sao Tome and Principe",
+        "ConfirmedCases": "2345.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Saudi Arabia",
+        "ConfirmedCases": "448284.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Senegal",
+        "ConfirmedCases": "41331.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Serbia",
+        "ConfirmedCases": "712046.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Seychelles",
+        "ConfirmedCases": "11145.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Sierra Leone",
+        "ConfirmedCases": "4141.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Singapore",
+        "ConfirmedCases": "62003.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Slovakia",
+        "ConfirmedCases": "389440.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Slovenia",
+        "ConfirmedCases": "253493.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Solomon Islands",
+        "ConfirmedCases": "20.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Somalia",
+        "ConfirmedCases": "14653.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "South Africa",
+        "ConfirmedCases": "1659070.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "South Korea",
+        "ConfirmedCases": "139910.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "South Sudan",
+        "ConfirmedCases": "10688.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Sri Lanka",
+        "ConfirmedCases": "180593.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Sudan",
+        "ConfirmedCases": "35289.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Suriname",
+        "ConfirmedCases": "14515.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Switzerland",
+        "ConfirmedCases": "693023.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Syria",
+        "ConfirmedCases": "24440.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Taiwan",
+        "ConfirmedCases": "7806.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Tajikistan",
+        "ConfirmedCases": "13308.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Tanzania",
+        "ConfirmedCases": "509.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Thailand",
+        "ConfirmedCases": "151842.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Timor-Leste",
+        "ConfirmedCases": "6752.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Togo",
+        "ConfirmedCases": "13432.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Trinidad and Tobago",
+        "ConfirmedCases": "23001.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Tunisia",
+        "ConfirmedCases": "343374.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Turkey",
+        "ConfirmedCases": "5235978.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Uganda",
+        "ConfirmedCases": "45931.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "United Arab Emirates",
+        "ConfirmedCases": "567263.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Uruguay",
+        "ConfirmedCases": "288172.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Uzbekistan",
+        "ConfirmedCases": "99844.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Vanuatu",
+        "ConfirmedCases": "4.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Venezuela",
+        "ConfirmedCases": "231443.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Vietnam",
+        "ConfirmedCases": "6908.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "West Bank and Gaza",
+        "ConfirmedCases": "307838.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Yemen",
+        "ConfirmedCases": "6731.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Zambia",
+        "ConfirmedCases": "94751.0"
+    },
+    {
+        "Province_State": null,
+        "Country_Region": "Zimbabwe",
+        "ConfirmedCases": "38933.0"
+    },
+    {
+        "Province_State": "Abruzzo",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "73972.0"
+    },
+    {
+        "Province_State": "Acre",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "82207.0"
+    },
+    {
+        "Province_State": "Adygea Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "14661.0"
+    },
+    {
+        "Province_State": "Aguascalientes",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "26501.0"
+    },
+    {
+        "Province_State": "Aichi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "46890.0"
+    },
+    {
+        "Province_State": "Akita",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "755.0"
+    },
+    {
+        "Province_State": "Alabama",
+        "Country_Region": "US",
+        "ConfirmedCases": "543405.0"
+    },
+    {
+        "Province_State": "Alagoas",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "192224.0"
+    },
+    {
+        "Province_State": "Alaska",
+        "Country_Region": "US",
+        "ConfirmedCases": "70208.0"
+    },
+    {
+        "Province_State": "Alberta",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "226855.0"
+    },
+    {
+        "Province_State": "Altai Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "51521.0"
+    },
+    {
+        "Province_State": "Altai Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "17025.0"
+    },
+    {
+        "Province_State": "Amapa",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "111763.0"
+    },
+    {
+        "Province_State": "Amazonas",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "385828.0"
+    },
+    {
+        "Province_State": "Amazonas",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "6326.0"
+    },
+    {
+        "Province_State": "Amazonas",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "28519.0"
+    },
+    {
+        "Province_State": "Amur Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "22713.0"
+    },
+    {
+        "Province_State": "Ancash",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "69291.0"
+    },
+    {
+        "Province_State": "Andalusia",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "581880.0"
+    },
+    {
+        "Province_State": "Andaman and Nicobar Islands",
+        "Country_Region": "India",
+        "ConfirmedCases": "6964.0"
+    },
+    {
+        "Province_State": "Andhra Pradesh",
+        "Country_Region": "India",
+        "ConfirmedCases": "1671742.0"
+    },
+    {
+        "Province_State": "Anguilla",
+        "Country_Region": "UK",
+        "ConfirmedCases": "109.0"
+    },
+    {
+        "Province_State": "Anhui",
+        "Country_Region": "China",
+        "ConfirmedCases": "1004.0"
+    },
+    {
+        "Province_State": "Antioquia",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "536911.0"
+    },
+    {
+        "Province_State": "Antofagasta",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "53081.0"
+    },
+    {
+        "Province_State": "Antwerp",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "137314.0"
+    },
+    {
+        "Province_State": "Aomori",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2340.0"
+    },
+    {
+        "Province_State": "Apurimac",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "22855.0"
+    },
+    {
+        "Province_State": "Aragon",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "123905.0"
+    },
+    {
+        "Province_State": "Arauca",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "7679.0"
+    },
+    {
+        "Province_State": "Araucania",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "82262.0"
+    },
+    {
+        "Province_State": "Arequipa",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "83145.0"
+    },
+    {
+        "Province_State": "Arica y Parinacota",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "22635.0"
+    },
+    {
+        "Province_State": "Arizona",
+        "Country_Region": "US",
+        "ConfirmedCases": "880466.0"
+    },
+    {
+        "Province_State": "Arkansas",
+        "Country_Region": "US",
+        "ConfirmedCases": "341290.0"
+    },
+    {
+        "Province_State": "Arkhangelsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "63649.0"
+    },
+    {
+        "Province_State": "Aruba",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "10974.0"
+    },
+    {
+        "Province_State": "Arunachal Pradesh",
+        "Country_Region": "India",
+        "ConfirmedCases": "26778.0"
+    },
+    {
+        "Province_State": "Assam",
+        "Country_Region": "India",
+        "ConfirmedCases": "403623.0"
+    },
+    {
+        "Province_State": "Astrakhan Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "34173.0"
+    },
+    {
+        "Province_State": "Asturias",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "52213.0"
+    },
+    {
+        "Province_State": "Atacama",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "21037.0"
+    },
+    {
+        "Province_State": "Atlantico",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "270962.0"
+    },
+    {
+        "Province_State": "Australian Capital Territory",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "124.0"
+    },
+    {
+        "Province_State": "Ayacucho",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "28764.0"
+    },
+    {
+        "Province_State": "Aysen",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "5774.0"
+    },
+    {
+        "Province_State": "Azad Jammu and Kashmir",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "19170.0"
+    },
+    {
+        "Province_State": "Baden-Wurttemberg",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "492181.0"
+    },
+    {
+        "Province_State": "Bahia",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "1010166.0"
+    },
+    {
+        "Province_State": "Baja California",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "49091.0"
+    },
+    {
+        "Province_State": "Baja California Sur",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "32041.0"
+    },
+    {
+        "Province_State": "Baleares",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "60364.0"
+    },
+    {
+        "Province_State": "Balochistan",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "25083.0"
+    },
+    {
+        "Province_State": "Bashkortostan Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "38021.0"
+    },
+    {
+        "Province_State": "Basilicata",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "26291.0"
+    },
+    {
+        "Province_State": "Bayern",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "638818.0"
+    },
+    {
+        "Province_State": "Beijing",
+        "Country_Region": "China",
+        "ConfirmedCases": "1059.0"
+    },
+    {
+        "Province_State": "Belgorod Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "38666.0"
+    },
+    {
+        "Province_State": "Berlin",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "178317.0"
+    },
+    {
+        "Province_State": "Bermuda",
+        "Country_Region": "UK",
+        "ConfirmedCases": "2491.0"
+    },
+    {
+        "Province_State": "Bihar",
+        "Country_Region": "India",
+        "ConfirmedCases": "704173.0"
+    },
+    {
+        "Province_State": "Biobio",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "129509.0"
+    },
+    {
+        "Province_State": "Blekinge",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "12519.0"
+    },
+    {
+        "Province_State": "Bolivar",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "100788.0"
+    },
+    {
+        "Province_State": "Bonaire, Sint Eustatius and Saba",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "1612.0"
+    },
+    {
+        "Province_State": "Boyaca",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "66128.0"
+    },
+    {
+        "Province_State": "Brandenburg",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "108201.0"
+    },
+    {
+        "Province_State": "Bremen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "27072.0"
+    },
+    {
+        "Province_State": "British Columbia",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "143581.0"
+    },
+    {
+        "Province_State": "British Virgin Islands",
+        "Country_Region": "UK",
+        "ConfirmedCases": "248.0"
+    },
+    {
+        "Province_State": "Brussels",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "130041.0"
+    },
+    {
+        "Province_State": "Bryansk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "40137.0"
+    },
+    {
+        "Province_State": "Buryatia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "38334.0"
+    },
+    {
+        "Province_State": "C. Valenciana",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "394360.0"
+    },
+    {
+        "Province_State": "Cajamarca",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "58177.0"
+    },
+    {
+        "Province_State": "Calabria",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "66736.0"
+    },
+    {
+        "Province_State": "Caldas",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "70734.0"
+    },
+    {
+        "Province_State": "California",
+        "Country_Region": "US",
+        "ConfirmedCases": "3788713.0"
+    },
+    {
+        "Province_State": "Callao",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "95043.0"
+    },
+    {
+        "Province_State": "Campania",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "418600.0"
+    },
+    {
+        "Province_State": "Campeche",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "10174.0"
+    },
+    {
+        "Province_State": "Canarias",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "56226.0"
+    },
+    {
+        "Province_State": "Cantabria",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "30178.0"
+    },
+    {
+        "Province_State": "Capital District",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "951083.0"
+    },
+    {
+        "Province_State": "Caqueta",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "18219.0"
+    },
+    {
+        "Province_State": "Casanare",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "20248.0"
+    },
+    {
+        "Province_State": "Castilla - La Mancha",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "192347.0"
+    },
+    {
+        "Province_State": "Castilla y Leon",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "230600.0"
+    },
+    {
+        "Province_State": "Catalonia",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "611008.0"
+    },
+    {
+        "Province_State": "Cauca",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "33920.0"
+    },
+    {
+        "Province_State": "Cayman Islands",
+        "Country_Region": "UK",
+        "ConfirmedCases": "581.0"
+    },
+    {
+        "Province_State": "Ceara",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "796885.0"
+    },
+    {
+        "Province_State": "Cesar",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "67073.0"
+    },
+    {
+        "Province_State": "Ceuta",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "5829.0"
+    },
+    {
+        "Province_State": "Chandigarh",
+        "Country_Region": "India",
+        "ConfirmedCases": "59740.0"
+    },
+    {
+        "Province_State": "Channel Islands",
+        "Country_Region": "UK",
+        "ConfirmedCases": "4065.0"
+    },
+    {
+        "Province_State": "Chechen Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "12272.0"
+    },
+    {
+        "Province_State": "Chelyabinsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "61657.0"
+    },
+    {
+        "Province_State": "Cherkasy Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "80553.0"
+    },
+    {
+        "Province_State": "Chernihiv Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "56642.0"
+    },
+    {
+        "Province_State": "Chernivtsi Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "79181.0"
+    },
+    {
+        "Province_State": "Chhattisgarh",
+        "Country_Region": "India",
+        "ConfirmedCases": "967645.0"
+    },
+    {
+        "Province_State": "Chiapas",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "11413.0"
+    },
+    {
+        "Province_State": "Chiba",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "36919.0"
+    },
+    {
+        "Province_State": "Chihuahua",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "55547.0"
+    },
+    {
+        "Province_State": "Choco",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "11361.0"
+    },
+    {
+        "Province_State": "Chongqing",
+        "Country_Region": "China",
+        "ConfirmedCases": "598.0"
+    },
+    {
+        "Province_State": "Chukotka Autonomous Okrug",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "767.0"
+    },
+    {
+        "Province_State": "Chuvashia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "25682.0"
+    },
+    {
+        "Province_State": "Ciudad de Mexico",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "657832.0"
+    },
+    {
+        "Province_State": "Coahuila",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "68802.0"
+    },
+    {
+        "Province_State": "Colima",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "11894.0"
+    },
+    {
+        "Province_State": "Colorado",
+        "Country_Region": "US",
+        "ConfirmedCases": "542405.0"
+    },
+    {
+        "Province_State": "Connecticut",
+        "Country_Region": "US",
+        "ConfirmedCases": "347341.0"
+    },
+    {
+        "Province_State": "Coquimbo",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "37357.0"
+    },
+    {
+        "Province_State": "Cordoba",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "62703.0"
+    },
+    {
+        "Province_State": "Crimea Republic*",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "43287.0"
+    },
+    {
+        "Province_State": "Cundinamarca",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "159489.0"
+    },
+    {
+        "Province_State": "Curacao",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "12271.0"
+    },
+    {
+        "Province_State": "Cusco",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "62115.0"
+    },
+    {
+        "Province_State": "Dadra and Nagar Haveli and Daman and Diu",
+        "Country_Region": "India",
+        "ConfirmedCases": "10214.0"
+    },
+    {
+        "Province_State": "Dagestan Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "33517.0"
+    },
+    {
+        "Province_State": "Dalarna",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "26484.0"
+    },
+    {
+        "Province_State": "Delaware",
+        "Country_Region": "US",
+        "ConfirmedCases": "108770.0"
+    },
+    {
+        "Province_State": "Delhi",
+        "Country_Region": "India",
+        "ConfirmedCases": "1424646.0"
+    },
+    {
+        "Province_State": "Diamond Princess cruise ship",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Diamond Princess cruise ship",
+        "Country_Region": "US",
+        "ConfirmedCases": "49.0"
+    },
+    {
+        "Province_State": "District of Columbia",
+        "Country_Region": "US",
+        "ConfirmedCases": "48898.0"
+    },
+    {
+        "Province_State": "Distrito Federal",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "404190.0"
+    },
+    {
+        "Province_State": "Dnipropetrovsk Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "133123.0"
+    },
+    {
+        "Province_State": "Donetsk Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "89146.0"
+    },
+    {
+        "Province_State": "Drenthe",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "33459.0"
+    },
+    {
+        "Province_State": "Durango",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "34205.0"
+    },
+    {
+        "Province_State": "East Flanders",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "121644.0"
+    },
+    {
+        "Province_State": "Ehime",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2709.0"
+    },
+    {
+        "Province_State": "Emilia-Romagna",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "383503.0"
+    },
+    {
+        "Province_State": "England",
+        "Country_Region": "UK",
+        "ConfirmedCases": "3910803.0"
+    },
+    {
+        "Province_State": "Espirito Santo",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "479996.0"
+    },
+    {
+        "Province_State": "Extremadura",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "75693.0"
+    },
+    {
+        "Province_State": "Falkland Islands (Malvinas)",
+        "Country_Region": "UK",
+        "ConfirmedCases": "63.0"
+    },
+    {
+        "Province_State": "Faroe Islands",
+        "Country_Region": "Denmark",
+        "ConfirmedCases": "712.0"
+    },
+    {
+        "Province_State": "Flemish Brabant",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "80625.0"
+    },
+    {
+        "Province_State": "Flevoland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "36282.0"
+    },
+    {
+        "Province_State": "Florida",
+        "Country_Region": "US",
+        "ConfirmedCases": "2320818.0"
+    },
+    {
+        "Province_State": "French Guiana",
+        "Country_Region": "France",
+        "ConfirmedCases": "23763.0"
+    },
+    {
+        "Province_State": "French Polynesia",
+        "Country_Region": "France",
+        "ConfirmedCases": "18860.0"
+    },
+    {
+        "Province_State": "Friesland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "42939.0"
+    },
+    {
+        "Province_State": "Friuli Venezia Giulia",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "106964.0"
+    },
+    {
+        "Province_State": "Fujian",
+        "Country_Region": "China",
+        "ConfirmedCases": "620.0"
+    },
+    {
+        "Province_State": "Fukui",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1038.0"
+    },
+    {
+        "Province_State": "Fukuoka",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "33916.0"
+    },
+    {
+        "Province_State": "Fukushima",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "4570.0"
+    },
+    {
+        "Province_State": "Galicia",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "126622.0"
+    },
+    {
+        "Province_State": "Gansu",
+        "Country_Region": "China",
+        "ConfirmedCases": "194.0"
+    },
+    {
+        "Province_State": "Gavleborg",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "35512.0"
+    },
+    {
+        "Province_State": "Gelderland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "183790.0"
+    },
+    {
+        "Province_State": "Georgia",
+        "Country_Region": "US",
+        "ConfirmedCases": "1123343.0"
+    },
+    {
+        "Province_State": "Gibraltar",
+        "Country_Region": "UK",
+        "ConfirmedCases": "4293.0"
+    },
+    {
+        "Province_State": "Gifu",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "8518.0"
+    },
+    {
+        "Province_State": "Gilgit-Baltistan",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "5572.0"
+    },
+    {
+        "Province_State": "Goa",
+        "Country_Region": "India",
+        "ConfirmedCases": "154419.0"
+    },
+    {
+        "Province_State": "Goias",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "606874.0"
+    },
+    {
+        "Province_State": "Gotland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "3939.0"
+    },
+    {
+        "Province_State": "Grand Princess",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "13.0"
+    },
+    {
+        "Province_State": "Grand Princess",
+        "Country_Region": "US",
+        "ConfirmedCases": "103.0"
+    },
+    {
+        "Province_State": "Greenland",
+        "Country_Region": "Denmark",
+        "ConfirmedCases": "37.0"
+    },
+    {
+        "Province_State": "Groningen",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "38476.0"
+    },
+    {
+        "Province_State": "Guadeloupe",
+        "Country_Region": "France",
+        "ConfirmedCases": "16517.0"
+    },
+    {
+        "Province_State": "Guainia",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "1753.0"
+    },
+    {
+        "Province_State": "Guam",
+        "Country_Region": "US",
+        "ConfirmedCases": "8156.0"
+    },
+    {
+        "Province_State": "Guanajuato",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "131934.0"
+    },
+    {
+        "Province_State": "Guangdong",
+        "Country_Region": "China",
+        "ConfirmedCases": "2432.0"
+    },
+    {
+        "Province_State": "Guangxi",
+        "Country_Region": "China",
+        "ConfirmedCases": "275.0"
+    },
+    {
+        "Province_State": "Guaviare",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "3010.0"
+    },
+    {
+        "Province_State": "Guerrero",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "41104.0"
+    },
+    {
+        "Province_State": "Guizhou",
+        "Country_Region": "China",
+        "ConfirmedCases": "147.0"
+    },
+    {
+        "Province_State": "Gujarat",
+        "Country_Region": "India",
+        "ConfirmedCases": "805617.0"
+    },
+    {
+        "Province_State": "Gunma",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "7797.0"
+    },
+    {
+        "Province_State": "Hainan",
+        "Country_Region": "China",
+        "ConfirmedCases": "188.0"
+    },
+    {
+        "Province_State": "Hainaut",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "156458.0"
+    },
+    {
+        "Province_State": "Halland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "40207.0"
+    },
+    {
+        "Province_State": "Hamburg",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "76167.0"
+    },
+    {
+        "Province_State": "Haryana",
+        "Country_Region": "India",
+        "ConfirmedCases": "753937.0"
+    },
+    {
+        "Province_State": "Hawaii",
+        "Country_Region": "US",
+        "ConfirmedCases": "36124.0"
+    },
+    {
+        "Province_State": "Hebei",
+        "Country_Region": "China",
+        "ConfirmedCases": "1317.0"
+    },
+    {
+        "Province_State": "Heilongjiang",
+        "Country_Region": "China",
+        "ConfirmedCases": "1612.0"
+    },
+    {
+        "Province_State": "Henan",
+        "Country_Region": "China",
+        "ConfirmedCases": "1314.0"
+    },
+    {
+        "Province_State": "Hessen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "286463.0"
+    },
+    {
+        "Province_State": "Hidalgo",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "38950.0"
+    },
+    {
+        "Province_State": "Himachal Pradesh",
+        "Country_Region": "India",
+        "ConfirmedCases": "188604.0"
+    },
+    {
+        "Province_State": "Hiroshima",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "10545.0"
+    },
+    {
+        "Province_State": "Hokkaido",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "37386.0"
+    },
+    {
+        "Province_State": "Hong Kong",
+        "Country_Region": "Hong Kong",
+        "ConfirmedCases": "11837.0"
+    },
+    {
+        "Province_State": "Huancavelica",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "14557.0"
+    },
+    {
+        "Province_State": "Huanuco",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "32073.0"
+    },
+    {
+        "Province_State": "Hubei",
+        "Country_Region": "China",
+        "ConfirmedCases": "68159.0"
+    },
+    {
+        "Province_State": "Huila",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "58395.0"
+    },
+    {
+        "Province_State": "Hunan",
+        "Country_Region": "China",
+        "ConfirmedCases": "1051.0"
+    },
+    {
+        "Province_State": "Hyogo",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "39715.0"
+    },
+    {
+        "Province_State": "Ibaraki",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "9700.0"
+    },
+    {
+        "Province_State": "Ica",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "52191.0"
+    },
+    {
+        "Province_State": "Idaho",
+        "Country_Region": "US",
+        "ConfirmedCases": "192012.0"
+    },
+    {
+        "Province_State": "Illinois",
+        "Country_Region": "US",
+        "ConfirmedCases": "1380978.0"
+    },
+    {
+        "Province_State": "Indiana",
+        "Country_Region": "US",
+        "ConfirmedCases": "743338.0"
+    },
+    {
+        "Province_State": "Ingushetia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "15754.0"
+    },
+    {
+        "Province_State": "Inner Mongolia",
+        "Country_Region": "China",
+        "ConfirmedCases": "387.0"
+    },
+    {
+        "Province_State": "Iowa",
+        "Country_Region": "US",
+        "ConfirmedCases": "371331.0"
+    },
+    {
+        "Province_State": "Irkutsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "69651.0"
+    },
+    {
+        "Province_State": "Ishikawa",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "3717.0"
+    },
+    {
+        "Province_State": "Islamabad",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "81116.0"
+    },
+    {
+        "Province_State": "Isle of Man",
+        "Country_Region": "UK",
+        "ConfirmedCases": "1592.0"
+    },
+    {
+        "Province_State": "Ivano-Frankivsk Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "86136.0"
+    },
+    {
+        "Province_State": "Ivanovo Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "36164.0"
+    },
+    {
+        "Province_State": "Iwate",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1427.0"
+    },
+    {
+        "Province_State": "Jalisco",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "87048.0"
+    },
+    {
+        "Province_State": "Jammu and Kashmir",
+        "Country_Region": "India",
+        "ConfirmedCases": "286684.0"
+    },
+    {
+        "Province_State": "Jamtland Harjedalen",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "12307.0"
+    },
+    {
+        "Province_State": "Jewish Autonomous Okrug",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "4494.0"
+    },
+    {
+        "Province_State": "Jharkhand",
+        "Country_Region": "India",
+        "ConfirmedCases": "336240.0"
+    },
+    {
+        "Province_State": "Jiangsu",
+        "Country_Region": "China",
+        "ConfirmedCases": "726.0"
+    },
+    {
+        "Province_State": "Jiangxi",
+        "Country_Region": "China",
+        "ConfirmedCases": "937.0"
+    },
+    {
+        "Province_State": "Jilin",
+        "Country_Region": "China",
+        "ConfirmedCases": "573.0"
+    },
+    {
+        "Province_State": "Jonkoping",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "42452.0"
+    },
+    {
+        "Province_State": "Junin",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "71816.0"
+    },
+    {
+        "Province_State": "Kabardino-Balkarian Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "24299.0"
+    },
+    {
+        "Province_State": "Kagawa",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1992.0"
+    },
+    {
+        "Province_State": "Kagoshima",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "3285.0"
+    },
+    {
+        "Province_State": "Kaliningrad Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "33435.0"
+    },
+    {
+        "Province_State": "Kalmar",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "23757.0"
+    },
+    {
+        "Province_State": "Kalmykia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "20793.0"
+    },
+    {
+        "Province_State": "Kaluga Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "35576.0"
+    },
+    {
+        "Province_State": "Kamchatka Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "14671.0"
+    },
+    {
+        "Province_State": "Kanagawa",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "61207.0"
+    },
+    {
+        "Province_State": "Kansas",
+        "Country_Region": "US",
+        "ConfirmedCases": "315331.0"
+    },
+    {
+        "Province_State": "Karachay-Cherkess Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "20419.0"
+    },
+    {
+        "Province_State": "Karelia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "47142.0"
+    },
+    {
+        "Province_State": "Karnataka",
+        "Country_Region": "India",
+        "ConfirmedCases": "2567449.0"
+    },
+    {
+        "Province_State": "Kemerovo Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "36864.0"
+    },
+    {
+        "Province_State": "Kentucky",
+        "Country_Region": "US",
+        "ConfirmedCases": "458275.0"
+    },
+    {
+        "Province_State": "Kerala",
+        "Country_Region": "India",
+        "ConfirmedCases": "2494385.0"
+    },
+    {
+        "Province_State": "Khabarovsk Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "52485.0"
+    },
+    {
+        "Province_State": "Khakassia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "23087.0"
+    },
+    {
+        "Province_State": "Khanty-Mansi Autonomous Okrug",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "57404.0"
+    },
+    {
+        "Province_State": "Kharkiv Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "146604.0"
+    },
+    {
+        "Province_State": "Kherson Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "34700.0"
+    },
+    {
+        "Province_State": "Khmelnytskyi Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "87901.0"
+    },
+    {
+        "Province_State": "Khyber Pakhtunkhwa",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "132170.0"
+    },
+    {
+        "Province_State": "Kiev",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "206278.0"
+    },
+    {
+        "Province_State": "Kiev Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "124996.0"
+    },
+    {
+        "Province_State": "Kirov Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "43824.0"
+    },
+    {
+        "Province_State": "Kirovohrad Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "20266.0"
+    },
+    {
+        "Province_State": "Kochi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1426.0"
+    },
+    {
+        "Province_State": "Komi Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "44080.0"
+    },
+    {
+        "Province_State": "Kostroma Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "21461.0"
+    },
+    {
+        "Province_State": "Krasnodar Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "48237.0"
+    },
+    {
+        "Province_State": "Krasnoyarsk Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "73319.0"
+    },
+    {
+        "Province_State": "Kronoberg",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "21641.0"
+    },
+    {
+        "Province_State": "Kumamoto",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "6224.0"
+    },
+    {
+        "Province_State": "Kurgan Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "21309.0"
+    },
+    {
+        "Province_State": "Kursk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "38321.0"
+    },
+    {
+        "Province_State": "Kyoto",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "15738.0"
+    },
+    {
+        "Province_State": "La Guajira",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "35886.0"
+    },
+    {
+        "Province_State": "La Libertad",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "77218.0"
+    },
+    {
+        "Province_State": "La Rioja",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "30749.0"
+    },
+    {
+        "Province_State": "Ladakh",
+        "Country_Region": "India",
+        "ConfirmedCases": "18448.0"
+    },
+    {
+        "Province_State": "Lakshadweep",
+        "Country_Region": "India",
+        "ConfirmedCases": "7631.0"
+    },
+    {
+        "Province_State": "Lambayeque",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "55184.0"
+    },
+    {
+        "Province_State": "Lazio",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "341494.0"
+    },
+    {
+        "Province_State": "Leningrad Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "45059.0"
+    },
+    {
+        "Province_State": "Liaoning",
+        "Country_Region": "China",
+        "ConfirmedCases": "425.0"
+    },
+    {
+        "Province_State": "Liege",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "128103.0"
+    },
+    {
+        "Province_State": "Liguria",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "102677.0"
+    },
+    {
+        "Province_State": "Lima",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "878346.0"
+    },
+    {
+        "Province_State": "Limburg",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "59629.0"
+    },
+    {
+        "Province_State": "Limburg",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "113085.0"
+    },
+    {
+        "Province_State": "Lipetsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "31557.0"
+    },
+    {
+        "Province_State": "Lombardia",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "834527.0"
+    },
+    {
+        "Province_State": "Loreto",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "39963.0"
+    },
+    {
+        "Province_State": "Los Lagos",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "76835.0"
+    },
+    {
+        "Province_State": "Los Rios",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "38703.0"
+    },
+    {
+        "Province_State": "Louisiana",
+        "Country_Region": "US",
+        "ConfirmedCases": "470685.0"
+    },
+    {
+        "Province_State": "Luhansk Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "26060.0"
+    },
+    {
+        "Province_State": "Luxembourg",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "30859.0"
+    },
+    {
+        "Province_State": "Lviv Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "135811.0"
+    },
+    {
+        "Province_State": "Macau",
+        "Country_Region": "Macau",
+        "ConfirmedCases": "51.0"
+    },
+    {
+        "Province_State": "Madhya Pradesh",
+        "Country_Region": "India",
+        "ConfirmedCases": "777349.0"
+    },
+    {
+        "Province_State": "Madre de Dios",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "13113.0"
+    },
+    {
+        "Province_State": "Madrid",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "714616.0"
+    },
+    {
+        "Province_State": "Magadan Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "8454.0"
+    },
+    {
+        "Province_State": "Magallanes",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "27698.0"
+    },
+    {
+        "Province_State": "Magdalena",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "69705.0"
+    },
+    {
+        "Province_State": "Maharashtra",
+        "Country_Region": "India",
+        "ConfirmedCases": "5713215.0"
+    },
+    {
+        "Province_State": "Maine",
+        "Country_Region": "US",
+        "ConfirmedCases": "67658.0"
+    },
+    {
+        "Province_State": "Manipur",
+        "Country_Region": "India",
+        "ConfirmedCases": "48850.0"
+    },
+    {
+        "Province_State": "Manitoba",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "50499.0"
+    },
+    {
+        "Province_State": "Maranhao",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "289670.0"
+    },
+    {
+        "Province_State": "Marche",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "102551.0"
+    },
+    {
+        "Province_State": "Mari El Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "13496.0"
+    },
+    {
+        "Province_State": "Martinique",
+        "Country_Region": "France",
+        "ConfirmedCases": "11789.0"
+    },
+    {
+        "Province_State": "Maryland",
+        "Country_Region": "US",
+        "ConfirmedCases": "459528.0"
+    },
+    {
+        "Province_State": "Massachusetts",
+        "Country_Region": "US",
+        "ConfirmedCases": "706783.0"
+    },
+    {
+        "Province_State": "Mato Grosso",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "402936.0"
+    },
+    {
+        "Province_State": "Mato Grosso do Sul",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "287157.0"
+    },
+    {
+        "Province_State": "Maule",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "83826.0"
+    },
+    {
+        "Province_State": "Mayotte",
+        "Country_Region": "France",
+        "ConfirmedCases": "20176.0"
+    },
+    {
+        "Province_State": "Mecklenburg-Vorpommern",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "43829.0"
+    },
+    {
+        "Province_State": "Meghalaya",
+        "Country_Region": "India",
+        "ConfirmedCases": "34448.0"
+    },
+    {
+        "Province_State": "Melilla",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "9098.0"
+    },
+    {
+        "Province_State": "Meta",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "52414.0"
+    },
+    {
+        "Province_State": "Metropolitana",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "569995.0"
+    },
+    {
+        "Province_State": "Mexico",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "250093.0"
+    },
+    {
+        "Province_State": "Michigan",
+        "Country_Region": "US",
+        "ConfirmedCases": "991941.0"
+    },
+    {
+        "Province_State": "Michoacan",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "48282.0"
+    },
+    {
+        "Province_State": "Mie",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "4872.0"
+    },
+    {
+        "Province_State": "Minas Gerais",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "1564200.0"
+    },
+    {
+        "Province_State": "Minnesota",
+        "Country_Region": "US",
+        "ConfirmedCases": "601105.0"
+    },
+    {
+        "Province_State": "Mississippi",
+        "Country_Region": "US",
+        "ConfirmedCases": "317407.0"
+    },
+    {
+        "Province_State": "Missouri",
+        "Country_Region": "US",
+        "ConfirmedCases": "606075.0"
+    },
+    {
+        "Province_State": "Miyagi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "8885.0"
+    },
+    {
+        "Province_State": "Miyazaki",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "3020.0"
+    },
+    {
+        "Province_State": "Mizoram",
+        "Country_Region": "India",
+        "ConfirmedCases": "11988.0"
+    },
+    {
+        "Province_State": "Molise",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "13579.0"
+    },
+    {
+        "Province_State": "Montana",
+        "Country_Region": "US",
+        "ConfirmedCases": "111785.0"
+    },
+    {
+        "Province_State": "Montserrat",
+        "Country_Region": "UK",
+        "ConfirmedCases": "20.0"
+    },
+    {
+        "Province_State": "Moquegua",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "24553.0"
+    },
+    {
+        "Province_State": "Mordovia Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "20906.0"
+    },
+    {
+        "Province_State": "Morelos",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "33549.0"
+    },
+    {
+        "Province_State": "Moscow",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "1173637.0"
+    },
+    {
+        "Province_State": "Moscow Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "269709.0"
+    },
+    {
+        "Province_State": "Murcia",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "112926.0"
+    },
+    {
+        "Province_State": "Murmansk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "51265.0"
+    },
+    {
+        "Province_State": "Mykolaiv Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "68370.0"
+    },
+    {
+        "Province_State": "Nagaland",
+        "Country_Region": "India",
+        "ConfirmedCases": "21371.0"
+    },
+    {
+        "Province_State": "Nagano",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "4767.0"
+    },
+    {
+        "Province_State": "Nagasaki",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2877.0"
+    },
+    {
+        "Province_State": "Namur",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "58543.0"
+    },
+    {
+        "Province_State": "Nara",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "7754.0"
+    },
+    {
+        "Province_State": "Narino",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "62822.0"
+    },
+    {
+        "Province_State": "Navarra",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "62232.0"
+    },
+    {
+        "Province_State": "Nayarit",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "12170.0"
+    },
+    {
+        "Province_State": "Nebraska",
+        "Country_Region": "US",
+        "ConfirmedCases": "223304.0"
+    },
+    {
+        "Province_State": "Nenets Autonomous Okrug",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "1106.0"
+    },
+    {
+        "Province_State": "Nevada",
+        "Country_Region": "US",
+        "ConfirmedCases": "323748.0"
+    },
+    {
+        "Province_State": "New Brunswick",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "2191.0"
+    },
+    {
+        "Province_State": "New Caledonia",
+        "Country_Region": "France",
+        "ConfirmedCases": "128.0"
+    },
+    {
+        "Province_State": "New Hampshire",
+        "Country_Region": "US",
+        "ConfirmedCases": "98699.0"
+    },
+    {
+        "Province_State": "New Jersey",
+        "Country_Region": "US",
+        "ConfirmedCases": "1015889.0"
+    },
+    {
+        "Province_State": "New Mexico",
+        "Country_Region": "US",
+        "ConfirmedCases": "202821.0"
+    },
+    {
+        "Province_State": "New South Wales",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "5585.0"
+    },
+    {
+        "Province_State": "New York",
+        "Country_Region": "US",
+        "ConfirmedCases": "2101055.0"
+    },
+    {
+        "Province_State": "Newfoundland and Labrador",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "1302.0"
+    },
+    {
+        "Province_State": "Niedersachsen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "257956.0"
+    },
+    {
+        "Province_State": "Niigata",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "3184.0"
+    },
+    {
+        "Province_State": "Ningxia",
+        "Country_Region": "China",
+        "ConfirmedCases": "76.0"
+    },
+    {
+        "Province_State": "Nizhny Novgorod Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "117825.0"
+    },
+    {
+        "Province_State": "Noord-Brabant",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "266579.0"
+    },
+    {
+        "Province_State": "Noord-Holland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "272379.0"
+    },
+    {
+        "Province_State": "Nordrhein-Westfalen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "804733.0"
+    },
+    {
+        "Province_State": "Norrbotten",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "24556.0"
+    },
+    {
+        "Province_State": "Norte de Santander",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "60886.0"
+    },
+    {
+        "Province_State": "North Carolina",
+        "Country_Region": "US",
+        "ConfirmedCases": "1001154.0"
+    },
+    {
+        "Province_State": "North Dakota",
+        "Country_Region": "US",
+        "ConfirmedCases": "109915.0"
+    },
+    {
+        "Province_State": "North Ossetia - Alania Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "16986.0"
+    },
+    {
+        "Province_State": "Northern Ireland",
+        "Country_Region": "UK",
+        "ConfirmedCases": "122575.0"
+    },
+    {
+        "Province_State": "Northern Mariana Islands",
+        "Country_Region": "US",
+        "ConfirmedCases": "183.0"
+    },
+    {
+        "Province_State": "Northern Territory",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "173.0"
+    },
+    {
+        "Province_State": "Northwest Territories",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "127.0"
+    },
+    {
+        "Province_State": "Nova Scotia",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "5530.0"
+    },
+    {
+        "Province_State": "Novgorod Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "30913.0"
+    },
+    {
+        "Province_State": "Novosibirsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "43190.0"
+    },
+    {
+        "Province_State": "Nuble",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "29947.0"
+    },
+    {
+        "Province_State": "Nuevo Leon",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "124233.0"
+    },
+    {
+        "Province_State": "Nunavut",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "648.0"
+    },
+    {
+        "Province_State": "OHiggins",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "56389.0"
+    },
+    {
+        "Province_State": "Oaxaca",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "47205.0"
+    },
+    {
+        "Province_State": "Odessa Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "139409.0"
+    },
+    {
+        "Province_State": "Odisha",
+        "Country_Region": "India",
+        "ConfirmedCases": "747143.0"
+    },
+    {
+        "Province_State": "Ohio",
+        "Country_Region": "US",
+        "ConfirmedCases": "1101557.0"
+    },
+    {
+        "Province_State": "Oita",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "3333.0"
+    },
+    {
+        "Province_State": "Okayama",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "7292.0"
+    },
+    {
+        "Province_State": "Okinawa",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "16689.0"
+    },
+    {
+        "Province_State": "Oklahoma",
+        "Country_Region": "US",
+        "ConfirmedCases": "452777.0"
+    },
+    {
+        "Province_State": "Omsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "47378.0"
+    },
+    {
+        "Province_State": "Ontario",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "537138.0"
+    },
+    {
+        "Province_State": "Orebro",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "31602.0"
+    },
+    {
+        "Province_State": "Oregon",
+        "Country_Region": "US",
+        "ConfirmedCases": "201005.0"
+    },
+    {
+        "Province_State": "Orel Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "35566.0"
+    },
+    {
+        "Province_State": "Orenburg Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "44130.0"
+    },
+    {
+        "Province_State": "Osaka",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "99416.0"
+    },
+    {
+        "Province_State": "Ostergotland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "41618.0"
+    },
+    {
+        "Province_State": "Overijssel",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "107545.0"
+    },
+    {
+        "Province_State": "P.A. Bolzano",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "72844.0"
+    },
+    {
+        "Province_State": "P.A. Trento",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "45389.0"
+    },
+    {
+        "Province_State": "Pais Vasco",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "197812.0"
+    },
+    {
+        "Province_State": "Para",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "516277.0"
+    },
+    {
+        "Province_State": "Paraiba",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "328771.0"
+    },
+    {
+        "Province_State": "Parana",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "1089777.0"
+    },
+    {
+        "Province_State": "Pasco",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "14096.0"
+    },
+    {
+        "Province_State": "Pennsylvania",
+        "Country_Region": "US",
+        "ConfirmedCases": "1202912.0"
+    },
+    {
+        "Province_State": "Penza Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "47128.0"
+    },
+    {
+        "Province_State": "Perm Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "57275.0"
+    },
+    {
+        "Province_State": "Pernambuco",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "478902.0"
+    },
+    {
+        "Province_State": "Piaui",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "271228.0"
+    },
+    {
+        "Province_State": "Piemonte",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "359915.0"
+    },
+    {
+        "Province_State": "Piura",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "77582.0"
+    },
+    {
+        "Province_State": "Poltava Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "76873.0"
+    },
+    {
+        "Province_State": "Port Quarantine",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2956.0"
+    },
+    {
+        "Province_State": "Primorsky Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "44312.0"
+    },
+    {
+        "Province_State": "Prince Edward Island",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "200.0"
+    },
+    {
+        "Province_State": "Pskov Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "37716.0"
+    },
+    {
+        "Province_State": "Puducherry",
+        "Country_Region": "India",
+        "ConfirmedCases": "102896.0"
+    },
+    {
+        "Province_State": "Puebla",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "85136.0"
+    },
+    {
+        "Province_State": "Puerto Rico",
+        "Country_Region": "US",
+        "ConfirmedCases": "138579.0"
+    },
+    {
+        "Province_State": "Puglia",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "250187.0"
+    },
+    {
+        "Province_State": "Punjab",
+        "Country_Region": "India",
+        "ConfirmedCases": "562831.0"
+    },
+    {
+        "Province_State": "Punjab",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "339073.0"
+    },
+    {
+        "Province_State": "Puno",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "32245.0"
+    },
+    {
+        "Province_State": "Putumayo",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "11822.0"
+    },
+    {
+        "Province_State": "Qinghai",
+        "Country_Region": "China",
+        "ConfirmedCases": "18.0"
+    },
+    {
+        "Province_State": "Quebec",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "369728.0"
+    },
+    {
+        "Province_State": "Queensland",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "1618.0"
+    },
+    {
+        "Province_State": "Queretaro",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "69137.0"
+    },
+    {
+        "Province_State": "Quindio",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "43520.0"
+    },
+    {
+        "Province_State": "Quintana Roo",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "26868.0"
+    },
+    {
+        "Province_State": "Rajasthan",
+        "Country_Region": "India",
+        "ConfirmedCases": "936162.0"
+    },
+    {
+        "Province_State": "Recovered",
+        "Country_Region": "US",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Repatriated Travellers",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "13.0"
+    },
+    {
+        "Province_State": "Reunion",
+        "Country_Region": "France",
+        "ConfirmedCases": "24901.0"
+    },
+    {
+        "Province_State": "Rheinland-Pfalz",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "152582.0"
+    },
+    {
+        "Province_State": "Rhode Island",
+        "Country_Region": "US",
+        "ConfirmedCases": "151743.0"
+    },
+    {
+        "Province_State": "Rio Grande do Norte",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "267081.0"
+    },
+    {
+        "Province_State": "Rio Grande do Sul",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "1082746.0"
+    },
+    {
+        "Province_State": "Rio de Janeiro",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "858949.0"
+    },
+    {
+        "Province_State": "Risaralda",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "62422.0"
+    },
+    {
+        "Province_State": "Rivne Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "78068.0"
+    },
+    {
+        "Province_State": "Rondonia",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "228985.0"
+    },
+    {
+        "Province_State": "Roraima",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "103222.0"
+    },
+    {
+        "Province_State": "Rostov Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "93835.0"
+    },
+    {
+        "Province_State": "Ryazan Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "29169.0"
+    },
+    {
+        "Province_State": "Saarland",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "40711.0"
+    },
+    {
+        "Province_State": "Sachsen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "283612.0"
+    },
+    {
+        "Province_State": "Sachsen-Anhalt",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "98406.0"
+    },
+    {
+        "Province_State": "Saga",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2507.0"
+    },
+    {
+        "Province_State": "Saint Barthelemy",
+        "Country_Region": "France",
+        "ConfirmedCases": "1005.0"
+    },
+    {
+        "Province_State": "Saint Helena, Ascension and Tristan da Cunha",
+        "Country_Region": "UK",
+        "ConfirmedCases": "4.0"
+    },
+    {
+        "Province_State": "Saint Petersburg",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "438038.0"
+    },
+    {
+        "Province_State": "Saint Pierre and Miquelon",
+        "Country_Region": "France",
+        "ConfirmedCases": "25.0"
+    },
+    {
+        "Province_State": "Saitama",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "43638.0"
+    },
+    {
+        "Province_State": "Sakha (Yakutiya) Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "38256.0"
+    },
+    {
+        "Province_State": "Sakhalin Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "22955.0"
+    },
+    {
+        "Province_State": "Samara Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "64617.0"
+    },
+    {
+        "Province_State": "San Andres y Providencia",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "5436.0"
+    },
+    {
+        "Province_State": "San Luis Potosi",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "64232.0"
+    },
+    {
+        "Province_State": "San Martin",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "43845.0"
+    },
+    {
+        "Province_State": "Santa Catarina",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "965277.0"
+    },
+    {
+        "Province_State": "Santander",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "131547.0"
+    },
+    {
+        "Province_State": "Sao Paulo",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "3254893.0"
+    },
+    {
+        "Province_State": "Saratov Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "62502.0"
+    },
+    {
+        "Province_State": "Sardegna",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "56613.0"
+    },
+    {
+        "Province_State": "Saskatchewan",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "46464.0"
+    },
+    {
+        "Province_State": "Schleswig-Holstein",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "63017.0"
+    },
+    {
+        "Province_State": "Scotland",
+        "Country_Region": "UK",
+        "ConfirmedCases": "234895.0"
+    },
+    {
+        "Province_State": "Sergipe",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "233932.0"
+    },
+    {
+        "Province_State": "Sevastopol*",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "14848.0"
+    },
+    {
+        "Province_State": "Shaanxi",
+        "Country_Region": "China",
+        "ConfirmedCases": "616.0"
+    },
+    {
+        "Province_State": "Shandong",
+        "Country_Region": "China",
+        "ConfirmedCases": "883.0"
+    },
+    {
+        "Province_State": "Shanghai",
+        "Country_Region": "China",
+        "ConfirmedCases": "2093.0"
+    },
+    {
+        "Province_State": "Shanxi",
+        "Country_Region": "China",
+        "ConfirmedCases": "253.0"
+    },
+    {
+        "Province_State": "Shiga",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "5041.0"
+    },
+    {
+        "Province_State": "Shimane",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "552.0"
+    },
+    {
+        "Province_State": "Shizuoka",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "8326.0"
+    },
+    {
+        "Province_State": "Sichuan",
+        "Country_Region": "China",
+        "ConfirmedCases": "1025.0"
+    },
+    {
+        "Province_State": "Sicilia",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "225203.0"
+    },
+    {
+        "Province_State": "Sikkim",
+        "Country_Region": "India",
+        "ConfirmedCases": "14907.0"
+    },
+    {
+        "Province_State": "Sinaloa",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "39158.0"
+    },
+    {
+        "Province_State": "Sindh",
+        "Country_Region": "Pakistan",
+        "ConfirmedCases": "316752.0"
+    },
+    {
+        "Province_State": "Sint Maarten",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "2411.0"
+    },
+    {
+        "Province_State": "Skane",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "153662.0"
+    },
+    {
+        "Province_State": "Smolensk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "30960.0"
+    },
+    {
+        "Province_State": "Sonora",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "75182.0"
+    },
+    {
+        "Province_State": "Sormland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "25397.0"
+    },
+    {
+        "Province_State": "South Australia",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "752.0"
+    },
+    {
+        "Province_State": "South Carolina",
+        "Country_Region": "US",
+        "ConfirmedCases": "592912.0"
+    },
+    {
+        "Province_State": "South Dakota",
+        "Country_Region": "US",
+        "ConfirmedCases": "124162.0"
+    },
+    {
+        "Province_State": "St Martin",
+        "Country_Region": "France",
+        "ConfirmedCases": "1915.0"
+    },
+    {
+        "Province_State": "Stavropol Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "54710.0"
+    },
+    {
+        "Province_State": "Stockholm",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "251285.0"
+    },
+    {
+        "Province_State": "Sucre",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "34809.0"
+    },
+    {
+        "Province_State": "Sumy Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "76814.0"
+    },
+    {
+        "Province_State": "Sverdlovsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "89101.0"
+    },
+    {
+        "Province_State": "Tabasco",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "68240.0"
+    },
+    {
+        "Province_State": "Tacna",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "25161.0"
+    },
+    {
+        "Province_State": "Tamaulipas",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "59573.0"
+    },
+    {
+        "Province_State": "Tambov Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "32741.0"
+    },
+    {
+        "Province_State": "Tamil Nadu",
+        "Country_Region": "India",
+        "ConfirmedCases": "2039716.0"
+    },
+    {
+        "Province_State": "Tarapaca",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "36665.0"
+    },
+    {
+        "Province_State": "Tasmania",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "234.0"
+    },
+    {
+        "Province_State": "Tatarstan Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "21423.0"
+    },
+    {
+        "Province_State": "Telangana",
+        "Country_Region": "India",
+        "ConfirmedCases": "574026.0"
+    },
+    {
+        "Province_State": "Tennessee",
+        "Country_Region": "US",
+        "ConfirmedCases": "862401.0"
+    },
+    {
+        "Province_State": "Ternopil Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "69375.0"
+    },
+    {
+        "Province_State": "Texas",
+        "Country_Region": "US",
+        "ConfirmedCases": "2952861.0"
+    },
+    {
+        "Province_State": "Thuringen",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "127481.0"
+    },
+    {
+        "Province_State": "Tianjin",
+        "Country_Region": "China",
+        "ConfirmedCases": "393.0"
+    },
+    {
+        "Province_State": "Tibet",
+        "Country_Region": "China",
+        "ConfirmedCases": "1.0"
+    },
+    {
+        "Province_State": "Tlaxcala",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "19921.0"
+    },
+    {
+        "Province_State": "Tocantins",
+        "Country_Region": "Brazil",
+        "ConfirmedCases": "177464.0"
+    },
+    {
+        "Province_State": "Tochigi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "6313.0"
+    },
+    {
+        "Province_State": "Tokushima",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1630.0"
+    },
+    {
+        "Province_State": "Tokyo",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "160315.0"
+    },
+    {
+        "Province_State": "Tolima",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "75296.0"
+    },
+    {
+        "Province_State": "Tomsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "32808.0"
+    },
+    {
+        "Province_State": "Toscana",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "241012.0"
+    },
+    {
+        "Province_State": "Tottori",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "466.0"
+    },
+    {
+        "Province_State": "Toyama",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1865.0"
+    },
+    {
+        "Province_State": "Tripura",
+        "Country_Region": "India",
+        "ConfirmedCases": "50739.0"
+    },
+    {
+        "Province_State": "Tula Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "40032.0"
+    },
+    {
+        "Province_State": "Tumbes",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "16531.0"
+    },
+    {
+        "Province_State": "Turks and Caicos Islands",
+        "Country_Region": "UK",
+        "ConfirmedCases": "2412.0"
+    },
+    {
+        "Province_State": "Tver Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "42010.0"
+    },
+    {
+        "Province_State": "Tyumen Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "36673.0"
+    },
+    {
+        "Province_State": "Tyva Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "15951.0"
+    },
+    {
+        "Province_State": "Ucayali",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "31172.0"
+    },
+    {
+        "Province_State": "Udmurt Republic",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "34026.0"
+    },
+    {
+        "Province_State": "Ulyanovsk Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "55767.0"
+    },
+    {
+        "Province_State": "Umbria",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "56314.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "20219.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "54.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Germany",
+        "ConfirmedCases": "5126.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "India",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "8.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "China",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "3882.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Peru",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "Spain",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Unknown",
+        "Country_Region": "UK",
+        "ConfirmedCases": "0.0"
+    },
+    {
+        "Province_State": "Uppsala",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "39789.0"
+    },
+    {
+        "Province_State": "Utah",
+        "Country_Region": "US",
+        "ConfirmedCases": "405851.0"
+    },
+    {
+        "Province_State": "Utrecht",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "125577.0"
+    },
+    {
+        "Province_State": "Uttar Pradesh",
+        "Country_Region": "India",
+        "ConfirmedCases": "1688152.0"
+    },
+    {
+        "Province_State": "Uttarakhand",
+        "Country_Region": "India",
+        "ConfirmedCases": "327112.0"
+    },
+    {
+        "Province_State": "Valle d'Aosta",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "11567.0"
+    },
+    {
+        "Province_State": "Valle del Cauca",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "266414.0"
+    },
+    {
+        "Province_State": "Valparaiso",
+        "Country_Region": "Chile",
+        "ConfirmedCases": "97830.0"
+    },
+    {
+        "Province_State": "Varmland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "18454.0"
+    },
+    {
+        "Province_State": "Vasterbotten",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "22909.0"
+    },
+    {
+        "Province_State": "Vasternorrland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "26417.0"
+    },
+    {
+        "Province_State": "Vastmanland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "27122.0"
+    },
+    {
+        "Province_State": "Vastra Gotaland",
+        "Country_Region": "Sweden",
+        "ConfirmedCases": "186844.0"
+    },
+    {
+        "Province_State": "Vaupes",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "1528.0"
+    },
+    {
+        "Province_State": "Veneto",
+        "Country_Region": "Italy",
+        "ConfirmedCases": "423117.0"
+    },
+    {
+        "Province_State": "Veracruz",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "61482.0"
+    },
+    {
+        "Province_State": "Vermont",
+        "Country_Region": "US",
+        "ConfirmedCases": "24200.0"
+    },
+    {
+        "Province_State": "Vichada",
+        "Country_Region": "Colombia",
+        "ConfirmedCases": "1772.0"
+    },
+    {
+        "Province_State": "Victoria",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "20593.0"
+    },
+    {
+        "Province_State": "Vinnytsia Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "70474.0"
+    },
+    {
+        "Province_State": "Virgin Islands",
+        "Country_Region": "US",
+        "ConfirmedCases": "3442.0"
+    },
+    {
+        "Province_State": "Virginia",
+        "Country_Region": "US",
+        "ConfirmedCases": "675165.0"
+    },
+    {
+        "Province_State": "Vladimir Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "33442.0"
+    },
+    {
+        "Province_State": "Volgograd Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "59618.0"
+    },
+    {
+        "Province_State": "Vologda Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "46023.0"
+    },
+    {
+        "Province_State": "Volyn Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "61187.0"
+    },
+    {
+        "Province_State": "Voronezh Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "84672.0"
+    },
+    {
+        "Province_State": "Wakayama",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2612.0"
+    },
+    {
+        "Province_State": "Wales",
+        "Country_Region": "UK",
+        "ConfirmedCases": "212672.0"
+    },
+    {
+        "Province_State": "Wallis and Futuna",
+        "Country_Region": "France",
+        "ConfirmedCases": "445.0"
+    },
+    {
+        "Province_State": "Walloon Brabant",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "40604.0"
+    },
+    {
+        "Province_State": "Washington",
+        "Country_Region": "US",
+        "ConfirmedCases": "435849.0"
+    },
+    {
+        "Province_State": "West Bengal",
+        "Country_Region": "India",
+        "ConfirmedCases": "1354956.0"
+    },
+    {
+        "Province_State": "West Flanders",
+        "Country_Region": "Belgium",
+        "ConfirmedCases": "95724.0"
+    },
+    {
+        "Province_State": "West Virginia",
+        "Country_Region": "US",
+        "ConfirmedCases": "161287.0"
+    },
+    {
+        "Province_State": "Western Australia",
+        "Country_Region": "Australia",
+        "ConfirmedCases": "1017.0"
+    },
+    {
+        "Province_State": "Wisconsin",
+        "Country_Region": "US",
+        "ConfirmedCases": "674003.0"
+    },
+    {
+        "Province_State": "Wyoming",
+        "Country_Region": "US",
+        "ConfirmedCases": "60144.0"
+    },
+    {
+        "Province_State": "Xinjiang",
+        "Country_Region": "China",
+        "ConfirmedCases": "980.0"
+    },
+    {
+        "Province_State": "Yamagata",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1963.0"
+    },
+    {
+        "Province_State": "Yamaguchi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "2903.0"
+    },
+    {
+        "Province_State": "Yamalo-Nenets Autonomous Okrug",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "39063.0"
+    },
+    {
+        "Province_State": "Yamanashi",
+        "Country_Region": "Japan",
+        "ConfirmedCases": "1541.0"
+    },
+    {
+        "Province_State": "Yaroslavl Oblast",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "40903.0"
+    },
+    {
+        "Province_State": "Yucatan",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "39748.0"
+    },
+    {
+        "Province_State": "Yukon",
+        "Country_Region": "Canada",
+        "ConfirmedCases": "84.0"
+    },
+    {
+        "Province_State": "Yunnan",
+        "Country_Region": "China",
+        "ConfirmedCases": "352.0"
+    },
+    {
+        "Province_State": "Zabaykalsky Krai",
+        "Country_Region": "Russia",
+        "ConfirmedCases": "43126.0"
+    },
+    {
+        "Province_State": "Zacatecas",
+        "Country_Region": "Mexico",
+        "ConfirmedCases": "30758.0"
+    },
+    {
+        "Province_State": "Zakarpattia Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "61611.0"
+    },
+    {
+        "Province_State": "Zaporizhia Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "102641.0"
+    },
+    {
+        "Province_State": "Zeeland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "29147.0"
+    },
+    {
+        "Province_State": "Zhejiang",
+        "Country_Region": "China",
+        "ConfirmedCases": "1364.0"
+    },
+    {
+        "Province_State": "Zhytomyr Oblast",
+        "Country_Region": "Ukraine",
+        "ConfirmedCases": "87550.0"
+    },
+    {
+        "Province_State": "Zuid-Holland",
+        "Country_Region": "Netherlands",
+        "ConfirmedCases": "391559.0"
+    }
+]

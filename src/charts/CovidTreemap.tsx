@@ -1,5 +1,5 @@
 import {ResponsiveTreeMap} from "@nivo/treemap"
-import DATA from "./json/demo.json"
+import DATA from "./json/global_tree.json"
 
 export const CovidTreemap = ({className}: { className: string }) => <div className={className}>
   <ResponsiveTreeMap

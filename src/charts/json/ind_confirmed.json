@@ -1,0 +1,150 @@
+[
+    {
+        "state": "Andaman and Nicobar Islands",
+        "confirmed": "6964.0"
+    },
+    {
+        "state": "Andhra Pradesh",
+        "confirmed": "1671742.0"
+    },
+    {
+        "state": "Arunachal Pradesh",
+        "confirmed": "26778.0"
+    },
+    {
+        "state": "Assam",
+        "confirmed": "403623.0"
+    },
+    {
+        "state": "Bihar",
+        "confirmed": "704173.0"
+    },
+    {
+        "state": "Chandigarh",
+        "confirmed": "59740.0"
+    },
+    {
+        "state": "Chhattisgarh",
+        "confirmed": "967645.0"
+    },
+    {
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "confirmed": "10214.0"
+    },
+    {
+        "state": "Delhi",
+        "confirmed": "1424646.0"
+    },
+    {
+        "state": "Goa",
+        "confirmed": "154419.0"
+    },
+    {
+        "state": "Gujarat",
+        "confirmed": "805617.0"
+    },
+    {
+        "state": "Haryana",
+        "confirmed": "753937.0"
+    },
+    {
+        "state": "Himachal Pradesh",
+        "confirmed": "188604.0"
+    },
+    {
+        "state": "Jammu and Kashmir",
+        "confirmed": "286684.0"
+    },
+    {
+        "state": "Jharkhand",
+        "confirmed": "336240.0"
+    },
+    {
+        "state": "Karnataka",
+        "confirmed": "2567449.0"
+    },
+    {
+        "state": "Kerala",
+        "confirmed": "2494385.0"
+    },
+    {
+        "state": "Ladakh",
+        "confirmed": "18448.0"
+    },
+    {
+        "state": "Lakshadweep",
+        "confirmed": "7631.0"
+    },
+    {
+        "state": "Madhya Pradesh",
+        "confirmed": "777349.0"
+    },
+    {
+        "state": "Maharashtra",
+        "confirmed": "5713215.0"
+    },
+    {
+        "state": "Manipur",
+        "confirmed": "48850.0"
+    },
+    {
+        "state": "Meghalaya",
+        "confirmed": "34448.0"
+    },
+    {
+        "state": "Mizoram",
+        "confirmed": "11988.0"
+    },
+    {
+        "state": "Nagaland",
+        "confirmed": "21371.0"
+    },
+    {
+        "state": "Odisha",
+        "confirmed": "747143.0"
+    },
+    {
+        "state": "Puducherry",
+        "confirmed": "102896.0"
+    },
+    {
+        "state": "Punjab",
+        "confirmed": "562831.0"
+    },
+    {
+        "state": "Rajasthan",
+        "confirmed": "936162.0"
+    },
+    {
+        "state": "Sikkim",
+        "confirmed": "14907.0"
+    },
+    {
+        "state": "Tamil Nadu",
+        "confirmed": "2039716.0"
+    },
+    {
+        "state": "Telangana",
+        "confirmed": "574026.0"
+    },
+    {
+        "state": "Tripura",
+        "confirmed": "50739.0"
+    },
+    {
+        "state": "Unknown",
+        "confirmed": "0.0"
+    },
+    {
+        "state": "Uttar Pradesh",
+        "confirmed": "1688152.0"
+    },
+    {
+        "state": "Uttarakhand",
+        "confirmed": "327112.0"
+    },
+    {
+        "state": "West Bengal",
+        "confirmed": "1354956.0"
+    }
+]
