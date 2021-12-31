@@ -13,7 +13,7 @@ export const CovidGeoUsa = () => {
   const color = scaleSequential()
     .interpolator(interpolateRgb("#f3f0f0", "#ec3761"))
     // @ts-ignore
-    .domain(extent(usaConfirmed, i => +i.confirmed))
+    .domain(extent(usaConfirmed, i => i.confirmed))
 
   useEffect(() => {
     // @ts-ignore
@@ -25,8 +25,6 @@ export const CovidGeoUsa = () => {
       .append("svg")
       .attr("width", width)
       .attr("height", height)
-      .append("g")
-    // .attr("transform", "translate(610,20)")
 
     const path = geoPath()
 
@@ -37,7 +35,7 @@ export const CovidGeoUsa = () => {
       // @ts-ignore
       .attr("d", path)
       // @ts-ignore
-      .attr("fill", d => color(+usaConfirmed.find(j => j.state === d.properties.name)?.confirmed || 0))
+      .attr("fill", d => color(usaConfirmed.find(j => j.state === d.properties.name)?.confirmed || 0))
 
     svg.append("path")
       .datum(mesh)
