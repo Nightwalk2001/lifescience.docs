@@ -1,8 +1,8 @@
-import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidTreemap} from "@/charts"
+import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidLineWorld, CovidTreemap} from "@/charts"
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div
-  className={"flex flex-col items-center min-w-[1000px] max-w-[1000px] mx-auto prose"}>
+  className={"flex flex-col items-center min-w-[900px] max-w-[900px] mx-auto prose"}>
   <h1 className={"text-center"}>基于Covid-19数据的数据分析和可视化</h1>
   <text className={"self-start font-semibold"}>
     王志威-19331144 梁靖雯- 陈娟-
@@ -33,11 +33,21 @@ const biostatistics: NextPage = () => <div
   </pre>
   <CovidTreemap className={"w-[900px] h-[500px]"}/>
   <p className={"self-start"}>
-    下面是使用各国家感染者数量画出的地理图
+    下面是使用各国家感染者数量画出的地理图，颜色越深表示感染者数量越多，由于美国与印度、巴西的感染者数量远高于其它国家或地区，所以将他们单独拿出来画一个地图。
   </p>
   <CovidGeoWorld className={"w-[900px] h-[400px]"}/>
+  <p className={"self-start"}>
+    下面是美国的感染者地图，其中阿拉斯加州和夏威夷群岛均位于美国大陆的左下方
+  </p>
   <CovidGeoUsa/>
+  <p className={"self-start"}>
+    印度的感染者地图，其中Andaman and Nicobar省未计入。
+  </p>
   <CovidGeoIndia/>
+  <p className={"self-start"}>
+    下面是2021年5月24号到5月31号全球每天感染数量和死亡数量图
+  </p>
+  <CovidLineWorld/>
 </div>
 
 export default biostatistics

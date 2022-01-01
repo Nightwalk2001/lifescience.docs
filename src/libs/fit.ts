@@ -3,7 +3,7 @@ export const fit = (
     parentHeight: number,
     childWidth: number,
     childHeight: number,
-    scale= 1,
+    scale   = 1,
     offsetX = 0.5,
     offsetY = 0.5
 ) => {

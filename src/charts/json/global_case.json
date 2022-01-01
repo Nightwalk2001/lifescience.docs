@@ -1,0 +1,3460 @@
+[
+    {
+        "date": "2020-01-22",
+        "confirmed": 557,
+        "fatalities": 17,
+        "dailyCases": 0,
+        "dailyDeaths": 0
+    },
+    {
+        "date": "2020-01-23",
+        "confirmed": 1097,
+        "fatalities": 34,
+        "dailyCases": 540,
+        "dailyDeaths": 17
+    },
+    {
+        "date": "2020-01-24",
+        "confirmed": 941,
+        "fatalities": 26,
+        "dailyCases": -156,
+        "dailyDeaths": -8
+    },
+    {
+        "date": "2020-01-25",
+        "confirmed": 1437,
+        "fatalities": 42,
+        "dailyCases": 496,
+        "dailyDeaths": 16
+    },
+    {
+        "date": "2020-01-26",
+        "confirmed": 2118,
+        "fatalities": 56,
+        "dailyCases": 681,
+        "dailyDeaths": 14
+    },
+    {
+        "date": "2020-01-27",
+        "confirmed": 2927,
+        "fatalities": 82,
+        "dailyCases": 809,
+        "dailyDeaths": 26
+    },
+    {
+        "date": "2020-01-28",
+        "confirmed": 5578,
+        "fatalities": 131,
+        "dailyCases": 2651,
+        "dailyDeaths": 49
+    },
+    {
+        "date": "2020-01-29",
+        "confirmed": 6165,
+        "fatalities": 133,
+        "dailyCases": 587,
+        "dailyDeaths": 2
+    },
+    {
+        "date": "2020-01-30",
+        "confirmed": 8235,
+        "fatalities": 171,
+        "dailyCases": 2070,
+        "dailyDeaths": 38
+    },
+    {
+        "date": "2020-01-31",
+        "confirmed": 9925,
+        "fatalities": 213,
+        "dailyCases": 1690,
+        "dailyDeaths": 42
+    },
+    {
+        "date": "2020-02-01",
+        "confirmed": 12038,
+        "fatalities": 259,
+        "dailyCases": 2113,
+        "dailyDeaths": 46
+    },
+    {
+        "date": "2020-02-02",
+        "confirmed": 16787,
+        "fatalities": 362,
+        "dailyCases": 4749,
+        "dailyDeaths": 103
+    },
+    {
+        "date": "2020-02-03",
+        "confirmed": 19881,
+        "fatalities": 426,
+        "dailyCases": 3094,
+        "dailyDeaths": 64
+    },
+    {
+        "date": "2020-02-04",
+        "confirmed": 23892,
+        "fatalities": 492,
+        "dailyCases": 4011,
+        "dailyDeaths": 66
+    },
+    {
+        "date": "2020-02-05",
+        "confirmed": 27636,
+        "fatalities": 564,
+        "dailyCases": 3744,
+        "dailyDeaths": 72
+    },
+    {
+        "date": "2020-02-06",
+        "confirmed": 30818,
+        "fatalities": 634,
+        "dailyCases": 3182,
+        "dailyDeaths": 70
+    },
+    {
+        "date": "2020-02-07",
+        "confirmed": 34392,
+        "fatalities": 719,
+        "dailyCases": 3574,
+        "dailyDeaths": 85
+    },
+    {
+        "date": "2020-02-08",
+        "confirmed": 37121,
+        "fatalities": 806,
+        "dailyCases": 2729,
+        "dailyDeaths": 87
+    },
+    {
+        "date": "2020-02-09",
+        "confirmed": 40151,
+        "fatalities": 906,
+        "dailyCases": 3030,
+        "dailyDeaths": 100
+    },
+    {
+        "date": "2020-02-10",
+        "confirmed": 42763,
+        "fatalities": 1013,
+        "dailyCases": 2612,
+        "dailyDeaths": 107
+    },
+    {
+        "date": "2020-02-11",
+        "confirmed": 44803,
+        "fatalities": 1113,
+        "dailyCases": 2040,
+        "dailyDeaths": 100
+    },
+    {
+        "date": "2020-02-12",
+        "confirmed": 45222,
+        "fatalities": 1118,
+        "dailyCases": 419,
+        "dailyDeaths": 5
+    },
+    {
+        "date": "2020-02-13",
+        "confirmed": 60370,
+        "fatalities": 1371,
+        "dailyCases": 15148,
+        "dailyDeaths": 253
+    },
+    {
+        "date": "2020-02-14",
+        "confirmed": 66887,
+        "fatalities": 1523,
+        "dailyCases": 6517,
+        "dailyDeaths": 152
+    },
+    {
+        "date": "2020-02-15",
+        "confirmed": 69033,
+        "fatalities": 1666,
+        "dailyCases": 2146,
+        "dailyDeaths": 143
+    },
+    {
+        "date": "2020-02-16",
+        "confirmed": 71226,
+        "fatalities": 1770,
+        "dailyCases": 2193,
+        "dailyDeaths": 104
+    },
+    {
+        "date": "2020-02-17",
+        "confirmed": 73260,
+        "fatalities": 1868,
+        "dailyCases": 2034,
+        "dailyDeaths": 98
+    },
+    {
+        "date": "2020-02-18",
+        "confirmed": 75138,
+        "fatalities": 2007,
+        "dailyCases": 1878,
+        "dailyDeaths": 139
+    },
+    {
+        "date": "2020-02-19",
+        "confirmed": 75641,
+        "fatalities": 2122,
+        "dailyCases": 503,
+        "dailyDeaths": 115
+    },
+    {
+        "date": "2020-02-20",
+        "confirmed": 76199,
+        "fatalities": 2247,
+        "dailyCases": 558,
+        "dailyDeaths": 125
+    },
+    {
+        "date": "2020-02-21",
+        "confirmed": 76843,
+        "fatalities": 2251,
+        "dailyCases": 644,
+        "dailyDeaths": 4
+    },
+    {
+        "date": "2020-02-22",
+        "confirmed": 78599,
+        "fatalities": 2458,
+        "dailyCases": 1756,
+        "dailyDeaths": 207
+    },
+    {
+        "date": "2020-02-23",
+        "confirmed": 78985,
+        "fatalities": 2469,
+        "dailyCases": 386,
+        "dailyDeaths": 11
+    },
+    {
+        "date": "2020-02-24",
+        "confirmed": 79570,
+        "fatalities": 2629,
+        "dailyCases": 585,
+        "dailyDeaths": 160
+    },
+    {
+        "date": "2020-02-25",
+        "confirmed": 80415,
+        "fatalities": 2708,
+        "dailyCases": 845,
+        "dailyDeaths": 79
+    },
+    {
+        "date": "2020-02-26",
+        "confirmed": 81397,
+        "fatalities": 2770,
+        "dailyCases": 982,
+        "dailyDeaths": 62
+    },
+    {
+        "date": "2020-02-27",
+        "confirmed": 82756,
+        "fatalities": 2814,
+        "dailyCases": 1359,
+        "dailyDeaths": 44
+    },
+    {
+        "date": "2020-02-28",
+        "confirmed": 84125,
+        "fatalities": 2872,
+        "dailyCases": 1369,
+        "dailyDeaths": 58
+    },
+    {
+        "date": "2020-02-29",
+        "confirmed": 86012,
+        "fatalities": 2941,
+        "dailyCases": 1887,
+        "dailyDeaths": 69
+    },
+    {
+        "date": "2020-03-01",
+        "confirmed": 88368,
+        "fatalities": 2996,
+        "dailyCases": 2356,
+        "dailyDeaths": 55
+    },
+    {
+        "date": "2020-03-02",
+        "confirmed": 90311,
+        "fatalities": 3085,
+        "dailyCases": 1943,
+        "dailyDeaths": 89
+    },
+    {
+        "date": "2020-03-03",
+        "confirmed": 92856,
+        "fatalities": 3160,
+        "dailyCases": 2545,
+        "dailyDeaths": 75
+    },
+    {
+        "date": "2020-03-04",
+        "confirmed": 95127,
+        "fatalities": 3254,
+        "dailyCases": 2271,
+        "dailyDeaths": 94
+    },
+    {
+        "date": "2020-03-05",
+        "confirmed": 97936,
+        "fatalities": 3349,
+        "dailyCases": 2809,
+        "dailyDeaths": 95
+    },
+    {
+        "date": "2020-03-06",
+        "confirmed": 101763,
+        "fatalities": 3460,
+        "dailyCases": 3827,
+        "dailyDeaths": 111
+    },
+    {
+        "date": "2020-03-07",
+        "confirmed": 105832,
+        "fatalities": 3563,
+        "dailyCases": 4069,
+        "dailyDeaths": 103
+    },
+    {
+        "date": "2020-03-08",
+        "confirmed": 109820,
+        "fatalities": 3803,
+        "dailyCases": 3988,
+        "dailyDeaths": 240
+    },
+    {
+        "date": "2020-03-09",
+        "confirmed": 113776,
+        "fatalities": 4002,
+        "dailyCases": 3956,
+        "dailyDeaths": 199
+    },
+    {
+        "date": "2020-03-10",
+        "confirmed": 118587,
+        "fatalities": 4262,
+        "dailyCases": 4811,
+        "dailyDeaths": 260
+    },
+    {
+        "date": "2020-03-11",
+        "confirmed": 125850,
+        "fatalities": 4615,
+        "dailyCases": 7263,
+        "dailyDeaths": 353
+    },
+    {
+        "date": "2020-03-12",
+        "confirmed": 128329,
+        "fatalities": 4720,
+        "dailyCases": 2479,
+        "dailyDeaths": 105
+    },
+    {
+        "date": "2020-03-13",
+        "confirmed": 145182,
+        "fatalities": 5404,
+        "dailyCases": 16853,
+        "dailyDeaths": 684
+    },
+    {
+        "date": "2020-03-14",
+        "confirmed": 156084,
+        "fatalities": 5819,
+        "dailyCases": 10902,
+        "dailyDeaths": 415
+    },
+    {
+        "date": "2020-03-15",
+        "confirmed": 167408,
+        "fatalities": 6440,
+        "dailyCases": 11324,
+        "dailyDeaths": 621
+    },
+    {
+        "date": "2020-03-16",
+        "confirmed": 181571,
+        "fatalities": 7126,
+        "dailyCases": 14163,
+        "dailyDeaths": 686
+    },
+    {
+        "date": "2020-03-17",
+        "confirmed": 197205,
+        "fatalities": 7906,
+        "dailyCases": 15634,
+        "dailyDeaths": 780
+    },
+    {
+        "date": "2020-03-18",
+        "confirmed": 214983,
+        "fatalities": 8736,
+        "dailyCases": 17778,
+        "dailyDeaths": 830
+    },
+    {
+        "date": "2020-03-19",
+        "confirmed": 242674,
+        "fatalities": 9869,
+        "dailyCases": 27691,
+        "dailyDeaths": 1133
+    },
+    {
+        "date": "2020-03-20",
+        "confirmed": 272268,
+        "fatalities": 11300,
+        "dailyCases": 29594,
+        "dailyDeaths": 1431
+    },
+    {
+        "date": "2020-03-21",
+        "confirmed": 304672,
+        "fatalities": 12972,
+        "dailyCases": 32404,
+        "dailyDeaths": 1672
+    },
+    {
+        "date": "2020-03-22",
+        "confirmed": 337867,
+        "fatalities": 14633,
+        "dailyCases": 33195,
+        "dailyDeaths": 1661
+    },
+    {
+        "date": "2020-03-23",
+        "confirmed": 378498,
+        "fatalities": 16527,
+        "dailyCases": 40631,
+        "dailyDeaths": 1894
+    },
+    {
+        "date": "2020-03-24",
+        "confirmed": 417891,
+        "fatalities": 18635,
+        "dailyCases": 39393,
+        "dailyDeaths": 2108
+    },
+    {
+        "date": "2020-03-25",
+        "confirmed": 467535,
+        "fatalities": 21207,
+        "dailyCases": 49644,
+        "dailyDeaths": 2572
+    },
+    {
+        "date": "2020-03-26",
+        "confirmed": 529674,
+        "fatalities": 24005,
+        "dailyCases": 62139,
+        "dailyDeaths": 2798
+    },
+    {
+        "date": "2020-03-27",
+        "confirmed": 593447,
+        "fatalities": 27230,
+        "dailyCases": 63773,
+        "dailyDeaths": 3225
+    },
+    {
+        "date": "2020-03-28",
+        "confirmed": 660731,
+        "fatalities": 30691,
+        "dailyCases": 67284,
+        "dailyDeaths": 3461
+    },
+    {
+        "date": "2020-03-29",
+        "confirmed": 720010,
+        "fatalities": 33991,
+        "dailyCases": 59279,
+        "dailyDeaths": 3300
+    },
+    {
+        "date": "2020-03-30",
+        "confirmed": 782363,
+        "fatalities": 37664,
+        "dailyCases": 62353,
+        "dailyDeaths": 3673
+    },
+    {
+        "date": "2020-03-31",
+        "confirmed": 857474,
+        "fatalities": 42183,
+        "dailyCases": 75111,
+        "dailyDeaths": 4519
+    },
+    {
+        "date": "2020-04-01",
+        "confirmed": 932440,
+        "fatalities": 47363,
+        "dailyCases": 74966,
+        "dailyDeaths": 5180
+    },
+    {
+        "date": "2020-04-02",
+        "confirmed": 1013013,
+        "fatalities": 53187,
+        "dailyCases": 80573,
+        "dailyDeaths": 5824
+    },
+    {
+        "date": "2020-04-03",
+        "confirmed": 1095766,
+        "fatalities": 59039,
+        "dailyCases": 82753,
+        "dailyDeaths": 5852
+    },
+    {
+        "date": "2020-04-04",
+        "confirmed": 1175834,
+        "fatalities": 64916,
+        "dailyCases": 80068,
+        "dailyDeaths": 5877
+    },
+    {
+        "date": "2020-04-05",
+        "confirmed": 1249488,
+        "fatalities": 69739,
+        "dailyCases": 73654,
+        "dailyDeaths": 4823
+    },
+    {
+        "date": "2020-04-06",
+        "confirmed": 1321241,
+        "fatalities": 75053,
+        "dailyCases": 71753,
+        "dailyDeaths": 5314
+    },
+    {
+        "date": "2020-04-07",
+        "confirmed": 1394928,
+        "fatalities": 82384,
+        "dailyCases": 73687,
+        "dailyDeaths": 7331
+    },
+    {
+        "date": "2020-04-08",
+        "confirmed": 1480260,
+        "fatalities": 88895,
+        "dailyCases": 85332,
+        "dailyDeaths": 6511
+    },
+    {
+        "date": "2020-04-09",
+        "confirmed": 1563699,
+        "fatalities": 96000,
+        "dailyCases": 83439,
+        "dailyDeaths": 7105
+    },
+    {
+        "date": "2020-04-10",
+        "confirmed": 1657136,
+        "fatalities": 103097,
+        "dailyCases": 93437,
+        "dailyDeaths": 7097
+    },
+    {
+        "date": "2020-04-11",
+        "confirmed": 1735165,
+        "fatalities": 109093,
+        "dailyCases": 78029,
+        "dailyDeaths": 5996
+    },
+    {
+        "date": "2020-04-12",
+        "confirmed": 1834310,
+        "fatalities": 114798,
+        "dailyCases": 99145,
+        "dailyDeaths": 5705
+    },
+    {
+        "date": "2020-04-13",
+        "confirmed": 1904365,
+        "fatalities": 120313,
+        "dailyCases": 70055,
+        "dailyDeaths": 5515
+    },
+    {
+        "date": "2020-04-14",
+        "confirmed": 1975711,
+        "fatalities": 126810,
+        "dailyCases": 71346,
+        "dailyDeaths": 6497
+    },
+    {
+        "date": "2020-04-15",
+        "confirmed": 2055594,
+        "fatalities": 135068,
+        "dailyCases": 79883,
+        "dailyDeaths": 8258
+    },
+    {
+        "date": "2020-04-16",
+        "confirmed": 2152147,
+        "fatalities": 144603,
+        "dailyCases": 96553,
+        "dailyDeaths": 9535
+    },
+    {
+        "date": "2020-04-17",
+        "confirmed": 2239794,
+        "fatalities": 154672,
+        "dailyCases": 87647,
+        "dailyDeaths": 10069
+    },
+    {
+        "date": "2020-04-18",
+        "confirmed": 2321117,
+        "fatalities": 160457,
+        "dailyCases": 81323,
+        "dailyDeaths": 5785
+    },
+    {
+        "date": "2020-04-19",
+        "confirmed": 2400898,
+        "fatalities": 166017,
+        "dailyCases": 79781,
+        "dailyDeaths": 5560
+    },
+    {
+        "date": "2020-04-20",
+        "confirmed": 2471984,
+        "fatalities": 171005,
+        "dailyCases": 71086,
+        "dailyDeaths": 4988
+    },
+    {
+        "date": "2020-04-21",
+        "confirmed": 2549043,
+        "fatalities": 177579,
+        "dailyCases": 77059,
+        "dailyDeaths": 6574
+    },
+    {
+        "date": "2020-04-22",
+        "confirmed": 2627680,
+        "fatalities": 184106,
+        "dailyCases": 78637,
+        "dailyDeaths": 6527
+    },
+    {
+        "date": "2020-04-23",
+        "confirmed": 2708317,
+        "fatalities": 191893,
+        "dailyCases": 80637,
+        "dailyDeaths": 7787
+    },
+    {
+        "date": "2020-04-24",
+        "confirmed": 2811332,
+        "fatalities": 198235,
+        "dailyCases": 103015,
+        "dailyDeaths": 6342
+    },
+    {
+        "date": "2020-04-25",
+        "confirmed": 2897486,
+        "fatalities": 203955,
+        "dailyCases": 86154,
+        "dailyDeaths": 5720
+    },
+    {
+        "date": "2020-04-26",
+        "confirmed": 2971888,
+        "fatalities": 207764,
+        "dailyCases": 74402,
+        "dailyDeaths": 3809
+    },
+    {
+        "date": "2020-04-27",
+        "confirmed": 3042301,
+        "fatalities": 212464,
+        "dailyCases": 70413,
+        "dailyDeaths": 4700
+    },
+    {
+        "date": "2020-04-28",
+        "confirmed": 3117209,
+        "fatalities": 218483,
+        "dailyCases": 74908,
+        "dailyDeaths": 6019
+    },
+    {
+        "date": "2020-04-29",
+        "confirmed": 3195906,
+        "fatalities": 228935,
+        "dailyCases": 78697,
+        "dailyDeaths": 10452
+    },
+    {
+        "date": "2020-04-30",
+        "confirmed": 3259205,
+        "fatalities": 234577,
+        "dailyCases": 63299,
+        "dailyDeaths": 5642
+    },
+    {
+        "date": "2020-05-01",
+        "confirmed": 3346774,
+        "fatalities": 239834,
+        "dailyCases": 87569,
+        "dailyDeaths": 5257
+    },
+    {
+        "date": "2020-05-02",
+        "confirmed": 3429781,
+        "fatalities": 245177,
+        "dailyCases": 83007,
+        "dailyDeaths": 5343
+    },
+    {
+        "date": "2020-05-03",
+        "confirmed": 3508944,
+        "fatalities": 248929,
+        "dailyCases": 79163,
+        "dailyDeaths": 3752
+    },
+    {
+        "date": "2020-05-04",
+        "confirmed": 3585276,
+        "fatalities": 253070,
+        "dailyCases": 76332,
+        "dailyDeaths": 4141
+    },
+    {
+        "date": "2020-05-05",
+        "confirmed": 3665092,
+        "fatalities": 258683,
+        "dailyCases": 79816,
+        "dailyDeaths": 5613
+    },
+    {
+        "date": "2020-05-06",
+        "confirmed": 3758519,
+        "fatalities": 265100,
+        "dailyCases": 93427,
+        "dailyDeaths": 6417
+    },
+    {
+        "date": "2020-05-07",
+        "confirmed": 3848863,
+        "fatalities": 270809,
+        "dailyCases": 90344,
+        "dailyDeaths": 5709
+    },
+    {
+        "date": "2020-05-08",
+        "confirmed": 3940356,
+        "fatalities": 276146,
+        "dailyCases": 91493,
+        "dailyDeaths": 5337
+    },
+    {
+        "date": "2020-05-09",
+        "confirmed": 4026681,
+        "fatalities": 280587,
+        "dailyCases": 86325,
+        "dailyDeaths": 4441
+    },
+    {
+        "date": "2020-05-10",
+        "confirmed": 4104024,
+        "fatalities": 284004,
+        "dailyCases": 77343,
+        "dailyDeaths": 3417
+    },
+    {
+        "date": "2020-05-11",
+        "confirmed": 4179421,
+        "fatalities": 287667,
+        "dailyCases": 75397,
+        "dailyDeaths": 3663
+    },
+    {
+        "date": "2020-05-12",
+        "confirmed": 4264441,
+        "fatalities": 293246,
+        "dailyCases": 85020,
+        "dailyDeaths": 5579
+    },
+    {
+        "date": "2020-05-13",
+        "confirmed": 4350086,
+        "fatalities": 298412,
+        "dailyCases": 85645,
+        "dailyDeaths": 5166
+    },
+    {
+        "date": "2020-05-14",
+        "confirmed": 4444831,
+        "fatalities": 303604,
+        "dailyCases": 94745,
+        "dailyDeaths": 5192
+    },
+    {
+        "date": "2020-05-15",
+        "confirmed": 4544937,
+        "fatalities": 308878,
+        "dailyCases": 100106,
+        "dailyDeaths": 5274
+    },
+    {
+        "date": "2020-05-16",
+        "confirmed": 4636792,
+        "fatalities": 313077,
+        "dailyCases": 91855,
+        "dailyDeaths": 4199
+    },
+    {
+        "date": "2020-05-17",
+        "confirmed": 4716827,
+        "fatalities": 316428,
+        "dailyCases": 80035,
+        "dailyDeaths": 3351
+    },
+    {
+        "date": "2020-05-18",
+        "confirmed": 4805351,
+        "fatalities": 319807,
+        "dailyCases": 88524,
+        "dailyDeaths": 3379
+    },
+    {
+        "date": "2020-05-19",
+        "confirmed": 4900625,
+        "fatalities": 324521,
+        "dailyCases": 95274,
+        "dailyDeaths": 4714
+    },
+    {
+        "date": "2020-05-20",
+        "confirmed": 4999275,
+        "fatalities": 329335,
+        "dailyCases": 98650,
+        "dailyDeaths": 4814
+    },
+    {
+        "date": "2020-05-21",
+        "confirmed": 5105342,
+        "fatalities": 334079,
+        "dailyCases": 106067,
+        "dailyDeaths": 4744
+    },
+    {
+        "date": "2020-05-22",
+        "confirmed": 5213970,
+        "fatalities": 339366,
+        "dailyCases": 108628,
+        "dailyDeaths": 5287
+    },
+    {
+        "date": "2020-05-23",
+        "confirmed": 5313395,
+        "fatalities": 343314,
+        "dailyCases": 99425,
+        "dailyDeaths": 3948
+    },
+    {
+        "date": "2020-05-24",
+        "confirmed": 5410161,
+        "fatalities": 346195,
+        "dailyCases": 96766,
+        "dailyDeaths": 2881
+    },
+    {
+        "date": "2020-05-25",
+        "confirmed": 5497548,
+        "fatalities": 347375,
+        "dailyCases": 87387,
+        "dailyDeaths": 1180
+    },
+    {
+        "date": "2020-05-26",
+        "confirmed": 5592940,
+        "fatalities": 351650,
+        "dailyCases": 95392,
+        "dailyDeaths": 4275
+    },
+    {
+        "date": "2020-05-27",
+        "confirmed": 5695057,
+        "fatalities": 356692,
+        "dailyCases": 102117,
+        "dailyDeaths": 5042
+    },
+    {
+        "date": "2020-05-28",
+        "confirmed": 5812595,
+        "fatalities": 361294,
+        "dailyCases": 117538,
+        "dailyDeaths": 4602
+    },
+    {
+        "date": "2020-05-29",
+        "confirmed": 5927820,
+        "fatalities": 365829,
+        "dailyCases": 115225,
+        "dailyDeaths": 4535
+    },
+    {
+        "date": "2020-05-30",
+        "confirmed": 6062346,
+        "fatalities": 370052,
+        "dailyCases": 134526,
+        "dailyDeaths": 4223
+    },
+    {
+        "date": "2020-05-31",
+        "confirmed": 6169766,
+        "fatalities": 372819,
+        "dailyCases": 107420,
+        "dailyDeaths": 2767
+    },
+    {
+        "date": "2020-06-01",
+        "confirmed": 6268969,
+        "fatalities": 376350,
+        "dailyCases": 99203,
+        "dailyDeaths": 3531
+    },
+    {
+        "date": "2020-06-02",
+        "confirmed": 6390325,
+        "fatalities": 381093,
+        "dailyCases": 121356,
+        "dailyDeaths": 4743
+    },
+    {
+        "date": "2020-06-03",
+        "confirmed": 6509006,
+        "fatalities": 386614,
+        "dailyCases": 118681,
+        "dailyDeaths": 5521
+    },
+    {
+        "date": "2020-06-04",
+        "confirmed": 6637319,
+        "fatalities": 391725,
+        "dailyCases": 128313,
+        "dailyDeaths": 5111
+    },
+    {
+        "date": "2020-06-05",
+        "confirmed": 6774880,
+        "fatalities": 396661,
+        "dailyCases": 137561,
+        "dailyDeaths": 4936
+    },
+    {
+        "date": "2020-06-06",
+        "confirmed": 6900788,
+        "fatalities": 400522,
+        "dailyCases": 125908,
+        "dailyDeaths": 3861
+    },
+    {
+        "date": "2020-06-07",
+        "confirmed": 7014836,
+        "fatalities": 403297,
+        "dailyCases": 114048,
+        "dailyDeaths": 2775
+    },
+    {
+        "date": "2020-06-08",
+        "confirmed": 7123277,
+        "fatalities": 407091,
+        "dailyCases": 108441,
+        "dailyDeaths": 3794
+    },
+    {
+        "date": "2020-06-09",
+        "confirmed": 7247061,
+        "fatalities": 411929,
+        "dailyCases": 123784,
+        "dailyDeaths": 4838
+    },
+    {
+        "date": "2020-06-10",
+        "confirmed": 7365859,
+        "fatalities": 416632,
+        "dailyCases": 118798,
+        "dailyDeaths": 4703
+    },
+    {
+        "date": "2020-06-11",
+        "confirmed": 7519877,
+        "fatalities": 421847,
+        "dailyCases": 154018,
+        "dailyDeaths": 5215
+    },
+    {
+        "date": "2020-06-12",
+        "confirmed": 7638497,
+        "fatalities": 425761,
+        "dailyCases": 118620,
+        "dailyDeaths": 3914
+    },
+    {
+        "date": "2020-06-13",
+        "confirmed": 7772768,
+        "fatalities": 430046,
+        "dailyCases": 134271,
+        "dailyDeaths": 4285
+    },
+    {
+        "date": "2020-06-14",
+        "confirmed": 7906373,
+        "fatalities": 433395,
+        "dailyCases": 133605,
+        "dailyDeaths": 3349
+    },
+    {
+        "date": "2020-06-15",
+        "confirmed": 8039819,
+        "fatalities": 437219,
+        "dailyCases": 133446,
+        "dailyDeaths": 3824
+    },
+    {
+        "date": "2020-06-16",
+        "confirmed": 8179618,
+        "fatalities": 443968,
+        "dailyCases": 139799,
+        "dailyDeaths": 6749
+    },
+    {
+        "date": "2020-06-17",
+        "confirmed": 8357013,
+        "fatalities": 449215,
+        "dailyCases": 177395,
+        "dailyDeaths": 5247
+    },
+    {
+        "date": "2020-06-18",
+        "confirmed": 8496717,
+        "fatalities": 454180,
+        "dailyCases": 139704,
+        "dailyDeaths": 4965
+    },
+    {
+        "date": "2020-06-19",
+        "confirmed": 8676318,
+        "fatalities": 460357,
+        "dailyCases": 179601,
+        "dailyDeaths": 6177
+    },
+    {
+        "date": "2020-06-20",
+        "confirmed": 8799976,
+        "fatalities": 464545,
+        "dailyCases": 123658,
+        "dailyDeaths": 4188
+    },
+    {
+        "date": "2020-06-21",
+        "confirmed": 8963120,
+        "fatalities": 468471,
+        "dailyCases": 163144,
+        "dailyDeaths": 3926
+    },
+    {
+        "date": "2020-06-22",
+        "confirmed": 9107590,
+        "fatalities": 472297,
+        "dailyCases": 144470,
+        "dailyDeaths": 3826
+    },
+    {
+        "date": "2020-06-23",
+        "confirmed": 9274032,
+        "fatalities": 477616,
+        "dailyCases": 166442,
+        "dailyDeaths": 5319
+    },
+    {
+        "date": "2020-06-24",
+        "confirmed": 9442922,
+        "fatalities": 482763,
+        "dailyCases": 168890,
+        "dailyDeaths": 5147
+    },
+    {
+        "date": "2020-06-25",
+        "confirmed": 9622227,
+        "fatalities": 489311,
+        "dailyCases": 179305,
+        "dailyDeaths": 6548
+    },
+    {
+        "date": "2020-06-26",
+        "confirmed": 9814145,
+        "fatalities": 494191,
+        "dailyCases": 191918,
+        "dailyDeaths": 4880
+    },
+    {
+        "date": "2020-06-27",
+        "confirmed": 9991750,
+        "fatalities": 498744,
+        "dailyCases": 177605,
+        "dailyDeaths": 4553
+    },
+    {
+        "date": "2020-06-28",
+        "confirmed": 10160658,
+        "fatalities": 501968,
+        "dailyCases": 168908,
+        "dailyDeaths": 3224
+    },
+    {
+        "date": "2020-06-29",
+        "confirmed": 10315466,
+        "fatalities": 505552,
+        "dailyCases": 154808,
+        "dailyDeaths": 3584
+    },
+    {
+        "date": "2020-06-30",
+        "confirmed": 10489608,
+        "fatalities": 511230,
+        "dailyCases": 174142,
+        "dailyDeaths": 5678
+    },
+    {
+        "date": "2020-07-01",
+        "confirmed": 10706794,
+        "fatalities": 516178,
+        "dailyCases": 217186,
+        "dailyDeaths": 4948
+    },
+    {
+        "date": "2020-07-02",
+        "confirmed": 10885781,
+        "fatalities": 521269,
+        "dailyCases": 178987,
+        "dailyDeaths": 5091
+    },
+    {
+        "date": "2020-07-03",
+        "confirmed": 11089624,
+        "fatalities": 526352,
+        "dailyCases": 203843,
+        "dailyDeaths": 5083
+    },
+    {
+        "date": "2020-07-04",
+        "confirmed": 11281974,
+        "fatalities": 530742,
+        "dailyCases": 192350,
+        "dailyDeaths": 4390
+    },
+    {
+        "date": "2020-07-05",
+        "confirmed": 11465291,
+        "fatalities": 534286,
+        "dailyCases": 183317,
+        "dailyDeaths": 3544
+    },
+    {
+        "date": "2020-07-06",
+        "confirmed": 11634446,
+        "fatalities": 538110,
+        "dailyCases": 169155,
+        "dailyDeaths": 3824
+    },
+    {
+        "date": "2020-07-07",
+        "confirmed": 11844527,
+        "fatalities": 544143,
+        "dailyCases": 210081,
+        "dailyDeaths": 6033
+    },
+    {
+        "date": "2020-07-08",
+        "confirmed": 12058289,
+        "fatalities": 549428,
+        "dailyCases": 213762,
+        "dailyDeaths": 5285
+    },
+    {
+        "date": "2020-07-09",
+        "confirmed": 12283909,
+        "fatalities": 554873,
+        "dailyCases": 225620,
+        "dailyDeaths": 5445
+    },
+    {
+        "date": "2020-07-10",
+        "confirmed": 12515405,
+        "fatalities": 560157,
+        "dailyCases": 231496,
+        "dailyDeaths": 5284
+    },
+    {
+        "date": "2020-07-11",
+        "confirmed": 12733744,
+        "fatalities": 565124,
+        "dailyCases": 218339,
+        "dailyDeaths": 4967
+    },
+    {
+        "date": "2020-07-12",
+        "confirmed": 12925903,
+        "fatalities": 569122,
+        "dailyCases": 192159,
+        "dailyDeaths": 3998
+    },
+    {
+        "date": "2020-07-13",
+        "confirmed": 13119115,
+        "fatalities": 573096,
+        "dailyCases": 193212,
+        "dailyDeaths": 3974
+    },
+    {
+        "date": "2020-07-14",
+        "confirmed": 13339689,
+        "fatalities": 578732,
+        "dailyCases": 220574,
+        "dailyDeaths": 5636
+    },
+    {
+        "date": "2020-07-15",
+        "confirmed": 13571651,
+        "fatalities": 584205,
+        "dailyCases": 231962,
+        "dailyDeaths": 5473
+    },
+    {
+        "date": "2020-07-16",
+        "confirmed": 13820041,
+        "fatalities": 589993,
+        "dailyCases": 248390,
+        "dailyDeaths": 5788
+    },
+    {
+        "date": "2020-07-17",
+        "confirmed": 14070866,
+        "fatalities": 596593,
+        "dailyCases": 250825,
+        "dailyDeaths": 6600
+    },
+    {
+        "date": "2020-07-18",
+        "confirmed": 14307836,
+        "fatalities": 602211,
+        "dailyCases": 236970,
+        "dailyDeaths": 5618
+    },
+    {
+        "date": "2020-07-19",
+        "confirmed": 14521777,
+        "fatalities": 606273,
+        "dailyCases": 213941,
+        "dailyDeaths": 4062
+    },
+    {
+        "date": "2020-07-20",
+        "confirmed": 14722655,
+        "fatalities": 610036,
+        "dailyCases": 200878,
+        "dailyDeaths": 3763
+    },
+    {
+        "date": "2020-07-21",
+        "confirmed": 14962721,
+        "fatalities": 616577,
+        "dailyCases": 240066,
+        "dailyDeaths": 6541
+    },
+    {
+        "date": "2020-07-22",
+        "confirmed": 15242408,
+        "fatalities": 623577,
+        "dailyCases": 279687,
+        "dailyDeaths": 7000
+    },
+    {
+        "date": "2020-07-23",
+        "confirmed": 15525362,
+        "fatalities": 633521,
+        "dailyCases": 282954,
+        "dailyDeaths": 9944
+    },
+    {
+        "date": "2020-07-24",
+        "confirmed": 15807351,
+        "fatalities": 639745,
+        "dailyCases": 281989,
+        "dailyDeaths": 6224
+    },
+    {
+        "date": "2020-07-25",
+        "confirmed": 16060589,
+        "fatalities": 645382,
+        "dailyCases": 253238,
+        "dailyDeaths": 5637
+    },
+    {
+        "date": "2020-07-26",
+        "confirmed": 16266501,
+        "fatalities": 648827,
+        "dailyCases": 205912,
+        "dailyDeaths": 3445
+    },
+    {
+        "date": "2020-07-27",
+        "confirmed": 16501712,
+        "fatalities": 654289,
+        "dailyCases": 235211,
+        "dailyDeaths": 5462
+    },
+    {
+        "date": "2020-07-28",
+        "confirmed": 16706155,
+        "fatalities": 659813,
+        "dailyCases": 204443,
+        "dailyDeaths": 5524
+    },
+    {
+        "date": "2020-07-29",
+        "confirmed": 17046048,
+        "fatalities": 667205,
+        "dailyCases": 339893,
+        "dailyDeaths": 7392
+    },
+    {
+        "date": "2020-07-30",
+        "confirmed": 17326649,
+        "fatalities": 673422,
+        "dailyCases": 280601,
+        "dailyDeaths": 6217
+    },
+    {
+        "date": "2020-07-31",
+        "confirmed": 17617414,
+        "fatalities": 679738,
+        "dailyCases": 290765,
+        "dailyDeaths": 6316
+    },
+    {
+        "date": "2020-08-01",
+        "confirmed": 17866501,
+        "fatalities": 685278,
+        "dailyCases": 249087,
+        "dailyDeaths": 5540
+    },
+    {
+        "date": "2020-08-02",
+        "confirmed": 18097858,
+        "fatalities": 689615,
+        "dailyCases": 231357,
+        "dailyDeaths": 4337
+    },
+    {
+        "date": "2020-08-03",
+        "confirmed": 18305542,
+        "fatalities": 694316,
+        "dailyCases": 207684,
+        "dailyDeaths": 4701
+    },
+    {
+        "date": "2020-08-04",
+        "confirmed": 18563730,
+        "fatalities": 700941,
+        "dailyCases": 258188,
+        "dailyDeaths": 6625
+    },
+    {
+        "date": "2020-08-05",
+        "confirmed": 18839600,
+        "fatalities": 708056,
+        "dailyCases": 275870,
+        "dailyDeaths": 7115
+    },
+    {
+        "date": "2020-08-06",
+        "confirmed": 19124996,
+        "fatalities": 715180,
+        "dailyCases": 285396,
+        "dailyDeaths": 7124
+    },
+    {
+        "date": "2020-08-07",
+        "confirmed": 19407519,
+        "fatalities": 721561,
+        "dailyCases": 282523,
+        "dailyDeaths": 6381
+    },
+    {
+        "date": "2020-08-08",
+        "confirmed": 19666652,
+        "fatalities": 727019,
+        "dailyCases": 259133,
+        "dailyDeaths": 5458
+    },
+    {
+        "date": "2020-08-09",
+        "confirmed": 19892349,
+        "fatalities": 731595,
+        "dailyCases": 225697,
+        "dailyDeaths": 4576
+    },
+    {
+        "date": "2020-08-10",
+        "confirmed": 20118871,
+        "fatalities": 736877,
+        "dailyCases": 226522,
+        "dailyDeaths": 5282
+    },
+    {
+        "date": "2020-08-11",
+        "confirmed": 20375855,
+        "fatalities": 743077,
+        "dailyCases": 256984,
+        "dailyDeaths": 6200
+    },
+    {
+        "date": "2020-08-12",
+        "confirmed": 20662149,
+        "fatalities": 750007,
+        "dailyCases": 286294,
+        "dailyDeaths": 6930
+    },
+    {
+        "date": "2020-08-13",
+        "confirmed": 20940553,
+        "fatalities": 755989,
+        "dailyCases": 278404,
+        "dailyDeaths": 5982
+    },
+    {
+        "date": "2020-08-14",
+        "confirmed": 21242965,
+        "fatalities": 766118,
+        "dailyCases": 302412,
+        "dailyDeaths": 10129
+    },
+    {
+        "date": "2020-08-15",
+        "confirmed": 21493772,
+        "fatalities": 771472,
+        "dailyCases": 250807,
+        "dailyDeaths": 5354
+    },
+    {
+        "date": "2020-08-16",
+        "confirmed": 21708939,
+        "fatalities": 775727,
+        "dailyCases": 215167,
+        "dailyDeaths": 4255
+    },
+    {
+        "date": "2020-08-17",
+        "confirmed": 21916638,
+        "fatalities": 774567,
+        "dailyCases": 207699,
+        "dailyDeaths": -1160
+    },
+    {
+        "date": "2020-08-18",
+        "confirmed": 22174876,
+        "fatalities": 781365,
+        "dailyCases": 258238,
+        "dailyDeaths": 6798
+    },
+    {
+        "date": "2020-08-19",
+        "confirmed": 22453657,
+        "fatalities": 788111,
+        "dailyCases": 278781,
+        "dailyDeaths": 6746
+    },
+    {
+        "date": "2020-08-20",
+        "confirmed": 22726219,
+        "fatalities": 794182,
+        "dailyCases": 272562,
+        "dailyDeaths": 6071
+    },
+    {
+        "date": "2020-08-21",
+        "confirmed": 22988091,
+        "fatalities": 799624,
+        "dailyCases": 261872,
+        "dailyDeaths": 5442
+    },
+    {
+        "date": "2020-08-22",
+        "confirmed": 23241749,
+        "fatalities": 804731,
+        "dailyCases": 253658,
+        "dailyDeaths": 5107
+    },
+    {
+        "date": "2020-08-23",
+        "confirmed": 23459139,
+        "fatalities": 809080,
+        "dailyCases": 217390,
+        "dailyDeaths": 4349
+    },
+    {
+        "date": "2020-08-24",
+        "confirmed": 23685264,
+        "fatalities": 813575,
+        "dailyCases": 226125,
+        "dailyDeaths": 4495
+    },
+    {
+        "date": "2020-08-25",
+        "confirmed": 23929054,
+        "fatalities": 819857,
+        "dailyCases": 243790,
+        "dailyDeaths": 6282
+    },
+    {
+        "date": "2020-08-26",
+        "confirmed": 24211077,
+        "fatalities": 826074,
+        "dailyCases": 282023,
+        "dailyDeaths": 6217
+    },
+    {
+        "date": "2020-08-27",
+        "confirmed": 24491826,
+        "fatalities": 831983,
+        "dailyCases": 280749,
+        "dailyDeaths": 5909
+    },
+    {
+        "date": "2020-08-28",
+        "confirmed": 24776042,
+        "fatalities": 837531,
+        "dailyCases": 284216,
+        "dailyDeaths": 5548
+    },
+    {
+        "date": "2020-08-29",
+        "confirmed": 25041204,
+        "fatalities": 842853,
+        "dailyCases": 265162,
+        "dailyDeaths": 5322
+    },
+    {
+        "date": "2020-08-30",
+        "confirmed": 25262187,
+        "fatalities": 846892,
+        "dailyCases": 220983,
+        "dailyDeaths": 4039
+    },
+    {
+        "date": "2020-08-31",
+        "confirmed": 25527194,
+        "fatalities": 851010,
+        "dailyCases": 265007,
+        "dailyDeaths": 4118
+    },
+    {
+        "date": "2020-09-01",
+        "confirmed": 25792955,
+        "fatalities": 857422,
+        "dailyCases": 265761,
+        "dailyDeaths": 6412
+    },
+    {
+        "date": "2020-09-02",
+        "confirmed": 26075563,
+        "fatalities": 863535,
+        "dailyCases": 282608,
+        "dailyDeaths": 6113
+    },
+    {
+        "date": "2020-09-03",
+        "confirmed": 26349650,
+        "fatalities": 869217,
+        "dailyCases": 274087,
+        "dailyDeaths": 5682
+    },
+    {
+        "date": "2020-09-04",
+        "confirmed": 26655577,
+        "fatalities": 874814,
+        "dailyCases": 305927,
+        "dailyDeaths": 5597
+    },
+    {
+        "date": "2020-09-05",
+        "confirmed": 26926169,
+        "fatalities": 879768,
+        "dailyCases": 270592,
+        "dailyDeaths": 4954
+    },
+    {
+        "date": "2020-09-06",
+        "confirmed": 27165300,
+        "fatalities": 883878,
+        "dailyCases": 239131,
+        "dailyDeaths": 4110
+    },
+    {
+        "date": "2020-09-07",
+        "confirmed": 27378473,
+        "fatalities": 893042,
+        "dailyCases": 213173,
+        "dailyDeaths": 9164
+    },
+    {
+        "date": "2020-09-08",
+        "confirmed": 27617704,
+        "fatalities": 897944,
+        "dailyCases": 239231,
+        "dailyDeaths": 4902
+    },
+    {
+        "date": "2020-09-09",
+        "confirmed": 27911161,
+        "fatalities": 904278,
+        "dailyCases": 293457,
+        "dailyDeaths": 6334
+    },
+    {
+        "date": "2020-09-10",
+        "confirmed": 28210282,
+        "fatalities": 910078,
+        "dailyCases": 299121,
+        "dailyDeaths": 5800
+    },
+    {
+        "date": "2020-09-11",
+        "confirmed": 28531376,
+        "fatalities": 915924,
+        "dailyCases": 321094,
+        "dailyDeaths": 5846
+    },
+    {
+        "date": "2020-09-12",
+        "confirmed": 28818571,
+        "fatalities": 920810,
+        "dailyCases": 287195,
+        "dailyDeaths": 4886
+    },
+    {
+        "date": "2020-09-13",
+        "confirmed": 29061141,
+        "fatalities": 924519,
+        "dailyCases": 242570,
+        "dailyDeaths": 3709
+    },
+    {
+        "date": "2020-09-14",
+        "confirmed": 29241377,
+        "fatalities": 927901,
+        "dailyCases": 180236,
+        "dailyDeaths": 3382
+    },
+    {
+        "date": "2020-09-15",
+        "confirmed": 29610579,
+        "fatalities": 935390,
+        "dailyCases": 369202,
+        "dailyDeaths": 7489
+    },
+    {
+        "date": "2020-09-16",
+        "confirmed": 29914541,
+        "fatalities": 941170,
+        "dailyCases": 303962,
+        "dailyDeaths": 5780
+    },
+    {
+        "date": "2020-09-17",
+        "confirmed": 30229625,
+        "fatalities": 946635,
+        "dailyCases": 315084,
+        "dailyDeaths": 5465
+    },
+    {
+        "date": "2020-09-18",
+        "confirmed": 30555734,
+        "fatalities": 952306,
+        "dailyCases": 326109,
+        "dailyDeaths": 5671
+    },
+    {
+        "date": "2020-09-19",
+        "confirmed": 30848593,
+        "fatalities": 957583,
+        "dailyCases": 292859,
+        "dailyDeaths": 5277
+    },
+    {
+        "date": "2020-09-20",
+        "confirmed": 31101756,
+        "fatalities": 961312,
+        "dailyCases": 253163,
+        "dailyDeaths": 3729
+    },
+    {
+        "date": "2020-09-21",
+        "confirmed": 31377843,
+        "fatalities": 965412,
+        "dailyCases": 276087,
+        "dailyDeaths": 4100
+    },
+    {
+        "date": "2020-09-22",
+        "confirmed": 31662742,
+        "fatalities": 971429,
+        "dailyCases": 284899,
+        "dailyDeaths": 6017
+    },
+    {
+        "date": "2020-09-23",
+        "confirmed": 31937561,
+        "fatalities": 976992,
+        "dailyCases": 274819,
+        "dailyDeaths": 5563
+    },
+    {
+        "date": "2020-09-24",
+        "confirmed": 32291026,
+        "fatalities": 983641,
+        "dailyCases": 353465,
+        "dailyDeaths": 6649
+    },
+    {
+        "date": "2020-09-25",
+        "confirmed": 32626683,
+        "fatalities": 989544,
+        "dailyCases": 335657,
+        "dailyDeaths": 5903
+    },
+    {
+        "date": "2020-09-26",
+        "confirmed": 32915836,
+        "fatalities": 994887,
+        "dailyCases": 289153,
+        "dailyDeaths": 5343
+    },
+    {
+        "date": "2020-09-27",
+        "confirmed": 33170395,
+        "fatalities": 998561,
+        "dailyCases": 254559,
+        "dailyDeaths": 3674
+    },
+    {
+        "date": "2020-09-28",
+        "confirmed": 33423047,
+        "fatalities": 1002529,
+        "dailyCases": 252652,
+        "dailyDeaths": 3968
+    },
+    {
+        "date": "2020-09-29",
+        "confirmed": 33706404,
+        "fatalities": 1008448,
+        "dailyCases": 283357,
+        "dailyDeaths": 5919
+    },
+    {
+        "date": "2020-09-30",
+        "confirmed": 34032061,
+        "fatalities": 1014917,
+        "dailyCases": 325657,
+        "dailyDeaths": 6469
+    },
+    {
+        "date": "2020-10-01",
+        "confirmed": 34344786,
+        "fatalities": 1023487,
+        "dailyCases": 312725,
+        "dailyDeaths": 8570
+    },
+    {
+        "date": "2020-10-02",
+        "confirmed": 34650526,
+        "fatalities": 1028562,
+        "dailyCases": 305740,
+        "dailyDeaths": 5075
+    },
+    {
+        "date": "2020-10-03",
+        "confirmed": 34968722,
+        "fatalities": 1033936,
+        "dailyCases": 318196,
+        "dailyDeaths": 5374
+    },
+    {
+        "date": "2020-10-04",
+        "confirmed": 35244414,
+        "fatalities": 1037770,
+        "dailyCases": 275692,
+        "dailyDeaths": 3834
+    },
+    {
+        "date": "2020-10-05",
+        "confirmed": 35541134,
+        "fatalities": 1044708,
+        "dailyCases": 296720,
+        "dailyDeaths": 6938
+    },
+    {
+        "date": "2020-10-06",
+        "confirmed": 35872414,
+        "fatalities": 1050477,
+        "dailyCases": 331280,
+        "dailyDeaths": 5769
+    },
+    {
+        "date": "2020-10-07",
+        "confirmed": 36222320,
+        "fatalities": 1056316,
+        "dailyCases": 349906,
+        "dailyDeaths": 5839
+    },
+    {
+        "date": "2020-10-08",
+        "confirmed": 36583808,
+        "fatalities": 1062537,
+        "dailyCases": 361488,
+        "dailyDeaths": 6221
+    },
+    {
+        "date": "2020-10-09",
+        "confirmed": 36944968,
+        "fatalities": 1068728,
+        "dailyCases": 361160,
+        "dailyDeaths": 6191
+    },
+    {
+        "date": "2020-10-10",
+        "confirmed": 37302325,
+        "fatalities": 1073604,
+        "dailyCases": 357357,
+        "dailyDeaths": 4876
+    },
+    {
+        "date": "2020-10-11",
+        "confirmed": 37589331,
+        "fatalities": 1077616,
+        "dailyCases": 287006,
+        "dailyDeaths": 4012
+    },
+    {
+        "date": "2020-10-12",
+        "confirmed": 37881427,
+        "fatalities": 1081588,
+        "dailyCases": 292096,
+        "dailyDeaths": 3972
+    },
+    {
+        "date": "2020-10-13",
+        "confirmed": 38200849,
+        "fatalities": 1086887,
+        "dailyCases": 319422,
+        "dailyDeaths": 5299
+    },
+    {
+        "date": "2020-10-14",
+        "confirmed": 38583083,
+        "fatalities": 1092959,
+        "dailyCases": 382234,
+        "dailyDeaths": 6072
+    },
+    {
+        "date": "2020-10-15",
+        "confirmed": 38990301,
+        "fatalities": 1099062,
+        "dailyCases": 407218,
+        "dailyDeaths": 6103
+    },
+    {
+        "date": "2020-10-16",
+        "confirmed": 39402174,
+        "fatalities": 1105232,
+        "dailyCases": 411873,
+        "dailyDeaths": 6170
+    },
+    {
+        "date": "2020-10-17",
+        "confirmed": 39774952,
+        "fatalities": 1110799,
+        "dailyCases": 372778,
+        "dailyDeaths": 5567
+    },
+    {
+        "date": "2020-10-18",
+        "confirmed": 40091746,
+        "fatalities": 1114303,
+        "dailyCases": 316794,
+        "dailyDeaths": 3504
+    },
+    {
+        "date": "2020-10-19",
+        "confirmed": 40479184,
+        "fatalities": 1119126,
+        "dailyCases": 387438,
+        "dailyDeaths": 4823
+    },
+    {
+        "date": "2020-10-20",
+        "confirmed": 40868407,
+        "fatalities": 1125684,
+        "dailyCases": 389223,
+        "dailyDeaths": 6558
+    },
+    {
+        "date": "2020-10-21",
+        "confirmed": 41312694,
+        "fatalities": 1132319,
+        "dailyCases": 444287,
+        "dailyDeaths": 6635
+    },
+    {
+        "date": "2020-10-22",
+        "confirmed": 41785529,
+        "fatalities": 1138235,
+        "dailyCases": 472835,
+        "dailyDeaths": 5916
+    },
+    {
+        "date": "2020-10-23",
+        "confirmed": 42291897,
+        "fatalities": 1145232,
+        "dailyCases": 506368,
+        "dailyDeaths": 6997
+    },
+    {
+        "date": "2020-10-24",
+        "confirmed": 42747081,
+        "fatalities": 1151002,
+        "dailyCases": 455184,
+        "dailyDeaths": 5770
+    },
+    {
+        "date": "2020-10-25",
+        "confirmed": 43146722,
+        "fatalities": 1155162,
+        "dailyCases": 399641,
+        "dailyDeaths": 4160
+    },
+    {
+        "date": "2020-10-26",
+        "confirmed": 43587908,
+        "fatalities": 1160672,
+        "dailyCases": 441186,
+        "dailyDeaths": 5510
+    },
+    {
+        "date": "2020-10-27",
+        "confirmed": 44059252,
+        "fatalities": 1168047,
+        "dailyCases": 471344,
+        "dailyDeaths": 7375
+    },
+    {
+        "date": "2020-10-28",
+        "confirmed": 44577854,
+        "fatalities": 1175257,
+        "dailyCases": 518602,
+        "dailyDeaths": 7210
+    },
+    {
+        "date": "2020-10-29",
+        "confirmed": 45116309,
+        "fatalities": 1182310,
+        "dailyCases": 538455,
+        "dailyDeaths": 7053
+    },
+    {
+        "date": "2020-10-30",
+        "confirmed": 45682765,
+        "fatalities": 1190175,
+        "dailyCases": 566456,
+        "dailyDeaths": 7865
+    },
+    {
+        "date": "2020-10-31",
+        "confirmed": 46169284,
+        "fatalities": 1196770,
+        "dailyCases": 486519,
+        "dailyDeaths": 6595
+    },
+    {
+        "date": "2020-11-01",
+        "confirmed": 46639333,
+        "fatalities": 1201797,
+        "dailyCases": 470049,
+        "dailyDeaths": 5027
+    },
+    {
+        "date": "2020-11-02",
+        "confirmed": 47144151,
+        "fatalities": 1207554,
+        "dailyCases": 504818,
+        "dailyDeaths": 5757
+    },
+    {
+        "date": "2020-11-03",
+        "confirmed": 47662335,
+        "fatalities": 1216522,
+        "dailyCases": 518184,
+        "dailyDeaths": 8968
+    },
+    {
+        "date": "2020-11-04",
+        "confirmed": 48261049,
+        "fatalities": 1227194,
+        "dailyCases": 598714,
+        "dailyDeaths": 10672
+    },
+    {
+        "date": "2020-11-05",
+        "confirmed": 48857709,
+        "fatalities": 1235221,
+        "dailyCases": 596660,
+        "dailyDeaths": 8027
+    },
+    {
+        "date": "2020-11-06",
+        "confirmed": 49502844,
+        "fatalities": 1244907,
+        "dailyCases": 645135,
+        "dailyDeaths": 9686
+    },
+    {
+        "date": "2020-11-07",
+        "confirmed": 50100163,
+        "fatalities": 1252532,
+        "dailyCases": 597319,
+        "dailyDeaths": 7625
+    },
+    {
+        "date": "2020-11-08",
+        "confirmed": 50584161,
+        "fatalities": 1258396,
+        "dailyCases": 483998,
+        "dailyDeaths": 5864
+    },
+    {
+        "date": "2020-11-09",
+        "confirmed": 51052047,
+        "fatalities": 1265616,
+        "dailyCases": 467886,
+        "dailyDeaths": 7220
+    },
+    {
+        "date": "2020-11-10",
+        "confirmed": 51616256,
+        "fatalities": 1275687,
+        "dailyCases": 564209,
+        "dailyDeaths": 10071
+    },
+    {
+        "date": "2020-11-11",
+        "confirmed": 52264862,
+        "fatalities": 1286157,
+        "dailyCases": 648606,
+        "dailyDeaths": 10470
+    },
+    {
+        "date": "2020-11-12",
+        "confirmed": 52914405,
+        "fatalities": 1296087,
+        "dailyCases": 649543,
+        "dailyDeaths": 9930
+    },
+    {
+        "date": "2020-11-13",
+        "confirmed": 53566478,
+        "fatalities": 1305675,
+        "dailyCases": 652073,
+        "dailyDeaths": 9588
+    },
+    {
+        "date": "2020-11-14",
+        "confirmed": 54161448,
+        "fatalities": 1314757,
+        "dailyCases": 594970,
+        "dailyDeaths": 9082
+    },
+    {
+        "date": "2020-11-15",
+        "confirmed": 54635389,
+        "fatalities": 1321182,
+        "dailyCases": 473941,
+        "dailyDeaths": 6425
+    },
+    {
+        "date": "2020-11-16",
+        "confirmed": 55169097,
+        "fatalities": 1329120,
+        "dailyCases": 533708,
+        "dailyDeaths": 7938
+    },
+    {
+        "date": "2020-11-17",
+        "confirmed": 55781066,
+        "fatalities": 1340268,
+        "dailyCases": 611969,
+        "dailyDeaths": 11148
+    },
+    {
+        "date": "2020-11-18",
+        "confirmed": 56408169,
+        "fatalities": 1351621,
+        "dailyCases": 627103,
+        "dailyDeaths": 11353
+    },
+    {
+        "date": "2020-11-19",
+        "confirmed": 57061754,
+        "fatalities": 1362654,
+        "dailyCases": 653585,
+        "dailyDeaths": 11033
+    },
+    {
+        "date": "2020-11-20",
+        "confirmed": 57730498,
+        "fatalities": 1374541,
+        "dailyCases": 668744,
+        "dailyDeaths": 11887
+    },
+    {
+        "date": "2020-11-21",
+        "confirmed": 58318062,
+        "fatalities": 1383513,
+        "dailyCases": 587564,
+        "dailyDeaths": 8972
+    },
+    {
+        "date": "2020-11-22",
+        "confirmed": 58806043,
+        "fatalities": 1390708,
+        "dailyCases": 487981,
+        "dailyDeaths": 7195
+    },
+    {
+        "date": "2020-11-23",
+        "confirmed": 59331362,
+        "fatalities": 1399234,
+        "dailyCases": 525319,
+        "dailyDeaths": 8526
+    },
+    {
+        "date": "2020-11-24",
+        "confirmed": 59921623,
+        "fatalities": 1411988,
+        "dailyCases": 590261,
+        "dailyDeaths": 12754
+    },
+    {
+        "date": "2020-11-25",
+        "confirmed": 60557847,
+        "fatalities": 1424025,
+        "dailyCases": 636224,
+        "dailyDeaths": 12037
+    },
+    {
+        "date": "2020-11-26",
+        "confirmed": 61140322,
+        "fatalities": 1434913,
+        "dailyCases": 582475,
+        "dailyDeaths": 10888
+    },
+    {
+        "date": "2020-11-27",
+        "confirmed": 61827470,
+        "fatalities": 1446300,
+        "dailyCases": 687148,
+        "dailyDeaths": 11387
+    },
+    {
+        "date": "2020-11-28",
+        "confirmed": 62413501,
+        "fatalities": 1455583,
+        "dailyCases": 586031,
+        "dailyDeaths": 9283
+    },
+    {
+        "date": "2020-11-29",
+        "confirmed": 62902084,
+        "fatalities": 1462743,
+        "dailyCases": 488583,
+        "dailyDeaths": 7160
+    },
+    {
+        "date": "2020-11-30",
+        "confirmed": 63410725,
+        "fatalities": 1471623,
+        "dailyCases": 508641,
+        "dailyDeaths": 8880
+    },
+    {
+        "date": "2020-12-01",
+        "confirmed": 64022822,
+        "fatalities": 1484426,
+        "dailyCases": 612097,
+        "dailyDeaths": 12803
+    },
+    {
+        "date": "2020-12-02",
+        "confirmed": 64674220,
+        "fatalities": 1496898,
+        "dailyCases": 651398,
+        "dailyDeaths": 12472
+    },
+    {
+        "date": "2020-12-03",
+        "confirmed": 65368720,
+        "fatalities": 1509473,
+        "dailyCases": 694500,
+        "dailyDeaths": 12575
+    },
+    {
+        "date": "2020-12-04",
+        "confirmed": 66051996,
+        "fatalities": 1521993,
+        "dailyCases": 683276,
+        "dailyDeaths": 12520
+    },
+    {
+        "date": "2020-12-05",
+        "confirmed": 66694027,
+        "fatalities": 1532282,
+        "dailyCases": 642031,
+        "dailyDeaths": 10289
+    },
+    {
+        "date": "2020-12-06",
+        "confirmed": 67232781,
+        "fatalities": 1539710,
+        "dailyCases": 538754,
+        "dailyDeaths": 7428
+    },
+    {
+        "date": "2020-12-07",
+        "confirmed": 67752800,
+        "fatalities": 1548425,
+        "dailyCases": 520019,
+        "dailyDeaths": 8715
+    },
+    {
+        "date": "2020-12-08",
+        "confirmed": 68396288,
+        "fatalities": 1560838,
+        "dailyCases": 643488,
+        "dailyDeaths": 12413
+    },
+    {
+        "date": "2020-12-09",
+        "confirmed": 69066199,
+        "fatalities": 1573425,
+        "dailyCases": 669911,
+        "dailyDeaths": 12587
+    },
+    {
+        "date": "2020-12-10",
+        "confirmed": 70564412,
+        "fatalities": 1586121,
+        "dailyCases": 1498213,
+        "dailyDeaths": 12696
+    },
+    {
+        "date": "2020-12-11",
+        "confirmed": 71268909,
+        "fatalities": 1599149,
+        "dailyCases": 704497,
+        "dailyDeaths": 13028
+    },
+    {
+        "date": "2020-12-12",
+        "confirmed": 71903759,
+        "fatalities": 1609694,
+        "dailyCases": 634850,
+        "dailyDeaths": 10545
+    },
+    {
+        "date": "2020-12-13",
+        "confirmed": 72434597,
+        "fatalities": 1617153,
+        "dailyCases": 530838,
+        "dailyDeaths": 7459
+    },
+    {
+        "date": "2020-12-14",
+        "confirmed": 72959984,
+        "fatalities": 1626325,
+        "dailyCases": 525387,
+        "dailyDeaths": 9172
+    },
+    {
+        "date": "2020-12-15",
+        "confirmed": 73596190,
+        "fatalities": 1640431,
+        "dailyCases": 636206,
+        "dailyDeaths": 14106
+    },
+    {
+        "date": "2020-12-16",
+        "confirmed": 74329916,
+        "fatalities": 1653937,
+        "dailyCases": 733726,
+        "dailyDeaths": 13506
+    },
+    {
+        "date": "2020-12-17",
+        "confirmed": 75069498,
+        "fatalities": 1667388,
+        "dailyCases": 739582,
+        "dailyDeaths": 13451
+    },
+    {
+        "date": "2020-12-18",
+        "confirmed": 75789960,
+        "fatalities": 1680178,
+        "dailyCases": 720462,
+        "dailyDeaths": 12790
+    },
+    {
+        "date": "2020-12-19",
+        "confirmed": 76401213,
+        "fatalities": 1690950,
+        "dailyCases": 611253,
+        "dailyDeaths": 10772
+    },
+    {
+        "date": "2020-12-20",
+        "confirmed": 76934686,
+        "fatalities": 1698865,
+        "dailyCases": 533473,
+        "dailyDeaths": 7915
+    },
+    {
+        "date": "2020-12-21",
+        "confirmed": 77483983,
+        "fatalities": 1708512,
+        "dailyCases": 549297,
+        "dailyDeaths": 9647
+    },
+    {
+        "date": "2020-12-22",
+        "confirmed": 78134244,
+        "fatalities": 1722999,
+        "dailyCases": 650261,
+        "dailyDeaths": 14487
+    },
+    {
+        "date": "2020-12-23",
+        "confirmed": 78829366,
+        "fatalities": 1736628,
+        "dailyCases": 695122,
+        "dailyDeaths": 13629
+    },
+    {
+        "date": "2020-12-24",
+        "confirmed": 79496006,
+        "fatalities": 1748259,
+        "dailyCases": 666640,
+        "dailyDeaths": 11631
+    },
+    {
+        "date": "2020-12-25",
+        "confirmed": 79961556,
+        "fatalities": 1756861,
+        "dailyCases": 465550,
+        "dailyDeaths": 8602
+    },
+    {
+        "date": "2020-12-26",
+        "confirmed": 80474158,
+        "fatalities": 1764260,
+        "dailyCases": 512602,
+        "dailyDeaths": 7399
+    },
+    {
+        "date": "2020-12-27",
+        "confirmed": 80912611,
+        "fatalities": 1771659,
+        "dailyCases": 438453,
+        "dailyDeaths": 7399
+    },
+    {
+        "date": "2020-12-28",
+        "confirmed": 81408934,
+        "fatalities": 1781415,
+        "dailyCases": 496323,
+        "dailyDeaths": 9756
+    },
+    {
+        "date": "2020-12-29",
+        "confirmed": 82073362,
+        "fatalities": 1796786,
+        "dailyCases": 664428,
+        "dailyDeaths": 15371
+    },
+    {
+        "date": "2020-12-30",
+        "confirmed": 82834592,
+        "fatalities": 1811843,
+        "dailyCases": 761230,
+        "dailyDeaths": 15057
+    },
+    {
+        "date": "2020-12-31",
+        "confirmed": 83559601,
+        "fatalities": 1825012,
+        "dailyCases": 725009,
+        "dailyDeaths": 13169
+    },
+    {
+        "date": "2021-01-01",
+        "confirmed": 84092619,
+        "fatalities": 1834675,
+        "dailyCases": 533018,
+        "dailyDeaths": 9663
+    },
+    {
+        "date": "2021-01-02",
+        "confirmed": 84718978,
+        "fatalities": 1843108,
+        "dailyCases": 626359,
+        "dailyDeaths": 8433
+    },
+    {
+        "date": "2021-01-03",
+        "confirmed": 85251774,
+        "fatalities": 1850449,
+        "dailyCases": 532796,
+        "dailyDeaths": 7341
+    },
+    {
+        "date": "2021-01-04",
+        "confirmed": 85805892,
+        "fatalities": 1860598,
+        "dailyCases": 554118,
+        "dailyDeaths": 10149
+    },
+    {
+        "date": "2021-01-05",
+        "confirmed": 86546014,
+        "fatalities": 1875953,
+        "dailyCases": 740122,
+        "dailyDeaths": 15355
+    },
+    {
+        "date": "2021-01-06",
+        "confirmed": 87329386,
+        "fatalities": 1891006,
+        "dailyCases": 783372,
+        "dailyDeaths": 15053
+    },
+    {
+        "date": "2021-01-07",
+        "confirmed": 88210223,
+        "fatalities": 1905926,
+        "dailyCases": 880837,
+        "dailyDeaths": 14920
+    },
+    {
+        "date": "2021-01-08",
+        "confirmed": 89013445,
+        "fatalities": 1921092,
+        "dailyCases": 803222,
+        "dailyDeaths": 15166
+    },
+    {
+        "date": "2021-01-09",
+        "confirmed": 89774439,
+        "fatalities": 1933877,
+        "dailyCases": 760994,
+        "dailyDeaths": 12785
+    },
+    {
+        "date": "2021-01-10",
+        "confirmed": 90363573,
+        "fatalities": 1942225,
+        "dailyCases": 589134,
+        "dailyDeaths": 8348
+    },
+    {
+        "date": "2021-01-11",
+        "confirmed": 90983503,
+        "fatalities": 1952549,
+        "dailyCases": 619930,
+        "dailyDeaths": 10324
+    },
+    {
+        "date": "2021-01-12",
+        "confirmed": 91689011,
+        "fatalities": 1969887,
+        "dailyCases": 705508,
+        "dailyDeaths": 17338
+    },
+    {
+        "date": "2021-01-13",
+        "confirmed": 92437399,
+        "fatalities": 1986359,
+        "dailyCases": 748388,
+        "dailyDeaths": 16472
+    },
+    {
+        "date": "2021-01-14",
+        "confirmed": 93192627,
+        "fatalities": 2001730,
+        "dailyCases": 755228,
+        "dailyDeaths": 15371
+    },
+    {
+        "date": "2021-01-15",
+        "confirmed": 93959814,
+        "fatalities": 2016841,
+        "dailyCases": 767187,
+        "dailyDeaths": 15111
+    },
+    {
+        "date": "2021-01-16",
+        "confirmed": 94598958,
+        "fatalities": 2030089,
+        "dailyCases": 639144,
+        "dailyDeaths": 13248
+    },
+    {
+        "date": "2021-01-17",
+        "confirmed": 95128170,
+        "fatalities": 2038753,
+        "dailyCases": 529212,
+        "dailyDeaths": 8664
+    },
+    {
+        "date": "2021-01-18",
+        "confirmed": 95643236,
+        "fatalities": 2048179,
+        "dailyCases": 515066,
+        "dailyDeaths": 9426
+    },
+    {
+        "date": "2021-01-19",
+        "confirmed": 96251662,
+        "fatalities": 2065030,
+        "dailyCases": 608426,
+        "dailyDeaths": 16851
+    },
+    {
+        "date": "2021-01-20",
+        "confirmed": 96944599,
+        "fatalities": 2082668,
+        "dailyCases": 692937,
+        "dailyDeaths": 17638
+    },
+    {
+        "date": "2021-01-21",
+        "confirmed": 97600922,
+        "fatalities": 2099457,
+        "dailyCases": 656323,
+        "dailyDeaths": 16789
+    },
+    {
+        "date": "2021-01-22",
+        "confirmed": 98259983,
+        "fatalities": 2115478,
+        "dailyCases": 659061,
+        "dailyDeaths": 16021
+    },
+    {
+        "date": "2021-01-23",
+        "confirmed": 98828107,
+        "fatalities": 2128772,
+        "dailyCases": 568124,
+        "dailyDeaths": 13294
+    },
+    {
+        "date": "2021-01-24",
+        "confirmed": 99273761,
+        "fatalities": 2137740,
+        "dailyCases": 445654,
+        "dailyDeaths": 8968
+    },
+    {
+        "date": "2021-01-25",
+        "confirmed": 99771101,
+        "fatalities": 2148508,
+        "dailyCases": 497340,
+        "dailyDeaths": 10768
+    },
+    {
+        "date": "2021-01-26",
+        "confirmed": 100327339,
+        "fatalities": 2165816,
+        "dailyCases": 556238,
+        "dailyDeaths": 17308
+    },
+    {
+        "date": "2021-01-27",
+        "confirmed": 100925700,
+        "fatalities": 2182496,
+        "dailyCases": 598361,
+        "dailyDeaths": 16680
+    },
+    {
+        "date": "2021-01-28",
+        "confirmed": 101539951,
+        "fatalities": 2199547,
+        "dailyCases": 614251,
+        "dailyDeaths": 17051
+    },
+    {
+        "date": "2021-01-29",
+        "confirmed": 102130394,
+        "fatalities": 2214494,
+        "dailyCases": 590443,
+        "dailyDeaths": 14947
+    },
+    {
+        "date": "2021-01-30",
+        "confirmed": 102645724,
+        "fatalities": 2228080,
+        "dailyCases": 515330,
+        "dailyDeaths": 13586
+    },
+    {
+        "date": "2021-01-31",
+        "confirmed": 103027363,
+        "fatalities": 2236070,
+        "dailyCases": 381639,
+        "dailyDeaths": 7990
+    },
+    {
+        "date": "2021-02-01",
+        "confirmed": 103474137,
+        "fatalities": 2246288,
+        "dailyCases": 446774,
+        "dailyDeaths": 10218
+    },
+    {
+        "date": "2021-02-02",
+        "confirmed": 103932094,
+        "fatalities": 2261124,
+        "dailyCases": 457957,
+        "dailyDeaths": 14836
+    },
+    {
+        "date": "2021-02-03",
+        "confirmed": 104454075,
+        "fatalities": 2276852,
+        "dailyCases": 521981,
+        "dailyDeaths": 15728
+    },
+    {
+        "date": "2021-02-04",
+        "confirmed": 104920982,
+        "fatalities": 2289386,
+        "dailyCases": 466907,
+        "dailyDeaths": 12534
+    },
+    {
+        "date": "2021-02-05",
+        "confirmed": 105456410,
+        "fatalities": 2305957,
+        "dailyCases": 535428,
+        "dailyDeaths": 16571
+    },
+    {
+        "date": "2021-02-06",
+        "confirmed": 105828535,
+        "fatalities": 2316094,
+        "dailyCases": 372125,
+        "dailyDeaths": 10137
+    },
+    {
+        "date": "2021-02-07",
+        "confirmed": 106226613,
+        "fatalities": 2324080,
+        "dailyCases": 398078,
+        "dailyDeaths": 7986
+    },
+    {
+        "date": "2021-02-08",
+        "confirmed": 106542506,
+        "fatalities": 2332412,
+        "dailyCases": 315893,
+        "dailyDeaths": 8332
+    },
+    {
+        "date": "2021-02-09",
+        "confirmed": 106970539,
+        "fatalities": 2347949,
+        "dailyCases": 428033,
+        "dailyDeaths": 15537
+    },
+    {
+        "date": "2021-02-10",
+        "confirmed": 107406280,
+        "fatalities": 2361352,
+        "dailyCases": 435741,
+        "dailyDeaths": 13403
+    },
+    {
+        "date": "2021-02-11",
+        "confirmed": 107847745,
+        "fatalities": 2374826,
+        "dailyCases": 441465,
+        "dailyDeaths": 13474
+    },
+    {
+        "date": "2021-02-12",
+        "confirmed": 108276434,
+        "fatalities": 2387299,
+        "dailyCases": 428689,
+        "dailyDeaths": 12473
+    },
+    {
+        "date": "2021-02-13",
+        "confirmed": 108649735,
+        "fatalities": 2397104,
+        "dailyCases": 373301,
+        "dailyDeaths": 9805
+    },
+    {
+        "date": "2021-02-14",
+        "confirmed": 108943585,
+        "fatalities": 2403466,
+        "dailyCases": 293850,
+        "dailyDeaths": 6362
+    },
+    {
+        "date": "2021-02-15",
+        "confirmed": 109226751,
+        "fatalities": 2410360,
+        "dailyCases": 283166,
+        "dailyDeaths": 6894
+    },
+    {
+        "date": "2021-02-16",
+        "confirmed": 109577771,
+        "fatalities": 2421278,
+        "dailyCases": 351020,
+        "dailyDeaths": 10918
+    },
+    {
+        "date": "2021-02-17",
+        "confirmed": 109973326,
+        "fatalities": 2432617,
+        "dailyCases": 395555,
+        "dailyDeaths": 11339
+    },
+    {
+        "date": "2021-02-18",
+        "confirmed": 110376842,
+        "fatalities": 2443987,
+        "dailyCases": 403516,
+        "dailyDeaths": 11370
+    },
+    {
+        "date": "2021-02-19",
+        "confirmed": 110789361,
+        "fatalities": 2455035,
+        "dailyCases": 412519,
+        "dailyDeaths": 11048
+    },
+    {
+        "date": "2021-02-20",
+        "confirmed": 111159816,
+        "fatalities": 2463547,
+        "dailyCases": 370455,
+        "dailyDeaths": 8512
+    },
+    {
+        "date": "2021-02-21",
+        "confirmed": 111474262,
+        "fatalities": 2469427,
+        "dailyCases": 314446,
+        "dailyDeaths": 5880
+    },
+    {
+        "date": "2021-02-22",
+        "confirmed": 111762700,
+        "fatalities": 2476376,
+        "dailyCases": 288438,
+        "dailyDeaths": 6949
+    },
+    {
+        "date": "2021-02-23",
+        "confirmed": 112151553,
+        "fatalities": 2487556,
+        "dailyCases": 388853,
+        "dailyDeaths": 11180
+    },
+    {
+        "date": "2021-02-24",
+        "confirmed": 112596489,
+        "fatalities": 2499559,
+        "dailyCases": 444936,
+        "dailyDeaths": 12003
+    },
+    {
+        "date": "2021-02-25",
+        "confirmed": 113043967,
+        "fatalities": 2509724,
+        "dailyCases": 447478,
+        "dailyDeaths": 10165
+    },
+    {
+        "date": "2021-02-26",
+        "confirmed": 113487006,
+        "fatalities": 2519974,
+        "dailyCases": 443039,
+        "dailyDeaths": 10250
+    },
+    {
+        "date": "2021-02-27",
+        "confirmed": 113876236,
+        "fatalities": 2528114,
+        "dailyCases": 389230,
+        "dailyDeaths": 8140
+    },
+    {
+        "date": "2021-02-28",
+        "confirmed": 114179745,
+        "fatalities": 2533548,
+        "dailyCases": 303509,
+        "dailyDeaths": 5434
+    },
+    {
+        "date": "2021-03-01",
+        "confirmed": 114485609,
+        "fatalities": 2540757,
+        "dailyCases": 305864,
+        "dailyDeaths": 7209
+    },
+    {
+        "date": "2021-03-02",
+        "confirmed": 114795897,
+        "fatalities": 2551191,
+        "dailyCases": 310288,
+        "dailyDeaths": 10434
+    },
+    {
+        "date": "2021-03-03",
+        "confirmed": 115237039,
+        "fatalities": 2562264,
+        "dailyCases": 441142,
+        "dailyDeaths": 11073
+    },
+    {
+        "date": "2021-03-04",
+        "confirmed": 115690088,
+        "fatalities": 2572042,
+        "dailyCases": 453049,
+        "dailyDeaths": 9778
+    },
+    {
+        "date": "2021-03-05",
+        "confirmed": 116137142,
+        "fatalities": 2582059,
+        "dailyCases": 447054,
+        "dailyDeaths": 10017
+    },
+    {
+        "date": "2021-03-06",
+        "confirmed": 116547675,
+        "fatalities": 2589891,
+        "dailyCases": 410533,
+        "dailyDeaths": 7832
+    },
+    {
+        "date": "2021-03-07",
+        "confirmed": 116915987,
+        "fatalities": 2595165,
+        "dailyCases": 368312,
+        "dailyDeaths": 5274
+    },
+    {
+        "date": "2021-03-08",
+        "confirmed": 117214710,
+        "fatalities": 2602025,
+        "dailyCases": 298723,
+        "dailyDeaths": 6860
+    },
+    {
+        "date": "2021-03-09",
+        "confirmed": 117629375,
+        "fatalities": 2612006,
+        "dailyCases": 414665,
+        "dailyDeaths": 9981
+    },
+    {
+        "date": "2021-03-10",
+        "confirmed": 118096454,
+        "fatalities": 2621697,
+        "dailyCases": 467079,
+        "dailyDeaths": 9691
+    },
+    {
+        "date": "2021-03-11",
+        "confirmed": 118573350,
+        "fatalities": 2631464,
+        "dailyCases": 476896,
+        "dailyDeaths": 9767
+    },
+    {
+        "date": "2021-03-12",
+        "confirmed": 119062678,
+        "fatalities": 2641092,
+        "dailyCases": 489328,
+        "dailyDeaths": 9628
+    },
+    {
+        "date": "2021-03-13",
+        "confirmed": 119516794,
+        "fatalities": 2649078,
+        "dailyCases": 454116,
+        "dailyDeaths": 7986
+    },
+    {
+        "date": "2021-03-14",
+        "confirmed": 119877179,
+        "fatalities": 2654577,
+        "dailyCases": 360385,
+        "dailyDeaths": 5499
+    },
+    {
+        "date": "2021-03-15",
+        "confirmed": 120226080,
+        "fatalities": 2661398,
+        "dailyCases": 348901,
+        "dailyDeaths": 6821
+    },
+    {
+        "date": "2021-03-16",
+        "confirmed": 120699093,
+        "fatalities": 2671288,
+        "dailyCases": 473013,
+        "dailyDeaths": 9890
+    },
+    {
+        "date": "2021-03-17",
+        "confirmed": 121238378,
+        "fatalities": 2681413,
+        "dailyCases": 539285,
+        "dailyDeaths": 10125
+    },
+    {
+        "date": "2021-03-18",
+        "confirmed": 121792101,
+        "fatalities": 2691987,
+        "dailyCases": 553723,
+        "dailyDeaths": 10574
+    },
+    {
+        "date": "2021-03-19",
+        "confirmed": 122353780,
+        "fatalities": 2702386,
+        "dailyCases": 561679,
+        "dailyDeaths": 10399
+    },
+    {
+        "date": "2021-03-20",
+        "confirmed": 122852600,
+        "fatalities": 2710432,
+        "dailyCases": 498820,
+        "dailyDeaths": 8046
+    },
+    {
+        "date": "2021-03-21",
+        "confirmed": 123275915,
+        "fatalities": 2716233,
+        "dailyCases": 423315,
+        "dailyDeaths": 5801
+    },
+    {
+        "date": "2021-03-22",
+        "confirmed": 123692736,
+        "fatalities": 2723729,
+        "dailyCases": 416821,
+        "dailyDeaths": 7496
+    },
+    {
+        "date": "2021-03-23",
+        "confirmed": 124206981,
+        "fatalities": 2734835,
+        "dailyCases": 514245,
+        "dailyDeaths": 11106
+    },
+    {
+        "date": "2021-03-24",
+        "confirmed": 124840562,
+        "fatalities": 2744557,
+        "dailyCases": 633581,
+        "dailyDeaths": 9722
+    },
+    {
+        "date": "2021-03-25",
+        "confirmed": 125491912,
+        "fatalities": 2755896,
+        "dailyCases": 651350,
+        "dailyDeaths": 11339
+    },
+    {
+        "date": "2021-03-26",
+        "confirmed": 126133263,
+        "fatalities": 2768118,
+        "dailyCases": 641351,
+        "dailyDeaths": 12222
+    },
+    {
+        "date": "2021-03-27",
+        "confirmed": 126717855,
+        "fatalities": 2777955,
+        "dailyCases": 584592,
+        "dailyDeaths": 9837
+    },
+    {
+        "date": "2021-03-28",
+        "confirmed": 127187813,
+        "fatalities": 2784435,
+        "dailyCases": 469958,
+        "dailyDeaths": 6480
+    },
+    {
+        "date": "2021-03-29",
+        "confirmed": 127646218,
+        "fatalities": 2792398,
+        "dailyCases": 458405,
+        "dailyDeaths": 7963
+    },
+    {
+        "date": "2021-03-30",
+        "confirmed": 128214491,
+        "fatalities": 2803971,
+        "dailyCases": 568273,
+        "dailyDeaths": 11573
+    },
+    {
+        "date": "2021-03-31",
+        "confirmed": 128897696,
+        "fatalities": 2816248,
+        "dailyCases": 683205,
+        "dailyDeaths": 12277
+    },
+    {
+        "date": "2021-04-01",
+        "confirmed": 129609483,
+        "fatalities": 2828123,
+        "dailyCases": 711787,
+        "dailyDeaths": 11875
+    },
+    {
+        "date": "2021-04-02",
+        "confirmed": 130243222,
+        "fatalities": 2838382,
+        "dailyCases": 633739,
+        "dailyDeaths": 10259
+    },
+    {
+        "date": "2021-04-03",
+        "confirmed": 130772665,
+        "fatalities": 2846779,
+        "dailyCases": 529443,
+        "dailyDeaths": 8397
+    },
+    {
+        "date": "2021-04-04",
+        "confirmed": 131325468,
+        "fatalities": 2853709,
+        "dailyCases": 552803,
+        "dailyDeaths": 6930
+    },
+    {
+        "date": "2021-04-05",
+        "confirmed": 131815052,
+        "fatalities": 2861183,
+        "dailyCases": 489584,
+        "dailyDeaths": 7474
+    },
+    {
+        "date": "2021-04-06",
+        "confirmed": 132419139,
+        "fatalities": 2873010,
+        "dailyCases": 604087,
+        "dailyDeaths": 11827
+    },
+    {
+        "date": "2021-04-07",
+        "confirmed": 133103485,
+        "fatalities": 2887858,
+        "dailyCases": 684346,
+        "dailyDeaths": 14848
+    },
+    {
+        "date": "2021-04-08",
+        "confirmed": 133943335,
+        "fatalities": 2902512,
+        "dailyCases": 839850,
+        "dailyDeaths": 14654
+    },
+    {
+        "date": "2021-04-09",
+        "confirmed": 134691380,
+        "fatalities": 2915934,
+        "dailyCases": 748045,
+        "dailyDeaths": 13422
+    },
+    {
+        "date": "2021-04-10",
+        "confirmed": 135355887,
+        "fatalities": 2928349,
+        "dailyCases": 664507,
+        "dailyDeaths": 12415
+    },
+    {
+        "date": "2021-04-11",
+        "confirmed": 136046628,
+        "fatalities": 2936924,
+        "dailyCases": 690741,
+        "dailyDeaths": 8575
+    },
+    {
+        "date": "2021-04-12",
+        "confirmed": 136663253,
+        "fatalities": 2946232,
+        "dailyCases": 616625,
+        "dailyDeaths": 9308
+    },
+    {
+        "date": "2021-04-13",
+        "confirmed": 137442820,
+        "fatalities": 2959574,
+        "dailyCases": 779567,
+        "dailyDeaths": 13342
+    },
+    {
+        "date": "2021-04-14",
+        "confirmed": 138259845,
+        "fatalities": 2973125,
+        "dailyCases": 817025,
+        "dailyDeaths": 13551
+    },
+    {
+        "date": "2021-04-15",
+        "confirmed": 139076606,
+        "fatalities": 2986338,
+        "dailyCases": 816761,
+        "dailyDeaths": 13213
+    },
+    {
+        "date": "2021-04-16",
+        "confirmed": 139931461,
+        "fatalities": 2999175,
+        "dailyCases": 854855,
+        "dailyDeaths": 12837
+    },
+    {
+        "date": "2021-04-17",
+        "confirmed": 140719503,
+        "fatalities": 3011198,
+        "dailyCases": 788042,
+        "dailyDeaths": 12023
+    },
+    {
+        "date": "2021-04-18",
+        "confirmed": 141404998,
+        "fatalities": 3019823,
+        "dailyCases": 685495,
+        "dailyDeaths": 8625
+    },
+    {
+        "date": "2021-04-19",
+        "confirmed": 142098420,
+        "fatalities": 3030332,
+        "dailyCases": 693422,
+        "dailyDeaths": 10509
+    },
+    {
+        "date": "2021-04-20",
+        "confirmed": 142952845,
+        "fatalities": 3044533,
+        "dailyCases": 854425,
+        "dailyDeaths": 14201
+    },
+    {
+        "date": "2021-04-21",
+        "confirmed": 143842820,
+        "fatalities": 3058651,
+        "dailyCases": 889975,
+        "dailyDeaths": 14118
+    },
+    {
+        "date": "2021-04-22",
+        "confirmed": 144742575,
+        "fatalities": 3072396,
+        "dailyCases": 899755,
+        "dailyDeaths": 13745
+    },
+    {
+        "date": "2021-04-23",
+        "confirmed": 145646322,
+        "fatalities": 3086756,
+        "dailyCases": 903747,
+        "dailyDeaths": 14360
+    },
+    {
+        "date": "2021-04-24",
+        "confirmed": 146467262,
+        "fatalities": 3100051,
+        "dailyCases": 820940,
+        "dailyDeaths": 13295
+    },
+    {
+        "date": "2021-04-25",
+        "confirmed": 147189618,
+        "fatalities": 3109724,
+        "dailyCases": 722356,
+        "dailyDeaths": 9673
+    },
+    {
+        "date": "2021-04-26",
+        "confirmed": 147872402,
+        "fatalities": 3120896,
+        "dailyCases": 682784,
+        "dailyDeaths": 11172
+    },
+    {
+        "date": "2021-04-27",
+        "confirmed": 148716872,
+        "fatalities": 3135393,
+        "dailyCases": 844470,
+        "dailyDeaths": 14497
+    },
+    {
+        "date": "2021-04-28",
+        "confirmed": 149622864,
+        "fatalities": 3151122,
+        "dailyCases": 905992,
+        "dailyDeaths": 15729
+    },
+    {
+        "date": "2021-04-29",
+        "confirmed": 150520466,
+        "fatalities": 3166125,
+        "dailyCases": 897602,
+        "dailyDeaths": 15003
+    },
+    {
+        "date": "2021-04-30",
+        "confirmed": 151399480,
+        "fatalities": 3180403,
+        "dailyCases": 879014,
+        "dailyDeaths": 14278
+    },
+    {
+        "date": "2021-05-01",
+        "confirmed": 152196159,
+        "fatalities": 3192977,
+        "dailyCases": 796679,
+        "dailyDeaths": 12574
+    },
+    {
+        "date": "2021-05-02",
+        "confirmed": 152870507,
+        "fatalities": 3202930,
+        "dailyCases": 674348,
+        "dailyDeaths": 9953
+    },
+    {
+        "date": "2021-05-03",
+        "confirmed": 153552097,
+        "fatalities": 3214016,
+        "dailyCases": 681590,
+        "dailyDeaths": 11086
+    },
+    {
+        "date": "2021-05-04",
+        "confirmed": 154359533,
+        "fatalities": 3227921,
+        "dailyCases": 807436,
+        "dailyDeaths": 13905
+    },
+    {
+        "date": "2021-05-05",
+        "confirmed": 155200757,
+        "fatalities": 3242126,
+        "dailyCases": 841224,
+        "dailyDeaths": 14205
+    },
+    {
+        "date": "2021-05-06",
+        "confirmed": 156070729,
+        "fatalities": 3256371,
+        "dailyCases": 869972,
+        "dailyDeaths": 14245
+    },
+    {
+        "date": "2021-05-07",
+        "confirmed": 156902287,
+        "fatalities": 3270109,
+        "dailyCases": 831558,
+        "dailyDeaths": 13738
+    },
+    {
+        "date": "2021-05-08",
+        "confirmed": 157688833,
+        "fatalities": 3283286,
+        "dailyCases": 786546,
+        "dailyDeaths": 13177
+    },
+    {
+        "date": "2021-05-09",
+        "confirmed": 158330372,
+        "fatalities": 3293188,
+        "dailyCases": 641539,
+        "dailyDeaths": 9902
+    },
+    {
+        "date": "2021-05-10",
+        "confirmed": 158952301,
+        "fatalities": 3303957,
+        "dailyCases": 621929,
+        "dailyDeaths": 10769
+    },
+    {
+        "date": "2021-05-11",
+        "confirmed": 159690774,
+        "fatalities": 3317579,
+        "dailyCases": 738473,
+        "dailyDeaths": 13622
+    },
+    {
+        "date": "2021-05-12",
+        "confirmed": 160450873,
+        "fatalities": 3331516,
+        "dailyCases": 760099,
+        "dailyDeaths": 13937
+    },
+    {
+        "date": "2021-05-13",
+        "confirmed": 161176148,
+        "fatalities": 3344655,
+        "dailyCases": 725275,
+        "dailyDeaths": 13139
+    },
+    {
+        "date": "2021-05-14",
+        "confirmed": 161894208,
+        "fatalities": 3357785,
+        "dailyCases": 718060,
+        "dailyDeaths": 13130
+    },
+    {
+        "date": "2021-05-15",
+        "confirmed": 162521726,
+        "fatalities": 3369435,
+        "dailyCases": 627518,
+        "dailyDeaths": 11650
+    },
+    {
+        "date": "2021-05-16",
+        "confirmed": 163069932,
+        "fatalities": 3379526,
+        "dailyCases": 548206,
+        "dailyDeaths": 10091
+    },
+    {
+        "date": "2021-05-17",
+        "confirmed": 163609626,
+        "fatalities": 3390170,
+        "dailyCases": 539694,
+        "dailyDeaths": 10644
+    },
+    {
+        "date": "2021-05-18",
+        "confirmed": 164231811,
+        "fatalities": 3404419,
+        "dailyCases": 622185,
+        "dailyDeaths": 14249
+    },
+    {
+        "date": "2021-05-19",
+        "confirmed": 164902903,
+        "fatalities": 3417763,
+        "dailyCases": 671092,
+        "dailyDeaths": 13344
+    },
+    {
+        "date": "2021-05-20",
+        "confirmed": 165182316,
+        "fatalities": 3430539,
+        "dailyCases": 279413,
+        "dailyDeaths": 12776
+    },
+    {
+        "date": "2021-05-21",
+        "confirmed": 165808192,
+        "fatalities": 3443314,
+        "dailyCases": 625876,
+        "dailyDeaths": 12775
+    },
+    {
+        "date": "2021-05-22",
+        "confirmed": 166385987,
+        "fatalities": 3454660,
+        "dailyCases": 577795,
+        "dailyDeaths": 11346
+    },
+    {
+        "date": "2021-05-23",
+        "confirmed": 166862062,
+        "fatalities": 3464212,
+        "dailyCases": 476075,
+        "dailyDeaths": 9552
+    },
+    {
+        "date": "2021-05-24",
+        "confirmed": 167316362,
+        "fatalities": 3473036,
+        "dailyCases": 454300,
+        "dailyDeaths": 8824
+    },
+    {
+        "date": "2021-05-25",
+        "confirmed": 167848207,
+        "fatalities": 3485788,
+        "dailyCases": 531845,
+        "dailyDeaths": 12752
+    },
+    {
+        "date": "2021-05-26",
+        "confirmed": 168416423,
+        "fatalities": 3498544,
+        "dailyCases": 568216,
+        "dailyDeaths": 12756
+    },
+    {
+        "date": "2021-05-27",
+        "confirmed": 168970791,
+        "fatalities": 3511297,
+        "dailyCases": 554368,
+        "dailyDeaths": 12753
+    },
+    {
+        "date": "2021-05-28",
+        "confirmed": 169470725,
+        "fatalities": 3523117,
+        "dailyCases": 499934,
+        "dailyDeaths": 11820
+    },
+    {
+        "date": "2021-05-29",
+        "confirmed": 169951560,
+        "fatalities": 3533619,
+        "dailyCases": 480835,
+        "dailyDeaths": 10502
+    }
+]
