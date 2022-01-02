@@ -5,7 +5,7 @@ import {
   format,
   interpolate,
   line,
-  mean,
+  max,
   scaleLinear,
   scaleUtc,
   select,
@@ -48,7 +48,7 @@ export const CovidLineWorld = () => {
           .range([height, 0])
           .nice(),
         deathY = scaleLinear()
-          .domain([0, 20 * 1000])
+          .domain([-2000, 20 * 1000])
           .range([height, 0])
           .nice()
 
@@ -69,22 +69,7 @@ export const CovidLineWorld = () => {
   }
 
   useEffect(() => {
-    const result: { date: string, dailyCases: number, dailyDeaths: number }[] = []
-    let tmp: Data[] = []
-    worldData.forEach((v, i, arr) => {
-      if ((i + 1) % 7 !== 0 && i !== arr.length - 1) tmp.push(v)
-      else {
-        result.push({
-          date: tmp[Math.round((tmp.length - 1) / 2) - 1].date,
-          dailyCases: Math.round(mean(tmp, i => i.dailyCases)),
-          dailyDeaths: Math.round(mean(tmp, i => i.dailyDeaths))
-        })
-        tmp = []
-      }
-    })
-    console.log(result)
-    console.log(worldData.length)
-    console.log(result.length)
+    console.log(max(worldData, i => i.dailyCases))
     const svg = select(ref.current)
       .append("svg")
       .attr("width", w)
@@ -119,10 +104,10 @@ export const CovidLineWorld = () => {
       .attr("d", d => line()
         .x(d => x(new Date(d[0])))
         // @ts-ignore
-        .y(d => y(d[1]))(d))
+        .y(d => Math.abs(y(d[1]))).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#57d7ec")
-      .attr("stroke-width", 1.6)
+      .attr("stroke-width", 0.6)
     // .transition()
     // .duration(9000)
     // .attrTween("stroke-dasharray", dashTween)
@@ -132,7 +117,7 @@ export const CovidLineWorld = () => {
       .attr("d", d => line()
         .x(d => x(new Date(d[0])))
         // @ts-ignore
-        .y(d => y(d[1]))(d))
+        .y(d => y(d[1])).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#3591ee")
       .attr("stroke-width", 1.6)
@@ -142,10 +127,10 @@ export const CovidLineWorld = () => {
       .attr("d", d => line()
         .x(d => x(new Date(d[0])))
         // @ts-ignore
-        .y(d => deathY(d[1])).curve(curveNatural)(d))
+        .y(d => Math.abs(deathY(d[1]))).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#ea708d")
-      .attr("stroke-width", 1.35)
+      .attr("stroke-width", 0.6)
 
     svg.append("path")
       .datum(worldDataMean.map(i => [i.date, i.dailyDeaths]))
@@ -155,7 +140,8 @@ export const CovidLineWorld = () => {
         .y(d => deathY(d[1])).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#ec3761")
-      .attr("stroke-width", 1.35)
+      .attr("stroke-width", 1.6)
+
     // .transition()
     // .duration(9000)
     // .delay(10000)
