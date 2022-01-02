@@ -1,17 +1,18 @@
 import {
   axisBottom,
   axisLeft,
+  axisRight,
   curveNatural,
+  extent,
   format,
   interpolate,
   line,
-  max,
   scaleLinear,
   scaleUtc,
   select,
   timeFormatLocale
 } from "d3"
-import {useEffect, useRef} from "react"
+import React, {useEffect, useRef} from "react"
 import worldData from "./json/global_case.json"
 import worldDataMean from "./json/global_case_mean.json"
 
@@ -30,12 +31,12 @@ const dataReady = worldData.map(i => [
   [i.date, i.dailyDeaths]
 ])
 
-export const CovidLineWorld = () => {
+export const CovidLineDaily = () => {
   const ref = useRef<HTMLDivElement>(null)
 
-  const w      = 700,
-        h      = 480,
-        margin = {left: 40, right: 10, top: 30, bottom: 40},
+  const w      = 800,
+        h      = 500,
+        margin = {left: 40, right: 40, top: 50, bottom: 40},
         width  = w - margin.left - margin.right,
         height = h - margin.top - margin.bottom
 
@@ -44,13 +45,20 @@ export const CovidLineWorld = () => {
           .range([0, width])
           .nice(),
         y      = scaleLinear()
-          .domain([0, 1500 * 1000])
+          .domain(extent(worldData, i => i.dailyCases))
           .range([height, 0])
           .nice(),
         deathY = scaleLinear()
-          .domain([-2000, 20 * 1000])
+          .domain(extent(worldData, i => i.dailyDeaths))
           .range([height, 0])
           .nice()
+
+  const legendsArray = [
+    {name: "Daily Case", color: "#57d7ec"},
+    {name: "Daily Case Mean/week", color: "#3591ee"},
+    {name: "Daily Death", color: "#ea708d"},
+    {name: "Daily Death Mean/week", color: "#ec3761"}
+  ]
 
   const locale = timeFormatLocale({
     dateTime: "%a %b %e %X %Y",
@@ -69,7 +77,6 @@ export const CovidLineWorld = () => {
   }
 
   useEffect(() => {
-    console.log(max(worldData, i => i.dailyCases))
     const svg = select(ref.current)
       .append("svg")
       .attr("width", w)
@@ -84,8 +91,16 @@ export const CovidLineWorld = () => {
           .ticks(8)
           .tickFormat(locale.format("%Y年%b月"))
       )
+
     svg.append("g")
       .call(axisLeft(y).tickFormat(format(".2s")))
+      .call(g => g.selectAll(".tick line").clone()
+        .attr("x2", width)
+        .attr("stroke-opacity", 0.5))
+
+    svg.append("g")
+      .attr("transform", `translate(${width}, 0)`)
+      .call(axisRight(deathY).tickFormat(format(".2s")))
 
     // svg.append("path")
     //   .datum(worldData.map(i => [i.date, i.confirmed]))
@@ -120,7 +135,7 @@ export const CovidLineWorld = () => {
         .y(d => y(d[1])).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#3591ee")
-      .attr("stroke-width", 1.6)
+      .attr("stroke-width", 2)
 
     svg.append("path")
       .datum(worldData.map(i => [i.date, i.dailyDeaths]))
@@ -140,14 +155,19 @@ export const CovidLineWorld = () => {
         .y(d => deathY(d[1])).curve(curveNatural)(d))
       .attr("fill", "none")
       .attr("stroke", "#ec3761")
-      .attr("stroke-width", 1.6)
+      .attr("stroke-width", 2)
 
-    // .transition()
-    // .duration(9000)
-    // .delay(10000)
-    // .attrTween("stroke-dasharray", dashTween)
-
+    svg.selectAll("text").style("color", "#525254")
   }, [])
 
-  return <div ref={ref}/>
+  return <div ref={ref} className={"relative"}>
+    <div className={"absolute left-[60px] top-[25px] flex flex-col space-y-3 p-2 bg-gray-100 rounded-md"}>
+      {
+        legendsArray.map(i => <div key={i.name} className={"flex items-center space-x-2"}>
+          <div className={`w-[20px] h-[20px]`} style={{backgroundColor: i.color}}/>
+          <span className={"text-sm font-medium text-gray-700"}>{i.name}</span>
+        </div>)
+      }
+    </div>
+  </div>
 }
