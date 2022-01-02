@@ -1,0 +1,357 @@
+[
+    {
+        "date": "2020-01-24",
+        "dailyCases": 395,
+        "dailyDeaths": 11
+    },
+    {
+        "date": "2020-01-31",
+        "dailyCases": 2384,
+        "dailyDeaths": 49
+    },
+    {
+        "date": "2020-02-07",
+        "dailyCases": 3145,
+        "dailyDeaths": 87
+    },
+    {
+        "date": "2020-02-14",
+        "dailyCases": 4743,
+        "dailyDeaths": 126
+    },
+    {
+        "date": "2020-02-21",
+        "dailyCases": 739,
+        "dailyDeaths": 104
+    },
+    {
+        "date": "2020-02-28",
+        "dailyCases": 1649,
+        "dailyDeaths": 63
+    },
+    {
+        "date": "2020-03-06",
+        "dailyCases": 3487,
+        "dailyDeaths": 140
+    },
+    {
+        "date": "2020-03-13",
+        "dailyCases": 10497,
+        "dailyDeaths": 477
+    },
+    {
+        "date": "2020-03-20",
+        "dailyCases": 30216,
+        "dailyDeaths": 1437
+    },
+    {
+        "date": "2020-03-27",
+        "dailyCases": 60745,
+        "dailyDeaths": 3172
+    },
+    {
+        "date": "2020-04-03",
+        "dailyCases": 77295,
+        "dailyDeaths": 5478
+    },
+    {
+        "date": "2020-04-10",
+        "dailyCases": 84906,
+        "dailyDeaths": 6322
+    },
+    {
+        "date": "2020-04-17",
+        "dailyCases": 82712,
+        "dailyDeaths": 7366
+    },
+    {
+        "date": "2020-04-24",
+        "dailyCases": 82210,
+        "dailyDeaths": 5814
+    },
+    {
+        "date": "2020-05-01",
+        "dailyCases": 78011,
+        "dailyDeaths": 5765
+    },
+    {
+        "date": "2020-05-08",
+        "dailyCases": 85722,
+        "dailyDeaths": 4831
+    },
+    {
+        "date": "2020-05-15",
+        "dailyCases": 90152,
+        "dailyDeaths": 4427
+    },
+    {
+        "date": "2020-05-22",
+        "dailyCases": 99487,
+        "dailyDeaths": 3809
+    },
+    {
+        "date": "2020-05-29",
+        "dailyCases": 112672,
+        "dailyDeaths": 4117
+    },
+    {
+        "date": "2020-06-05",
+        "dailyCases": 122159,
+        "dailyDeaths": 4333
+    },
+    {
+        "date": "2020-06-12",
+        "dailyCases": 132126,
+        "dailyDeaths": 4215
+    },
+    {
+        "date": "2020-06-19",
+        "dailyCases": 154662,
+        "dailyDeaths": 4722
+    },
+    {
+        "date": "2020-06-26",
+        "dailyCases": 173572,
+        "dailyDeaths": 4656
+    },
+    {
+        "date": "2020-07-03",
+        "dailyCases": 190806,
+        "dailyDeaths": 4480
+    },
+    {
+        "date": "2020-07-10",
+        "dailyCases": 212431,
+        "dailyDeaths": 4826
+    },
+    {
+        "date": "2020-07-17",
+        "dailyCases": 230494,
+        "dailyDeaths": 5217
+    },
+    {
+        "date": "2020-07-24",
+        "dailyCases": 256499,
+        "dailyDeaths": 6285
+    },
+    {
+        "date": "2020-07-31",
+        "dailyCases": 266565,
+        "dailyDeaths": 5751
+    },
+    {
+        "date": "2020-08-07",
+        "dailyCases": 259190,
+        "dailyDeaths": 5989
+    },
+    {
+        "date": "2020-08-14",
+        "dailyCases": 256797,
+        "dailyDeaths": 5248
+    },
+    {
+        "date": "2020-08-21",
+        "dailyCases": 251731,
+        "dailyDeaths": 5368
+    },
+    {
+        "date": "2020-08-28",
+        "dailyCases": 266357,
+        "dailyDeaths": 5192
+    },
+    {
+        "date": "2020-09-04",
+        "dailyCases": 264253,
+        "dailyDeaths": 5937
+    },
+    {
+        "date": "2020-09-11",
+        "dailyCases": 270612,
+        "dailyDeaths": 4993
+    },
+    {
+        "date": "2020-09-18",
+        "dailyCases": 294544,
+        "dailyDeaths": 5004
+    },
+    {
+        "date": "2020-09-25",
+        "dailyCases": 293384,
+        "dailyDeaths": 5183
+    },
+    {
+        "date": "2020-10-02",
+        "dailyCases": 305788,
+        "dailyDeaths": 6043
+    },
+    {
+        "date": "2020-10-09",
+        "dailyCases": 334836,
+        "dailyDeaths": 5185
+    },
+    {
+        "date": "2020-10-16",
+        "dailyCases": 379723,
+        "dailyDeaths": 5373
+    },
+    {
+        "date": "2020-10-23",
+        "dailyCases": 453250,
+        "dailyDeaths": 5831
+    },
+    {
+        "date": "2020-10-30",
+        "dailyCases": 514150,
+        "dailyDeaths": 6585
+    },
+    {
+        "date": "2020-11-06",
+        "dailyCases": 564952,
+        "dailyDeaths": 8182
+    },
+    {
+        "date": "2020-11-13",
+        "dailyCases": 592140,
+        "dailyDeaths": 8906
+    },
+    {
+        "date": "2020-11-20",
+        "dailyCases": 591716,
+        "dailyDeaths": 9828
+    },
+    {
+        "date": "2020-11-27",
+        "dailyCases": 581517,
+        "dailyDeaths": 9939
+    },
+    {
+        "date": "2020-12-04",
+        "dailyCases": 621663,
+        "dailyDeaths": 10667
+    },
+    {
+        "date": "2020-12-11",
+        "dailyCases": 760616,
+        "dailyDeaths": 10915
+    },
+    {
+        "date": "2020-12-18",
+        "dailyCases": 647966,
+        "dailyDeaths": 11347
+    },
+    {
+        "date": "2020-12-25",
+        "dailyCases": 545782,
+        "dailyDeaths": 9736
+    },
+    {
+        "date": "2021-01-01",
+        "dailyCases": 622088,
+        "dailyDeaths": 10635
+    },
+    {
+        "date": "2021-01-08",
+        "dailyCases": 739582,
+        "dailyDeaths": 12766
+    },
+    {
+        "date": "2021-01-15",
+        "dailyCases": 659038,
+        "dailyDeaths": 13049
+    },
+    {
+        "date": "2021-01-22",
+        "dailyCases": 586573,
+        "dailyDeaths": 13913
+    },
+    {
+        "date": "2021-01-29",
+        "dailyCases": 524466,
+        "dailyDeaths": 13412
+    },
+    {
+        "date": "2021-02-05",
+        "dailyCases": 435069,
+        "dailyDeaths": 11881
+    },
+    {
+        "date": "2021-02-12",
+        "dailyCases": 376035,
+        "dailyDeaths": 10402
+    },
+    {
+        "date": "2021-02-19",
+        "dailyCases": 364155,
+        "dailyDeaths": 9183
+    },
+    {
+        "date": "2021-02-26",
+        "dailyCases": 389009,
+        "dailyDeaths": 8867
+    },
+    {
+        "date": "2021-03-05",
+        "dailyCases": 403136,
+        "dailyDeaths": 8472
+    },
+    {
+        "date": "2021-03-12",
+        "dailyCases": 432784,
+        "dailyDeaths": 8232
+    },
+    {
+        "date": "2021-03-19",
+        "dailyCases": 498941,
+        "dailyDeaths": 8740
+    },
+    {
+        "date": "2021-03-26",
+        "dailyCases": 573206,
+        "dailyDeaths": 9594
+    },
+    {
+        "date": "2021-04-02",
+        "dailyCases": 600094,
+        "dailyDeaths": 9535
+    },
+    {
+        "date": "2021-04-09",
+        "dailyCases": 707352,
+        "dailyDeaths": 12204
+    },
+    {
+        "date": "2021-04-16",
+        "dailyCases": 775933,
+        "dailyDeaths": 11793
+    },
+    {
+        "date": "2021-04-23",
+        "dailyCases": 819926,
+        "dailyDeaths": 12727
+    },
+    {
+        "date": "2021-04-30",
+        "dailyCases": 805871,
+        "dailyDeaths": 13104
+    },
+    {
+        "date": "2021-05-07",
+        "dailyCases": 765461,
+        "dailyDeaths": 12673
+    },
+    {
+        "date": "2021-05-14",
+        "dailyCases": 653142,
+        "dailyDeaths": 12099
+    },
+    {
+        "date": "2021-05-21",
+        "dailyCases": 514092,
+        "dailyDeaths": 11436
+    },
+    {
+        "date": "2021-05-26",
+        "dailyCases": 540839,
+        "dailyDeaths": 12443
+    }
+]

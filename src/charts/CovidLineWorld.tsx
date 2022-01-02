@@ -1,6 +1,34 @@
-import {axisBottom, axisLeft, format, interpolate, line, max, scaleLinear, scaleUtc, select, timeFormatLocale} from "d3"
+import {
+  axisBottom,
+  axisLeft,
+  curveNatural,
+  format,
+  interpolate,
+  line,
+  mean,
+  scaleLinear,
+  scaleUtc,
+  select,
+  timeFormatLocale
+} from "d3"
 import {useEffect, useRef} from "react"
 import worldData from "./json/global_case.json"
+import worldDataMean from "./json/global_case_mean.json"
+
+type Data = {
+  date: string
+  confirmed: number
+  fatalities: number
+  dailyCases: number
+  dailyDeaths: number
+}
+
+const dataReady = worldData.map(i => [
+  [i.date, i.confirmed],
+  [i.date, i.fatalities],
+  [i.date, i.dailyCases],
+  [i.date, i.dailyDeaths]
+])
 
 export const CovidLineWorld = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -11,12 +39,16 @@ export const CovidLineWorld = () => {
         width  = w - margin.left - margin.right,
         height = h - margin.top - margin.bottom
 
-  const x = scaleUtc()
+  const x      = scaleUtc()
           .domain([new Date("2020-01-22"), new Date("2021-05-29")])
           .range([0, width])
           .nice(),
-        y = scaleLinear()
-          .domain([0, max(worldData, i => i.confirmed) as number])
+        y      = scaleLinear()
+          .domain([0, 1500 * 1000])
+          .range([height, 0])
+          .nice(),
+        deathY = scaleLinear()
+          .domain([0, 20 * 1000])
           .range([height, 0])
           .nice()
 
@@ -36,8 +68,23 @@ export const CovidLineWorld = () => {
     return interpolate(`0,${length}`, `${length}, ${length}`)
   }
 
-
   useEffect(() => {
+    const result: { date: string, dailyCases: number, dailyDeaths: number }[] = []
+    let tmp: Data[] = []
+    worldData.forEach((v, i, arr) => {
+      if ((i + 1) % 7 !== 0 && i !== arr.length - 1) tmp.push(v)
+      else {
+        result.push({
+          date: tmp[Math.round((tmp.length - 1) / 2) - 1].date,
+          dailyCases: Math.round(mean(tmp, i => i.dailyCases)),
+          dailyDeaths: Math.round(mean(tmp, i => i.dailyDeaths))
+        })
+        tmp = []
+      }
+    })
+    console.log(result)
+    console.log(worldData.length)
+    console.log(result.length)
     const svg = select(ref.current)
       .append("svg")
       .attr("width", w)
@@ -55,17 +102,65 @@ export const CovidLineWorld = () => {
     svg.append("g")
       .call(axisLeft(y).tickFormat(format(".2s")))
 
+    // svg.append("path")
+    //   .datum(worldData.map(i => [i.date, i.confirmed]))
+    //   .attr("d", d => line()
+    //     .x(d => x(new Date(d[0])))
+    //     // @ts-ignore
+    //     .y(d => y(d[1]))(d))
+    //   .attr("fill", "none")
+    //   .attr("stroke", "red")
+    //   .transition()
+    //   .duration(14000)
+    //   .attrTween("stroke-dasharray", dashTween)
+
     svg.append("path")
-      .datum(worldData.map(i => [i.date, i.confirmed]))
+      .datum(worldData.map(i => [i.date, i.dailyCases]))
       .attr("d", d => line()
         .x(d => x(new Date(d[0])))
         // @ts-ignore
         .y(d => y(d[1]))(d))
       .attr("fill", "none")
-      .attr("stroke", "red")
-      .transition()
-      .duration(14000)
-      .attrTween("stroke-dasharray", dashTween)
+      .attr("stroke", "#57d7ec")
+      .attr("stroke-width", 1.6)
+    // .transition()
+    // .duration(9000)
+    // .attrTween("stroke-dasharray", dashTween)
+
+    svg.append("path")
+      .datum(worldDataMean.map(i => [i.date, i.dailyCases]))
+      .attr("d", d => line()
+        .x(d => x(new Date(d[0])))
+        // @ts-ignore
+        .y(d => y(d[1]))(d))
+      .attr("fill", "none")
+      .attr("stroke", "#3591ee")
+      .attr("stroke-width", 1.6)
+
+    svg.append("path")
+      .datum(worldData.map(i => [i.date, i.dailyDeaths]))
+      .attr("d", d => line()
+        .x(d => x(new Date(d[0])))
+        // @ts-ignore
+        .y(d => deathY(d[1])).curve(curveNatural)(d))
+      .attr("fill", "none")
+      .attr("stroke", "#ea708d")
+      .attr("stroke-width", 1.35)
+
+    svg.append("path")
+      .datum(worldDataMean.map(i => [i.date, i.dailyDeaths]))
+      .attr("d", d => line()
+        .x(d => x(new Date(d[0])))
+        // @ts-ignore
+        .y(d => deathY(d[1])).curve(curveNatural)(d))
+      .attr("fill", "none")
+      .attr("stroke", "#ec3761")
+      .attr("stroke-width", 1.35)
+    // .transition()
+    // .duration(9000)
+    // .delay(10000)
+    // .attrTween("stroke-dasharray", dashTween)
+
   }, [])
 
   return <div ref={ref}/>
