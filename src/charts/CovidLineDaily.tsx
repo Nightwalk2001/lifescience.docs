@@ -1,3 +1,4 @@
+import {locale} from "@/libs"
 import {
   axisBottom,
   axisLeft,
@@ -9,8 +10,7 @@ import {
   line,
   scaleLinear,
   scaleUtc,
-  select,
-  timeFormatLocale
+  select
 } from "d3"
 import React, {useEffect, useRef} from "react"
 import worldData from "./json/global_case.json"
@@ -60,17 +60,6 @@ export const CovidLineDaily = () => {
     {name: "Daily Death Mean/week", color: "#ec3761"}
   ]
 
-  const locale = timeFormatLocale({
-    dateTime: "%a %b %e %X %Y",
-    date: "%Y/%-m/%-d",
-    time: "%H:%M:%S",
-    periods: ["上午", "下午"],
-    days: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
-    shortDays: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
-    months: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
-    shortMonths: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
-  })
-
   const dashTween = function () {
     const length = this.getTotalLength()
     return interpolate(`0,${length}`, `${length}, ${length}`)
@@ -86,11 +75,9 @@ export const CovidLineDaily = () => {
 
     svg.append("g")
       .attr("transform", `translate(0, ${height})`)
-      .call(
-        axisBottom(x)
-          .ticks(8)
-          .tickFormat(locale.format("%Y年%b月"))
-      )
+      .call(axisBottom(x)
+        .ticks(8)
+        .tickFormat(locale.format("%Y年%b月")))
 
     svg.append("g")
       .call(axisLeft(y).tickFormat(format(".2s")))
@@ -156,8 +143,6 @@ export const CovidLineDaily = () => {
       .attr("fill", "none")
       .attr("stroke", "#ec3761")
       .attr("stroke-width", 2)
-
-    svg.selectAll("text").style("color", "#525254")
   }, [])
 
   return <div ref={ref} className={"relative"}>

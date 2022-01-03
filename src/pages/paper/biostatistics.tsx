@@ -1,4 +1,4 @@
-import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidLineDaily, CovidTreemap} from "@/charts"
+import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidLineDaily, CovidLineTrend, CovidTreemap} from "@/charts"
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div
@@ -48,6 +48,7 @@ const biostatistics: NextPage = () => <div
     下面是2021年5月24号到5月31号全球每天感染数量和死亡数量图
   </p>
   <CovidLineDaily/>
+  <CovidLineTrend/>
 </div>
 
 export default biostatistics
