@@ -1,4 +1,6 @@
 import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidLineDaily, CovidLineTrend, CovidTreemap} from "@/charts"
+import {CovidAgeDistribution} from "@/charts/CovidAgeDistribution"
+import {CovidScatterDensity} from "@/charts/CovidScatterDensity"
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div
@@ -49,6 +51,8 @@ const biostatistics: NextPage = () => <div
   </p>
   <CovidLineDaily/>
   <CovidLineTrend/>
+  <CovidAgeDistribution/>
+  <CovidScatterDensity/>
 </div>
 
 export default biostatistics
