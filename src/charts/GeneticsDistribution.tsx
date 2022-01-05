@@ -1,83 +1,62 @@
-import {useSvgRoot, useSvgSize} from "@/hooks"
-import {axisBottom, axisLeft, curveNatural, groups, line, scaleBand, scaleLinear, select} from "d3"
+import {useSvgSize} from "@/hooks"
+import {axisBottom, axisLeft, bin, curveNatural, line, mean, scaleLinear, scaleOrdinal, select} from "d3"
+import {exp, pi, std} from "mathjs"
 import React, {useEffect, useRef} from "react"
-import demo from "./json/demo.json"
 
-const data = groups(demo, i => i.count)
+const norm = (x: number, miu: number, sigma: number) => exp(-((x - miu) ** 2 / (2 * sigma ** 2))) / ((2 * pi) ** 0.5 * sigma)
+const skew = (arr: number[], m = mean(arr), sigma = std(arr), n = arr.length) =>
+  arr.reduce((res, value) => res += ((value - m) / sigma) ** 3, 0) / n
 
-const norm = (x: number, miu: number, sigma: number) => Math.exp(-((x - miu) ** 2 / (2 * sigma ** 2))) / ((2 * Math.PI) ** 0.5 * sigma)
+type ChartProps = {
+  rawData: {
+    p: number[],
+    h: number[],
+    l: number[]
+  },
+  minMax: [number, number],
+  percentage: number
+}
 
-const males = 418
-const females = 516
+export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, percentage}) => {
+  const ref = useRef<SVGGElement>(null)
 
-const miu1 = 30.25
-const sigma1 = 4.365
-
-const miu2 = 36.02
-const sigma2 = 4.248
-
-const legends = [{
-  sex: "male",
-  color: "#57d7ec",
-  mu: 30.25,
-  sigma: 4.365
-}, {
-  sex: "female",
-  color: "#ec77c7",
-  mu: 36.02,
-  sigma: 4.248
-}]
-
-export const GeneticsDistribution = () => {
-  const ref = useRef<HTMLDivElement>(null)
-
-  const margin                = {left: 40, right: 40, top: 50, bottom: 40},
+  const margin                = {left: 40, right: 40, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
-  const x     = scaleBand()
-          .domain(new Set(demo.map(i => i.count)))
-          .range([0, width])
-          .padding(0.05),
+  const x     = scaleLinear()
+          .domain([16, 54])
+          .range([0, width]),
         y     = scaleLinear()
-          .domain([0, 0.12])
+          .domain([0, 0.13])
           .range([height, 0])
           .nice(),
-        normX = scaleLinear()
-          .domain([14, 50])
-          .range([0, width])
+        color = scaleOrdinal<string>()
+          .range(["#4ddbb6", "#929afc", "#ffb6ff"]),
+        group = scaleOrdinal<string>()
+          .range(["亲本组", "高选择组", "低选择组"])
 
-  const norm1 = line()
+  const normLine = (miu: number, sigma: number) => line()
     // @ts-ignore
-    .x(d => normX(d))
+    .x(d => x(d))
     // @ts-ignore
-    .y(d => y(norm(d, miu1, sigma1)))
+    .y(d => y(norm(d, miu, sigma)))
     .curve(curveNatural)
 
-  const norm2 = line()
-    // @ts-ignore
-    .x(d => normX(d))
-    // @ts-ignore
-    .y(d => y(norm(d, miu2, sigma2)))
-    .curve(curveNatural)
+  const data = [rawData.p, rawData.h, rawData.l]
+  const sizes = data.map(i => i.length)
 
-  useSvgRoot(ref, w, h, margin)
+  const bin1 = bin().domain([20, 54]).thresholds(12)
+  const binData = data.map(i => bin1(i))
 
   useEffect(() => {
-    const svg = select(ref.current).select("svg g")
-
-    svg.append("rect")
-      .attr("x", 0)
-      .attr("y", 0)
-      .attr("width", width)
-      .attr("height", height)
-      .attr("fill", "#f9f9fd")
-
+    const svg = select(ref.current)
     svg.append("g")
       .attr("transform", `translate(0, ${height})`)
-      .call(axisBottom(x).tickSize(0).tickPadding(9))
+      .call(axisBottom(x).ticks(20).tickSize(0).tickPadding(9))
 
-    svg.append("g")
-      .call(axisLeft(y).ticks(6).tickSize(0).tickPadding(9))
+    svg.select(".left")
+      // @ts-ignore
+      .call(axisLeft(y).tickSize(0).tickPadding(9))
       .call(g => g.selectAll(".tick line").clone()
         .attr("x2", width)
         .attr("stroke", "#fff")
@@ -85,53 +64,70 @@ export const GeneticsDistribution = () => {
       )
 
     svg.selectAll(".domain").remove()
-
-    const countGroup = svg.selectAll("group")
-      .data(data)
-      .join("g")
-      .attr("stroke", "none")
-      .attr("opacity", 0.7)
-
-    countGroup.append("rect")
-      .attr("x", d => x(d[0]))
-      .attr("y", d => y(d[1].filter(i => i.sex === "male").length / 418 / 4))
-      .attr("width", x.bandwidth() / 2)
-      .attr("height", d => height - y(d[1].filter(i => i.sex === "male").length / 418 / 4))
-      .attr("fill", "#57d7ec")
-
-    countGroup.append("rect")
-      .attr("x", d => x(d[0]) + x.bandwidth() / 2)
-      .attr("y", d => y(d[1].filter(i => i.sex === "female").length / 516 / 4))
-      .attr("width", x.bandwidth() / 2)
-      .attr("height", d => height - y(d[1].filter(i => i.sex === "female").length / 516 / 4))
-      .attr("fill", "#ec77c7")
-
-    svg.append("path")
-      // .attr("transform", `translate(0, ${height})`)
-      // @ts-ignore
-      .attr("d", norm1(normX.ticks(90)))
-      .attr("fill", "none")
-      .attr("stroke", "#57d7ec")
-      .attr("stroke-width", 3)
-
-    svg.append("path")
-      // .attr("transform", `translate(0, ${height})`)
-      // @ts-ignore
-      .attr("d", norm2(normX.ticks(90)))
-      .attr("fill", "none")
-      .attr("stroke", "#ec77c7")
-      .attr("stroke-width", 3)
-
     svg.selectAll("text").style("font-size", 14)
   }, [])
 
-  return <div ref={ref} className={"relative"}>
-    <div className={"absolute right-[80px] top-[75px] flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md"}>
+  return <div className={"relative"}>
+
+    <svg width={w} height={h} id={"s"}>
+      <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
+        <rect x={0} y={0} width={width} height={height} fill={"#f9f9fd"}/>
+        <g className={"left"}/>
+        {
+          data.map((d0, i) =>
+            <g
+              key={d0.length}
+              fill={color(`${i}`)}
+              opacity={0.7}
+              transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}>
+              {bin1(d0).map(d =>
+                <rect
+                  key={`${d.x0}-${d.x1}`}
+                  x={1}
+                  width={(x(d.x1) - x(d.x0)) / 3}
+                  height={height - y(d.length / sizes[i] / 2)}
+                  transform={`translate(${x(d.x0)} , ${y(d.length / sizes[i] / 2)})`}/>)}
+            </g>)
+        }
+
+        {
+          data.map((d, i) =>
+            <path
+              key={d.length}
+              // @ts-ignore
+              d={normLine(mean(d), std(d))(x.ticks(20))}
+              fill={"none"}
+              stroke={color(`${i}`)}
+              strokeWidth={3}
+              transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}
+            />)
+        }
+
+        {
+          data.map((d, i) =>
+            <path
+              key={d.length}
+              d={`M${x(mean(d))},${height} L${x(mean(d))},${y(norm(mean(d), mean(d), std(d)))} Z`}
+              fill={"none"}
+              stroke={"#353636"}
+              strokeWidth={1.7}
+              strokeDasharray={"4 5"}
+              opacity={0.7}
+              transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}
+            />)
+        }
+      </g>
+    </svg>
+
+    <div className={"absolute left-[70px] top-0 flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md"}>
       {
-        legends.map(i => <div key={i.sex} className={"flex items-center space-x-3"}>
-          <div className={`w-[30px] h-[30px] bg-blue-400`} style={{backgroundColor: i.color}}/>
-          <span className={"text-sm font-medium text-gray-700"}>{i.sex} <br/> <span
-            className={"font-mono mr-1"}>μ={i.mu}</span> <span className={"font-mono"}>σ={i.sigma}</span></span>
+        data.map((d, i) => <div key={d.length} className={"flex items-center space-x-3"}>
+          <div className={`w-[30px] h-[30px] bg-blue-400`} style={{backgroundColor: color(`${i}`)}}/>
+          <span className={"text-sm font-medium text-gray-700"}>{group(`${i}`)} <br/>
+            <span className={"font-mono"}>μ={mean(d).toFixed(2)}</span>
+            <span className={"font-mono mx-1"}>σ={std(d).toFixed(2)}</span>
+            <span className={"font-mono"}>S={skew(d).toFixed(2)}</span>
+          </span>
         </div>)
       }
     </div>

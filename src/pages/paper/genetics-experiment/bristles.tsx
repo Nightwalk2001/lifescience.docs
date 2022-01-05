@@ -1,4 +1,7 @@
 import {GeneticsDistribution} from "@/charts"
+import a4 from "@/charts/json/a4.json"
+import a5 from "@/charts/json/a5.json"
+import p4 from "@/charts/json/p4.json"
 import type {NextPage} from "next"
 
 const bristles: NextPage = () => {
@@ -19,7 +22,19 @@ const bristles: NextPage = () => {
       character）。一个显示数量性状的个体，其表型是受到多个不同等位基因的作用，而每个等位基因对表型的贡献很小，但相关基因数目很多。此外，数量性状除了基因型的作用外，环境因素对表型的分布也产生显著影响[2]。因此，对影响数量性状的单个等位基因的分离，以及用普通遗传学方法去追查各个基因的行为都是困难的，故通常不能够用孟德尔的分析方法进行分析，而应用数理统计的方法进行分析[3]。
 
     </div>
-    <GeneticsDistribution/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={a4.male}/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={a4.female}/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={p4.male}/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={p4.female}/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={a5.male}/>
+    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={a5.female}/>
+    <div className={"!h-20"}/>
   </div>
 }
 
