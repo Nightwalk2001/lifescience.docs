@@ -1,6 +1,13 @@
-import {CovidGeoIndia, CovidGeoUsa, CovidGeoWorld, CovidLineDaily, CovidLineTrend, CovidTreemap} from "@/charts"
-import {CovidAgeDistribution} from "@/charts/CovidAgeDistribution"
-import {CovidScatterDensity} from "@/charts/CovidScatterDensity"
+import {
+  CovidAgeDistribution,
+  CovidGeoIndia,
+  CovidGeoUsa,
+  CovidGeoWorld,
+  CovidLineDaily,
+  CovidLineTrend,
+  CovidScatterDensity,
+  CovidTreemap
+} from "@/charts"
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div

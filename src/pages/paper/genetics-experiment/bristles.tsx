@@ -1,3 +1,4 @@
+import {GeneticsDistribution} from "@/charts"
 import type {NextPage} from "next"
 
 const bristles: NextPage = () => {
@@ -18,6 +19,7 @@ const bristles: NextPage = () => {
       character）。一个显示数量性状的个体，其表型是受到多个不同等位基因的作用，而每个等位基因对表型的贡献很小，但相关基因数目很多。此外，数量性状除了基因型的作用外，环境因素对表型的分布也产生显著影响[2]。因此，对影响数量性状的单个等位基因的分离，以及用普通遗传学方法去追查各个基因的行为都是困难的，故通常不能够用孟德尔的分析方法进行分析，而应用数理统计的方法进行分析[3]。
 
     </div>
+    <GeneticsDistribution/>
   </div>
 }
 
