@@ -45,7 +45,7 @@ export const CovidAgeDistribution = () => {
       .attr("y", 0)
       .attr("width", width)
       .attr("height", height)
-      .attr("fill", "#eaeaf2")
+      .attr("fill", "#f9f9fd")
 
     svg.append("g")
       .attr("transform", `translate(0, ${height})`)
