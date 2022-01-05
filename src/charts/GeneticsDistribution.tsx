@@ -13,21 +13,27 @@ type ChartProps = {
     h: number[],
     l: number[]
   },
-  minMax: [number, number],
-  percentage: number
+  minMax?: [number, number],
+  percentage?: number,
+  pos?: "left" | "right"
 }
 
-export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, percentage}) => {
+export const GeneticsDistribution: React.FC<ChartProps> = ({
+                                                             rawData,
+                                                             minMax = [16.54],
+                                                             percentage = 0.13,
+                                                             pos = "left"
+                                                           }) => {
   const ref = useRef<SVGGElement>(null)
 
   const margin                = {left: 40, right: 40, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x     = scaleLinear()
-          .domain([16, 54])
+          .domain(minMax)
           .range([0, width]),
         y     = scaleLinear()
-          .domain([0, 0.13])
+          .domain([0, percentage])
           .range([height, 0])
           .nice(),
         color = scaleOrdinal<string>()
@@ -67,7 +73,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, per
     svg.selectAll("text").style("font-size", 14)
   }, [])
 
-  return <div className={"relative"}>
+  return <div className={"relative my-10"}>
 
     <svg width={w} height={h} id={"s"}>
       <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
@@ -95,7 +101,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, per
             <path
               key={d.length}
               // @ts-ignore
-              d={normLine(mean(d), std(d))(x.ticks(20))}
+              d={normLine(mean(d), std(d))(x.ticks(15))}
               fill={"none"}
               stroke={color(`${i}`)}
               strokeWidth={3}
@@ -110,8 +116,8 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, per
               d={`M${x(mean(d))},${height} L${x(mean(d))},${y(norm(mean(d), mean(d), std(d)))} Z`}
               fill={"none"}
               stroke={"#353636"}
-              strokeWidth={1.7}
-              strokeDasharray={"4 5"}
+              strokeWidth={1.2}
+              strokeDasharray={"2 3"}
               opacity={0.7}
               transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}
             />)
@@ -119,7 +125,8 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({rawData, minMax, per
       </g>
     </svg>
 
-    <div className={"absolute left-[70px] top-0 flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md"}>
+    <div
+      className={`absolute ${pos === "left" ? "left-[70px] top-0" : "right-[80px] top-[10px]"} flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md`}>
       {
         data.map((d, i) => <div key={d.length} className={"flex items-center space-x-3"}>
           <div className={`w-[30px] h-[30px] bg-blue-400`} style={{backgroundColor: color(`${i}`)}}/>

@@ -11,7 +11,7 @@ import {
 import type {NextPage} from "next"
 
 const biostatistics: NextPage = () => <div
-  className={"flex flex-col items-center min-w-[900px] max-w-[900px] mx-auto prose"}>
+  className={"flex flex-col items-center min-w-[900px] max-w-[80%] mx-auto prose"}>
   <h1 className={"text-center"}>基于Covid-19数据的数据分析和可视化</h1>
   <text className={"self-start font-semibold"}>
     王志威-19331144 梁靖雯- 陈娟-

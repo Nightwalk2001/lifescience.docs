@@ -1,8 +1,8 @@
 import type {NextPage} from "next"
 
 const Genetics: NextPage = () => {
-  return <div className={"flex flex-col items-center min-w-[900px] max-w-[900px] mx-auto prose"}>
-    <h1 className={"text-center !mt-12"}>面容识别预测新生儿的遗传性疾病</h1>
+  return <div className={"flex flex-col items-center min-w-[900px] max-w-[80%] mx-auto prose"}>
+    <h1 className={"!mt-12 text-center"}>面容识别预测新生儿的遗传性疾病</h1>
     <text className={"self-start font-semibold bg-gradient-to-r from-sky-400 to-purple-500 gradient"}>
       2019级生物技术二班 王志威
     </text>

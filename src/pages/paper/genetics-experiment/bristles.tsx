@@ -1,13 +1,15 @@
 import {GeneticsDistribution} from "@/charts"
 import a4 from "@/charts/json/a4.json"
-import a5 from "@/charts/json/a5.json"
-import p4 from "@/charts/json/p4.json"
 import type {NextPage} from "next"
 
 const bristles: NextPage = () => {
-  return <div className={"prose lg:prose-xl min-w-[900px] max-w-[1000px] mx-auto"}>
+  return <div className={"prose lg:prose-xl min-w-[900px] max-w-[80%] mx-auto"}>
+    <h1 className={"!mt-12 !px-20 text-center"}>利用黑腹果蝇腹板刚毛数探究数量性状遗传规律</h1>
+    <text className={"self-start font-semibold bg-gradient-to-r from-sky-400 to-purple-500 gradient"}>
+      2019级生物技术二班 王志威
+    </text>
     <div>
-      摘要：数量性状也叫度量性状，是生物性状的一种类型，数量性状在群体内部不同个体上往往表现为连续的变异，多呈正态分布。为了探究数量性状遗传的特点与规律，并学会运用数理统计和数学分析方法解决实际问题，本实验利用黑腹果蝇腹板刚毛数来探究数量性状遗传规律，对数据进行了处理和作图，并作出拟合正态曲线，最后计算了刚毛数性状的实现遗传率。本班结果表明，亲代及子代果蝇腹部腹板刚毛数呈正态分布，高方向选择子代群体均值较亲本差值增加，低方向选择子代较亲本差值减少，而年级汇总结果却无法明显观察到此现象；雌性果蝇平均刚毛数大于雄性。因此，本实验验证了果蝇腹部腹板刚毛数性状符合数量遗传规律。最后对本实验进行了讨论和分析，并提出了减小实验误差的方法。
+      <strong>摘要：</strong>数量性状也叫度量性状，是生物性状的一种类型，数量性状在群体内部不同个体上往往表现为连续的变异，多呈正态分布。为了探究数量性状遗传的特点与规律，并学会运用数理统计和数学分析方法解决实际问题，本实验利用黑腹果蝇腹板刚毛数来探究数量性状遗传规律，对数据进行了处理和作图，并作出拟合正态曲线，最后计算了刚毛数性状的实现遗传率。本班结果表明，亲代及子代果蝇腹部腹板刚毛数呈正态分布，高方向选择子代群体均值较亲本差值增加，低方向选择子代较亲本差值减少，而年级汇总结果却无法明显观察到此现象；雌性果蝇平均刚毛数大于雄性。因此，本实验验证了果蝇腹部腹板刚毛数性状符合数量遗传规律。最后对本实验进行了讨论和分析，并提出了减小实验误差的方法。
       关键词：黑腹果蝇；刚毛数；数量性状；正态分布；遗传率。
 
       1 引言
@@ -20,21 +22,9 @@ const bristles: NextPage = () => {
       d；若在25℃下饲养，由卵至成虫期约需要10 d；当温度低至10℃时，果蝇的生活周期将延长至57 d以上，且生活力明显降低；如果温度高于30℃，将会引起不育和死亡，因此，果蝇培养的最适温度为20~25℃。
       在生物中，有些性状可以用某种尺度来测量，并可用数字形式来描述，比如果蝇的的身体大小、生长速度、小刚毛数量的多少等，这类性状叫做数量性状（quantitative
       character）。一个显示数量性状的个体，其表型是受到多个不同等位基因的作用，而每个等位基因对表型的贡献很小，但相关基因数目很多。此外，数量性状除了基因型的作用外，环境因素对表型的分布也产生显著影响[2]。因此，对影响数量性状的单个等位基因的分离，以及用普通遗传学方法去追查各个基因的行为都是困难的，故通常不能够用孟德尔的分析方法进行分析，而应用数理统计的方法进行分析[3]。
-
     </div>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={a4.male}/>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={a4.female}/>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={p4.male}/>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={p4.female}/>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={a5.male}/>
-    <div className={"!h-20"}/>
-    <GeneticsDistribution rawData={a5.female}/>
-    <div className={"!h-20"}/>
+    <GeneticsDistribution rawData={a4.male} minMax={[20, 54]} pos={"right"}/>
+    <GeneticsDistribution rawData={a4.female} minMax={[20, 54]}/>
   </div>
 }
 
