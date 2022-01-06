@@ -14,7 +14,8 @@ class MyDocument extends Document {
           <meta name="description" content="王志威用于pre、paper、labs的网站"/>
           <link rel="icon" href={"/favicon.svg"}/>
           <link rel="manifest" href={"/manifest.json"}/>
-          <link rel="apple-touch-icon" href={"/logo.png"}/>
+          <link rel="apple-touch-icon" sizes={"512x512"} href={"/logo512.png"}/>
+          <link rel="apple-touch-icon" sizes="192x192" href={"/logo192.png"}/>
           <meta name="theme-color" content={"#fff"}/>
           <script
             dangerouslySetInnerHTML={{

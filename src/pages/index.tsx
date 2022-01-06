@@ -1,3 +1,5 @@
+import {GeneticsDistribution} from "@/charts"
+import a5 from "@/charts/json/a5.json"
 import {Anim, Navigation} from "@/widgets"
 import clsx from "clsx"
 import Head from "next/head"
@@ -9,8 +11,9 @@ const Home = () => {
       <title>王志威用于pre、课程论文、实验报告的官方网站</title>
     </Head>
 
-    <div className={"mb-20 space-y-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40"}>
-      <header className={"relative"}>
+    <div
+      className={"flex flex-col items-center mb-20 space-y-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40"}>
+      <header className={"relative w-full"}>
         <div className="px-4 sm:px-6 md:px-8">
           <div
             className={clsx(
@@ -70,6 +73,7 @@ const Home = () => {
         <Anim/>
       </header>
 
+      <GeneticsDistribution rawData={a5.female}/>
     </div>
   </>
 }

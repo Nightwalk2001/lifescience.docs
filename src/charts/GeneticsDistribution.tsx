@@ -21,7 +21,7 @@ type ChartProps = {
 
 export const GeneticsDistribution: React.FC<ChartProps> = ({
                                                              rawData,
-                                                             minMax = [16.54],
+                                                             minMax = [16, 54],
                                                              percentage = 0.13,
                                                              pos = "left"
                                                            }) => {
