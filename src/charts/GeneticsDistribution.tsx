@@ -1,5 +1,6 @@
 import {useSvgSize} from "@/hooks"
 import {axisBottom, axisLeft, bin, curveNatural, line, mean, scaleLinear, scaleOrdinal, select} from "d3"
+import {motion} from "framer-motion"
 import {exp, pi, std} from "mathjs"
 import React, {useEffect, useRef} from "react"
 
@@ -87,19 +88,27 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({
               opacity={0.7}
               transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}>
               {bin1(d0).map(d =>
-                <rect
+                <motion.rect
+                  animate={{
+                    y: [height, y(d.length / sizes[i] / 2)],
+                    height: [0, height - y(d.length / sizes[i] / 2)],
+                    transition: {duration: 1, delay: i * 1.02}
+                  }}
                   key={`${d.x0}-${d.x1}`}
-                  x={1}
-                  width={(x(d.x1) - x(d.x0)) / 3}
-                  height={height - y(d.length / sizes[i] / 2)}
-                  transform={`translate(${x(d.x0)} , ${y(d.length / sizes[i] / 2)})`}/>)}
+                  x={x(d.x0) + 0.5}
+                  width={(x(d.x1) - x(d.x0)) / 3 - 0.5}
+                />)}
             </g>)
         }
 
         {
           data.map((d, i) =>
-            <path
+            <motion.path
               key={d.length}
+              animate={{
+                strokeDasharray: ["0, 1400", "1400, 1400"],
+                transition: {duration: 1.5, delay: i * 1.53}
+              }}
               // @ts-ignore
               d={normLine(mean(d), std(d))(x.ticks(15))}
               fill={"none"}
@@ -111,13 +120,16 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({
 
         {
           data.map((d, i) =>
-            <path
+            <motion.path
               key={d.length}
+              animate={{
+                strokeDasharray: ["0, 350", "2, 3"],
+                transition: {duration: 0.5, delay: i * 1.53 + 1.5}
+              }}
               d={`M${x(mean(d))},${height} L${x(mean(d))},${y(norm(mean(d), mean(d), std(d)))} Z`}
               fill={"none"}
               stroke={"#353636"}
               strokeWidth={1.2}
-              strokeDasharray={"2 3"}
               opacity={0.7}
               transform={`translate(${(x(26) - x(24)) / 3 * i} , 0)`}
             />)
@@ -125,7 +137,8 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({
       </g>
     </svg>
 
-    <div
+    <motion.div
+      animate={{opacity: [0, 1], transition: {delay: 5}}}
       className={`absolute ${pos === "left" ? "left-[70px] top-0" : "right-[80px] top-[10px]"} flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md`}>
       {
         data.map((d, i) => <div key={d.length} className={"flex items-center space-x-3"}>
@@ -137,6 +150,6 @@ export const GeneticsDistribution: React.FC<ChartProps> = ({
           </span>
         </div>)
       }
-    </div>
+    </motion.div>
   </div>
 }

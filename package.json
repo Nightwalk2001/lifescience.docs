@@ -4,8 +4,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
+        "start": "next start"
     },
     "dependencies": {
         "@docsearch/react": "^3.0.0-alpha.41",
@@ -17,6 +16,7 @@
         "lottie-web": "^5.8.1",
         "mathjs": "^10.0.2",
         "next": "12.0.7",
+        "next-pwa": "^5.4.4",
         "react": "17.0.2",
         "react-dom": "17.0.2",
         "react-intersection-observer": "^8.33.1",
@@ -25,9 +25,6 @@
     },
     "devDependencies": {
         "@heroicons/react": "^1.0.5",
-        "@nivo/core": "^0.76.0",
-        "@nivo/geo": "^0.76.0",
-        "@nivo/treemap": "^0.76.0",
         "@svgr/webpack": "^6.1.2",
         "@tailwindcss/aspect-ratio": "^0.4.0",
         "@tailwindcss/typography": "^0.5.0",

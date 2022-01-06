@@ -5,6 +5,7 @@
 @import "svg.css";
 @import "fonts.css";
 @import "utilties.css";
+@import "katex/dist/katex.min.css";
 
 @tailwind components;
 

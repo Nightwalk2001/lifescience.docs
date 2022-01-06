@@ -7,11 +7,11 @@ type KatexProps = {
 }
 
 export const Katex: React.FC<KatexProps> = memo(({tex, options}) => {
-  const ref = useRef<HTMLSpanElement>(null)
+  const ref = useRef(null)
 
   useEffect(() => {
-    katex.render(tex, ref.current!, options)
+    if (ref.current) katex.render(tex, ref.current, options)
   }, [tex, options])
 
-  return <span ref={ref}/>
+  return <text ref={ref}/>
 })
