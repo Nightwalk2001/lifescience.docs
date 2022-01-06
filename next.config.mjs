@@ -8,6 +8,10 @@ const nextConfig = {
         locales: ["en-US", "zh-CN"],
         defaultLocale: "en-US",
         localeDetection: false
+    },
+    experimental: {
+        workerThreads: true,
+        swcFileReading: true
     }
 }
 
