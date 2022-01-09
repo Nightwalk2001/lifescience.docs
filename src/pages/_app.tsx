@@ -7,12 +7,12 @@ const App = ({Component, pageProps}: AppProps) => {
   const router = useRouter()
   return <>
     <div className={"flex flex-col min-w-[100%] min-h-[100vh]"}>
-      {router.pathname !== "/" && <Navigation/>}
+      {router.pathname !== "/" && router.pathname !== "/fans" && <Navigation/>}
       <div className={"flex-1"}>
         <Component {...pageProps} />
         {router.pathname.startsWith("/presentation/biocontrol") && <BiocontrolMenu/>}
       </div>
-      <Copyright/>
+      {router.pathname !== "/fans" && <Copyright/>}
     </div>
   </>
 }

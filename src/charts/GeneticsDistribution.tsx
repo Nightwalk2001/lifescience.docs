@@ -64,8 +64,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
         .attr("transform", `translate(0, ${height})`)
         .call(axisBottom(x).ticks(20).tickSize(0).tickPadding(9))
 
-      svg.select(".left")
-        // @ts-ignore
+      svg.select<SVGGElement>(".left")
         .call(axisLeft(y).ticks(6).tickSize(0).tickPadding(9))
         .call(g => g.selectAll(".tick line").clone()
           .attr("x2", width)
@@ -79,7 +78,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
 
     return <div className={"relative my-10"}>
 
-      <svg width={w} height={h} id={"s"}>
+      <svg width={w} height={h}>
         <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
           <rect x={0} y={0} width={width} height={height} fill={"#f9f9fd"}/>
           <g className={"left"}/>

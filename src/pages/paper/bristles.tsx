@@ -118,8 +118,8 @@ const bristles: NextPage = () => {
       325只，其中雌性果蝇146只，雄性果蝇179只。对数据进行分组处理，如表2所示，统计了本班实验得到的子代高、低方向选择组雌雄果蝇以及亲代果蝇的刚毛数量。
     </p>
 
-    <GeneticsDistribution rawData={a4.male} minMax={[20, 54]} pos={"right"}/>
-    <GeneticsDistribution rawData={a4.female} minMax={[20, 54]}/>
+    <GeneticsDistribution rawData={a4.male} minMax={[18, 52]} pos={"right"}/>
+    <GeneticsDistribution rawData={a4.female} minMax={[18, 52]}/>
 
     <h4 className={"self-start"}>4 讨论</h4>
     <p className={"self-start indent-[2em]"}>

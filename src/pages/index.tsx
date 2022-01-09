@@ -1,4 +1,4 @@
-import {GeneticsDistribution} from "@/charts"
+import {FansChart, GeneticsDistribution} from "@/charts"
 import {Anim, Navigation} from "@/widgets"
 import clsx from "clsx"
 import {NextPage} from "next"
@@ -73,17 +73,18 @@ const Home: NextPage = () => <>
       <Anim/>
     </header>
 
+    <FansChart/>
+
     <GeneticsDistribution
       rawData={data.male}
       minMax={[20, 50]}
       pos={"right"}
       percentage={0.13}
-      colors={["#3eeed3", "#4f87d2", "#ea708d"]}/>
+    />
     <GeneticsDistribution
       rawData={data.female}
       minMax={[20, 50]}
       percentage={0.13}
-      colors={["#3eeed3", "#4f87d2", "#ea708d"]}
     />
   </div>
 </>

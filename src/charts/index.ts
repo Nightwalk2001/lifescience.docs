@@ -5,4 +5,4 @@ export * from "./CovidLineTrend"
 export * from "./CovidAgeDistribution"
 export * from "./CovidScatterDensity"
 export * from "./GeneticsDistribution"
-
+export * from "./FansChart"

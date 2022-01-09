@@ -34,7 +34,7 @@ export const Navigation: React.FC = () => <div
             <div className={"flex flex-col items-start space-y-3 px-5"}>
               <SvgLink logo={"face.svg"} to={"/paper/genetics"} title={"遗传学"}
                        subtitle={"面容识别预测新生儿的遗传性疾病"}/>
-              <SvgLink logo={"bug.svg"} to={"/paper/genetics-experiment/bristles"} title={"遗传学实验"}
+              <SvgLink logo={"bug.svg"} to={"/paper/bristles"} title={"遗传学实验"}
                        subtitle={"利用黑腹果蝇腹板刚毛数探究数量性状遗传规律"}/>
               <SvgLink logo={"cell.svg"} to={"/paper/genetics-experiment/sialaden"} title={"遗传学实验"}
                        subtitle={"关于果蝇唾液腺染色体的实验报告"}/>
