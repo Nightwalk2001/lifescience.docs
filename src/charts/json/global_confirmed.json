@@ -1,770 +1,690 @@
 [
     {
-        "id": "AFG",
-        "value": 70111
+        "country": "Afghanistan",
+        "confirmed": 70111
     },
     {
-        "id": "ALB",
-        "value": 132297
+        "country": "Albania",
+        "confirmed": 132297
     },
     {
-        "id": "DZA",
-        "value": 128456
+        "country": "Algeria",
+        "confirmed": 128456
     },
     {
-        "id": "AND",
-        "value": 13693
+        "country": "Andorra",
+        "confirmed": 13693
     },
     {
-        "id": "AGO",
-        "value": 34180
+        "country": "Angola",
+        "confirmed": 34180
     },
     {
-        "id": "ATG",
-        "value": 1259
+        "country": "Antigua and Barbuda",
+        "confirmed": 1259
     },
     {
-        "id": "ARG",
-        "value": 3732263
+        "country": "Argentina",
+        "confirmed": 3732263
     },
     {
-        "id": "ARM",
-        "value": 222555
+        "country": "Armenia",
+        "confirmed": 222555
     },
     {
-        "id": "AUT",
-        "value": 644207
+        "country": "Austria",
+        "confirmed": 644207
     },
     {
-        "id": "AZE",
-        "value": 333723
+        "country": "Azerbaijan",
+        "confirmed": 333723
     },
     {
-        "id": "BHS",
-        "value": 11745
+        "country": "Bahamas",
+        "confirmed": 11745
     },
     {
-        "id": "BHR",
-        "value": 235698
+        "country": "Bahrain",
+        "confirmed": 235698
     },
     {
-        "id": "BGD",
-        "value": 797386
+        "country": "Bangladesh",
+        "confirmed": 797386
     },
     {
-        "id": "BRB",
-        "value": 4012
+        "country": "Barbados",
+        "confirmed": 4012
     },
     {
-        "id": "BLR",
-        "value": 392629
+        "country": "Belarus",
+        "confirmed": 392629
     },
     {
-        "id": "BLZ",
-        "value": 12791
+        "country": "Belize",
+        "confirmed": 12791
     },
     {
-        "id": "BEN",
-        "value": 8058
+        "country": "Benin",
+        "confirmed": 8058
     },
     {
-        "id": "BTN",
-        "value": 1603
+        "country": "Bhutan",
+        "confirmed": 1603
     },
     {
-        "id": "BOL",
-        "value": 366714
+        "country": "Bolivia",
+        "confirmed": 366714
     },
     {
-        "id": "BIH",
-        "value": 203839
+        "country": "Bosnia and Herzegovina",
+        "confirmed": 203839
     },
     {
-        "id": "BWA",
-        "value": 53771
+        "country": "Botswana",
+        "confirmed": 53771
     },
     {
-        "id": "Brunei",
-        "value": 241
+        "country": "Bulgaria",
+        "confirmed": 418221
     },
     {
-        "id": "BGR",
-        "value": 418221
+        "country": "Burkina Faso",
+        "confirmed": 13430
     },
     {
-        "id": "BFA",
-        "value": 13430
+        "country": "Burma",
+        "confirmed": 143526
     },
     {
-        "id": "MMR",
-        "value": 143526
+        "country": "Burundi",
+        "confirmed": 4715
     },
     {
-        "id": "BDI",
-        "value": 4715
+        "country": "Cambodia",
+        "confirmed": 28825
     },
     {
-        "id": "Cabo Verde",
-        "value": 30273
+        "country": "Cameroon",
+        "confirmed": 78929
     },
     {
-        "id": "KHM",
-        "value": 28825
+        "country": "Central African Republic",
+        "confirmed": 7085
     },
     {
-        "id": "CMR",
-        "value": 78929
+        "country": "Chad",
+        "confirmed": 4928
     },
     {
-        "id": "CAF",
-        "value": 7085
+        "country": "Comoros",
+        "confirmed": 3881
     },
     {
-        "id": "TCD",
-        "value": 4928
+        "country": "Costa Rica",
+        "confirmed": 314102
     },
     {
-        "id": "COM",
-        "value": 3881
+        "country": "Croatia",
+        "confirmed": 355955
     },
     {
-        "id": "Congo (Brazzaville)",
-        "value": 11658
+        "country": "Cuba",
+        "confirmed": 140087
     },
     {
-        "id": "Congo (Kinshasa)",
-        "value": 31416
+        "country": "Cyprus",
+        "confirmed": 72363
     },
     {
-        "id": "CRI",
-        "value": 314102
+        "country": "Czech Republic",
+        "confirmed": 1660935
     },
     {
-        "id": "HRV",
-        "value": 355955
+        "country": "Denmark",
+        "confirmed": 280183
     },
     {
-        "id": "CUB",
-        "value": 140087
+        "country": "Djibouti",
+        "confirmed": 11523
     },
     {
-        "id": "CYP",
-        "value": 72363
+        "country": "Dominica",
+        "confirmed": 188
     },
     {
-        "id": "CZE",
-        "value": 1660935
+        "country": "Dominican Republic",
+        "confirmed": 290526
     },
     {
-        "id": "DNK",
-        "value": 280183
+        "country": "Ecuador",
+        "confirmed": 424741
     },
     {
-        "id": "Diamond Princess",
-        "value": 712
+        "country": "Egypt",
+        "confirmed": 260659
     },
     {
-        "id": "DJI",
-        "value": 11523
+        "country": "El Salvador",
+        "confirmed": 73246
     },
     {
-        "id": "DMA",
-        "value": 188
+        "country": "Equatorial Guinea",
+        "confirmed": 8529
     },
     {
-        "id": "DOM",
-        "value": 290526
+        "country": "Eritrea",
+        "confirmed": 4061
     },
     {
-        "id": "ECU",
-        "value": 424741
+        "country": "Estonia",
+        "confirmed": 129424
     },
     {
-        "id": "EGY",
-        "value": 260659
+        "country": "Ethiopia",
+        "confirmed": 271200
     },
     {
-        "id": "SLV",
-        "value": 73246
+        "country": "Fiji",
+        "confirmed": 360
     },
     {
-        "id": "GNQ",
-        "value": 8529
+        "country": "Finland",
+        "confirmed": 92244
     },
     {
-        "id": "ERI",
-        "value": 4061
+        "country": "France",
+        "confirmed": 5719877
     },
     {
-        "id": "EST",
-        "value": 129424
+        "country": "Gabon",
+        "confirmed": 24365
     },
     {
-        "id": "Eswatini",
-        "value": 18589
+        "country": "Gambia",
+        "confirmed": 5990
     },
     {
-        "id": "ETH",
-        "value": 271200
+        "country": "Georgia",
+        "confirmed": 342880
     },
     {
-        "id": "FJI",
-        "value": 360
+        "country": "Ghana",
+        "confirmed": 93775
     },
     {
-        "id": "FIN",
-        "value": 92244
+        "country": "Greece",
+        "confirmed": 400395
     },
     {
-        "id": "FRA",
-        "value": 5719877
+        "country": "Grenada",
+        "confirmed": 161
     },
     {
-        "id": "GAB",
-        "value": 24365
+        "country": "Guatemala",
+        "confirmed": 253837
     },
     {
-        "id": "GMB",
-        "value": 5990
+        "country": "Guinea",
+        "confirmed": 23172
     },
     {
-        "id": "GEO",
-        "value": 342880
+        "country": "Guinea-Bissau",
+        "confirmed": 3761
     },
     {
-        "id": "GHA",
-        "value": 93775
+        "country": "Guyana",
+        "confirmed": 16822
     },
     {
-        "id": "GRC",
-        "value": 400395
+        "country": "Haiti",
+        "confirmed": 14128
     },
     {
-        "id": "GRD",
-        "value": 161
+        "country": "Honduras",
+        "confirmed": 236952
     },
     {
-        "id": "GTM",
-        "value": 253837
+        "country": "Hungary",
+        "confirmed": 804032
     },
     {
-        "id": "GIN",
-        "value": 23172
+        "country": "Iceland",
+        "confirmed": 6555
     },
     {
-        "id": "GNB",
-        "value": 3761
+        "country": "Indonesia",
+        "confirmed": 1809926
     },
     {
-        "id": "GUY",
-        "value": 16822
+        "country": "Iraq",
+        "confirmed": 1193608
     },
     {
-        "id": "HTI",
-        "value": 14128
+        "country": "Ireland",
+        "confirmed": 254870
     },
     {
-        "id": "Holy See",
-        "value": 27
+        "country": "Israel",
+        "confirmed": 839453
     },
     {
-        "id": "HND",
-        "value": 236952
+        "country": "Jamaica",
+        "confirmed": 48374
     },
     {
-        "id": "HUN",
-        "value": 804032
+        "country": "Jordan",
+        "confirmed": 734659
     },
     {
-        "id": "ISL",
-        "value": 6555
+        "country": "Kazakhstan",
+        "confirmed": 438715
     },
     {
-        "id": "IDN",
-        "value": 1809926
+        "country": "Kenya",
+        "confirmed": 170485
     },
     {
-        "id": "Iran",
-        "value": 2893218
+        "country": "Kiribati",
+        "confirmed": 2
     },
     {
-        "id": "IRQ",
-        "value": 1193608
+        "country": "Kuwait",
+        "confirmed": 306717
     },
     {
-        "id": "IRL",
-        "value": 254870
+        "country": "Kyrgyzstan",
+        "confirmed": 104222
     },
     {
-        "id": "ISR",
-        "value": 839453
+        "country": "Latvia",
+        "confirmed": 132918
     },
     {
-        "id": "Ivory Coast",
-        "value": 47233
+        "country": "Lebanon",
+        "confirmed": 540132
     },
     {
-        "id": "JAM",
-        "value": 48374
+        "country": "Lesotho",
+        "confirmed": 10825
     },
     {
-        "id": "JOR",
-        "value": 734659
+        "country": "Liberia",
+        "confirmed": 2179
     },
     {
-        "id": "KAZ",
-        "value": 438715
+        "country": "Liechtenstein",
+        "confirmed": 3008
     },
     {
-        "id": "KEN",
-        "value": 170485
+        "country": "Lithuania",
+        "confirmed": 273866
     },
     {
-        "id": "KIR",
-        "value": 2
+        "country": "Luxembourg",
+        "confirmed": 69830
     },
     {
-        "id": "Kosovo",
-        "value": 106946
+        "country": "Madagascar",
+        "confirmed": 41234
     },
     {
-        "id": "KWT",
-        "value": 306717
+        "country": "Malawi",
+        "confirmed": 34329
     },
     {
-        "id": "KGZ",
-        "value": 104222
+        "country": "Malaysia",
+        "confirmed": 558534
     },
     {
-        "id": "Laos",
-        "value": 1908
+        "country": "Maldives",
+        "confirmed": 62906
     },
     {
-        "id": "LVA",
-        "value": 132918
+        "country": "Mali",
+        "confirmed": 14265
     },
     {
-        "id": "LBN",
-        "value": 540132
+        "country": "Malta",
+        "confirmed": 30529
     },
     {
-        "id": "LSO",
-        "value": 10825
+        "country": "Marshall Islands",
+        "confirmed": 4
     },
     {
-        "id": "LBR",
-        "value": 2179
+        "country": "Mauritania",
+        "confirmed": 19463
     },
     {
-        "id": "Libya",
-        "value": 184815
+        "country": "Mauritius",
+        "confirmed": 1363
     },
     {
-        "id": "LIE",
-        "value": 3008
+        "confirmed": 255105
     },
     {
-        "id": "LTU",
-        "value": 273866
+        "country": "Monaco",
+        "confirmed": 2503
     },
     {
-        "id": "LUX",
-        "value": 69830
+        "country": "Mongolia",
+        "confirmed": 56621
     },
     {
-        "id": "MS Zaandam",
-        "value": 9
+        "country": "Montenegro",
+        "confirmed": 99566
     },
     {
-        "id": "MDG",
-        "value": 41234
+        "country": "Morocco",
+        "confirmed": 518868
     },
     {
-        "id": "MWI",
-        "value": 34329
+        "country": "Mozambique",
+        "confirmed": 70724
     },
     {
-        "id": "MYS",
-        "value": 558534
+        "country": "Namibia",
+        "confirmed": 54659
     },
     {
-        "id": "MDV",
-        "value": 62906
+        "country": "Nepal",
+        "confirmed": 553422
     },
     {
-        "id": "MLI",
-        "value": 14265
+        "country": "New Zealand",
+        "confirmed": 2672
     },
     {
-        "id": "MLT",
-        "value": 30529
+        "country": "Nicaragua",
+        "confirmed": 7324
     },
     {
-        "id": "MHL",
-        "value": 4
+        "country": "Niger",
+        "confirmed": 5410
     },
     {
-        "id": "MRT",
-        "value": 19463
+        "country": "Nigeria",
+        "confirmed": 166285
     },
     {
-        "id": "MUS",
-        "value": 1363
+        "confirmed": 155246
     },
     {
-        "id": "Micronesia",
-        "value": 1
+        "country": "Norway",
+        "confirmed": 124655
     },
     {
-        "id": "Moldova",
-        "value": 255105
+        "country": "Oman",
+        "confirmed": 213784
     },
     {
-        "id": "MCO",
-        "value": 2503
+        "country": "Panama",
+        "confirmed": 377428
     },
     {
-        "id": "MNG",
-        "value": 56621
+        "country": "Papua New Guinea",
+        "confirmed": 15772
     },
     {
-        "id": "MNE",
-        "value": 99566
+        "country": "Paraguay",
+        "confirmed": 350613
     },
     {
-        "id": "MAR",
-        "value": 518868
+        "country": "Philippines",
+        "confirmed": 1216582
     },
     {
-        "id": "MOZ",
-        "value": 70724
+        "country": "Poland",
+        "confirmed": 2871371
     },
     {
-        "id": "NAM",
-        "value": 54659
+        "country": "Portugal",
+        "confirmed": 848213
     },
     {
-        "id": "NPL",
-        "value": 553422
+        "country": "Qatar",
+        "confirmed": 217041
     },
     {
-        "id": "NZL",
-        "value": 2672
+        "country": "Romania",
+        "confirmed": 1077426
     },
     {
-        "id": "NIC",
-        "value": 7324
+        "country": "Rwanda",
+        "confirmed": 26892
     },
     {
-        "id": "NER",
-        "value": 5410
+        "country": "Saint Kitts and Nevis",
+        "confirmed": 68
     },
     {
-        "id": "NGA",
-        "value": 166285
+        "country": "Saint Lucia",
+        "confirmed": 5035
     },
     {
-        "id": "North Macedonia",
-        "value": 155246
+        "country": "Saint Vincent and the Grenadines",
+        "confirmed": 2027
     },
     {
-        "id": "NOR",
-        "value": 124655
+        "country": "Samoa",
+        "confirmed": 3
     },
     {
-        "id": "OMN",
-        "value": 213784
+        "country": "San Marino",
+        "confirmed": 5089
     },
     {
-        "id": "PAN",
-        "value": 377428
+        "country": "Sao Tome and Principe",
+        "confirmed": 2345
     },
     {
-        "id": "PNG",
-        "value": 15772
+        "country": "Saudi Arabia",
+        "confirmed": 448284
     },
     {
-        "id": "PRY",
-        "value": 350613
+        "country": "Senegal",
+        "confirmed": 41331
     },
     {
-        "id": "PHL",
-        "value": 1216582
+        "country": "Serbia",
+        "confirmed": 712046
     },
     {
-        "id": "POL",
-        "value": 2871371
+        "country": "Seychelles",
+        "confirmed": 11145
     },
     {
-        "id": "PRT",
-        "value": 848213
+        "country": "Sierra Leone",
+        "confirmed": 4141
     },
     {
-        "id": "QAT",
-        "value": 217041
+        "country": "Singapore",
+        "confirmed": 62003
     },
     {
-        "id": "ROU",
-        "value": 1077426
+        "country": "Slovakia",
+        "confirmed": 389440
     },
     {
-        "id": "RWA",
-        "value": 26892
+        "country": "Slovenia",
+        "confirmed": 253493
     },
     {
-        "id": "KNA",
-        "value": 68
+        "country": "Solomon Islands",
+        "confirmed": 20
     },
     {
-        "id": "LCA",
-        "value": 5035
+        "country": "Somalia",
+        "confirmed": 14653
     },
     {
-        "id": "VCT",
-        "value": 2027
+        "country": "South Africa",
+        "confirmed": 1659070
     },
     {
-        "id": "WSM",
-        "value": 3
+        "country": "Sri Lanka",
+        "confirmed": 180593
     },
     {
-        "id": "SMR",
-        "value": 5089
+        "country": "Sudan",
+        "confirmed": 35289
     },
     {
-        "id": "STP",
-        "value": 2345
+        "country": "Suriname",
+        "confirmed": 14515
     },
     {
-        "id": "SAU",
-        "value": 448284
+        "country": "Switzerland",
+        "confirmed": 693023
     },
     {
-        "id": "SEN",
-        "value": 41331
+        "confirmed": 24440
     },
     {
-        "id": "SRB",
-        "value": 712046
+        "country": "Taiwan",
+        "confirmed": 7806
     },
     {
-        "id": "SYC",
-        "value": 11145
+        "country": "Tajikistan",
+        "confirmed": 13308
     },
     {
-        "id": "SLE",
-        "value": 4141
+        "country": "Thailand",
+        "confirmed": 151842
     },
     {
-        "id": "SGP",
-        "value": 62003
+        "country": "Timor-Leste",
+        "confirmed": 6752
     },
     {
-        "id": "SVK",
-        "value": 389440
+        "country": "Togo",
+        "confirmed": 13432
     },
     {
-        "id": "SVN",
-        "value": 253493
+        "country": "Trinidad and Tobago",
+        "confirmed": 23001
     },
     {
-        "id": "SLB",
-        "value": 20
+        "country": "Tunisia",
+        "confirmed": 343374
     },
     {
-        "id": "SOM",
-        "value": 14653
+        "country": "Turkey",
+        "confirmed": 5235978
     },
     {
-        "id": "ZAF",
-        "value": 1659070
+        "country": "Uganda",
+        "confirmed": 45931
     },
     {
-        "id": "South Korea",
-        "value": 139910
+        "country": "United Arab Emirates",
+        "confirmed": 567263
     },
     {
-        "id": "South Sudan",
-        "value": 10688
+        "country": "Uruguay",
+        "confirmed": 288172
     },
     {
-        "id": "LKA",
-        "value": 180593
+        "country": "Uzbekistan",
+        "confirmed": 99844
     },
     {
-        "id": "SDN",
-        "value": 35289
+        "country": "Vanuatu",
+        "confirmed": 4
     },
     {
-        "id": "SUR",
-        "value": 14515
+        "country": "Venezuela",
+        "confirmed": 231443
     },
     {
-        "id": "CHE",
-        "value": 693023
+        "country": "Yemen",
+        "confirmed": 6731
     },
     {
-        "id": "Syria",
-        "value": 24440
+        "country": "Zambia",
+        "confirmed": 94751
     },
     {
-        "id": "TWN",
-        "value": 7806
+        "country": "Zimbabwe",
+        "confirmed": 38933
     },
     {
-        "id": "TJK",
-        "value": 13308
+        "country": "Italy",
+        "confirmed": 4213055
     },
     {
-        "id": "Tanzania",
-        "value": 509
+        "country": "Russia",
+        "confirmed": 4995613
     },
     {
-        "id": "THA",
-        "value": 151842
+        "country": "Mexico",
+        "confirmed": 2411503
     },
     {
-        "id": "TLS",
-        "value": 6752
+        "country": "Japan",
+        "confirmed": 742539
     },
     {
-        "id": "TGO",
-        "value": 13432
+        "country": "Canada",
+        "confirmed": 1384373
     },
     {
-        "id": "TTO",
-        "value": 23001
+        "country": "Colombia",
+        "confirmed": 3363061
     },
     {
-        "id": "TUN",
-        "value": 343374
+        "country": "Peru",
+        "confirmed": 1947555
     },
     {
-        "id": "TUR",
-        "value": 5235978
+        "country": "Spain",
+        "confirmed": 3668658
     },
     {
-        "id": "UGA",
-        "value": 45931
+        "confirmed": 4496823
     },
     {
-        "id": "ARE",
-        "value": 567263
+        "country": "China",
+        "confirmed": 91072
     },
     {
-        "id": "URY",
-        "value": 288172
+        "country": "Chile",
+        "confirmed": 1369597
     },
     {
-        "id": "UZB",
-        "value": 99844
+        "country": "Belgium",
+        "confirmed": 1059763
     },
     {
-        "id": "VUT",
-        "value": 4
+        "country": "Netherlands",
+        "confirmed": 1671967
     },
     {
-        "id": "VEN",
-        "value": 231443
+        "country": "Australia",
+        "confirmed": 30096
     },
     {
-        "id": "Vietnam",
-        "value": 6908
+        "country": "Pakistan",
+        "confirmed": 918936
     },
     {
-        "id": "West Bank and Gaza",
-        "value": 307838
+        "country": "Germany",
+        "confirmed": 3684672
     },
     {
-        "id": "YEM",
-        "value": 6731
+        "country": "Sweden",
+        "confirmed": 1068473
     },
     {
-        "id": "ZMB",
-        "value": 94751
+        "country": "Ukraine",
+        "confirmed": 2257904
     },
     {
-        "id": "ZWE",
-        "value": 38933
+        "country": "Hong Kong",
+        "confirmed": 11837
     },
     {
-        "id": "ITA",
-        "value": 4213055
-    },
-    {
-        "id": "RUS",
-        "value": 4995613
-    },
-    {
-        "id": "MEX",
-        "value": 2411503
-    },
-    {
-        "id": "JPN",
-        "value": 742539
-    },
-    {
-        "id": "CAN",
-        "value": 1384373
-    },
-    {
-        "id": "COL",
-        "value": 3363061
-    },
-    {
-        "id": "PER",
-        "value": 1947555
-    },
-    {
-        "id": "ESP",
-        "value": 3668658
-    },
-    {
-        "id": "UK",
-        "value": 4496823
-    },
-    {
-        "id": "CHN",
-        "value": 91072
-    },
-    {
-        "id": "CHL",
-        "value": 1369597
-    },
-    {
-        "id": "BEL",
-        "value": 1059763
-    },
-    {
-        "id": "NLD",
-        "value": 1671967
-    },
-    {
-        "id": "AUS",
-        "value": 30096
-    },
-    {
-        "id": "PAK",
-        "value": 918936
-    },
-    {
-        "id": "DEU",
-        "value": 3684672
-    },
-    {
-        "id": "SWE",
-        "value": 1068473
-    },
-    {
-        "id": "UKR",
-        "value": 2257904
-    },
-    {
-        "id": "HKG",
-        "value": 11837
-    },
-    {
-        "id": "MAC",
-        "value": 51
+        "country": "Macau",
+        "confirmed": 51
     }
 ]

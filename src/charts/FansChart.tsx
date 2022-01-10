@@ -3,7 +3,7 @@ import {locale} from "@/libs"
 import {axisBottom, axisLeft, axisRight, format, line, scaleLinear, scaleOrdinal, scaleTime, select} from "d3"
 import {motion} from "framer-motion"
 import React, {useEffect, useRef, useState} from "react"
-import fansData from "./fans.json"
+import fansData from "./json/fans.json"
 
 const legends = ["fans", "like"]
 const points = [400, 520, 1000, 1307, 1502, 2004]
@@ -17,7 +17,10 @@ export const FansChart = () => {
         {w, h, width, height} = useSvgSize(1000, 550, margin)
 
   const x     = scaleTime()
-          .domain([new Date("2022-01-02T23:48:00"), new Date("2022-01-10T00:00:00")])
+          .domain([
+            new Date("2022-01-02T23:48:00"),
+            new Date("2022-01-10T00:00:00")
+          ])
           .range([0, width])
           .nice(),
         fansY = scaleLinear()
@@ -29,7 +32,7 @@ export const FansChart = () => {
           .range([height, 0])
           .nice(),
         color = scaleOrdinal<string>()
-          .range(["#3eeed3", "#ec3761"])
+          .range(["#ec3761", "#3eeed3"])
 
   useEffect(() => {
     const interval = setInterval(() => index < fansData.length - 1 ? setIndex(index + 1) : clearInterval(interval), 110)
@@ -126,7 +129,7 @@ export const FansChart = () => {
               transition: {delay: i * 0.105 + 2.5}
             }}
             x={x(new Date(`2022-01-0${d.date}T${d.time}:00`))}
-            y={i === 17 ? height - 30 : height - 5}
+            y={i === 17 ? height - 40 : height - 10}
             textAnchor={"middle"}
           >
             {d.date}号{d.time}

@@ -2,6 +2,7 @@ import {
   CovidAgeDistribution,
   CovidGeoIndia,
   CovidGeoUsa,
+  CovidGeoWorld,
   CovidLineDaily,
   CovidLineTrend,
   CovidScatterDensity
@@ -41,6 +42,7 @@ const biostatistics: NextPage = () => <div
   <p className={"self-start"}>
     下面是使用各国家感染者数量画出的地理图，颜色越深表示感染者数量越多，由于美国与印度、巴西的感染者数量远高于其它国家或地区，所以将他们单独拿出来画一个地图。
   </p>
+  <CovidGeoWorld/>
   <p className={"self-start"}>
     下面是美国的感染者地图，其中阿拉斯加州和夏威夷群岛均位于美国大陆的左下方
   </p>

@@ -3,6 +3,7 @@ import {Anim, Navigation} from "@/widgets"
 import clsx from "clsx"
 import {NextPage} from "next"
 import Head from "next/head"
+import Link from "next/link"
 import styles from "./home.module.css"
 import data from "./p5.json"
 
@@ -57,14 +58,18 @@ const Home: NextPage = () => <>
 
         <div className={"flex flex-col items-center mt-10"}>
           <div className={"flex"}>
-            <button
-              className={"mr-12 px-3.5 py-2.5 text-white bg-blue-500 rounded-md shadow-md hover:bg-blue-400"}>
-              quick start
-            </button>
-            <button
-              className={"px-3.5 py-2.5 text-gray-500 bg-white rounded-md shadow-md hover:bg-gray-50"}>
-              documentation
-            </button>
+            <Link href={"/paper/genetics"}>
+              <button
+                className={"mr-12 px-3.5 py-2.5 text-white bg-blue-500 rounded-md shadow-md hover:bg-blue-400"}>
+                quick start
+              </button>
+            </Link>
+            <Link href={"/paper/biostatistics"}>
+              <button
+                className={"px-3.5 py-2.5 text-gray-500 bg-white rounded-md shadow-md hover:bg-gray-50"}>
+                documentation
+              </button>
+            </Link>
           </div>
         </div>
 
