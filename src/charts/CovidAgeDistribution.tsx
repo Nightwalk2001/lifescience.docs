@@ -15,7 +15,7 @@ const legends = [{
 export const CovidAgeDistribution = () => {
   const ref = useRef<HTMLDivElement>(null)
 
-  const margin                = {left: 40, right: 40, top: 50, bottom: 40},
+  const margin                = {left: 40, right: 40, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x = scaleBand()

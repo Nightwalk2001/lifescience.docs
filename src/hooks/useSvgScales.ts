@@ -1,11 +1,4 @@
-import {extent, scaleLinear, scaleOrdinal, scaleUtc} from "d3"
-
-export const useChartColor1 = () => scaleOrdinal()
-    .range([
-        "#636efa", "#ee553b", "#00cb95", "#aa63f9",
-        "#fda059", "#19d1f1", "#fe6691", "#b5e77f",
-        "#ff97ff", "#fecb52"
-    ])
+import {extent, scaleLinear, scaleUtc} from "d3"
 
 export const useUtc = (start: string, end: string, width: number) =>
     scaleUtc()
