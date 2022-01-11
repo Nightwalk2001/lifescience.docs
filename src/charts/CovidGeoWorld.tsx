@@ -51,7 +51,7 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
     }
 
     const zoomEvent = zoom()
-      .scaleExtent([0.5, 10])
+      .scaleExtent([0.8, 3])
       .on("zoom", zoomed)
     svg.call(zoomEvent)
   }, [])
