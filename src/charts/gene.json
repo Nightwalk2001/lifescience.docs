@@ -1,0 +1,162 @@
+[
+    {
+        "cn": "癌症通路",
+        "en": "Pathways in cancer",
+        "count": 77,
+        "richness": 0.4,
+        "log10p": -77.74,
+        "log10q": -74.83
+    },
+    {
+        "cn": "乙型肝炎",
+        "en": "Hepatitis B",
+        "count": 41,
+        "richness": 0.21,
+        "log10p": -50.36,
+        "log10q": -47.75
+    },
+    {
+        "cn": "糖尿病并发症AGE-RAGE信号通路",
+        "en": "AGE-RAGE signaling pathway in diabetic complications",
+        "count": 35,
+        "richness": 0.18,
+        "log10p": -48.87,
+        "log10q": -46.44
+    },
+    {
+        "cn": "PI3K-Akt信号通路",
+        "en": "PI3K-Akt signaling pathway",
+        "count": 47,
+        "richness": 0.24,
+        "log10p": -44.31,
+        "log10q": -42.25
+    },
+    {
+        "cn": "IL-17信号通路",
+        "en": "IL-17 signaling pathway",
+        "count": 27,
+        "richness": 0.14,
+        "log10p": -35.99,
+        "log10q": -34.34
+    },
+    {
+        "cn": "铂耐药",
+        "en": "Platinum drug resistance",
+        "count": 20,
+        "richness": 0.1,
+        "log10p": -26.13,
+        "log10q": -25
+    },
+    {
+        "cn": "松弛素信号通路",
+        "en": "relaxin signaling pathway",
+        "count": 23,
+        "richness": 0.12,
+        "log10p": -24.74,
+        "log10q": -23.63
+    },
+    {
+        "cn": "cAMP信号通路",
+        "en": "cAMP signaling pathway",
+        "count": 24,
+        "richness": 0.12,
+        "log10p": -22.21,
+        "log10q": -21.21
+    },
+    {
+        "cn": "非酒精性脂肪性肝病",
+        "en": "Non-alcoholic fatty liver disease",
+        "count": 22,
+        "richness": 0.11,
+        "log10p": -21.07,
+        "log10q": -20.11
+    },
+    {
+        "cn": "胰岛素耐受性",
+        "en": "insulin resistance",
+        "count": 18,
+        "richness": 0.09,
+        "log10p": -18.94,
+        "log10q": -18.05
+    },
+    {
+        "cn": "NF-kappa B信号通路",
+        "en": "NF-kappa B signaling pathway",
+        "count": 16,
+        "richness": 0.08,
+        "log10p": -17.29,
+        "log10q": -16.45
+    },
+    {
+        "cn": "疟疾",
+        "en": "Malaria",
+        "count": 13,
+        "richness": 0.07,
+        "log10p": -16.92,
+        "log10q": -16.1
+    },
+    {
+        "cn": "癌症中的转录调控失调",
+        "en": "Transcriptional misregulation in cancer",
+        "count": 19,
+        "richness": 0.1,
+        "log10p": -15.48,
+        "log10q": -14.71
+    },
+    {
+        "cn": "坏死性凋亡",
+        "en": "necroptosis",
+        "count": 17,
+        "richness": 0.09,
+        "log10p": -14.5,
+        "log10q": -13.76
+    },
+    {
+        "cn": "甲状腺癌",
+        "en": "Thyroid cancer",
+        "count": 10,
+        "richness": 0.05,
+        "log10p": -12.97,
+        "log10q": -12.27
+    },
+    {
+        "cn": "细胞周期",
+        "en": "Cell cycle",
+        "count": 14,
+        "richness": 0.07,
+        "log10p": -12.69,
+        "log10q": -12
+    },
+    {
+        "cn": "粘着小带",
+        "en": "Adherens junction",
+        "count": 11,
+        "richness": 0.06,
+        "log10p": -11.56,
+        "log10q": -10.9
+    },
+    {
+        "cn": "长寿调节通路",
+        "en": "Longevity regulating pathway",
+        "count": 12,
+        "richness": 0.06,
+        "log10p": -10.82,
+        "log10q": -10.18
+    },
+    {
+        "cn": "Apelin 信号通路",
+        "en": "Apelin signaling pathway",
+        "count": 13,
+        "richness": 0.07,
+        "log10p": -10.49,
+        "log10q": -9.86
+    },
+    {
+        "cn": "钙信号通路",
+        "en": "Calcium signaling pathway",
+        "count": 14,
+        "richness": 0.07,
+        "log10p": -10.4,
+        "log10q": -9.77
+    }
+]

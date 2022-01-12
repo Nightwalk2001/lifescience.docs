@@ -1,0 +1,182 @@
+[
+    {
+        "group": "Biological Processes",
+        "en": "reactive oxygen species metabolic process",
+        "cn": "活性氧的代谢过程",
+        "percentage": "14.58333"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "response to toxic substance",
+        "cn": "有毒物质的反应",
+        "percentage": "11.28107"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "cellular response to drug",
+        "cn": "对药物的细胞反应",
+        "percentage": "11.14058"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "response to steroid hormone",
+        "cn": "对类固醇激素的反应",
+        "percentage": "10.91954"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "response to inorganic substance",
+        "cn": "对无机物的反应",
+        "percentage": "10.21127"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "cellular response to organic cyclic compound",
+        "cn": "细胞对有机环化合物的反应",
+        "percentage": "10.11673"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "response to oxygen levels",
+        "cn": "对氧气的反应",
+        "percentage": "9.84984"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "gland development",
+        "cn": "腺发育",
+        "percentage": "9.68468"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "apoptotic signaling pathway",
+        "cn": "凋亡信号通路",
+        "percentage": "8.88235"
+    },
+    {
+        "group": "Biological Processes",
+        "en": "response to extracellular stimulus",
+        "cn": "对细胞外刺激的反应",
+        "percentage": "8.75912"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "membrane raft",
+        "cn": "膜筏",
+        "percentage": "9.06344"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "perinuclear region of cytoplasm",
+        "cn": "胞质核周区",
+        "percentage": "3.98351"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "vesicle lumen",
+        "cn": "囊腔",
+        "percentage": "6.17647"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "extracellular matrix",
+        "cn": "细胞外基质",
+        "percentage": "4.39367"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "side of membrane",
+        "cn": "膜的两侧",
+        "percentage": "4"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "apical part of cell",
+        "cn": "细胞顶端部分",
+        "percentage": "4.5977"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "plasma membrane protein complex",
+        "cn": "质膜蛋白复合物",
+        "percentage": "3.45821"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "postsynapse",
+        "cn": "突触",
+        "percentage": "3.43213"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "protein kinase complex",
+        "cn": "蛋白激酶复合物",
+        "percentage": "8.65384"
+    },
+    {
+        "group": "Cellular Components",
+        "en": "early endosome",
+        "cn": "早期内体",
+        "percentage": "3.90625"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "protein kinase activity",
+        "cn": "蛋白激酶活性",
+        "percentage": "6.75909"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "protein domain specific binding",
+        "cn": "蛋白质结构域特异性结合",
+        "percentage": "5.60224"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "protein kinase binding",
+        "cn": "蛋白激酶结合",
+        "percentage": "4.19161"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "transcription factor binding",
+        "cn": "转录因子结合",
+        "percentage": "4.98442"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "protein homodimerization activity",
+        "cn": "蛋白同源二聚化活性",
+        "percentage": "4.81927"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "phosphatase binding",
+        "cn": "磷酸酶结合",
+        "percentage": "10.30927"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "cytokine receptor binding",
+        "cn": "细胞因子受体结合",
+        "percentage": "8.11808"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "heme binding",
+        "cn": "血红素结合",
+        "percentage": "11.5942"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "endopeptidase activity",
+        "cn": "肽链内切酶活性",
+        "percentage": "5.18018"
+    },
+    {
+        "group": "Molecular Functions",
+        "en": "scaffold protein binding",
+        "cn": "支架蛋白结合",
+        "percentage": "18.33333"
+    }
+]

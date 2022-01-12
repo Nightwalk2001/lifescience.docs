@@ -1,4 +1,6 @@
 import {FansChart, GeneticsDistribution} from "@/charts"
+import {GeneBand} from "@/charts/GeneBand"
+import {GeneChart} from "@/charts/GeneChart"
 import {Anim, Navigation} from "@/widgets"
 import clsx from "clsx"
 import {NextPage} from "next"
@@ -77,6 +79,10 @@ const Home: NextPage = () => <>
 
       <Anim/>
     </header>
+
+    <GeneBand/>
+
+    <GeneChart/>
 
     <FansChart/>
 

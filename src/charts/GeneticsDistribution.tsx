@@ -45,10 +45,8 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
           group = scaleOrdinal<string>()
             .range(["亲本组", "高选择组", "低选择组"])
 
-    const normLine = (miu: number, sigma: number) => line()
-      // @ts-ignore
+    const normLine = (miu: number, sigma: number) => line<number>()
       .x(d => x(d))
-      // @ts-ignore
       .y(d => y(norm(d, miu, sigma)))
       .curve(curveNatural)
 
@@ -76,7 +74,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
       svg.selectAll("text").style("font-size", 14)
     }, [])
 
-    return <div className={"relative my-10"}>
+    return <div className={"relative my-3"}>
 
       <svg width={w} height={h}>
         <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
@@ -111,7 +109,6 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
                   strokeDasharray: ["0, 1400", "1400, 1400"],
                   transition: {duration: 1.5, delay: i * 1.53}
                 }}
-                // @ts-ignore
                 d={normLine(mean(d), std(d))(x.ticks(15))}
                 fill={"none"}
                 stroke={color(`${i}`)}
@@ -146,7 +143,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
         flex flex-col space-y-1 px-2 py-1.5 bg-gray-100 rounded-md`}>
         {
           data.map((d, i) => <div key={d.length} className={"flex items-center space-x-3"}>
-            <div className={`w-[30px] h-[30px] bg-blue-400`} style={{backgroundColor: color(`${i}`)}}/>
+            <div className={`w-[30px] h-[30px]`} style={{backgroundColor: color(`${i}`)}}/>
             <span className={"text-sm font-medium text-gray-700"}>{group(`${i}`)} <br/>
             <span className={"font-mono"}>μ={mean(d).toFixed(2)}</span>
             <span className={"font-mono mx-1"}>σ={std(d).toFixed(2)}</span>
