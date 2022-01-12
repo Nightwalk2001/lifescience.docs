@@ -30,7 +30,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
    }) => {
     const ref = useRef<SVGGElement>(null)
 
-    const margin                = {left: 40, right: 40, top: 20, bottom: 40},
+    const margin                = {left: 40, right: 40, top: 10, bottom: 20},
           {w, h, width, height} = useSvgSize(900, 500, margin)
 
     const x     = scaleLinear()
@@ -74,7 +74,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
       svg.selectAll("text").style("font-size", 14)
     }, [])
 
-    return <div className={"relative my-3"}>
+    return <div className={"relative"}>
 
       <svg width={w} height={h}>
         <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
