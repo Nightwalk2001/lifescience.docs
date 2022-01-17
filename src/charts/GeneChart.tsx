@@ -7,7 +7,7 @@ const gene = data.reverse()
 
 export const GeneChart = () => {
   const ref = useRef<SVGGElement>(null)
-  const margin                = {left: 160, right: 120, top: 50, bottom: 40},
+  const margin                = {left: 160, right: 120, top: 50, bottom: 60},
         {w, h, width, height} = useSvgSize(800, 590, margin)
 
   const x       = scaleLinear()
@@ -27,8 +27,6 @@ export const GeneChart = () => {
 
   useEffect(() => {
     const svg = select(ref.current)
-
-    console.log(extent(gene.map(i => i.log10p)))
 
     svg.select<SVGGElement>(".left")
       .call(axisLeft(pathway).tickSize(0).tickPadding(9))
@@ -53,18 +51,15 @@ export const GeneChart = () => {
   return <div className={"relative"}>
     <svg width={w} height={h}>
       <g ref={ref} transform={`translate(${margin.left}, ${margin.top})`}>
-        {/*<rect x={0} y={0} width={width} height={height} fill={"#fafafa"}/>*/}
         <g className={"left"}/>
         <g className={"bottom"} transform={`translate(0, ${height})`}/>
-        <g>
-          {gene.map((d, i) => <circle
-            key={d.cn}
-            cx={x(d.richness)}
-            cy={pathway(d.cn) + pathway.bandwidth() / 2}
-            r={size(d.count)}
-            fill={color(d.log10p)}
-          />)}
-        </g>
+        {gene.map(d => <circle
+          key={d.cn}
+          cx={x(d.richness)}
+          cy={pathway(d.cn) + pathway.bandwidth() / 2}
+          r={size(d.count)}
+          fill={color(d.log10p)}
+        />)}
       </g>
     </svg>
 
@@ -74,7 +69,7 @@ export const GeneChart = () => {
     <div className={"absolute -left-12 top-1/2 -translate-y-1/2 -rotate-90 text-gray-800"}>
       通路名称
     </div>
-    <div className={"absolute left-[405px] -bottom-2 text-gray-800"}>
+    <div className={"absolute left-[405px] bottom-2 text-gray-800"}>
       丰度
     </div>
 
@@ -82,7 +77,7 @@ export const GeneChart = () => {
       <div>
         <span className={"ml-2"}>基因数目</span>
         <div className={"flex flex-col items-center mt-2"}>
-          {[20, 40, 60].map(d => <div className={"flex justify-around items-center w-full"}>
+          {[20, 40, 60].map(d => <div key={d} className={"flex justify-around items-center w-full"}>
             <div
               className={"rounded-full bg-red-400"}
               style={{width: size(d) * 2, height: size(d) * 2}}/>

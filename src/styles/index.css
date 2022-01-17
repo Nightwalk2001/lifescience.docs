@@ -1,10 +1,10 @@
 @import "base.css";
-@import "docsearch.css";
 @import "prism.css";
 @import "progress.css";
 @import "svg.css";
 @import "fonts.css";
 @import "utilties.css";
+@import "docsearch.css";
 @import "katex/dist/katex.min.css";
 
 @tailwind components;

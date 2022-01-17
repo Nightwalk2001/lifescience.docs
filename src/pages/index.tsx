@@ -80,10 +80,6 @@ const Home: NextPage = () => <>
       <Anim/>
     </header>
 
-    <GeneBand/>
-
-    <GeneChart/>
-
     <FansChart/>
 
     <GeneticsDistribution
@@ -97,6 +93,10 @@ const Home: NextPage = () => <>
       minMax={[20, 50]}
       percentage={0.13}
     />
+
+    <GeneBand/>
+
+    <GeneChart/>
   </div>
 </>
 

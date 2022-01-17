@@ -58,6 +58,7 @@ export const GeneticsDistribution: React.FC<ChartProps> = memo(
 
     useEffect(() => {
       const svg = select(ref.current)
+
       svg.append("g")
         .attr("transform", `translate(0, ${height})`)
         .call(axisBottom(x).ticks(20).tickSize(0).tickPadding(9))
