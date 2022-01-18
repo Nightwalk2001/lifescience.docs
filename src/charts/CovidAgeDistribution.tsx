@@ -20,7 +20,7 @@ const legends = [{
 export const CovidAgeDistribution = () => {
   const {ref, inView} = useInView({triggerOnce: true})
 
-  const margin                = {left: 40, right: 40, top: 20, bottom: 40},
+  const margin                = {left: 50, right: 30, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x = scaleBand()
@@ -48,8 +48,21 @@ export const CovidAgeDistribution = () => {
 
     <svg width={w} height={h}>
       <g transform={`translate(${margin.left}, ${margin.top})`}>
-        <AxisLeft scale={y} hideTicks hideAxisLine/>
-        <AxisBottom scale={x} top={height} hideTicks/>
+        <AxisLeft
+          scale={y}
+          hideTicks
+          hideAxisLine
+          label={"确诊人数"}
+          labelOffset={30}
+          labelProps={{fontSize: 12, fill: "#606162"}}
+        />
+        <AxisBottom
+          scale={x}
+          top={height}
+          hideTicks
+          label={"年龄段(每十年为一段)"}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
+        />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         {data.map((d, i) =>
           <React.Fragment key={d[0]}>
