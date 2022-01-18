@@ -60,7 +60,7 @@ export const CovidAgeDistribution = () => {
           scale={x}
           top={height}
           hideTicks
-          label={"年龄段(每十年为一段)"}
+          label={"年龄段(每十岁为一段)"}
           labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
