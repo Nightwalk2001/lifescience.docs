@@ -100,7 +100,7 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
       labelFormat={(d) => format(".2s")(d)}
       shapeWidth={28}
       shapeHeight={28}
-      className={"absolute left-[25px] bottom-[30px] px-3 py-2 bg-gray-50 rounded-md text-sm"}
+      className={"absolute left-[25px] bottom-[30px] px-3 py-2 bg-gray-50 rounded-md text-sm cursor-pointer"}
     />
 
     {
