@@ -1,5 +1,4 @@
 import {useSvgSize} from "@/hooks"
-import {locale} from "@/libs"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {extent, format, scaleLinear, scaleOrdinal} from "d3"
@@ -50,8 +49,29 @@ export const CovidScatterDensity = () => {
   return <div ref={ref} className={"relative"}>
     <svg width={w} height={h}>
       <g transform={`translate(${margin.left}, ${margin.top})`}>
-        <AxisLeft scale={y} hideTicks hideZero tickFormat={format(".2s")}/>
-        <AxisBottom scale={x} top={height} hideTicks tickFormat={locale.format("%Y年%b月")} numTicks={8}/>
+        <AxisLeft
+          scale={y}
+          hideTicks
+          hideZero
+          tickFormat={format(".2s")}
+          tickTransform={"translate(-5, 5)"}
+          tickLabelProps={() => ({
+            fontSize: 12,
+            textAnchor: "end",
+            fill: "#606162"
+          })}
+        />
+        <AxisBottom
+          scale={x}
+          top={height}
+          hideTicks
+          tickFormat={format(".2s")}
+          numTicks={8} tickStroke={"white"}
+          tickLabelProps={() => ({
+            fontSize: 12,
+            fill: "#606162"
+          })}
+        />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g fill={"none"}>
           {data.map((d, i) => <motion.circle
@@ -77,7 +97,7 @@ export const CovidScatterDensity = () => {
     <div className={"absolute right-0 top-[75px] flex flex-col space-y-1"}>
       {continents.map((d, i) => <div key={d} className={"flex items-center space-x-2 cursor-pointer"}>
         <div className={`w-[12px] h-[12px] rounded-full`} style={{backgroundColor: colors[i]}}/>
-        <span className={"text-sm font-medium text-gray-700"}>{d}</span>
+        <span className={"text-sm font-medium text-gray-700 dark:text-white"}>{d}</span>
       </div>)}
     </div>
   </div>
