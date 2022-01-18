@@ -1,5 +1,5 @@
 import {extent, format, geoPath, interpolateRgb, pointer, scaleSequential, select} from "d3"
-import {AnimatePresence, motion} from "framer-motion"
+import {motion} from "framer-motion"
 import {useEffect, useRef, useState} from "react"
 import * as topojson from "topojson-client"
 import usaGeo from "./json/us-state.json"
@@ -68,18 +68,15 @@ export const CovidGeoUsa = () => {
   }, [])
 
   return <div ref={ref} className={"relative"}>
-    <AnimatePresence>
-      {tooltip &&
-        <motion.div
-          exit={{opacity: [1, 0], transition: {duration: 0.5}}}
-          className={"absolute flex flex-col min-w-[140px] max-w-[350px] px-2 py-1.5 text-sm text-red-400 bg-white rounded-md"}
-          style={{
-            left: tooltip.x - 10,
-            top: tooltip.y + 30
-          }}>
-          <div>州/省 {tooltip.state}</div>
-          <div>确诊数 {format("~s")(tooltip.confirmed)}</div>
-        </motion.div>}
-    </AnimatePresence>
+    {tooltip &&
+      <motion.div
+        className={"absolute flex flex-col min-w-[140px] max-w-[350px] px-2 py-1.5 text-sm text-red-400 bg-white rounded-md"}
+        style={{
+          left: tooltip.x - 10,
+          top: tooltip.y + 30
+        }}>
+        <div>州/省 {tooltip.state}</div>
+        <div>确诊数 {format("~s")(tooltip.confirmed)}</div>
+      </motion.div>}
   </div>
 }

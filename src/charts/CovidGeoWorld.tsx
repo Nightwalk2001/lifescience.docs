@@ -12,7 +12,7 @@ import {
   scaleThreshold
 } from "d3"
 import {motion} from "framer-motion"
-import React, {useRef, useState} from "react"
+import React, {useState} from "react"
 import * as topojson from "topojson-client"
 import world from "./json/global.json"
 import worldConfirm from "./json/global_confirmed.json"
@@ -27,7 +27,6 @@ type Tooltip = {
 } | null
 
 export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
-  const ref = useRef<SVGSVGElement>(null)
   const [tooltip, setTooltip] = useState<Tooltip>(null)
 
   const width  = 900,
@@ -40,24 +39,18 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
     .domain(extent(worldConfirm, i => i.confirmed))
     .interpolator(interpolateRgb("#9dfaeb", "#9c67f6"))
 
-  const threshold = scaleThreshold<number, string>()
-    .domain([0, 100 * 10000, 200 * 10000, 300 * 10000, 400 * 10000, 500 * 10000, 600 * 10000])
-    .range([
-      "#9dfaeb",
-      "#5cd3b4",
-      "#ea708d",
-      "#ec77c7",
-      "#ec3761",
-      "#3591ee",
-      "#9c67f6"
-    ])
-
   // @ts-ignore
   const features = topojson.feature(world, world.objects.global).features
 // @ts-ignore
   const projection = geoMercator().fitSize([width, height], topojson.feature(world, world.objects.global))
-  // @ts-ignore
+// @ts-ignore
   const meshes = topojson.mesh(world, world.objects.global, (a, b) => a !== b)
+
+  const steps = [0, 100 * 10000, 200 * 10000, 300 * 10000, 400 * 10000, 500 * 10000, 600 * 10000]
+
+  const threshold = scaleThreshold<number, string>()
+    .domain(steps)
+    .range(steps.map(i => color(i)))
 
   const handleMouse = (event: any, d: any) => {
     const pos = pointer(event)
@@ -70,7 +63,7 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
   }
 
   return <div className={"relative"}>
-    <svg ref={ref} width={width} height={height}>
+    <svg width={width} height={height}>
       <Grid width={width} height={height} xScale={x} yScale={y}/>
       <g>
         {features.map(d => <motion.path

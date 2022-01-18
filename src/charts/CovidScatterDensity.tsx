@@ -1,7 +1,7 @@
 import {useSvgSize} from "@/hooks"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
-import {extent, format, scaleLinear, scaleOrdinal} from "d3"
+import {extent, format, scaleLinear, scaleOrdinal, scaleSqrt} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
 import {useInView} from "react-intersection-observer"
@@ -42,7 +42,9 @@ export const CovidScatterDensity = () => {
         y     = scaleLinear()
           .domain([0, 1600])
           .range([height, 0]),
-        size  = scaleLinear().domain(extent(data.map(i => i.population))).range([5, 20]),
+        size  = scaleSqrt()
+          .domain(extent(data.map(i => i.population)))
+          .range([0, 20]),
         color = scaleOrdinal<string>()
           .range(colors)
 
