@@ -88,6 +88,7 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
 
     <LegendThreshold
       scale={threshold}
+      direction={"row"}
       shapeMargin="1px 0 0"
     />
 
