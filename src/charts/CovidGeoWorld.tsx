@@ -41,8 +41,16 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
     .interpolator(interpolateRgb("#9dfaeb", "#9c67f6"))
 
   const threshold = scaleThreshold<number, string>()
-    .domain([0.02, 0.04, 0.06, 0.08, 0.1])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"])
+    .domain([0, 100 * 10000, 200 * 10000, 300 * 10000, 400 * 10000, 500 * 10000, 600 * 10000])
+    .range([
+      "#9dfaeb",
+      "#5cd3b4",
+      "#ea708d",
+      "#ec77c7",
+      "#ec3761",
+      "#3591ee",
+      "#9c67f6"
+    ])
 
   // @ts-ignore
   const features = topojson.feature(world, world.objects.global).features
@@ -88,8 +96,11 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
 
     <LegendThreshold
       scale={threshold}
-      direction={"row"}
-      shapeMargin="1px 0 0"
+      direction={"column-reverse"}
+      labelFormat={(d) => format(".2s")(d)}
+      shapeWidth={28}
+      shapeHeight={28}
+      className={"absolute left-[25px] bottom-[30px] px-3 py-2 bg-gray-50 rounded-md text-sm"}
     />
 
     {
