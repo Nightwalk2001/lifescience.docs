@@ -2,11 +2,13 @@ import {useSvgSize} from "@/hooks"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {groups, max, min, scaleBand, scaleLinear} from "d3"
-import React from "react"
+import React, {useEffect} from "react"
 import {useInView} from "react-intersection-observer"
 import ageDistribution from "./json/korea_age_distribution.json"
 
 const data = groups(ageDistribution, i => i.age)
+  .sort((a, b) => +a[0].slice(0, a[0].length - 2) - +b[0].slice(0, b[0].length - 2))
+
 const legends = [{
   sex: "male",
   color: "#57d7ec"
@@ -22,7 +24,7 @@ export const CovidAgeDistribution = () => {
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x = scaleBand()
-          .domain(new Set(ageDistribution.map(i => i.age)))
+          .domain(new Set(data.map(i => i[0])))
           .range([0, width])
           .padding(0.15),
         y = scaleLinear()
@@ -38,39 +40,9 @@ export const CovidAgeDistribution = () => {
           ])
           .range([height, 0])
 
-  {/*useEffect(() => {*/
-  }
-  {/*  const svg = select("")*/
-  }
-  //
-  //   svg.append("rect")
-  //     .attr("x", 0)
-  //     .attr("y", 0)
-  //     .attr("width", width)
-  {/*    .attr("height", height)*/
-  }
-  {/*    .attr("fill", "#f9f9fd")*/
-  }
-
-  //   const group = svg.selectAll(".group")
-  //     .data(data)
-  //     .join("g")
-  //     .attr("stroke", "none")
-  //
-  //   group.append("rect")
-  //     .attr("x", d => x(d[0]))
-  //     .attr("y", d => y(d[1].filter(i => i.sex === "male").length))
-  //     .attr("width", x.bandwidth() / 2)
-  {/*    .attr("height", d => height - y(d[1].filter(i => i.sex === "male").length))*/
-  }
-  //     .attr("fill", "#57d7ec")
-  //   group.append("rect")
-  //     .attr("x", d => x(d[0]) + x.bandwidth() / 2)
-  //     .attr("y", d => y(d[1].filter(i => i.sex === "female").length))
-  //     .attr("width", x.bandwidth() / 2)
-  //     .attr("height", d => height - y(d[1].filter(i => i.sex === "female").length))
-  //     .attr("fill", "#ec77c7")
-  // }, [])
+  useEffect(() => {
+    console.log(data)
+  })
 
   return <div ref={ref} className={"relative"}>
 
