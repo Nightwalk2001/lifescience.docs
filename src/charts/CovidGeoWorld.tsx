@@ -1,6 +1,18 @@
-import {extent, format, geoMercator, geoPath, interpolateRgb, pointer, scaleSequentialSqrt, select, zoom} from "d3"
+import {Grid} from "@visx/grid"
+import {LegendThreshold} from "@visx/legend"
+import {
+  extent,
+  format,
+  geoMercator,
+  geoPath,
+  interpolateRgb,
+  pointer,
+  scaleLinear,
+  scaleSequentialSqrt,
+  scaleThreshold
+} from "d3"
 import {motion} from "framer-motion"
-import React, {useEffect, useRef, useState} from "react"
+import React, {useRef, useState} from "react"
 import * as topojson from "topojson-client"
 import world from "./json/global.json"
 import worldConfirm from "./json/global_confirmed.json"
@@ -18,12 +30,19 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
   const ref = useRef<SVGSVGElement>(null)
   const [tooltip, setTooltip] = useState<Tooltip>(null)
 
-  const width  = 975,
-        height = 610
+  const width  = 900,
+        height = 500
+
+  const x = scaleLinear().range([0, width]),
+        y = scaleLinear().range([height, 0])
 
   const color = scaleSequentialSqrt<string, never>()
     .domain(extent(worldConfirm, i => i.confirmed))
-    .interpolator(interpolateRgb("#ffffff", "#ec3761"))
+    .interpolator(interpolateRgb("#9dfaeb", "#9c67f6"))
+
+  const threshold = scaleThreshold<number, string>()
+    .domain([0.02, 0.04, 0.06, 0.08, 0.1])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"])
 
   // @ts-ignore
   const features = topojson.feature(world, world.objects.global).features
@@ -42,32 +61,15 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
     })
   }
 
-  useEffect(() => {
-    const svg = select(ref.current)
-    const zoomed = (event) => {
-      const t = event.transform
-      svg.select("g")
-        .attr("transform", `translate(${t.x}, ${t.y}) scale(${t.k})`)
-    }
-
-    const zoomEvent = zoom()
-      .scaleExtent([0.8, 3])
-      .on("zoom", zoomed)
-    svg.call(zoomEvent)
-  }, [])
-
   return <div className={"relative"}>
     <svg ref={ref} width={width} height={height}>
-      <rect x={0} y={0} width={width} height={height} fill={"#e5e3e3"} rx={14} opacity={0.8}/>
+      <Grid width={width} height={height} xScale={x} yScale={y}/>
       <g>
         {features.map(d => <motion.path
           key={d.properties.name}
           d={geoPath().projection(projection)(d)}
+          fill={color(worldConfirm.find(j => j.country === d.properties.name)?.confirmed || 0)}
           opacity={0.9}
-          animate={{
-            fill: ["#fff", color(worldConfirm.find(j => j.country === d.properties.name)?.confirmed || 0)],
-            transition: {duration: 2}
-          }}
           onMouseEnter={(event) => handleMouse(event, d)}
           onMouseMove={(event) => handleMouse(event, d)}
           onTouchStart={(event) => handleMouse(event, d)}
@@ -84,10 +86,15 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
       </g>
     </svg>
 
+    <LegendThreshold
+      scale={threshold}
+      shapeMargin="1px 0 0"
+    />
+
     {
       tooltip &&
       <div
-        className={"absolute flex min-w-[140px] max-w-[350px] px-3 py-2.5 text-sm text-indigo-400 bg-white rounded-md"}
+        className={"absolute flex min-w-[140px] max-w-[350px] px-3 py-2.5 text-sm text-[#fe6691] bg-white rounded-md"}
         style={{
           left: tooltip.x - 5,
           top: tooltip.y + 30

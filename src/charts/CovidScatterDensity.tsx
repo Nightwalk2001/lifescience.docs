@@ -33,7 +33,7 @@ const colors = [
 export const CovidScatterDensity = () => {
   const {ref, inView} = useInView({triggerOnce: true})
 
-  const margin                = {left: 40, right: 170, top: 50, bottom: 40},
+  const margin                = {left: 60, right: 160, top: 20, bottom: 60},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x     = scaleLinear()
@@ -60,22 +60,27 @@ export const CovidScatterDensity = () => {
             textAnchor: "end",
             fill: "#606162"
           })}
+          label={"人口密度（Pop/平方公里)"}
+          labelOffset={35}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
         <AxisBottom
           scale={x}
           top={height}
           hideTicks
           tickFormat={format(".2s")}
-          numTicks={8} tickStroke={"white"}
+          numTicks={8}
           tickLabelProps={() => ({
             fontSize: 12,
             fill: "#606162"
           })}
+          label={"确诊人数"}
+          labelProps={{fontSize: 12, fill: "#606162"}}
         />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g fill={"none"}>
           {data.map((d, i) => <motion.circle
-            key={d.country}
+            key={`${d.confirmed}-${d.population}`}
             cx={x(d.confirmed)}
             cy={y(d.density)}
             fill={color(`${i}`)}

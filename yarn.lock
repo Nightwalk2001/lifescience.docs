@@ -2623,6 +2623,17 @@
     classnames "^2.3.1"
     prop-types "^15.6.2"
 
+"@visx/legend@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.npmmirror.com/@visx/legend/download/@visx/legend-2.2.2.tgz#38d39469c7608e7268a8f716f81f80d3a656dfae"
+  integrity sha1-ONOUacdgjnJoqPcW+B+A06ZW364=
+  dependencies:
+    "@types/react" "*"
+    "@visx/group" "2.1.0"
+    "@visx/scale" "2.2.2"
+    classnames "^2.3.1"
+    prop-types "^15.5.10"
+
 "@visx/point@2.1.0":
   version "2.1.0"
   resolved "https://registry.nlark.com/@visx/point/download/@visx/point-2.1.0.tgz#b3e263826f28b3a170d6604dea8ffa27a4b9ac3b"

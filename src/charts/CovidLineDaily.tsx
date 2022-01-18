@@ -1,7 +1,8 @@
+import {useSvgSize} from "@/hooks"
 import {locale} from "@/libs"
 import {AxisBottom, AxisLeft, AxisRight} from "@visx/axis"
 import {Grid} from "@visx/grid"
-import {curveNatural, extent, format, line, scaleLinear, scaleOrdinal, scaleTime} from "d3"
+import {curveNatural, format, line, scaleLinear, scaleOrdinal, scaleTime} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
 import {useInView} from "react-intersection-observer"
@@ -17,22 +18,19 @@ const legends = ["Daily Case", "Daily Case Mean/week", "Daily Death", "Daily Dea
 export const CovidLineDaily = () => {
   const {ref, inView} = useInView({triggerOnce: true})
 
-  const w      = 800,
-        h      = 500,
-        margin = {left: 40, right: 40, top: 50, bottom: 40},
-        width  = w - margin.left - margin.right,
-        height = h - margin.top - margin.bottom
+  const margin                = {left: 60, right: 60, top: 10, bottom: 40},
+        {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x      = scaleTime()
           .domain([new Date("2020-01-22"), new Date("2021-05-29")])
           .range([0, width])
           .nice(),
         y      = scaleLinear()
-          .domain(extent(data[0], i => i.count))
+          .domain([-200 * 1000, 1800 * 1000])
           .range([height, 0])
           .nice(),
         deathY = scaleLinear()
-          .domain(extent(data[2], i => i.count))
+          .domain([-2 * 1000, 18 * 1000])
           .range([height, 0])
           .nice(),
         color  = scaleOrdinal<string>()
@@ -41,9 +39,30 @@ export const CovidLineDaily = () => {
   return <div ref={ref} className={"relative"}>
     <svg width={w} height={h}>
       <g transform={`translate(${margin.left}, ${margin.top})`} className={"root"}>
-        <AxisLeft scale={y} hideTicks tickFormat={format(".2s")}/>
-        <AxisRight scale={deathY} left={width} hideTicks tickFormat={format(".2s")}/>
-        <AxisBottom scale={x} top={height} hideTicks tickFormat={locale.format("%Y年%b月")} numTicks={8}/>
+        <AxisLeft
+          scale={y}
+          hideTicks
+          tickFormat={format(".2s")}
+          label={"每日确诊数/每周平均确诊数"}
+          labelOffset={40}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
+        />
+        <AxisRight
+          scale={deathY}
+          left={width}
+          hideTicks
+          tickFormat={format(".2s")}
+          label={"每日死亡数/每周平均死亡数"}
+          labelOffset={35}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
+        />
+        <AxisBottom
+          scale={x}
+          top={height}
+          numTicks={8}
+          hideTicks
+          tickFormat={locale.format("%Y年%b月")}
+        />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g fill={"none"}>
           {data.map((d, i) =>

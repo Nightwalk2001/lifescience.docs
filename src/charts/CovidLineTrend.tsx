@@ -13,7 +13,7 @@ const countries = ["US", "Brazil", "France", "Germany", "India", "Italy", "Russi
 export const CovidLineTrend = () => {
   const {ref, inView} = useInView({triggerOnce: true})
 
-  const margin                = {left: 40, right: 40, top: 50, bottom: 40},
+  const margin                = {left: 60, right: 20, top: 50, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
 
   const x     = useUtc("2020-01-22", "2021-05-29", width),
@@ -28,7 +28,15 @@ export const CovidLineTrend = () => {
   return <div ref={ref} className={"relative"}>
     <svg width={w} height={h}>
       <g transform={`translate(${margin.left}, ${margin.top})`}>
-        <AxisLeft scale={y} hideTicks hideZero tickFormat={format(".2s")}/>
+        <AxisLeft
+          scale={y}
+          hideTicks
+          hideZero
+          tickFormat={format(".2s")}
+          label={"每日确诊数/每周平均确诊数"}
+          labelOffset={40}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
+        />
         <AxisBottom scale={x} hideTicks top={height} tickFormat={locale.format("%Y年%b月")} numTicks={8}/>
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g className={"left"}/>
@@ -56,7 +64,7 @@ export const CovidLineTrend = () => {
       </g>
     </svg>
 
-    <div className={"absolute left-[60px] top-[25px] flex flex-col space-y-1 p-2 bg-gray-100 rounded-md"}>
+    <div className={"absolute left-[100px] top-[25px] flex flex-col space-y-1 p-2 bg-gray-100 rounded-md"}>
       {countries.map((d, i) => <div key={d} className={"flex items-center space-x-2 cursor-pointer"}>
         <div className={`w-[40px] h-[2px] bg-blue-400`} style={{backgroundColor: color(`${i}`)}}/>
         <span className={"text-sm font-medium text-gray-700"}>{d}</span>

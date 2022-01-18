@@ -42,7 +42,7 @@ export const CovidTreemap = () => {
     <svg width={width} height={height}>
       {data.leaves().map((d, i) =>
         <motion.rect
-          key={`${d.x0}-${d.x1}`}
+          key={i}
           animate={{
             width: [0, d.x1 - d.x0],
             height: [0, d.y1 - d.y0],
