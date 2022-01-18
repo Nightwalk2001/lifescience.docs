@@ -5,7 +5,8 @@ import {
   CovidGeoWorld,
   CovidLineDaily,
   CovidLineTrend,
-  CovidScatterDensity
+  CovidScatterDensity,
+  CovidTreemap
 } from "@/charts"
 import type {NextPage} from "next"
 
@@ -21,22 +22,28 @@ const biostatistics: NextPage = () => <div
   <p className={"self-start"}>
     下面是使用各国家感染者数量画出的树图
   </p>
-  <pre className={"!text-white !bg-gray-200 !px-2 !py-1.5"}>
+  <CovidTreemap/>
+  <pre className={"!text-gray-900 !bg-gray-100 !px-2 !py-1.5 !w-full"}>
     {`
-    const root = hierarchy(TestData, d => d.children)
-    .sum(i => i.confirmed)
-    .sort((a, b) => b.confirmed - a.confirmed)
-    
-    const rootWithPosition = treemap().size([width, height])(root)
-
-    svg.selectAll("rect")
-      .data(rootWithPosition)
-      .join("rect")
-      .attr("x", d => d.x0)
-      .attr("y", d => d.y0)
-      .attr("width", d => d.x1 - d.x0)
-      .attr("height", d => d.y1 - d.y0)
-      .style("stroke", "#ec77c7")
+    {
+      data.map((d, i) =>
+      <React.Fragment key={d[0]}>
+        <rect
+          x={x(d[0])}
+          y={y(d[1].filter(i => i.sex === "male").length)}
+          width={x.bandwidth() / 2}
+          height={height - y(d[1].filter(i => i.sex === "male").length)}
+          fill={"#57d7ec"}
+        />
+        <rect
+          x={x(d[0]) + x.bandwidth() / 2}
+          y={y(d[1].filter(i => i.sex === "female").length)}
+          width={x.bandwidth() / 2}
+          height={height - y(d[1].filter(i => i.sex === "female").length)}
+          fill={"#ec77c7"}
+        />
+      </React.Fragment>)
+    }
       `}
   </pre>
   <p className={"self-start"}>

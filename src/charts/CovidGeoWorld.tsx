@@ -62,12 +62,12 @@ export const CovidGeoWorld: React.FC<CovidGeoProps> = () => {
       <g>
         {features.map(d => <motion.path
           key={d.properties.name}
+          d={geoPath().projection(projection)(d)}
+          opacity={0.9}
           animate={{
             fill: ["#fff", color(worldConfirm.find(j => j.country === d.properties.name)?.confirmed || 0)],
             transition: {duration: 2}
           }}
-          d={geoPath().projection(projection)(d)}
-          opacity={0.9}
           onMouseEnter={(event) => handleMouse(event, d)}
           onMouseMove={(event) => handleMouse(event, d)}
           onTouchStart={(event) => handleMouse(event, d)}

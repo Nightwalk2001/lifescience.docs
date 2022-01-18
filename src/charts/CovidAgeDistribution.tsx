@@ -1,6 +1,9 @@
-import {useSvgRoot, useSvgSize} from "@/hooks"
-import {axisBottom, axisLeft, groups, max, min, scaleBand, scaleLinear, select} from "d3"
-import React, {useEffect, useRef} from "react"
+import {useSvgSize} from "@/hooks"
+import {AxisBottom, AxisLeft} from "@visx/axis"
+import {Grid} from "@visx/grid"
+import {groups, max, min, scaleBand, scaleLinear} from "d3"
+import React from "react"
+import {useInView} from "react-intersection-observer"
 import ageDistribution from "./json/korea_age_distribution.json"
 
 const data = groups(ageDistribution, i => i.age)
@@ -13,7 +16,7 @@ const legends = [{
 }]
 
 export const CovidAgeDistribution = () => {
-  const ref = useRef<HTMLDivElement>(null)
+  const {ref, inView} = useInView({triggerOnce: true})
 
   const margin                = {left: 40, right: 40, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
@@ -35,60 +38,72 @@ export const CovidAgeDistribution = () => {
           ])
           .range([height, 0])
 
-  useSvgRoot(ref, w, h, margin)
+  {/*useEffect(() => {*/
+  }
+  {/*  const svg = select("")*/
+  }
+  //
+  //   svg.append("rect")
+  //     .attr("x", 0)
+  //     .attr("y", 0)
+  //     .attr("width", width)
+  {/*    .attr("height", height)*/
+  }
+  {/*    .attr("fill", "#f9f9fd")*/
+  }
 
-  useEffect(() => {
-    const svg = select(ref.current).select("svg g")
-
-    svg.append("rect")
-      .attr("x", 0)
-      .attr("y", 0)
-      .attr("width", width)
-      .attr("height", height)
-      .attr("fill", "#f9f9fd")
-
-    svg.append("g")
-      .attr("transform", `translate(0, ${height})`)
-      .call(axisBottom(x).tickSize(0).tickPadding(8))
-
-    svg.append("g")
-      .call(axisLeft(y).ticks(6).tickSize(0).tickPadding(6))
-      .call(g => g.selectAll(".tick line").clone()
-        .attr("x2", width)
-        .attr("stroke", "#fff")
-        .attr("stroke-width", 1.3)
-        .attr("stroke-opacity", 0.8)
-      )
-
-    svg.selectAll(".domain").remove()
-
-    const group = svg.selectAll(".group")
-      .data(data)
-      .join("g")
-      .attr("stroke", "none")
-
-    group.append("rect")
-      .attr("x", d => x(d[0]))
-      .attr("y", d => y(d[1].filter(i => i.sex === "male").length))
-      .attr("width", x.bandwidth() / 2)
-      .attr("height", d => height - y(d[1].filter(i => i.sex === "male").length))
-      .attr("fill", "#57d7ec")
-    group.append("rect")
-      .attr("x", d => x(d[0]) + x.bandwidth() / 2)
-      .attr("y", d => y(d[1].filter(i => i.sex === "female").length))
-      .attr("width", x.bandwidth() / 2)
-      .attr("height", d => height - y(d[1].filter(i => i.sex === "female").length))
-      .attr("fill", "#ec77c7")
-  }, [])
+  //   const group = svg.selectAll(".group")
+  //     .data(data)
+  //     .join("g")
+  //     .attr("stroke", "none")
+  //
+  //   group.append("rect")
+  //     .attr("x", d => x(d[0]))
+  //     .attr("y", d => y(d[1].filter(i => i.sex === "male").length))
+  //     .attr("width", x.bandwidth() / 2)
+  {/*    .attr("height", d => height - y(d[1].filter(i => i.sex === "male").length))*/
+  }
+  //     .attr("fill", "#57d7ec")
+  //   group.append("rect")
+  //     .attr("x", d => x(d[0]) + x.bandwidth() / 2)
+  //     .attr("y", d => y(d[1].filter(i => i.sex === "female").length))
+  //     .attr("width", x.bandwidth() / 2)
+  //     .attr("height", d => height - y(d[1].filter(i => i.sex === "female").length))
+  //     .attr("fill", "#ec77c7")
+  // }, [])
 
   return <div ref={ref} className={"relative"}>
-    <div className={"absolute right-[80px] top-[75px] flex flex-col space-y-1 p-2 bg-gray-100 rounded-md"}>
-      {
-        legends.map(i => <div key={i.sex} className={"flex items-center space-x-2"}>
-          <div className={`w-[20px] h-[20px] bg-blue-400`} style={{backgroundColor: i.color}}/>
-          <span className={"text-sm font-medium text-gray-700"}>{i.sex}</span>
-        </div>)
-      }
+
+    <svg width={w} height={h}>
+      <g transform={`translate(${margin.left}, ${margin.top})`}>
+        <AxisLeft scale={y} hideTicks hideAxisLine/>
+        <AxisBottom scale={x} top={height} hideTicks/>
+        <Grid width={width} height={height} xScale={x} yScale={y}/>
+        {data.map((d, i) =>
+          <React.Fragment key={d[0]}>
+            <rect
+              x={x(d[0])}
+              y={y(d[1].filter(i => i.sex === "male").length)}
+              width={x.bandwidth() / 2}
+              height={height - y(d[1].filter(i => i.sex === "male").length)}
+              fill={"#57d7ec"}
+            />
+            <rect
+              x={x(d[0]) + x.bandwidth() / 2}
+              y={y(d[1].filter(i => i.sex === "female").length)}
+              width={x.bandwidth() / 2}
+              height={height - y(d[1].filter(i => i.sex === "female").length)}
+              fill={"#ec77c7"}
+            />
+          </React.Fragment>)}
+      </g>
+    </svg>
+
+    <div className={"absolute right-[80px] top-[75px] flex flex-col space-y-1.5 px-3 py-2.5 bg-gray-100 rounded-md"}>
+      {legends.map(i => <div key={i.sex} className={"flex items-center space-x-2 cursor-pointer"}>
+        <div className={`w-[20px] h-[20px] bg-blue-400`} style={{backgroundColor: i.color}}/>
+        <span className={"text-sm font-medium text-gray-700"}>{i.sex}</span>
+      </div>)}
     </div>
   </div>
 }
