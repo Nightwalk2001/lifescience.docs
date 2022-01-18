@@ -33,7 +33,7 @@ export const CovidLineTrend = () => {
           hideTicks
           hideZero
           tickFormat={format(".2s")}
-          label={"确诊数增长趋势"}
+          label={"全国确诊数"}
           labelOffset={40}
           labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
