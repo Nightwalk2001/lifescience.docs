@@ -50,8 +50,6 @@ export const CovidTreemap = () => {
           }}
           x={d.x0}
           y={d.y0}
-          // width={d.x1 - d.x0}
-          // height={d.y1 - d.y0}
           fill={color(`${i}`)}
           stroke={"#fdf7f7"}
           strokeWidth={0.5}

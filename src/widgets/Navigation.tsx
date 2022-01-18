@@ -87,7 +87,7 @@ type SvgLinkProps = {
 
 const SvgLink: React.FC<SvgLinkProps> = ({logo, to, title, subtitle}) =>
   <div className={"flex justify-between w-full"}>
-    <Image src={`/nav/${logo}`} width={46} height={46} alt={""} quality={100}/>
+    <img src={`/nav/${logo}`} width={46} height={46} alt={""}/>
     <div className={"flex flex-col justify-start space-y-0.5 grow max-w-[215px]"}>
       <Link href={to} passHref>
         <span
