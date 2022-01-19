@@ -39,8 +39,7 @@ export const CovidLineTrend = () => {
         />
         <AxisBottom scale={x} hideTicks top={height} tickFormat={locale.format("%Y年%b月")} numTicks={8}/>
         <Grid width={width} height={height} xScale={x} yScale={y}/>
-        <g className={"left"}/>
-        <g className={"bottom"} transform={`translate(0, ${height})`}/>
+
         <g fill={"none"}>
           {data.map((d, i) => <motion.path
             key={d.country}

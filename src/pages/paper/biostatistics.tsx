@@ -1,5 +1,6 @@
 import {
   CovidAgeDistribution,
+  CovidFuture,
   CovidGeo,
   CovidLineDaily,
   CovidLineTrend,
@@ -143,6 +144,66 @@ const biostatistics: NextPage = () => <div
   </p>
 
   <CovidTreemap/>
+  <h5 className={"self-start mt-5"}>2.5 COVID-19每日新增确诊预测</h5>
+  <p className={"self-start"}>
+    我们想要使用深度学习对新冠确诊人数这种时间序列数据进行预测，由于数据量不大，为避免过拟合，我们不采用Transformer，而使用Conv1D与LSTM构建神经网络。
+  </p>
+  <Code
+    code={`
+      from tensorflow.keras import Sequential
+      from tensorflow.keras.layers import Conv1D, LSTM, Dropout, Dense
+      from keras.callbacks import EarlyStopping, ReduceLROnPlateau
+      
+      model = Sequential([
+          Conv1D(filters=64, kernel_size=5, strides=3, padding="causal", activation="relu", input_shape=(previous, 1)),
+          LSTM(64, return_sequences=True),
+          Dropout(0.4),
+          LSTM(64, return_sequences=True),
+          Dropout(0.4),
+          LSTM(64),
+          Dropout(0.2),
+          Dense(1)
+      ])
+  `}
+    height={400}
+  />
+  <p className={"self-start"}>
+    首先导入keras的各个工具类。然后构建model，第一层为一维卷积层，卷积核数量设置为64个，卷积核矩阵尺寸设为5x5，步长设置为3，激活函数使用relU函数，然后是多层LSTM与Dropout的组合，Dropout可以很好地防止过拟合，最后接入单个神经元地密集层，导出输出结果。
+  </p>
+  <Code
+    code={`
+      model.compile(loss='mse', optimizer='adam')
+      
+      learning_rate_reduction = ReduceLROnPlateau(monitor='val_loss',
+                                                  patience=3,
+                                                  verbose=1,
+                                                  factor=0.8,
+                                                  min_lr=1e-10)
+      
+      early_stop = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+      
+      history = model.fit(x_tranin,
+                    y_train,
+                    batch_size=64,
+                    epochs=100,
+                    validation_split=0.2,
+                    shuffle=False,
+                    callbacks=[learning_rate_reduction, early_stop]
+                    )
+    `}
+    height={490}
+  />
+  <p className={"self-start"}>
+    接下来编译和训练model，损失函数选用MSE，优化器函数使用Adam，将训练集按4：1拆分部分为验证数据集，以批大小为64训练100个来回，由于数据为时间序列数据，打乱数据有很大影响，故将shuffle设置为False，每次训练结束调用两个回调函数，第一个用于逐渐降低学习率，第二个用于防止过拟合，当损失值连续10次没有下降甚至上升时，提前终止训练。
+  </p>
+  <p className={"self-start"}>
+    使用训练好的model预测未来数据，然后与真实值比较，结果如下图，可以看到，预测结果地趋势基本与真实值保持一致，但预测值较实际值偏大，说明model还有优化空间。
+  </p>
+  <CovidFuture/>
+
+  <h4 className={"self-start"}>
+    参考文献
+  </h4>
 </div>
 
 export default biostatistics

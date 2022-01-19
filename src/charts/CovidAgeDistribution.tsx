@@ -3,7 +3,7 @@ import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {groups, max, min, pointer, scaleBand, scaleLinear} from "d3"
 import {motion} from "framer-motion"
-import React, {useEffect, useState} from "react"
+import React, {useState} from "react"
 import {useInView} from "react-intersection-observer"
 import ageDistribution from "../json/korea_age_distribution.json"
 
@@ -49,9 +49,9 @@ export const CovidAgeDistribution = () => {
           ])
           .range([height, 0])
 
-  useEffect(() => {
-    console.log(data)
-  })
+  // useEffect(() => {
+  //   console.log(data)
+  // })
 
   const handleMouse = (event: any, male: number, female: number, total: number) => {
     const pos = pointer(event)
