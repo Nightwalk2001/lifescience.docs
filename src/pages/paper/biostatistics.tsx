@@ -29,7 +29,7 @@ const biostatistics: NextPage = () => <div
   <h1 className={"!mt-12 text-center"}>新型冠状病毒肺炎（COVID-19）地域、年龄与性别差异研究——基于COVID-19数据的分析、可视化与预测
   </h1>
   <text className={"font-semibold"}>王志威 梁靖雯 陈娟</text>
-  <text className={"font-semibold"}>中山大学生命科学学院，广东省广州市，510275）</text>
+  <text className={"font-semibold"}>(中山大学生命科学学院，广东省广州市，510275）</text>
   <p><strong>摘要：</strong>2019年底，出现的严重急性呼吸综合征冠状病毒2（SARS-CoV-2）引发了大规模的全球疫情，是一个重大的公共卫生问题。为研究新型冠状疫情传播的地域差异、确诊人数和死亡病例的增长趋势，一些国家确诊数量的增长趋势、以及确诊病例的年龄与性别差异等，我们采用在Next.js中使用底层SVG
     API（rect、circle、path等），同时结合D3.js（Data Driven
     Document）的工具函数进行数据可视化和图表绘制，使用framer-motion制作动画效果，并使用Python的pandas、SciPy、TensorFlow2等包或库进行统计学分析和深度学习。
