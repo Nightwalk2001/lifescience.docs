@@ -35,7 +35,7 @@ const biostatistics: NextPage = () => <div
     API（rect、circle、path等），同时结合D3.js（Data Driven
     Document）的工具函数进行数据可视化和图表绘制，使用framer-motion制作动画效果，并使用Python的pandas、SciPy、TensorFlow2等包或库进行统计学分析和深度学习。
   </p>
-  <p className={"self-start"}><strong>关键词：</strong>COVID-19 数据可视化 神经网络</p>
+  <div className={"self-start"}><strong>关键词：</strong>COVID-19 数据可视化 神经网络</div>
   <h4 className={"self-start"}>引言：</h4>
   <div className={"self-start indent-[2em]"}>
     2020年3月11日，世界卫生组织宣布由严重急性呼吸系统综合征引起的2019年新型冠状病毒肺炎（COVID-19）冠状病毒2（SARS-CoV-2）为新的流行病，在短时间内引发了全球疫情，截至2022年1月，全球确诊病例逾3.3亿。SARS-CoV-2与人的SCE2受体具有很强的相互作用，跨膜丝氨酸蛋白酶2（TMPRSS2）参与其细胞进入[1]。
