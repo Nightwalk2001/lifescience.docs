@@ -1,7 +1,7 @@
 import {useSvgSize} from "@/hooks"
 import {axisBottom, axisLeft, extent, scaleBand, scaleLinear, scaleOrdinal, select} from "d3"
 import React, {useEffect, useRef} from "react"
-import data from "./band.json"
+import data from "../json/band.json"
 
 const groups = [
   "Biological Processes",

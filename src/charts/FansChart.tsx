@@ -3,7 +3,7 @@ import {locale} from "@/libs"
 import {axisBottom, axisLeft, axisRight, format, line, scaleLinear, scaleOrdinal, scaleTime, select} from "d3"
 import {motion} from "framer-motion"
 import React, {useEffect, useRef, useState} from "react"
-import fansData from "./json/fans.json"
+import fansData from "../json/fans.json"
 
 const legends = ["fans", "like"]
 const points = [400, 520, 1000, 1307, 1502, 2004]

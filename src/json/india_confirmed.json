@@ -1,150 +1,150 @@
 [
     {
-        "state": "Andaman and Nicobar Islands",
+        "region": "Andaman and Nicobar Islands",
         "confirmed": 6964
     },
     {
-        "state": "Andhra Pradesh",
+        "region": "Andhra Pradesh",
         "confirmed": 1671742
     },
     {
-        "state": "Arunachal Pradesh",
+        "region": "Arunachal Pradesh",
         "confirmed": 26778
     },
     {
-        "state": "Assam",
+        "region": "Assam",
         "confirmed": 403623
     },
     {
-        "state": "Bihar",
+        "region": "Bihar",
         "confirmed": 704173
     },
     {
-        "state": "Chandigarh",
+        "region": "Chandigarh",
         "confirmed": 59740
     },
     {
-        "state": "Chhattisgarh",
+        "region": "Chhattisgarh",
         "confirmed": 967645
     },
     {
-        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "region": "Dadra and Nagar Haveli and Daman and Diu",
         "confirmed": 10214
     },
     {
-        "state": "Delhi",
+        "region": "Delhi",
         "confirmed": 1424646
     },
     {
-        "state": "Goa",
+        "region": "Goa",
         "confirmed": 154419
     },
     {
-        "state": "Gujarat",
+        "region": "Gujarat",
         "confirmed": 805617
     },
     {
-        "state": "Haryana",
+        "region": "Haryana",
         "confirmed": 753937
     },
     {
-        "state": "Himachal Pradesh",
+        "region": "Himachal Pradesh",
         "confirmed": 188604
     },
     {
-        "state": "Jammu and Kashmir",
+        "region": "Jammu and Kashmir",
         "confirmed": 286684
     },
     {
-        "state": "Jharkhand",
+        "region": "Jharkhand",
         "confirmed": 336240
     },
     {
-        "state": "Karnataka",
+        "region": "Karnataka",
         "confirmed": 2567449
     },
     {
-        "state": "Kerala",
+        "region": "Kerala",
         "confirmed": 2494385
     },
     {
-        "state": "Ladakh",
+        "region": "Ladakh",
         "confirmed": 18448
     },
     {
-        "state": "Lakshadweep",
+        "region": "Lakshadweep",
         "confirmed": 7631
     },
     {
-        "state": "Madhya Pradesh",
+        "region": "Madhya Pradesh",
         "confirmed": 777349
     },
     {
-        "state": "Maharashtra",
+        "region": "Maharashtra",
         "confirmed": 5713215
     },
     {
-        "state": "Manipur",
+        "region": "Manipur",
         "confirmed": 48850
     },
     {
-        "state": "Meghalaya",
+        "region": "Meghalaya",
         "confirmed": 34448
     },
     {
-        "state": "Mizoram",
+        "region": "Mizoram",
         "confirmed": 11988
     },
     {
-        "state": "Nagaland",
+        "region": "Nagaland",
         "confirmed": 21371
     },
     {
-        "state": "Odisha",
+        "region": "Odisha",
         "confirmed": 747143
     },
     {
-        "state": "Puducherry",
+        "region": "Puducherry",
         "confirmed": 102896
     },
     {
-        "state": "Punjab",
+        "region": "Punjab",
         "confirmed": 562831
     },
     {
-        "state": "Rajasthan",
+        "region": "Rajasthan",
         "confirmed": 936162
     },
     {
-        "state": "Sikkim",
+        "region": "Sikkim",
         "confirmed": 14907
     },
     {
-        "state": "Tamil Nadu",
+        "region": "Tamil Nadu",
         "confirmed": 2039716
     },
     {
-        "state": "Telangana",
+        "region": "Telangana",
         "confirmed": 574026
     },
     {
-        "state": "Tripura",
+        "region": "Tripura",
         "confirmed": 50739
     },
     {
-        "state": "Unknown",
+        "region": "Unknown",
         "confirmed": 0
     },
     {
-        "state": "Uttar Pradesh",
+        "region": "Uttar Pradesh",
         "confirmed": 1688152
     },
     {
-        "state": "Uttarakhand",
+        "region": "Uttarakhand",
         "confirmed": 327112
     },
     {
-        "state": "West Bengal",
+        "region": "West Bengal",
         "confirmed": 1354956
     }
 ]

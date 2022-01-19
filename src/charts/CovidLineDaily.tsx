@@ -6,7 +6,7 @@ import {curveNatural, format, line, scaleLinear, scaleOrdinal, scaleTime} from "
 import {motion} from "framer-motion"
 import React from "react"
 import {useInView} from "react-intersection-observer"
-import data from "./json/covid_daily.json"
+import data from "../json/covid_daily.json"
 
 type Point = {
   date: string

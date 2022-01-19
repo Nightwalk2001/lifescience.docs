@@ -19,7 +19,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-div::selection, h1::selection, p::selection, span::selection, text::selection {
+div::selection, h1::selection, p::selection, span::selection, text::selection, pre::selection {
     background: #79ffe1;
 }
 

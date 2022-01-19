@@ -1,10 +1,11 @@
 import {useSvgSize} from "@/hooks"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
-import {groups, max, min, scaleBand, scaleLinear} from "d3"
-import React, {useEffect} from "react"
+import {groups, max, min, pointer, scaleBand, scaleLinear} from "d3"
+import {motion} from "framer-motion"
+import React, {useEffect, useState} from "react"
 import {useInView} from "react-intersection-observer"
-import ageDistribution from "./json/korea_age_distribution.json"
+import ageDistribution from "../json/korea_age_distribution.json"
 
 const data = groups(ageDistribution, i => i.age)
   .sort((a, b) => +a[0].slice(0, a[0].length - 2) - +b[0].slice(0, b[0].length - 2))
@@ -17,8 +18,16 @@ const legends = [{
   color: "#ec77c7"
 }]
 
+type Tooltip = {
+  x: number
+  y: number
+  male: string
+  female: string
+} | null
+
 export const CovidAgeDistribution = () => {
   const {ref, inView} = useInView({triggerOnce: true})
+  const [tooltip, setTooltip] = useState<Tooltip>(null)
 
   const margin                = {left: 50, right: 30, top: 20, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)
@@ -44,6 +53,16 @@ export const CovidAgeDistribution = () => {
     console.log(data)
   })
 
+  const handleMouse = (event: any, male: number, female: number, total: number) => {
+    const pos = pointer(event)
+    setTooltip({
+      x: pos[0],
+      y: pos[1],
+      male: `${male}人(${Math.round((male / total * 100))}%)`,
+      female: `${female}人(${Math.round((female / total * 100))}%)`
+    })
+  }
+
   return <div ref={ref} className={"relative"}>
 
     <svg width={w} height={h}>
@@ -64,23 +83,40 @@ export const CovidAgeDistribution = () => {
           labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
-        {data.map((d, i) =>
-          <React.Fragment key={d[0]}>
-            <rect
-              x={x(d[0])}
-              y={y(d[1].filter(i => i.sex === "male").length)}
+        {data.map(d => {
+
+          const age         = d[0],
+                maleCount   = d[1].filter(i => i.sex === "male").length,
+                femaleCount = d[1].filter(i => i.sex === "female").length,
+                total       = maleCount + femaleCount
+
+          return <g
+            key={age}
+            className={"cursor-pointer"}
+            onMouseEnter={(event) => handleMouse(event, maleCount, femaleCount, total)}
+            onMouseMove={(event) => handleMouse(event, maleCount, femaleCount, total)}
+            onMouseLeave={() => setTooltip(null)}
+          >
+            <motion.rect
+              animate={{
+                y: [height, inView ? y(maleCount) : height],
+                height: [0, inView ? height - y(maleCount) : 0]
+              }}
+              x={x(age)}
               width={x.bandwidth() / 2}
-              height={height - y(d[1].filter(i => i.sex === "male").length)}
               fill={"#57d7ec"}
             />
-            <rect
-              x={x(d[0]) + x.bandwidth() / 2}
-              y={y(d[1].filter(i => i.sex === "female").length)}
+            <motion.rect
+              animate={{
+                y: [height, inView ? y(femaleCount) : height],
+                height: [0, inView ? height - y(femaleCount) : 0]
+              }}
+              x={x(age) + x.bandwidth() / 2}
               width={x.bandwidth() / 2}
-              height={height - y(d[1].filter(i => i.sex === "female").length)}
               fill={"#ec77c7"}
             />
-          </React.Fragment>)}
+          </g>
+        })}
       </g>
     </svg>
 
@@ -90,5 +126,18 @@ export const CovidAgeDistribution = () => {
         <span className={"text-sm font-medium text-gray-700"}>{i.sex}</span>
       </div>)}
     </div>
+
+    {
+      tooltip &&
+      <div
+        className={`absolute flex flex-col min-w-[140px] max-w-[350px] px-3 py-2.5 text-sm text-purple-400 bg-white rounded-md`}
+        style={{
+          left: tooltip.x - 5,
+          top: tooltip.y + 30
+        }}>
+        <div><span className={" font-semibold"}>男性确诊：</span><span>{tooltip.male}</span></div>
+        <div><span className={" font-semibold"}>女性确诊：</span><span>{tooltip.female}</span></div>
+      </div>
+    }
   </div>
 }

@@ -1,234 +1,234 @@
 [
     {
-        "state": "Alabama",
+        "region": "Alabama",
         "confirmed": 543405
     },
     {
-        "state": "Alaska",
+        "region": "Alaska",
         "confirmed": 70208
     },
     {
-        "state": "Arizona",
+        "region": "Arizona",
         "confirmed": 880466
     },
     {
-        "state": "Arkansas",
+        "region": "Arkansas",
         "confirmed": 341290
     },
     {
-        "state": "California",
+        "region": "California",
         "confirmed": 3788713
     },
     {
-        "state": "Colorado",
+        "region": "Colorado",
         "confirmed": 542405
     },
     {
-        "state": "Connecticut",
+        "region": "Connecticut",
         "confirmed": 347341
     },
     {
-        "state": "Delaware",
+        "region": "Delaware",
         "confirmed": 108770
     },
     {
-        "state": "Diamond Princess cruise ship",
+        "region": "Diamond Princess cruise ship",
         "confirmed": 49
     },
     {
-        "state": "District of Columbia",
+        "region": "District of Columbia",
         "confirmed": 48898
     },
     {
-        "state": "Florida",
+        "region": "Florida",
         "confirmed": 2320818
     },
     {
-        "state": "Georgia",
+        "region": "Georgia",
         "confirmed": 1123343
     },
     {
-        "state": "Grand Princess",
+        "region": "Grand Princess",
         "confirmed": 103
     },
     {
-        "state": "Guam",
+        "region": "Guam",
         "confirmed": 8156
     },
     {
-        "state": "Hawaii",
+        "region": "Hawaii",
         "confirmed": 36124
     },
     {
-        "state": "Idaho",
+        "region": "Idaho",
         "confirmed": 192012
     },
     {
-        "state": "Illinois",
+        "region": "Illinois",
         "confirmed": 1380978
     },
     {
-        "state": "Indiana",
+        "region": "Indiana",
         "confirmed": 743338
     },
     {
-        "state": "Iowa",
+        "region": "Iowa",
         "confirmed": 371331
     },
     {
-        "state": "Kansas",
+        "region": "Kansas",
         "confirmed": 315331
     },
     {
-        "state": "Kentucky",
+        "region": "Kentucky",
         "confirmed": 458275
     },
     {
-        "state": "Louisiana",
+        "region": "Louisiana",
         "confirmed": 470685
     },
     {
-        "state": "Maine",
+        "region": "Maine",
         "confirmed": 67658
     },
     {
-        "state": "Maryland",
+        "region": "Maryland",
         "confirmed": 459528
     },
     {
-        "state": "Massachusetts",
+        "region": "Massachusetts",
         "confirmed": 706783
     },
     {
-        "state": "Michigan",
+        "region": "Michigan",
         "confirmed": 991941
     },
     {
-        "state": "Minnesota",
+        "region": "Minnesota",
         "confirmed": 601105
     },
     {
-        "state": "Mississippi",
+        "region": "Mississippi",
         "confirmed": 317407
     },
     {
-        "state": "Missouri",
+        "region": "Missouri",
         "confirmed": 606075
     },
     {
-        "state": "Montana",
+        "region": "Montana",
         "confirmed": 111785
     },
     {
-        "state": "Nebraska",
+        "region": "Nebraska",
         "confirmed": 223304
     },
     {
-        "state": "Nevada",
+        "region": "Nevada",
         "confirmed": 323748
     },
     {
-        "state": "New Hampshire",
+        "region": "New Hampshire",
         "confirmed": 98699
     },
     {
-        "state": "New Jersey",
+        "region": "New Jersey",
         "confirmed": 1015889
     },
     {
-        "state": "New Mexico",
+        "region": "New Mexico",
         "confirmed": 202821
     },
     {
-        "state": "New York",
+        "region": "New York",
         "confirmed": 2101055
     },
     {
-        "state": "North Carolina",
+        "region": "North Carolina",
         "confirmed": 1001154
     },
     {
-        "state": "North Dakota",
+        "region": "North Dakota",
         "confirmed": 109915
     },
     {
-        "state": "Northern Mariana Islands",
+        "region": "Northern Mariana Islands",
         "confirmed": 183
     },
     {
-        "state": "Ohio",
+        "region": "Ohio",
         "confirmed": 1101557
     },
     {
-        "state": "Oklahoma",
+        "region": "Oklahoma",
         "confirmed": 452777
     },
     {
-        "state": "Oregon",
+        "region": "Oregon",
         "confirmed": 201005
     },
     {
-        "state": "Pennsylvania",
+        "region": "Pennsylvania",
         "confirmed": 1202912
     },
     {
-        "state": "Puerto Rico",
+        "region": "Puerto Rico",
         "confirmed": 138579
     },
     {
-        "state": "Recovered",
+        "region": "Recovered",
         "confirmed": 0
     },
     {
-        "state": "Rhode Island",
+        "region": "Rhode Island",
         "confirmed": 151743
     },
     {
-        "state": "South Carolina",
+        "region": "South Carolina",
         "confirmed": 592912
     },
     {
-        "state": "South Dakota",
+        "region": "South Dakota",
         "confirmed": 124162
     },
     {
-        "state": "Tennessee",
+        "region": "Tennessee",
         "confirmed": 862401
     },
     {
-        "state": "Texas",
+        "region": "Texas",
         "confirmed": 2952861
     },
     {
-        "state": "Utah",
+        "region": "Utah",
         "confirmed": 405851
     },
     {
-        "state": "Vermont",
+        "region": "Vermont",
         "confirmed": 24200
     },
     {
-        "state": "Virgin Islands",
+        "region": "Virgin Islands",
         "confirmed": 3442
     },
     {
-        "state": "Virginia",
+        "region": "Virginia",
         "confirmed": 675165
     },
     {
-        "state": "Washington",
+        "region": "Washington",
         "confirmed": 435849
     },
     {
-        "state": "West Virginia",
+        "region": "West Virginia",
         "confirmed": 161287
     },
     {
-        "state": "Wisconsin",
+        "region": "Wisconsin",
         "confirmed": 674003
     },
     {
-        "state": "Wyoming",
+        "region": "Wyoming",
         "confirmed": 60144
     }
 ]

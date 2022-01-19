@@ -5,7 +5,7 @@ import {extent, format, scaleLinear, scaleOrdinal, scaleSqrt} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
 import {useInView} from "react-intersection-observer"
-import data from "./json/population_density.json"
+import data from "../json/population_density.json"
 
 const continents = [
   "Asia",

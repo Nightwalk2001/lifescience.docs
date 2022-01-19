@@ -1,690 +1,678 @@
 [
     {
-        "country": "Afghanistan",
+        "region": "Afghanistan",
         "confirmed": 70111
     },
     {
-        "country": "Albania",
+        "region": "Albania",
         "confirmed": 132297
     },
     {
-        "country": "Algeria",
+        "region": "Algeria",
         "confirmed": 128456
     },
     {
-        "country": "Andorra",
+        "region": "Andorra",
         "confirmed": 13693
     },
     {
-        "country": "Angola",
+        "region": "Angola",
         "confirmed": 34180
     },
     {
-        "country": "Antigua and Barbuda",
+        "region": "Antigua and Barbuda",
         "confirmed": 1259
     },
     {
-        "country": "Argentina",
+        "region": "Argentina",
         "confirmed": 3732263
     },
     {
-        "country": "Armenia",
+        "region": "Armenia",
         "confirmed": 222555
     },
     {
-        "country": "Austria",
+        "region": "Austria",
         "confirmed": 644207
     },
     {
-        "country": "Azerbaijan",
+        "region": "Azerbaijan",
         "confirmed": 333723
     },
     {
-        "country": "Bahamas",
+        "region": "Bahamas",
         "confirmed": 11745
     },
     {
-        "country": "Bahrain",
+        "region": "Bahrain",
         "confirmed": 235698
     },
     {
-        "country": "Bangladesh",
+        "region": "Bangladesh",
         "confirmed": 797386
     },
     {
-        "country": "Barbados",
+        "region": "Barbados",
         "confirmed": 4012
     },
     {
-        "country": "Belarus",
+        "region": "Belarus",
         "confirmed": 392629
     },
     {
-        "country": "Belize",
+        "region": "Belize",
         "confirmed": 12791
     },
     {
-        "country": "Benin",
+        "region": "Benin",
         "confirmed": 8058
     },
     {
-        "country": "Bhutan",
+        "region": "Bhutan",
         "confirmed": 1603
     },
     {
-        "country": "Bolivia",
+        "region": "Bolivia",
         "confirmed": 366714
     },
     {
-        "country": "Bosnia and Herzegovina",
+        "region": "Bosnia and Herzegovina",
         "confirmed": 203839
     },
     {
-        "country": "Botswana",
+        "region": "Botswana",
         "confirmed": 53771
     },
     {
-        "country": "Bulgaria",
+        "region": "Bulgaria",
         "confirmed": 418221
     },
     {
-        "country": "Burkina Faso",
+        "region": "Burkina Faso",
         "confirmed": 13430
     },
     {
-        "country": "Burma",
+        "region": "Burma",
         "confirmed": 143526
     },
     {
-        "country": "Burundi",
+        "region": "Burundi",
         "confirmed": 4715
     },
     {
-        "country": "Cambodia",
+        "region": "Cambodia",
         "confirmed": 28825
     },
     {
-        "country": "Cameroon",
+        "region": "Cameroon",
         "confirmed": 78929
     },
     {
-        "country": "Central African Republic",
+        "region": "Central African Republic",
         "confirmed": 7085
     },
     {
-        "country": "Chad",
+        "region": "Chad",
         "confirmed": 4928
     },
     {
-        "country": "Comoros",
+        "region": "Comoros",
         "confirmed": 3881
     },
     {
-        "country": "Costa Rica",
+        "region": "Costa Rica",
         "confirmed": 314102
     },
     {
-        "country": "Croatia",
+        "region": "Croatia",
         "confirmed": 355955
     },
     {
-        "country": "Cuba",
+        "region": "Cuba",
         "confirmed": 140087
     },
     {
-        "country": "Cyprus",
+        "region": "Cyprus",
         "confirmed": 72363
     },
     {
-        "country": "Czech Republic",
+        "region": "Czech Republic",
         "confirmed": 1660935
     },
     {
-        "country": "Denmark",
+        "region": "Denmark",
         "confirmed": 280183
     },
     {
-        "country": "Djibouti",
+        "region": "Djibouti",
         "confirmed": 11523
     },
     {
-        "country": "Dominica",
+        "region": "Dominica",
         "confirmed": 188
     },
     {
-        "country": "Dominican Republic",
+        "region": "Dominican Republic",
         "confirmed": 290526
     },
     {
-        "country": "Ecuador",
+        "region": "Ecuador",
         "confirmed": 424741
     },
     {
-        "country": "Egypt",
+        "region": "Egypt",
         "confirmed": 260659
     },
     {
-        "country": "El Salvador",
+        "region": "El Salvador",
         "confirmed": 73246
     },
     {
-        "country": "Equatorial Guinea",
+        "region": "Equatorial Guinea",
         "confirmed": 8529
     },
     {
-        "country": "Eritrea",
+        "region": "Eritrea",
         "confirmed": 4061
     },
     {
-        "country": "Estonia",
+        "region": "Estonia",
         "confirmed": 129424
     },
     {
-        "country": "Ethiopia",
+        "region": "Ethiopia",
         "confirmed": 271200
     },
     {
-        "country": "Fiji",
+        "region": "Fiji",
         "confirmed": 360
     },
     {
-        "country": "Finland",
+        "region": "Finland",
         "confirmed": 92244
     },
     {
-        "country": "France",
+        "region": "France",
         "confirmed": 5719877
     },
     {
-        "country": "Gabon",
+        "region": "Gabon",
         "confirmed": 24365
     },
     {
-        "country": "Gambia",
+        "region": "Gambia",
         "confirmed": 5990
     },
     {
-        "country": "Georgia",
+        "region": "Georgia",
         "confirmed": 342880
     },
     {
-        "country": "Ghana",
+        "region": "Ghana",
         "confirmed": 93775
     },
     {
-        "country": "Greece",
+        "region": "Greece",
         "confirmed": 400395
     },
     {
-        "country": "Grenada",
+        "region": "Grenada",
         "confirmed": 161
     },
     {
-        "country": "Guatemala",
+        "region": "Guatemala",
         "confirmed": 253837
     },
     {
-        "country": "Guinea",
+        "region": "Guinea",
         "confirmed": 23172
     },
     {
-        "country": "Guinea-Bissau",
+        "region": "Guinea-Bissau",
         "confirmed": 3761
     },
     {
-        "country": "Guyana",
+        "region": "Guyana",
         "confirmed": 16822
     },
     {
-        "country": "Haiti",
+        "region": "Haiti",
         "confirmed": 14128
     },
     {
-        "country": "Honduras",
+        "region": "Honduras",
         "confirmed": 236952
     },
     {
-        "country": "Hungary",
+        "region": "Hungary",
         "confirmed": 804032
     },
     {
-        "country": "Iceland",
+        "region": "Iceland",
         "confirmed": 6555
     },
     {
-        "country": "Indonesia",
+        "region": "Indonesia",
         "confirmed": 1809926
     },
     {
-        "country": "Iraq",
+        "region": "Iraq",
         "confirmed": 1193608
     },
     {
-        "country": "Ireland",
+        "region": "Ireland",
         "confirmed": 254870
     },
     {
-        "country": "Israel",
+        "region": "Israel",
         "confirmed": 839453
     },
     {
-        "country": "Jamaica",
+        "region": "Jamaica",
         "confirmed": 48374
     },
     {
-        "country": "Jordan",
+        "region": "Jordan",
         "confirmed": 734659
     },
     {
-        "country": "Kazakhstan",
+        "region": "Kazakhstan",
         "confirmed": 438715
     },
     {
-        "country": "Kenya",
+        "region": "Kenya",
         "confirmed": 170485
     },
     {
-        "country": "Kiribati",
+        "region": "Kiribati",
         "confirmed": 2
     },
     {
-        "country": "Kuwait",
+        "region": "Kuwait",
         "confirmed": 306717
     },
     {
-        "country": "Kyrgyzstan",
+        "region": "Kyrgyzstan",
         "confirmed": 104222
     },
     {
-        "country": "Latvia",
+        "region": "Latvia",
         "confirmed": 132918
     },
     {
-        "country": "Lebanon",
+        "region": "Lebanon",
         "confirmed": 540132
     },
     {
-        "country": "Lesotho",
+        "region": "Lesotho",
         "confirmed": 10825
     },
     {
-        "country": "Liberia",
+        "region": "Liberia",
         "confirmed": 2179
     },
     {
-        "country": "Liechtenstein",
+        "region": "Liechtenstein",
         "confirmed": 3008
     },
     {
-        "country": "Lithuania",
+        "region": "Lithuania",
         "confirmed": 273866
     },
     {
-        "country": "Luxembourg",
+        "region": "Luxembourg",
         "confirmed": 69830
     },
     {
-        "country": "Madagascar",
+        "region": "Madagascar",
         "confirmed": 41234
     },
     {
-        "country": "Malawi",
+        "region": "Malawi",
         "confirmed": 34329
     },
     {
-        "country": "Malaysia",
+        "region": "Malaysia",
         "confirmed": 558534
     },
     {
-        "country": "Maldives",
+        "region": "Maldives",
         "confirmed": 62906
     },
     {
-        "country": "Mali",
+        "region": "Mali",
         "confirmed": 14265
     },
     {
-        "country": "Malta",
+        "region": "Malta",
         "confirmed": 30529
     },
     {
-        "country": "Marshall Islands",
+        "region": "Marshall Islands",
         "confirmed": 4
     },
     {
-        "country": "Mauritania",
+        "region": "Mauritania",
         "confirmed": 19463
     },
     {
-        "country": "Mauritius",
+        "region": "Mauritius",
         "confirmed": 1363
     },
     {
-        "confirmed": 255105
-    },
-    {
-        "country": "Monaco",
+        "region": "Monaco",
         "confirmed": 2503
     },
     {
-        "country": "Mongolia",
+        "region": "Mongolia",
         "confirmed": 56621
     },
     {
-        "country": "Montenegro",
+        "region": "Montenegro",
         "confirmed": 99566
     },
     {
-        "country": "Morocco",
+        "region": "Morocco",
         "confirmed": 518868
     },
     {
-        "country": "Mozambique",
+        "region": "Mozambique",
         "confirmed": 70724
     },
     {
-        "country": "Namibia",
+        "region": "Namibia",
         "confirmed": 54659
     },
     {
-        "country": "Nepal",
+        "region": "Nepal",
         "confirmed": 553422
     },
     {
-        "country": "New Zealand",
+        "region": "New Zealand",
         "confirmed": 2672
     },
     {
-        "country": "Nicaragua",
+        "region": "Nicaragua",
         "confirmed": 7324
     },
     {
-        "country": "Niger",
+        "region": "Niger",
         "confirmed": 5410
     },
     {
-        "country": "Nigeria",
+        "region": "Nigeria",
         "confirmed": 166285
     },
     {
-        "confirmed": 155246
-    },
-    {
-        "country": "Norway",
+        "region": "Norway",
         "confirmed": 124655
     },
     {
-        "country": "Oman",
+        "region": "Oman",
         "confirmed": 213784
     },
     {
-        "country": "Panama",
+        "region": "Panama",
         "confirmed": 377428
     },
     {
-        "country": "Papua New Guinea",
+        "region": "Papua New Guinea",
         "confirmed": 15772
     },
     {
-        "country": "Paraguay",
+        "region": "Paraguay",
         "confirmed": 350613
     },
     {
-        "country": "Philippines",
+        "region": "Philippines",
         "confirmed": 1216582
     },
     {
-        "country": "Poland",
+        "region": "Poland",
         "confirmed": 2871371
     },
     {
-        "country": "Portugal",
+        "region": "Portugal",
         "confirmed": 848213
     },
     {
-        "country": "Qatar",
+        "region": "Qatar",
         "confirmed": 217041
     },
     {
-        "country": "Romania",
+        "region": "Romania",
         "confirmed": 1077426
     },
     {
-        "country": "Rwanda",
+        "region": "Rwanda",
         "confirmed": 26892
     },
     {
-        "country": "Saint Kitts and Nevis",
+        "region": "Saint Kitts and Nevis",
         "confirmed": 68
     },
     {
-        "country": "Saint Lucia",
+        "region": "Saint Lucia",
         "confirmed": 5035
     },
     {
-        "country": "Saint Vincent and the Grenadines",
+        "region": "Saint Vincent and the Grenadines",
         "confirmed": 2027
     },
     {
-        "country": "Samoa",
+        "region": "Samoa",
         "confirmed": 3
     },
     {
-        "country": "San Marino",
+        "region": "San Marino",
         "confirmed": 5089
     },
     {
-        "country": "Sao Tome and Principe",
+        "region": "Sao Tome and Principe",
         "confirmed": 2345
     },
     {
-        "country": "Saudi Arabia",
+        "region": "Saudi Arabia",
         "confirmed": 448284
     },
     {
-        "country": "Senegal",
+        "region": "Senegal",
         "confirmed": 41331
     },
     {
-        "country": "Serbia",
+        "region": "Serbia",
         "confirmed": 712046
     },
     {
-        "country": "Seychelles",
+        "region": "Seychelles",
         "confirmed": 11145
     },
     {
-        "country": "Sierra Leone",
+        "region": "Sierra Leone",
         "confirmed": 4141
     },
     {
-        "country": "Singapore",
+        "region": "Singapore",
         "confirmed": 62003
     },
     {
-        "country": "Slovakia",
+        "region": "Slovakia",
         "confirmed": 389440
     },
     {
-        "country": "Slovenia",
+        "region": "Slovenia",
         "confirmed": 253493
     },
     {
-        "country": "Solomon Islands",
+        "region": "Solomon Islands",
         "confirmed": 20
     },
     {
-        "country": "Somalia",
+        "region": "Somalia",
         "confirmed": 14653
     },
     {
-        "country": "South Africa",
+        "region": "South Africa",
         "confirmed": 1659070
     },
     {
-        "country": "Sri Lanka",
+        "region": "Sri Lanka",
         "confirmed": 180593
     },
     {
-        "country": "Sudan",
+        "region": "Sudan",
         "confirmed": 35289
     },
     {
-        "country": "Suriname",
+        "region": "Suriname",
         "confirmed": 14515
     },
     {
-        "country": "Switzerland",
+        "region": "Switzerland",
         "confirmed": 693023
     },
     {
-        "confirmed": 24440
-    },
-    {
-        "country": "Taiwan",
+        "region": "Taiwan",
         "confirmed": 7806
     },
     {
-        "country": "Tajikistan",
+        "region": "Tajikistan",
         "confirmed": 13308
     },
     {
-        "country": "Thailand",
+        "region": "Thailand",
         "confirmed": 151842
     },
     {
-        "country": "Timor-Leste",
+        "region": "Timor-Leste",
         "confirmed": 6752
     },
     {
-        "country": "Togo",
+        "region": "Togo",
         "confirmed": 13432
     },
     {
-        "country": "Trinidad and Tobago",
+        "region": "Trinidad and Tobago",
         "confirmed": 23001
     },
     {
-        "country": "Tunisia",
+        "region": "Tunisia",
         "confirmed": 343374
     },
     {
-        "country": "Turkey",
+        "region": "Turkey",
         "confirmed": 5235978
     },
     {
-        "country": "Uganda",
+        "region": "Uganda",
         "confirmed": 45931
     },
     {
-        "country": "United Arab Emirates",
+        "region": "United Arab Emirates",
         "confirmed": 567263
     },
     {
-        "country": "Uruguay",
+        "region": "Uruguay",
         "confirmed": 288172
     },
     {
-        "country": "Uzbekistan",
+        "region": "Uzbekistan",
         "confirmed": 99844
     },
     {
-        "country": "Vanuatu",
+        "region": "Vanuatu",
         "confirmed": 4
     },
     {
-        "country": "Venezuela",
+        "region": "Venezuela",
         "confirmed": 231443
     },
     {
-        "country": "Yemen",
+        "region": "Yemen",
         "confirmed": 6731
     },
     {
-        "country": "Zambia",
+        "region": "Zambia",
         "confirmed": 94751
     },
     {
-        "country": "Zimbabwe",
+        "region": "Zimbabwe",
         "confirmed": 38933
     },
     {
-        "country": "Italy",
+        "region": "Italy",
         "confirmed": 4213055
     },
     {
-        "country": "Russia",
+        "region": "Russia",
         "confirmed": 4995613
     },
     {
-        "country": "Mexico",
+        "region": "Mexico",
         "confirmed": 2411503
     },
     {
-        "country": "Japan",
+        "region": "Japan",
         "confirmed": 742539
     },
     {
-        "country": "Canada",
+        "region": "Canada",
         "confirmed": 1384373
     },
     {
-        "country": "Colombia",
+        "region": "Colombia",
         "confirmed": 3363061
     },
     {
-        "country": "Peru",
+        "region": "Peru",
         "confirmed": 1947555
     },
     {
-        "country": "Spain",
+        "region": "Spain",
         "confirmed": 3668658
     },
     {
-        "confirmed": 4496823
-    },
-    {
-        "country": "China",
+        "region": "China",
         "confirmed": 91072
     },
     {
-        "country": "Chile",
+        "region": "Chile",
         "confirmed": 1369597
     },
     {
-        "country": "Belgium",
+        "region": "Belgium",
         "confirmed": 1059763
     },
     {
-        "country": "Netherlands",
+        "region": "Netherlands",
         "confirmed": 1671967
     },
     {
-        "country": "Australia",
+        "region": "Australia",
         "confirmed": 30096
     },
     {
-        "country": "Pakistan",
+        "region": "Pakistan",
         "confirmed": 918936
     },
     {
-        "country": "Germany",
+        "region": "Germany",
         "confirmed": 3684672
     },
     {
-        "country": "Sweden",
+        "region": "Sweden",
         "confirmed": 1068473
     },
     {
-        "country": "Ukraine",
+        "region": "Ukraine",
         "confirmed": 2257904
     },
     {
-        "country": "Hong Kong",
+        "region": "Hong Kong",
         "confirmed": 11837
     },
     {
-        "country": "Macau",
+        "region": "Macau",
         "confirmed": 51
     }
 ]

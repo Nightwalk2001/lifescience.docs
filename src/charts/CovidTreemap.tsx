@@ -2,7 +2,7 @@ import {extent, format, hierarchy, interpolateRgb, pointer, scaleSequential, tre
 import {motion} from "framer-motion"
 import React, {useState} from "react"
 import {useInView} from "react-intersection-observer"
-import treedata from "./json/global_tree.json"
+import treedata from "../json/global_tree.json"
 
 const continents = [
   "Asia", "Europe", "Africa", "North America",
@@ -80,8 +80,6 @@ export const CovidTreemap = () => {
           className={"cursor-pointer"}
           onMouseEnter={(event) => handleMouse(event, d)}
           onMouseMove={(event) => handleMouse(event, d)}
-          onTouchStart={(event) => handleMouse(event, d)}
-          onTouchMove={(event) => handleMouse(event, d)}
           onMouseLeave={() => setTooltip(null)}
         >
           <motion.rect

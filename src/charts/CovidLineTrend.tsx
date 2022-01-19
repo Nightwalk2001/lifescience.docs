@@ -6,7 +6,7 @@ import {curveMonotoneX, format, line, scaleOrdinal} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
 import {useInView} from "react-intersection-observer"
-import data from "./json/global_trend.json"
+import data from "../json/global_trend.json"
 
 const countries = ["US", "Brazil", "France", "Germany", "India", "Italy", "Russia", "UK", "Argentina", "Turkey"]
 

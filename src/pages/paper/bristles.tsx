@@ -1,5 +1,5 @@
 import {GeneticsDistribution} from "@/charts"
-import a4 from "@/charts/json/a4.json"
+import a4 from "@/json/a4.json"
 import {Katex} from "@/widgets"
 import type {NextPage} from "next"
 

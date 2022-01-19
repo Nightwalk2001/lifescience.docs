@@ -1,7 +1,7 @@
 import {useSvgSize} from "@/hooks"
 import {axisBottom, axisLeft, extent, interpolateRgb, scaleBand, scaleLinear, scaleSequential, select} from "d3"
 import React, {useEffect, useRef} from "react"
-import data from "./gene.json"
+import data from "../json/gene.json"
 
 const gene = data.reverse()
 
