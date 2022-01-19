@@ -151,7 +151,7 @@ const biostatistics: NextPage = () => <div
   </div>
 
 
-  <h5 className={"self-start mt-5"}>2.5 COVID-19每日新增确诊预测</h5>
+  <h5 className={"self-start mt-5"}>2.4 COVID-19每日新增确诊预测</h5>
   <p className={"self-start indent-[2em]"}>
     我们想要使用深度学习对新冠确诊人数这种时间序列数据进行预测，由于数据量不大，为避免过拟合，我们不采用Transformer，而使用Conv1D与LSTM构建神经网络。
   </p>
@@ -234,9 +234,12 @@ const biostatistics: NextPage = () => <div
     在本文对韩国报告的COVID-19确诊病例的性别和年龄数据进行分析，确诊人数以20~59岁为主，大部分年龄段的女性确诊数量多于男性，这与其他国家的数据存在差异。造成韩国女性具有较高的易感性的原因可能是：受生理特性和社会性别规范影响，女性承担的包括生育、家务劳动和护理等家庭责任更重，可能会增加她们感染病毒的风险。然而由于样本数据太小，因此不能很好的解释男性女性间患病率的性别差异。
   </div>
 
-  <h4 className={"self-start"}>
-    参考文献
-  </h4>
+  <h4 className={"self-start"}>4 结论</h4>
+  <p className={"self-start indent-[2em]"}>
+    本文基于由Kaggle获得的COVID-19病例数据，使用Next.js、D3.js、framer-motion和Python等工具对全球新增和死亡病例数据进行数据可视化处理，并采用线性相关等分析方法对数据进行处理，并使用神经网络进行新增确诊人数的预测。根据数据可视化处理结果描述全球累计确诊病例的分布与地域差异，显示美国、印度和巴西为数据统计时间内全球累计确诊病例最多的三个国家，各大洲内各国累计确诊病例分布存在差异。通过对全球每日新增和死亡病例数的可视化处理与相关性分析，得出新增和死亡病例呈现波动上升趋势，且两者之间存在极显著的正相关。通过对韩国确诊病例的年龄与性别分析，得出韩国确诊病例中总体女性感染COVID-19的比例更高，但青少年男性相比女性更易感染COVID-19的结论。最后我们使用机器学习建立模型对数据统计时间范围外全球COVID-19确诊人数进行了预测，训练模型显示其预测趋势与现有数据保持一致，但预测值较真实值偏大，提示该模型仍有待优化。
+  </p>
+
+  <h4 className={"self-start"}>参考文献</h4>
   <div className={"self-start font-ff"}>
     [1] Markus Hoffmann, Hannah Kleine-Weber, Simon Schroeder, Nadine Krüger, Tanja Herrler, Sandra Erichsen, Tobias S.
     Schiergens, Georg Herrler, Nai-Huei Wu, Andreas Nitsche, Marcel A. Müller, Christian Drosten, Stefan

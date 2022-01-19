@@ -41,7 +41,11 @@ export const CovidFuture = () => {
           data.map((d, i) =>
             <motion.path
               key={i}
-              d={line<{ x: string, y: number }>().x(d => x(new Date(d.x))).y(d => y(d.y))(d)}
+              d={line<{ x: string, y: number }>()
+                .x(d => x(new Date(d.x)))
+                .y(d => y(d.y))
+                (d)
+              }
               fill={"none"}
               stroke={color(`${i}`)}
               strokeWidth={2.5}
