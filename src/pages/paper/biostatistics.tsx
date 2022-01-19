@@ -65,49 +65,7 @@ const biostatistics: NextPage = () => <div
   <p className={"self-start indent-[2em]"}>
     以全球各国COVID-19的累计确诊病例数作趋势图，可见在本文统计的时间范围内美国、印度和巴西为累计确诊病例最多的三个国家，其累计确诊病例数分别为33251939、27894800、16471600。美国自2020年4月起累计确诊病例数量增长速度加快，趋势线与其余各国分离，于2020年11月至2021年2月表现最大增长趋势。印度与巴西的累计确诊病例数量于2020年6月起增长速度加快，印度在2021年4月至5月表现最大增长趋势。
   </p>
-  <Code code={`
-      data.leaves().map((d, i) => {
-        const w        = d.x1 - d.x0,
-              h        = d.y1 - d.y0,
-              xm       = (d.x0 + d.x1) / 2,
-              ym       = (d.y0 + d.y1) / 2,
-              ybw      = w < h * 0.9,
-              fontSize = Math.max(9, 0.22 * (ybw ? w : h))
 
-        return <g
-          key={i}
-          className={"cursor-pointer"}
-          onMouseEnter={(event) => handleMouse(event, d)}
-          onMouseMove={(event) => handleMouse(event, d)}
-          onTouchStart={(event) => handleMouse(event, d)}
-          onTouchMove={(event) => handleMouse(event, d)}
-          onMouseLeave={() => setTooltip(null)}
-        >
-          <motion.rect
-            animate={{
-              width: [0, inView ? d.x1 - d.x0 : 0],
-              height: [0, inView ? d.y1 - d.y0 : 0],
-              transition: {duration: 0.01, delay: i * 0.0102}
-            }}
-            x={d.x0}
-            y={d.y0}
-            fill={color((d.parent.data as any).name)(d.value)}
-            fillOpacity={0.9}
-            stroke={"#fdf7f7"}
-            strokeWidth={1}
-          />
-          {d.value > 1000000 &&
-            <text
-              fontSize={fontSize}
-              fontWeight={500}
-              textAnchor={"middle"}
-              fill={"#fff"}
-            >
-              {(d.data as any).name}
-            </text>}
-        </g>
-      })
-  `}/>
 
   <CovidTreemap/>
   <p className={"self-start indent-[2em]"}>
@@ -196,9 +154,9 @@ const biostatistics: NextPage = () => <div
   `}
     height={400}
   />
-  <p className={"self-start indent-[2em]"}>
+  <div className={"self-start indent-[2em]"}>
     首先导入keras的各个工具类。然后构建model，第一层为一维卷积层，卷积核数量设置为64个，卷积核矩阵尺寸设为5x5，步长设置为3，激活函数使用relU函数，然后是多层LSTM与Dropout的组合，Dropout可以很好地防止过拟合，最后接入单个神经元地密集层，导出输出结果。
-  </p>
+  </div>
   <Code
     code={`
       model.compile(loss='mse', optimizer='adam')
@@ -222,12 +180,12 @@ const biostatistics: NextPage = () => <div
     `}
     height={490}
   />
-  <p className={"self-start indent-[2em]"}>
+  <div className={"self-start indent-[2em]"}>
     接下来编译和训练model，损失函数选用MSE，优化器函数使用Adam，将训练集按4：1拆分部分为验证数据集，以批大小为64训练100个来回，由于数据为时间序列数据，打乱数据有很大影响，故将shuffle设置为False，每次训练结束调用两个回调函数，第一个用于逐渐降低学习率，第二个用于防止过拟合，当损失值连续10次没有下降甚至上升时，提前终止训练。
-  </p>
-  <p className={"self-start indent-[2em]"}>
+  </div>
+  <div className={"self-start indent-[2em]"}>
     使用训练好的model预测未来数据，然后与真实值比较，结果如下图，可以看到，预测结果地趋势基本与真实值保持一致，但预测值较实际值偏大，说明model还有优化空间。
-  </p>
+  </div>
   <CovidFuture/>
 
   <h4 className={"self-start"}>3 讨论</h4>
@@ -259,6 +217,44 @@ const biostatistics: NextPage = () => <div
   <h4 className={"self-start"}>
     参考文献
   </h4>
+  <div className={"self-start font-ff"}>
+    [1] Markus Hoffmann, Hannah Kleine-Weber, Simon Schroeder, Nadine Krüger, Tanja Herrler, Sandra Erichsen, Tobias S.
+    Schiergens, Georg Herrler, Nai-Huei Wu, Andreas Nitsche, Marcel A. Müller, Christian Drosten, Stefan
+    Pöhlmann,SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease
+    Inhibitor,Cell,Volume 181, Issue 2,2020,Pages 271-280.e8,ISSN0092-8674. <br/>
+    [2] Seyed Hosseini E, Riahi Kashani N, Nikzad H, Azadbakht J, Hassani Bafrani H, Haddad Kashani H. The novel
+    coronavirus Disease-2019 (COVID-19): Mechanism of action, detection and recent therapeutic strategies. Virology.
+    2020 Dec;551:1-9. doi: 10.1016/j.virol.2020.08.011. Epub 2020 Sep 24. PMID: 33010669; PMCID: PMC7513802. <br/>
+    [3] Felsenstein S, Herbert JA, McNamara PS, Hedrich CM. COVID-19: Immunology and treatment options. Clin Immunol.
+    2020;215:108448.
+    [4] Anka, AU, Tahir, MI, Abubakar, SD, et al. Coronavirus disease 2019 (COVID-19): An overview of the
+    immunopathology, serological diagnosis and management. Scand J Immunol. 2021; 93:e12998. <br/>
+    [5] Dudley JP, Lee NT. Disparities in age-specific morbidity and mortality from SARS-coV 2 in China and the republic
+    of Korea. Clin Infect Dis. 2020;71(15):863–5. <br/>
+    [6] Gemmati, D.; Bramanti, B.; Serino, M.L.; Secchiero, P.; Zauli, G.; Tisato, V. COVID-19 and Individual Genetic
+    Susceptibility/Receptivity: Role of ACE1/ACE2 Genes, Immunity, Inflammation and Coagulation. Might the Double
+    X-Chromosome in Females Be Protective against SARS-CoV-2 Compared to the Single X-Chromosome in Males? Int. J. Mol.
+    Sci. 2020, 21, 3474. <br/>
+    [7] Tessema SK, Nkengasong JN. Understanding COVID-19 in Africa. Nat Rev Immunol. 2021 Aug;21(8):469-470. <br/>
+    [8] Franch-Pardo I, Napoletano BM, Rosete-Verges F, Billa L. Spatial analysis and GIS in the study of COVID-19. A
+    review. Sci Total Environ. 2020 Oct 15;739:140033. <br/>
+    [9] Mantas J. The Importance of Health Informatics in Public Health During the COVID-19 Pandemic. Stud Health
+    Technol Inform. 2020 Jun 26;272:487-488. <br/>
+    [10] Lazarus JV, Ratzan SC, Palayew A, Gostin LO, Larson HJ, Rabin K, Kimball S, El-Mohandes A. Author Correction: A
+    global survey of potential acceptance of a COVID-19 vaccine. Nat Med. 2021 Feb;27(2):354. <br/>
+    [11] Thomas S. Status of COVID-19 Pandemic Before the Administration of Vaccine. Methods Mol Biol.
+    2022;2410:93-108. <br/>
+    [12] Solís Arce JS, Warren SS, Meriggi NF, et al. COVID-19 vaccine acceptance and hesitancy in low- and
+    middle-income countries. Nat Med. 2021 Aug;27(8):1385-1394. <br/>
+    [13] Correale P, Mutti L, Pentimalli F, Baglio G, Saladino RE, Sileri P, Giordano A. HLA-B*44 and C*01 Prevalence
+    Correlates with Covid19 Spreading across Italy. Int J Mol Sci. 2020 Jul 23;21(15):5205. <br/>
+    [14] Klein, S.L. (2012), Sex influences immune responses to viruses, and efficacy of prophylaxis and treatments for
+    viral diseases. Bioessays, 34: 1050-1059. <br/>
+    [15] Stamova B, Tian Y, Jickling G, Bushnell C, et al. 2011. The X-chromosome has a different pattern of gene
+    expression in women compared with men with ischemic stroke. Stroke 43: 326– 34. <br/>
+    [16] Ahrenfeldt, L.J., Otavova, M., Christensen, K. et al. Sex and age differences in COVID-19 mortality in Europe.
+    Wien Klin Wochenschr 133, 393–398 (2021). <br/>
+  </div>
 </div>
 
 export default biostatistics

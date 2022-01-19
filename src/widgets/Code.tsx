@@ -12,7 +12,7 @@ export const Code: React.FC<CodeProps> = ({code, height = 420}) => {
   return <motion.pre
     ref={ref}
     className={"!text-gray-900 !bg-gray-50 w-full !py-2.5 overflow-y-scroll"}
-    animate={{height: [0, inView ? height : 0]}}
+    animate={{height: [height * 2 / 3, inView ? height : height * 2 / 3]}}
     layout={true}>
     {code}
   </motion.pre>
