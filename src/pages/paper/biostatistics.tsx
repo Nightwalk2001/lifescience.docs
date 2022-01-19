@@ -28,14 +28,34 @@ const biostatistics: NextPage = () => <div
   className={"flex flex-col items-center min-w-[900px] max-w-[80%] mx-auto prose"}>
   <h1 className={"!mt-12 text-center"}>新型冠状病毒肺炎（COVID-19）地域、年龄与性别差异研究——基于COVID-19数据的分析、可视化与预测
   </h1>
-  <text className={"self-start font-semibold"}>
-    王志威-19331144 梁靖雯-18323052 陈娟-19331010
-  </text>
+  <text className={"font-semibold"}>王志威 梁靖雯 陈娟</text>
+  <text className={"font-semibold"}>中山大学生命科学学院，广东省广州市，510275）</text>
   <p><strong>摘要：</strong>2019年底，出现的严重急性呼吸综合征冠状病毒2（SARS-CoV-2）引发了大规模的全球疫情，是一个重大的公共卫生问题。为研究新型冠状疫情传播的地域差异、确诊人数和死亡病例的增长趋势，一些国家确诊数量的增长趋势、以及确诊病例的年龄与性别差异等，我们采用在Next.js中使用底层SVG
     API（rect、circle、path等），同时结合D3.js（Data Driven
     Document）的工具函数进行数据可视化和图表绘制，使用framer-motion制作动画效果，并使用Python的pandas、SciPy、TensorFlow2等包或库进行统计学分析和深度学习。
   </p>
-  <div className={"self-start"}><strong>关键词：</strong>COVID-19 数据可视化 神经网络</div>
+  <div className={"self-start"}><strong>关键词：</strong>COVID-19;数据可视化；统计学分析；深度学习；性别差异；地域差异</div>
+  <h1 className={"!mt-12 text-center"}>
+    Regional, age and gender differences in COVID-19—Analysis and visualization based on COVID-19 data
+  </h1>
+  <text className={"font-semibold"}>Zhiwei Wang, Jingwen Liang, Juan Chen</text>
+  <text className={"font-semibold"}> (School of Life Sciences, Sun Yat-sen University Guangzhou 510275)</text>
+  <p><strong>Abstract:</strong>The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-COV-2) in late
+    2019 caused a massive global outbreak and was a major public health concern. To study regional differences in the
+    spread of the novel coronavirus, the increasing trend of the number of confirmed cases and deaths, as well as
+    differences in age and gender of confirmed cases, We used the underlying SVG API (rect, Circle, path, etc.) in Next.
+    Js, combined with tool functions of D3.js (Data Driven Document) for Data visualization and chart drawing, and used
+    Framer-Motion to produce animation effects. Statistical analysis was performed using Python packages or libraries
+    such as PANDAS, SciPy, and TensorFlow2. The results show that from January 2020 to May 2021, the transmission of
+    COVID-19 is geographically different, with the number of confirmed cases increasing faster in the United States,
+    India, Brazil and other countries, and the trend line is separated from the rest of the countries. Statistics on new
+    and deaths from COVID-19 worldwide show that the trend of single-day new cases is similar to that of single-day
+    deaths. Based on the confirmed cases in South Korea, the prevalence of COVID-19 varies by age and sex. We analyzed
+    the results and discussed the causes of regional, age and gender differences in COVID-19.
+  </p>
+  <div className={"self-start"}><strong>Keywords: </strong>COVID-19; data visualization; statistical analysis;machine
+    learning; gender difference; regional disparity
+  </div>
   <h4 className={"self-start"}>引言：</h4>
   <div className={"self-start indent-[2em]"}>
     2020年3月11日，世界卫生组织宣布由严重急性呼吸系统综合征引起的2019年新型冠状病毒肺炎（COVID-19）冠状病毒2（SARS-CoV-2）为新的流行病，在短时间内引发了全球疫情，截至2022年1月，全球确诊病例逾3.3亿。SARS-CoV-2与人的SCE2受体具有很强的相互作用，跨膜丝氨酸蛋白酶2（TMPRSS2）参与其细胞进入[1]。
