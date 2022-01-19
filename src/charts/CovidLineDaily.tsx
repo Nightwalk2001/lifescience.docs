@@ -18,8 +18,8 @@ const legends = ["Daily Case", "Daily Case Mean/week", "Daily Death", "Daily Dea
 export const CovidLineDaily = () => {
   const {ref, inView} = useInView({triggerOnce: true})
 
-  const margin                = {left: 60, right: 60, top: 10, bottom: 40},
-        {w, h, width, height} = useSvgSize(900, 500, margin)
+  const margin                = {left: 60, right: 60, top: 40, bottom: 40},
+        {w, h, width, height} = useSvgSize(900, 520, margin)
 
   const x      = scaleTime()
           .domain([new Date("2020-01-22"), new Date("2021-05-29")])

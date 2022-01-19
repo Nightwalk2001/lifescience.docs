@@ -73,7 +73,7 @@ export const CovidAgeDistribution = () => {
           hideAxisLine
           label={"确诊人数"}
           labelOffset={30}
-          labelProps={{fontSize: 12, fill: "#606162"}}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
         <AxisBottom
           scale={x}
