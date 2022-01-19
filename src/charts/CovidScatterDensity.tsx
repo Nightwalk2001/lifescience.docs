@@ -77,7 +77,8 @@ export const CovidScatterDensity = () => {
             fill: "#606162"
           })}
           label={"确诊人数"}
-          labelProps={{fontSize: 12, fill: "#606162"}}
+          labelOffset={15}
+          labelProps={{fontSize: 12, textAnchor: "middle", fill: "#606162"}}
         />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g fill={"none"}>
