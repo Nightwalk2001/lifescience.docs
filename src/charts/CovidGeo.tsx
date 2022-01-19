@@ -72,7 +72,9 @@ export const CovidGeo: React.FC<CovidGeoProps> = ({
     .domain(steps)
     .range(steps.map(i => color(i)))
 
-  const confirm = (d: any) => data.find(j => j.region === d.properties.name)?.confirmed || 0
+  const confirm = (d: any) => data
+    .find(j => j.region === d.properties.name)
+    ?.confirmed || 0
 
   const handleMouse = (event: any, d: any) => {
     const pos = pointer(event)

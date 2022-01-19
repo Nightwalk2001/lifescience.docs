@@ -115,7 +115,7 @@ export const CovidTreemap = () => {
     {
       tooltip &&
       <div
-        className={"absolute flex min-w-[140px] max-w-[380px] px-3 py-2.5 text-sm text-sky-300 bg-white rounded-md"}
+        className={"absolute flex min-w-[140px] max-w-[380px] px-3 py-2.5 text-sm text-sky-400 bg-white rounded-md"}
         style={{
           left: tooltip.x - 5,
           top: tooltip.y + 30
