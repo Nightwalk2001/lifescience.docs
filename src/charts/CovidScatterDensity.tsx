@@ -82,31 +82,33 @@ export const CovidScatterDensity = () => {
         />
         <Grid width={width} height={height} xScale={x} yScale={y}/>
         <g fill={"none"}>
-          {data.map((d, i) => <motion.circle
-            key={`${d.confirmed}-${d.population}`}
-            cx={x(d.confirmed)}
-            cy={y(d.density)}
-            fill={color(`${i}`)}
-            opacity={0.6}
-            stroke={"#fff"}
-            strokeWidth={1}
-            strokeOpacity={0.5}
-            className={"cursor-pointer"}
-            animate={{
-              r: [0, inView ? size(d.population) : 0],
-              transition: {duration: 0.03, delay: i * 0.031 + 0.5}
-            }}
-            whileHover={{opacity: 1, scale: 1.1}}
-          />)}
+          {data.map((d, i) =>
+            <motion.circle
+              key={`${d.confirmed}-${d.population}`}
+              cx={x(d.confirmed)}
+              cy={y(d.density)}
+              fill={color(`${i}`)}
+              opacity={0.6}
+              stroke={"#fff"}
+              strokeWidth={1}
+              strokeOpacity={0.5}
+              className={"cursor-pointer"}
+              animate={{
+                r: [0, inView ? size(d.population) : 0],
+                transition: {duration: 0.03, delay: i * 0.031 + 0.5}
+              }}
+              whileHover={{opacity: 1, scale: 1.1}}
+            />)}
         </g>
       </g>
     </svg>
 
     <div className={"absolute right-0 top-[75px] flex flex-col space-y-1"}>
-      {continents.map((d, i) => <div key={d} className={"flex items-center space-x-2 cursor-pointer"}>
-        <div className={`w-[12px] h-[12px] rounded-full`} style={{backgroundColor: colors[i]}}/>
-        <span className={"text-sm font-medium text-gray-700 dark:text-white"}>{d}</span>
-      </div>)}
+      {continents.map((d, i) =>
+        <div key={d} className={"flex items-center space-x-2 cursor-pointer"}>
+          <div className={`w-[12px] h-[12px] rounded-full`} style={{backgroundColor: colors[i]}}/>
+          <span className={"text-sm font-medium text-gray-700 dark:text-white"}>{d}</span>
+        </div>)}
     </div>
   </div>
 }

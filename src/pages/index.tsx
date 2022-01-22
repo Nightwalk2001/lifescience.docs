@@ -1,4 +1,4 @@
-import {FansChart, GeneticsDistribution} from "@/charts"
+import {FansChart} from "@/charts"
 import {GeneBand} from "@/charts/GeneBand"
 import {GeneChart} from "@/charts/GeneChart"
 import {Anim, Navigation} from "@/widgets"
@@ -7,7 +7,6 @@ import {NextPage} from "next"
 import Head from "next/head"
 import Link from "next/link"
 import styles from "./home.module.css"
-import data from "./p5.json"
 
 const Home: NextPage = () => <>
   <Head>
@@ -81,18 +80,6 @@ const Home: NextPage = () => <>
     </header>
 
     <FansChart/>
-
-    <GeneticsDistribution
-      rawData={data.male}
-      minMax={[20, 50]}
-      pos={"right"}
-      percentage={0.13}
-    />
-    <GeneticsDistribution
-      rawData={data.female}
-      minMax={[20, 50]}
-      percentage={0.13}
-    />
 
     <GeneBand/>
 

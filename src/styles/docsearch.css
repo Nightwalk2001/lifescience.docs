@@ -1,12 +1,12 @@
 :root {
-    --docsearch-primary-color: #06b6d4;
+    --docsearch-primary-color: #38bdf8 !important;
     --docsearch-text-color: #1c1e21;
     --docsearch-spacing: 12px;
     --docsearch-icon-stroke-width: 1.4;
-    --docsearch-highlight-color: var(--docsearch-primary-color);
+    --docsearch-highlight-color: var(--docsearch-primary-color) !important;
     --docsearch-muted-color: #969faf;
-    --docsearch-container-background: rgba(191, 191, 192, 0.7);
-    --docsearch-logo-color: #5468ff;
+    --docsearch-container-background: rgba(0, 0, 0, .25) !important;
+    --docsearch-logo-color: #38bdf8 !important;
     --docsearch-modal-width: 560px;
     --docsearch-modal-height: 600px;
     --docsearch-modal-background: #f5f6f7;
