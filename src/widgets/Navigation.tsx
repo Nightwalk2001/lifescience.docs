@@ -3,7 +3,6 @@ import "@docsearch/css"
 import {DocSearch} from "@docsearch/react"
 import {Popover} from "@headlessui/react"
 import {SunIcon} from "@heroicons/react/outline"
-import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
@@ -12,8 +11,8 @@ export const Navigation: React.FC = () => <div
 
   <Link href={"/"} passHref>
     <div className={"flex items-center space-x-1 cursor-pointer"}>
-      <Image
-        src={"/riseup.svg"}
+      <img
+        src={require("@/images/nav/riseup.svg").default}
         alt={"back to home"}
         width={34}
         height={34}
@@ -87,7 +86,7 @@ type SvgLinkProps = {
 
 const SvgLink: React.FC<SvgLinkProps> = ({logo, to, title, subtitle}) =>
   <div className={"flex justify-between w-full"}>
-    <img src={`/nav/${logo}`} width={46} height={46} alt={""}/>
+    <img src={require(`@/images/nav/${logo}`).default} width={46} height={46} alt={""}/>
     <div className={"flex flex-col justify-start space-y-0.5 grow max-w-[215px]"}>
       <Link href={to} passHref>
         <span

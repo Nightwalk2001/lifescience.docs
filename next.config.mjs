@@ -1,3 +1,5 @@
+import withPWA from "next-pwa"
+
 /** @type {import("next").NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
@@ -9,6 +11,10 @@ const nextConfig = {
         locales: ["en-US", "zh-CN"],
         defaultLocale: "en-US",
         localeDetection: false
+    },
+    compress: true,
+    experimental: {
+        workerThreads: true
     },
     webpack: (config) => {
         config.module.rules.push({
@@ -28,7 +34,7 @@ const nextConfig = {
         config.module.rules.push({
             test: /\.svg$/,
             use: [
-                {loader: "@svgr/webpack", options: {svgoConfig: {plugins: {removeViewBox: false}}}},
+                {loader: "@svgr/webpack", options: {}},
                 {
                     loader: "file-loader",
                     options: {
@@ -43,14 +49,12 @@ const nextConfig = {
     },
 }
 
-// export default withPWA({
-//     pwa: {
-//         dest: "public",
-//         register: true,
-//         skipWaiting: true,
-//         disable: process.env.NODE_ENV === "development"
-//     },
-//     ...nextConfig
-// })
-
-export default nextConfig
+export default withPWA({
+    pwa: {
+        dest: "public",
+        register: true,
+        skipWaiting: true,
+        disable: process.env.NODE_ENV === "development"
+    },
+    ...nextConfig
+})

@@ -28,14 +28,7 @@ const bristles: NextPage = () => {
       在生物中，有些性状可以用某种尺度来测量，并可用数字形式来描述，比如果蝇的的身体大小、生长速度、小刚毛数量的多少等，这类性状叫做数量性状（quantitative
       character）。一个显示数量性状的个体，其表型是受到多个不同等位基因的作用，而每个等位基因对表型的贡献很小，但相关基因数目很多。此外，数量性状除了基因型的作用外，环境因素对表型的分布也产生显著影响[2]。因此，对影响数量性状的单个等位基因的分离，以及用普通遗传学方法去追查各个基因的行为都是困难的，故通常不能够用孟德尔的分析方法进行分析，而应用数理统计的方法进行分析[3]。
     </p>
-    <div className={"flex justify-around space-x-10"}>
-      <img src={"/genetic/fly.jfif"} width={400} height={300} alt={""}/>
-      <img src={"/genetic/life-circle.png"} width={320} height={300} alt={""}/>
-    </div>
-    <div className={"flex flex-col items-center space-y-1.5 -mt-5 text-sm"}>
-      <span className={"!font-semibold"}>图1 果蝇性别鉴定与生活史</span>
-      <span>A. 雌性果蝇和雄性果蝇；B. 果蝇生活史</span>
-    </div>
+
     <p className={"self-start indent-[2em]"}>
       下面简要介绍统计遗传学原理如下。
       用统计学方法处理数量性状时，作为基础的模型由(1)式表示：
@@ -92,15 +85,6 @@ const bristles: NextPage = () => {
       把配对好的果蝇放在20~25℃的培养箱中培养，使其交配，经7天后下一代成虫出现，此时把亲本的成蝇倒干净并处死。再经过7天，下一代成虫羽化，分别将所有培养瓶中的果蝇取出，观察H、L两组交配组合中雌、雄蝇的刚毛数，记录刚毛数量。而后对数据进行分析，先将雌性和雄性的亲代、子代H组、子代L组数据分别进行分组，各分成14组，获得相应的组距并统计频数，以果蝇刚毛数（组距）为横坐标，频数为纵坐标，利用D3.js配合Next.js绘制频数分布曲线图。将子代与亲代雌雄个体小刚毛数的正态分布曲线进行对比，并根据公式<Katex
       tex={`h^2=ΔG/(σ_P i)`}/>来计算实现遗传率。最后，根据实验的统计结果，作数量性状遗传的详细分析。
     </p>
-
-    <div className={"flex justify-around space-x-10"}>
-      <img src={"/genetic/female-fly.jpg"} width={80} height={180} alt={""}/>
-      <img src={"/genetic/male-fly.jpg"} width={110} height={180} alt={""}/>
-    </div>
-    <div className={"flex flex-col items-center space-y-1.5 -mt-5 text-sm"}>
-      <span className={"!font-semibold"}>图2 果蝇成虫腹部结构（腹板和小刚毛）（实拍）</span>
-      <span>A.雌蝇腹部结构; B.雄蝇腹部结构</span>
-    </div>
 
     <h4 className={"self-start"}>3 实验结果</h4>
     <h5 className={"self-start"}>3.1子代雌雄果蝇刚毛的数量差异</h5>
