@@ -1,10 +1,9 @@
-import {useSvgSize} from "@/hooks"
+import {useAnimateOnce, useSvgSize} from "@/hooks"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {extent, format, scaleLinear, scaleOrdinal, scaleSqrt} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
-import {useInView} from "react-intersection-observer"
 import data from "../json/population_density.json"
 
 const continents = [
@@ -31,7 +30,7 @@ const colors = [
 ]
 
 export const CovidScatterDensity = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
 
   const margin                = {left: 60, right: 160, top: 20, bottom: 60},
         {w, h, width, height} = useSvgSize(900, 500, margin)

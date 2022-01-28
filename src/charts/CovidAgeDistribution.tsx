@@ -1,10 +1,9 @@
-import {useSvgSize} from "@/hooks"
+import {useAnimateOnce, useSvgSize} from "@/hooks"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {groups, max, min, pointer, scaleBand, scaleLinear} from "d3"
 import {motion} from "framer-motion"
 import React, {useState} from "react"
-import {useInView} from "react-intersection-observer"
 import ageDistribution from "../json/korea_age_distribution.json"
 
 const data = groups(ageDistribution, i => i.age)
@@ -26,7 +25,7 @@ type Tooltip = {
 } | null
 
 export const CovidAgeDistribution = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
   const [tooltip, setTooltip] = useState<Tooltip>(null)
 
   const margin                = {left: 50, right: 30, top: 20, bottom: 40},

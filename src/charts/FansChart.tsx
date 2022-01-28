@@ -35,7 +35,10 @@ export const FansChart = () => {
           .range(["#ec3761", "#3eeed3"])
 
   useEffect(() => {
-    const interval = setInterval(() => index < fansData.length - 1 ? setIndex(index + 1) : clearInterval(interval), 110)
+    const interval = setInterval(() => index < fansData.length - 1
+      ? setIndex(index + 1)
+      : clearInterval(interval), 110)
+
     return () => clearInterval(interval)
   })
 

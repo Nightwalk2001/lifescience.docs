@@ -13,16 +13,17 @@ import india from "@/json/india.json"
 import indiaConfirmed from "@/json/india_confirmed.json"
 import usa from "@/json/usa.json"
 import usaConfirmed from "@/json/usa_confirmed.json"
+import {unequal} from "@/libs"
 import {Code} from "@/widgets"
 import type {NextPage} from "next"
 import * as topojson from "topojson-client"
 
 const geoWorld = topojson.feature(world as any, (world as any).objects.global)
-const worldMeshes = topojson.mesh(world as any, (world as any).objects.global, (a, b) => a !== b)
+const worldMeshes = topojson.mesh(world as any, (world as any).objects.global, unequal)
 const geoUsa = topojson.feature(usa as any, (usa as any).objects.states)
-const usaMeshes = topojson.mesh(usa as any, (usa as any).objects.states, (a, b) => a !== b)
+const usaMeshes = topojson.mesh(usa as any, (usa as any).objects.states, unequal)
 const geoIndia = topojson.feature(india as any, (india as any).objects.states)
-const indiaMeshes = topojson.mesh(india as any, (india as any).objects.states, (a, b) => a !== b)
+const indiaMeshes = topojson.mesh(india as any, (india as any).objects.states, unequal)
 
 const biostatistics: NextPage = () => <div
   className={"flex flex-col items-center min-w-[900px] max-w-[80%] mx-auto prose"}>

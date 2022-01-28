@@ -1,4 +1,4 @@
-import {useSvgSize, useUtc} from "@/hooks"
+import {useAnimateOnce, useSvgSize, useUtc} from "@/hooks"
 import data from "@/json/ml_future.json"
 import {locale} from "@/libs"
 import {AxisBottom, AxisLeft} from "@visx/axis"
@@ -6,12 +6,11 @@ import {Grid} from "@visx/grid"
 import {format, line, scaleLinear, scaleOrdinal} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
-import {useInView} from "react-intersection-observer"
 
 const legends = ["训练数据", "未来结果", "预测结果"]
 
 export const CovidFuture = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
 
   const margin                = {left: 60, right: 30, top: 40, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)

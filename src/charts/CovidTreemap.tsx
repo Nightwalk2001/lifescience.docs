@@ -1,7 +1,7 @@
+import {useAnimateOnce} from "@/hooks"
 import {extent, format, hierarchy, interpolateRgb, pointer, scaleSequential, treemap} from "d3"
 import {motion} from "framer-motion"
 import React, {useState} from "react"
-import {useInView} from "react-intersection-observer"
 import treedata from "../json/global_tree.json"
 
 const continents = [
@@ -25,7 +25,7 @@ type Tooltip = {
 } | null
 
 export const CovidTreemap = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
   const [tooltip, setTooltip] = useState<Tooltip>(null)
 
   const width  = 900,

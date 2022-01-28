@@ -1,17 +1,16 @@
-import {useMinMax, useSvgSize, useUtc} from "@/hooks"
+import {useAnimateOnce, useMinMax, useSvgSize, useUtc} from "@/hooks"
 import {locale} from "@/libs"
 import {AxisBottom, AxisLeft} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {curveMonotoneX, format, line, scaleOrdinal} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
-import {useInView} from "react-intersection-observer"
 import data from "../json/global_trend.json"
 
 const countries = ["US", "Brazil", "France", "Germany", "India", "Italy", "Russia", "UK", "Argentina", "Turkey"]
 
 export const CovidLineTrend = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
 
   const margin                = {left: 60, right: 20, top: 50, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 500, margin)

@@ -1,11 +1,10 @@
-import {useSvgSize} from "@/hooks"
+import {useAnimateOnce, useSvgSize} from "@/hooks"
 import {locale} from "@/libs"
 import {AxisBottom, AxisLeft, AxisRight} from "@visx/axis"
 import {Grid} from "@visx/grid"
 import {curveNatural, format, line, scaleLinear, scaleOrdinal, scaleTime} from "d3"
 import {motion} from "framer-motion"
 import React from "react"
-import {useInView} from "react-intersection-observer"
 import data from "../json/covid_daily.json"
 
 type Point = {
@@ -16,7 +15,7 @@ type Point = {
 const legends = ["Daily Case", "Daily Case Mean/week", "Daily Death", "Daily Death Mean/week"]
 
 export const CovidLineDaily = () => {
-  const {ref, inView} = useInView({triggerOnce: true})
+  const {ref, inView} = useAnimateOnce()
 
   const margin                = {left: 60, right: 60, top: 40, bottom: 40},
         {w, h, width, height} = useSvgSize(900, 520, margin)
