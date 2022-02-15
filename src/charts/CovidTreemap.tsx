@@ -1,8 +1,8 @@
-import {useAnimateOnce} from "@/hooks"
+import {useAnimateOnce}                                                               from "@/hooks"
 import {extent, format, hierarchy, interpolateRgb, pointer, scaleSequential, treemap} from "d3"
-import {motion} from "framer-motion"
-import React, {useState} from "react"
-import treedata from "../json/global_tree.json"
+import {motion}                                                                       from "framer-motion"
+import React, {useState}                                                              from "react"
+import treedata                                                                       from "../json/global_tree.json"
 
 const continents = [
   "Asia", "Europe", "Africa", "North America",
@@ -31,8 +31,7 @@ export const CovidTreemap = () => {
   const width  = 900,
         height = 600
 
-  // @ts-ignore
-  const data0 = hierarchy(treedata).sum(d => d.confirmed)
+  const data0 = hierarchy(treedata).sum(d => (d as any).confirmed)
 
   const data = treemap()
     .size([width, height])

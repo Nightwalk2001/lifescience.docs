@@ -1,4 +1,4 @@
-import {Grid} from "@visx/grid"
+import {Grid}            from "@visx/grid"
 import {LegendThreshold} from "@visx/legend"
 import {
   extent,
@@ -10,8 +10,8 @@ import {
   scaleLinear,
   scaleSequentialSqrt,
   scaleThreshold
-} from "d3"
-import {motion} from "framer-motion"
+}                        from "d3"
+import {motion}          from "framer-motion"
 import {MultiLineString} from "geojson"
 import React, {useState} from "react"
 
@@ -40,21 +40,21 @@ type Tooltip = {
   confirmed: number
 } | null
 
-export const CovidGeo: React.FC<CovidGeoProps> = ({
-                                                    width = 900,
-                                                    height = 500,
-                                                    geoFeature,
-                                                    meshes,
-                                                    data,
-                                                    useProjection = true,
-                                                    steps = [0, 100 * 10000, 200 * 10000,
-                                                      300 * 10000, 400 * 10000, 500 * 10000, 600 * 10000],
-                                                    color1 = "#9dfaeb",
-                                                    color2 = "#9c67f6",
-                                                    showLegend = true,
-                                                    regionName,
-                                                    tooltipColor = "#fe6691"
-                                                  }) => {
+export const CovidGeo = ({
+                           width = 900,
+                           height = 500,
+                           geoFeature,
+                           meshes,
+                           data,
+                           useProjection = true,
+                           steps = [0, 100 * 10000, 200 * 10000,
+                             300 * 10000, 400 * 10000, 500 * 10000, 600 * 10000],
+                           color1 = "#9dfaeb",
+                           color2 = "#9c67f6",
+                           showLegend = true,
+                           regionName,
+                           tooltipColor = "#fe6691"
+                         }: CovidGeoProps) => {
   const [tooltip, setTooltip] = useState<Tooltip>(null)
 
   const x = scaleLinear().range([0, width]),
@@ -89,14 +89,13 @@ export const CovidGeo: React.FC<CovidGeoProps> = ({
   return <div className={"relative"}>
     <svg width={width} height={height}>
       <Grid width={width} height={height} xScale={x} yScale={y}/>
-      <g>
+      <g className={"cursor-pointer"}>
         {geoFeature.features.map(d =>
           <motion.path
             key={d.properties.name}
             d={pathFn(d)}
             fill={color(confirm(d))}
             opacity={0.75}
-            className={"cursor-pointer"}
             whileHover={{opacity: 1, scale: 1.015}}
             onMouseEnter={(event) => handleMouse(event, d)}
             onMouseMove={(event) => handleMouse(event, d)}
