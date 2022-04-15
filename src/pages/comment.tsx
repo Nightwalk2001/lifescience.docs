@@ -129,7 +129,7 @@ export const PieChart = ({
       {dataReady.map((d, i) =>
         <div key={d[0]} className={"flex items-center space-x-1"}>
           <div className={"w-[20px] h-[20px]"} style={{backgroundColor: color(`${i}`)}}/>
-          <span className={"text-gray-600"}>{d[0]}</span>
+          <span className={"text-gray-600"}>{+d[0]}</span>
         </div>)}
     </div>
     <svg width={width} height={height}>
