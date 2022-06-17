@@ -15,7 +15,7 @@
         "@visx/legend": "^2.2.2",
         "d3": "^7.2.1",
         "d3-cloud": "^1.2.5",
-        "framer-motion": "^5.5.5",
+        "framer-motion": "^5.6.0",
         "katex": "^0.15.1",
         "lottie-web": "^5.8.1",
         "mathjs": "^10.0.2",
