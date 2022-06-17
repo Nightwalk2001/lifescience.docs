@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@docsearch/react": "^3.0.0-alpha.41",
-        "@headlessui/react": "^1.4.2",
+        "@headlessui/react": "^1.5.0",
         "@visx/axis": "^2.4.0",
         "@visx/grid": "^2.4.0",
         "@visx/legend": "^2.2.2",
