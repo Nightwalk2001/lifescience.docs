@@ -8,7 +8,7 @@
         "export": "next build && next export"
     },
     "dependencies": {
-        "@docsearch/react": "^3.0.0-alpha.41",
+        "@docsearch/react": "^3.0.0",
         "@headlessui/react": "^1.4.2",
         "@visx/axis": "^2.4.0",
         "@visx/grid": "^2.4.0",
