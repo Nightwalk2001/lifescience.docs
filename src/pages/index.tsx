@@ -59,7 +59,7 @@ const Home: NextPage = () => <>
 
         <div className={"flex flex-col items-center mt-10"}>
           <div className={"flex"}>
-            <Link href={"/paper/genetics"}>
+            <Link href={"/paper/biostatistics"}>
               <button
                 className={"mr-12 px-3.5 py-2.5 text-white bg-blue-500 rounded-md shadow-md hover:bg-blue-400"}>
                 quick start
